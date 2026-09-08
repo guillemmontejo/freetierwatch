@@ -9,9 +9,15 @@ Free-tier limits change quietly: Fly.io killed its free tier, PlanetScale killed
 | What | Where |
 |------|-------|
 | Structured dataset | [`data/freetiers.json`](data/freetiers.json) |
+| Raw JSON (for scripts/apps) | `https://raw.githubusercontent.com/guillemmontejo/freetierwatch/main/data/freetiers.json` |
 | Change log | [`data/changes.json`](data/changes.json) |
-| RSS alerts | `docs/data/feed.xml` (subscribe in any RSS reader) |
-| Website | GitHub Pages (see repo settings link) |
+| RSS alerts | [`feed.xml`](https://guillemmontejo.github.io/freetierwatch/data/feed.xml) (subscribe in any RSS reader) |
+| Website | https://guillemmontejo.github.io/freetierwatch/ |
+
+```js
+// consume at runtime, no key needed
+const tiers = await fetch('https://raw.githubusercontent.com/guillemmontejo/freetierwatch/main/data/freetiers.json').then(r => r.json())
+```
 
 Dated change history = this repo's git log on `data/freetiers.json` — every quota edit is a commit with a date and source.
 
