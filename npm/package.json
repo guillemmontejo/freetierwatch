@@ -1,0 +1,36 @@
+{
+  "name": "free-tier-data",
+  "version": "1.0.0",
+  "description": "Structured dataset of 32 cloud/SaaS free tiers (limits, units, sources), updated daily by FreeTierWatch.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./freetiers.json": "./freetiers.json"
+  },
+  "files": [
+    "index.js",
+    "freetiers.json"
+  ],
+  "scripts": {
+    "prepublishOnly": "node -e \"require('fs').copyFileSync(require('path').join(__dirname,'..','data','freetiers.json'), require('path').join(__dirname,'freetiers.json'))\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillemmontejo/freetierwatch.git"
+  },
+  "homepage": "https://guillemmontejo.github.io/freetierwatch/",
+  "bugs": "https://github.com/guillemmontejo/freetierwatch/issues",
+  "keywords": [
+    "free-tier",
+    "free",
+    "pricing",
+    "limits",
+    "dataset",
+    "cloud",
+    "saas",
+    "serverless",
+    "quota"
+  ],
+  "license": "(MIT AND CC-BY-4.0)",
+  "author": "FreeTierWatch"
+}
