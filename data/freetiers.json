@@ -414,6 +414,433 @@
       "js_rendered": false,
       "verified": "2026-09-08",
       "notes": "Free (formerly M0) cluster: one per project, MongoDB 8.0, no backups, no sharding; storage includes documents plus indexes."
+    },
+    {
+      "id": "deno-deploy",
+      "name": "Deno Deploy",
+      "category": "compute",
+      "free_tier": [
+        {
+          "metric": "requests",
+          "limit": 1000000,
+          "unit": "requests/month"
+        },
+        {
+          "metric": "egress_bandwidth",
+          "limit": 20,
+          "unit": "GiB/month"
+        },
+        {
+          "metric": "active_cpu_time",
+          "limit": 10,
+          "unit": "hours/month"
+        },
+        {
+          "metric": "memory_time",
+          "limit": 150,
+          "unit": "GiB-hours/month"
+        },
+        {
+          "metric": "kv_storage",
+          "limit": 1,
+          "unit": "GiB"
+        },
+        {
+          "metric": "custom_domains",
+          "limit": 5,
+          "unit": "domains"
+        }
+      ],
+      "source_url": "https://deno.com/deploy/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free plan, limits are monthly allocations. Also includes 10 active apps, 1M KV read units/mo and 500K KV write units/mo, 3 team members, 1-day log retention. Page does not state whether a credit card is required. Sandboxes not included on free tier."
+    },
+    {
+      "id": "firebase-spark",
+      "name": "Firebase Spark plan",
+      "category": "baas",
+      "free_tier": [
+        {
+          "metric": "firestore_stored_data",
+          "limit": 1,
+          "unit": "GiB total"
+        },
+        {
+          "metric": "firestore_document_reads",
+          "limit": 50000,
+          "unit": "reads/day"
+        },
+        {
+          "metric": "firestore_document_writes",
+          "limit": 20000,
+          "unit": "writes/day"
+        },
+        {
+          "metric": "hosting_storage",
+          "limit": 10,
+          "unit": "GB"
+        },
+        {
+          "metric": "auth_monthly_active_users",
+          "limit": 50000,
+          "unit": "MAU/month"
+        },
+        {
+          "metric": "realtime_db_simultaneous_connections",
+          "limit": 100,
+          "unit": "connections"
+        }
+      ],
+      "source_url": "https://firebase.google.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free plan, no credit card required. Mix of daily quotas (Firestore reads/writes, Hosting transfer 360 MB/day) and totals (storage). Realtime DB: 1 GB storage, 10 GB/month downloads. Cloud Functions quotas shown on the page (2M invocations/month) excluded here since Functions generally requires upgrade; verify before relying on them. Firebase SQL Connect is a 3-month trial, not permanent free."
+    },
+    {
+      "id": "turso",
+      "name": "Turso",
+      "category": "database",
+      "free_tier": [
+        {
+          "metric": "databases",
+          "limit": 100,
+          "unit": "databases"
+        },
+        {
+          "metric": "storage",
+          "limit": 5,
+          "unit": "GB"
+        },
+        {
+          "metric": "rows_read",
+          "limit": 500000000,
+          "unit": "rows/month"
+        },
+        {
+          "metric": "rows_written",
+          "limit": 10000000,
+          "unit": "rows/month"
+        },
+        {
+          "metric": "point_in_time_restore",
+          "limit": 1,
+          "unit": "day"
+        }
+      ],
+      "source_url": "https://turso.tech/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free plan, no credit card required to sign up. Page lists overage pricing beyond free quotas ($0.75/GB storage, $1/billion rows read, $1/million rows written), implying usage beyond limits is billed rather than hard-capped; monthly syncs included: 3 GB. Community support only; no audit logs, teams, SSO, or SOC2 on free tier."
+    },
+    {
+      "id": "convex",
+      "name": "Convex",
+      "category": "baas",
+      "free_tier": [
+        {
+          "metric": "function_calls",
+          "limit": 1000000,
+          "unit": "calls"
+        },
+        {
+          "metric": "database_storage",
+          "limit": 0.5,
+          "unit": "GB"
+        },
+        {
+          "metric": "database_bandwidth",
+          "limit": 1,
+          "unit": "GB"
+        },
+        {
+          "metric": "file_storage",
+          "limit": 1,
+          "unit": "GB"
+        },
+        {
+          "metric": "action_compute",
+          "limit": 20,
+          "unit": "GB-hours"
+        }
+      ],
+      "source_url": "https://www.convex.dev/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free plan ('Free plan has built-in resources'); Starter plan is pay-as-you-go beyond these included amounts. Page shows the quotas as 'included' amounts but did not explicitly confirm a monthly reset cycle in fetched content. Also includes 0.5 GB search storage, 1 GB data egress, 1,000 concurrent sessions, 1-6 developers. No credit-card requirement stated on the fetched page."
+    },
+    {
+      "id": "clerk",
+      "name": "Clerk",
+      "category": "auth",
+      "free_tier": [
+        {
+          "metric": "monthly_retained_users",
+          "limit": 50000,
+          "unit": "MRUs/app"
+        },
+        {
+          "metric": "monthly_retained_organizations",
+          "limit": 100,
+          "unit": "MROs/app"
+        },
+        {
+          "metric": "dashboard_seats",
+          "limit": 3,
+          "unit": "seats"
+        },
+        {
+          "metric": "user_impersonations",
+          "limit": 5,
+          "unit": "impersonations"
+        },
+        {
+          "metric": "application_log_retention",
+          "limit": 1,
+          "unit": "days"
+        }
+      ],
+      "source_url": "https://clerk.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free tier, no credit card required. MRUs count only users who return 24h+ after signup. Fixed 7-day session lifetime on free plan. Pro features are free to try in development instances only. One-month grace period after exceeding 50k MRUs or 100 MROs before forced upgrade."
+    },
+    {
+      "id": "auth0",
+      "name": "Auth0",
+      "category": "auth",
+      "free_tier": [
+        {
+          "metric": "monthly_active_users",
+          "limit": 25000,
+          "unit": "MAUs"
+        },
+        {
+          "metric": "organizations",
+          "limit": 5,
+          "unit": "organizations"
+        },
+        {
+          "metric": "custom_domains",
+          "limit": 1,
+          "unit": "domains"
+        }
+      ],
+      "source_url": "https://auth0.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free plan, no credit card to sign up, but credit card verification is required to use the custom domain. Unlimited social connections (subject to system limitations). Same free plan for B2C and B2B. Passwordless included."
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "category": "observability",
+      "free_tier": [
+        {
+          "metric": "errors",
+          "limit": 5000,
+          "unit": "errors/month"
+        },
+        {
+          "metric": "spans",
+          "limit": 5000000,
+          "unit": "spans/month"
+        },
+        {
+          "metric": "session_replays",
+          "limit": 50,
+          "unit": "replays/month"
+        },
+        {
+          "metric": "cron_monitors",
+          "limit": 1,
+          "unit": "monitors"
+        },
+        {
+          "metric": "attachments",
+          "limit": 1,
+          "unit": "GB/month"
+        },
+        {
+          "metric": "team_members",
+          "limit": 1,
+          "unit": "users"
+        }
+      ],
+      "source_url": "https://sentry.io/pricing/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Developer plan is permanent free but limited to a single user. UI Profiling and Continuous Profiling require pay-as-you-go and are not included in the free quotas."
+    },
+    {
+      "id": "grafana-cloud",
+      "name": "Grafana Cloud",
+      "category": "observability",
+      "free_tier": [
+        {
+          "metric": "metrics_active_series",
+          "limit": 10000,
+          "unit": "active series/month"
+        },
+        {
+          "metric": "logs_ingest",
+          "limit": 50,
+          "unit": "GB/month"
+        },
+        {
+          "metric": "traces_ingest",
+          "limit": 50,
+          "unit": "GB/month"
+        },
+        {
+          "metric": "profiles_ingest",
+          "limit": 50,
+          "unit": "GB/month"
+        },
+        {
+          "metric": "active_users",
+          "limit": 3,
+          "unit": "users/month"
+        },
+        {
+          "metric": "k6_virtual_user_hours",
+          "limit": 500,
+          "unit": "VUh/month"
+        }
+      ],
+      "source_url": "https://grafana.com/pricing/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent free tier, no credit card required, community support only. Metrics/logs/traces/profiles retention is 14 days on free. Limits reset monthly. Also includes 3 IRM users, 50k frontend observability sessions/month, and 2,232 host hours for Kubernetes/application observability."
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "category": "media",
+      "free_tier": [
+        {
+          "metric": "monthly_credits",
+          "limit": 25,
+          "unit": "credits/month"
+        },
+        {
+          "metric": "transformations_per_credit",
+          "limit": 1000,
+          "unit": "image/video transformations per credit"
+        },
+        {
+          "metric": "storage_per_credit",
+          "limit": 1,
+          "unit": "GB managed storage per credit"
+        },
+        {
+          "metric": "bandwidth_per_credit",
+          "limit": 1,
+          "unit": "GB CDN bandwidth per credit"
+        },
+        {
+          "metric": "users",
+          "limit": 3,
+          "unit": "users on 1 account"
+        }
+      ],
+      "source_url": "https://cloudinary.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free forever, no credit card required. Credits are fungible: each of the 25 monthly credits = 1,000 transformations OR 1 GB storage OR 1 GB bandwidth. Credits reset monthly."
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox",
+      "category": "maps",
+      "free_tier": [
+        {
+          "metric": "map_loads_web",
+          "limit": 50000,
+          "unit": "loads/month (Mapbox GL JS)"
+        },
+        {
+          "metric": "mobile_maus",
+          "limit": 25000,
+          "unit": "monthly active users (mobile Maps SDKs)"
+        },
+        {
+          "metric": "geocoding_requests",
+          "limit": 100000,
+          "unit": "requests/month (Geocoding API, Temporary)"
+        },
+        {
+          "metric": "directions_requests",
+          "limit": 100000,
+          "unit": "requests/month (Directions API)"
+        },
+        {
+          "metric": "static_tiles_requests",
+          "limit": 200000,
+          "unit": "tile requests/month (Static Tiles API; Vector Tiles same, Raster Tiles 750k)"
+        }
+      ],
+      "source_url": "https://www.mapbox.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Permanent pay-as-you-go free allowances that reset monthly; each API has its own free bucket (Vector Tiles 200k, Raster Tiles 750k, Navigation SDK 100 MAU / 1,000 trips also free). Credit card generally required for account billing beyond free usage; overage billed automatically at metered rates."
+    },
+    {
+      "id": "algolia",
+      "name": "Algolia",
+      "category": "search",
+      "free_tier": [
+        {
+          "metric": "search_requests",
+          "limit": 10000,
+          "unit": "search requests/month"
+        },
+        {
+          "metric": "records",
+          "limit": 50000,
+          "unit": "records included"
+        },
+        {
+          "metric": "recommendation_requests",
+          "limit": 5000,
+          "unit": "recommendation requests/month"
+        },
+        {
+          "metric": "crawls",
+          "limit": 5000,
+          "unit": "crawls/month"
+        }
+      ],
+      "source_url": "https://www.algolia.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free 'Build' plan, no credit card required. Monthly request quotas reset each month; record limit is a standing cap, not a monthly allowance."
+    },
+    {
+      "id": "openrouter-free-models",
+      "name": "OpenRouter (free models)",
+      "category": "ai-api",
+      "free_tier": [
+        {
+          "metric": "free_model_requests_per_minute",
+          "limit": 20,
+          "unit": "requests/minute (:free models)"
+        },
+        {
+          "metric": "free_model_requests_per_day_no_credits",
+          "limit": 50,
+          "unit": "requests/day (:free models, no purchased credits)"
+        },
+        {
+          "metric": "free_model_requests_per_day_with_credits",
+          "limit": 1000,
+          "unit": "requests/day (:free models, after purchasing >= 10 credits)"
+        }
+      ],
+      "source_url": "https://openrouter.ai/docs/api-reference/limits",
+      "js_rendered": true,
+      "verified": "2026-09-08",
+      "notes": "Applies only to models with the :free suffix; permanent free access, no expiry. Docs page templates limits from inline constants (FREE_MODEL_RATE_LIMIT_RPM=20, FREE_MODEL_NO_CREDITS_RPD=50, FREE_MODEL_HAS_CREDITS_RPD=1000, FREE_MODEL_CREDITS_THRESHOLD=10) confirmed in fetched page source. Purchasing at least 10 credits (one-time, lifetime) raises the daily free-model cap from 50 to 1000."
     }
   ]
 }

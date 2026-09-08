@@ -78,5 +78,53 @@
   "mongodb-atlas": {
     "last_ok": "2026-09-08",
     "consecutive_errors": 0
+  },
+  "deno-deploy": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "firebase-spark": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "turso": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "convex": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "clerk": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "auth0": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "sentry": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "grafana-cloud": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "cloudinary": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "mapbox": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "algolia": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
+  },
+  "openrouter-free-models": {
+    "last_ok": "2026-09-08",
+    "consecutive_errors": 0
   }
 }

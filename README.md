@@ -1,6 +1,6 @@
 # FreeTierWatch
 
-**Structured, machine-readable free-tier limits for ~20 dev & AI services — with daily automated change monitoring.**
+**Structured, machine-readable free-tier limits for 32 dev & AI services — with daily automated change monitoring.**
 
 Free-tier limits change quietly: Fly.io killed its free tier, PlanetScale killed theirs, Render trimmed hours. Lists like free-for.dev are prose, community-updated, and record quota changes weeks late (≈4 quota-update commits in 14 months). FreeTierWatch is the opposite: one structured JSON, an automated daily diff of every provider's official pricing/limits page, and a change feed.
 

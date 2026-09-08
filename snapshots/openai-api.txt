@@ -238,6 +238,7 @@ Accuracy optimization
 Cost and throughput
 Cost optimization
 Prompt caching
+Prompt cache diagnostics
 Batch
 Flex processing
 Safety and governance
@@ -689,6 +690,7 @@ Accuracy optimization
 Cost and throughput
 Cost optimization
 Prompt caching
+Prompt cache diagnostics
 Batch
 Flex processing
 Safety and governance
