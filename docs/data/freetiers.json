@@ -837,7 +837,7 @@
           "unit": "requests/day (:free models, after purchasing >= 10 credits)"
         }
       ],
-      "source_url": "https://openrouter.ai/docs/api-reference/limits",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
       "js_rendered": true,
       "verified": "2026-09-08",
       "notes": "Applies only to models with the :free suffix; permanent free access, no expiry. Docs page templates limits from inline constants (FREE_MODEL_RATE_LIMIT_RPM=20, FREE_MODEL_NO_CREDITS_RPD=50, FREE_MODEL_HAS_CREDITS_RPD=1000, FREE_MODEL_CREDITS_THRESHOLD=10) confirmed in fetched page source. Purchasing at least 10 credits (one-time, lifetime) raises the daily free-model cap from 50 to 1000."
