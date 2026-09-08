@@ -45,7 +45,8 @@ const fetchPage = async (url) => {
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const res = await fetch(url, {
-      headers: { "user-agent": UA, accept: "text/html,*/*" },
+      // accept-language pins geo-localized pages (Google serves random locales without it).
+      headers: { "user-agent": UA, accept: "text/html,*/*", "accept-language": "en" },
       redirect: "follow",
       signal: controller.signal,
     });
