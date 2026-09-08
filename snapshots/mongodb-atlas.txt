@@ -1,0 +1,807 @@
+Atlas Free Cluster Limits - Atlas - MongoDB Docs
+For AI agents: a documentation index is available at https://www.mongodb.com/docs/llms.txt — markdown versions of all pages are available by appending .md to any URL path.
+Products
+Platform
+Atlas
+Build and scale with an AI-ready platform
+Platform Services
+Database
+Deploy a multi-cloud database
+Search
+Deliver engaging search experiences
+Vector Search
+Design intelligent apps with gen AI
+Stream Processing
+Integrate MongoDB and Kafka
+Self Managed
+Enterprise Advanced
+Run and manage MongoDB yourself
+Community Edition
+Develop locally with MongoDB
+Tools
+Compass
+Work with MongoDB data in a GUI
+Integrations
+Integrations with third-party services
+Relational Migrator
+Migrate to MongoDB with confidence
+View All Products
+Explore our full developer suite
+arrow-right
+MongoDB 8.0
+Our fastest version ever
+arrow-right
+Build with MongoDB Atlas
+Get started for free in minutes
+Sign Up
+Test Enterprise Advanced
+Develop with MongoDB on-premises
+Download
+Try Community Edition
+Explore the latest version of MongoDB
+Download
+Resources
+Documentation
+Atlas Documentation
+Get started using Atlas
+Server Documentation
+Learn to use MongoDB
+Tools and Connectors
+Learn how to connect to MongoDB
+MongoDB Drivers
+Use drivers and libraries for MongoDB
+Resources Hub
+Get help building the next big thing with MongoDB
+arrow-right
+Connect
+Community
+Join a global community of developers
+Courses and Certification
+Learn for free from MongoDB
+Events and Webinars
+Find an event or webinar near you
+Solutions
+Use cases
+Artificial Intelligence
+Modernization
+Payments
+Serverless Development
+Gaming
+Intelligent Search
+Edge and Mobile
+Industries
+Financial Services
+Telecommunications
+Healthcare
+Retail
+Public Sector
+Manufacturing
+Solutions Library
+Organized and tailored solutions to kick-start projects
+arrow-right
+AI Applications Program
+Expedite your AI journey with expert guidance
+Learn more
+arrow-right
+Startups and AI Innovators
+For world-changing ideas and AI pioneers
+Learn more
+arrow-right
+Customer Case Studies
+Hear directly from our users
+See Stories
+arrow-right
+Company
+Careers
+Start your next adventure
+Blog
+Read articles and announcements
+Newsroom
+Read press releases and news stories
+Partners
+Learn about our partner ecosystem
+Leadership
+Meet our executive team
+Company
+Learn more about who we are
+Contact Us
+Reach out to MongoDB
+Connect with an expert
+arrow-right
+Investors
+Visit our investor portal
+Learn more
+arrow-right
+Pricing
+Eng
+Support
+Sign In
+menu-vertical
+Get Started
+Products
+Platform
+Atlas
+Build and scale with an AI-ready platform
+Platform Services
+Database
+Deploy a multi-cloud database
+Search
+Deliver engaging search experiences
+Vector Search
+Design intelligent apps with gen AI
+Stream Processing
+Integrate MongoDB and Kafka
+Self Managed
+Enterprise Advanced
+Run and manage MongoDB yourself
+Community Edition
+Develop locally with MongoDB
+Tools
+Compass
+Work with MongoDB data in a GUI
+Integrations
+Integrations with third-party services
+Relational Migrator
+Migrate to MongoDB with confidence
+View All Products
+Explore our full developer suite
+arrow-right
+MongoDB 8.0
+Our fastest version ever
+arrow-right
+Build with MongoDB Atlas
+Get started for free in minutes
+Sign Up
+Test Enterprise Advanced
+Develop with MongoDB on-premises
+Download
+Try Community Edition
+Explore the latest version of MongoDB
+Download
+Resources
+Documentation
+Atlas Documentation
+Get started using Atlas
+Server Documentation
+Learn to use MongoDB
+Tools and Connectors
+Learn how to connect to MongoDB
+MongoDB Drivers
+Use drivers and libraries for MongoDB
+Resources Hub
+Get help building the next big thing with MongoDB
+arrow-right
+Connect
+Community
+Join a global community of developers
+Courses and Certification
+Learn for free from MongoDB
+Events and Webinars
+Find an event or webinar near you
+Solutions
+Use cases
+Artificial Intelligence
+Modernization
+Payments
+Serverless Development
+Gaming
+Intelligent Search
+Edge and Mobile
+Industries
+Financial Services
+Telecommunications
+Healthcare
+Retail
+Public Sector
+Manufacturing
+Solutions Library
+Organized and tailored solutions to kick-start projects
+arrow-right
+AI Applications Program
+Expedite your AI journey with expert guidance
+Learn more
+arrow-right
+Startups and AI Innovators
+For world-changing ideas and AI pioneers
+Learn more
+arrow-right
+Customer Case Studies
+Hear directly from our users
+See Stories
+arrow-right
+Company
+Careers
+Start your next adventure
+Blog
+Read articles and announcements
+Newsroom
+Read press releases and news stories
+Partners
+Learn about our partner ecosystem
+Leadership
+Meet our executive team
+Company
+Learn more about who we are
+Contact Us
+Reach out to MongoDB
+Connect with an expert
+arrow-right
+Investors
+Visit our investor portal
+Learn more
+arrow-right
+Pricing
+Eng
+Support
+Sign In
+menu-vertical
+Get Started
+Docs Menu
+Ask MongoDB AI
+Docs Home
+/
+/
+Limits
+Docs Home
+/
+Management
+/
+Reference
+/
+Limits
+Docs Home
+/
+Management
+/
+Reference
+/
+Limits
+Atlas
+Free Cluster Limits
+Copy page
+Note
+Free clusters were formerly known as
+M0
+clusters. The Atlas documentation uses the term Free cluster to match the cluster tier&#x27;s name in the Atlas user interface.
+Configuration Limits
+The following table lists the configuration limits of
+Atlas
+Free clusters:
+Configuration Option
+Limit
+Cloud Service Provider and Region
+You can deploy Free clusters only in a subset of regions on
+AWS
+,
+Google Cloud
+, and
+Azure
+. To learn more about supported cloud provider regions for Free clusters, see:
+Amazon Web Services (AWS)
+Google Cloud Platform (GCP)
+Microsoft Azure
+MongoDB Version and Storage Engine
+Atlas
+uses MongoDB 8.0 for Free clusters.
+MongoDB Version Upgrade
+You can&#x27;t upgrade the MongoDB version that Free clusters run.
+Atlas
+upgrades Free clusters to the newest MongoDB version after several patch versions become available for that version. To learn more, see
+MongoDB Versioning.
+Cluster Tier
+You can deploy only one Free cluster per project. However if you have sales contracts with MongoDB, you might be able to deploy more Free clusters per project. To learn more, contact a MongoDB sales representative.
+Cluster Memory
+You can&#x27;t configure memory for Free clusters.
+Cluster Storage
+You can&#x27;t configure storage size for Free clusters.
+Replication Factor
+Replication Factor is set to
+3 Nodes
+and you can&#x27;t modify it for Free clusters.
+Replica Set Tags
+Free clusters don&#x27;t have pre-defined
+replica set tags.
+Do You Want A Sharded Cluster
+You can&#x27;t deploy a Free cluster as a Sharded Cluster.
+Do You Want To Enable Backup
+You can&#x27;t enable backups on Free clusters.
+As an alternative to enabling backups, you can use
+mongodump
+to back up your data and
+mongorestore
+to restore that data. To learn how to use these MongoDB command line tools to manually back up your data, see
+Connect to a Cluster using Command Line Tools.
+Test Primary Failovers
+You can&#x27;t perform primary failover testing on Free clusters.
+Simulate Regional Outage
+You can&#x27;t perform regional outage testing on Free clusters.
+Database Auditing
+You can&#x27;t configure
+database auditing
+on Free clusters.
+Encryption at Rest using your Key Management
+You can&#x27;t configure
+encryption at Rest using Customer Key
+Management
+on Free clusters.
+Network Peering Connections
+You can&#x27;t configure
+network peering connections
+on Free clusters.
+Private endpoints
+Free clusters don&#x27;t support
+private endpoints.
+Access Tracking
+You can&#x27;t view the database access history for Free clusters.
+Maintenance Windows
+Project-level
+maintenance window
+configuration doesn&#x27;t apply to Free clusters.
+Atlas
+manages maintenance windows for Free clusters automatically.
+Dedicated Nodes for Workload Isolation
+Atlas
+Free clusters don&#x27;t support configuring dedicated
+analytics
+nodes,
+search
+nodes, or other workload-isolation nodes. You can configure dedicated nodes only on
+M10+
+clusters.
+Operational Limits
+The following table lists the operational limits of
+Atlas
+Free clusters:
+Operation
+Limits
+Aggregation
+and
+Queries
+Atlas
+Free clusters and Flex clusters don&#x27;t support writing temporary files to disk.
+Atlas
+ignores the
+allowDiskUse
+option and the corresponding commands behave as if the
+allowDiskUse
+option is set to
+false
+.
+Aggregation pipelines on Free clusters can have a maximum of 50 stages. These aggregation pipelines don&#x27;t support:
+$currentOp
+,
+$listLocalSessions
+,
+$listSessions
+, and
+$planCacheStats
+stages.
+The
+$$USER_ROLES
+system variable.
+API
+Access
+While you can create a Free cluster using the
+Clusters
+API
+resource, you cannot modify a Free cluster using the
+Clusters
+API
+resource.
+You can create a Free cluster using the
+Clusters
+API
+resource. You can create one Free cluster per project. However if you have sales contracts with MongoDB, you might be able to deploy more Free clusters per project. To learn more, contact a MongoDB sales representative.
+Atlas
+Alerts
+Free clusters have the following alert configuration limits:
+Can only trigger alerts configured with one of the following
+alert conditions:
+Connections
+Logical Size
+Network
+Opscounter
+Organizations with Free clusters are limited to 100 configured alerts per
+Atlas
+project and organization.
+Organizations with Free clusters are limited to 5 notifications per notification method on each alert configuration. For example, if you configure an alert to notify PagerDuty, you can only send to up to 5 PagerDuty accounts.
+Atlas
+Monitoring
+The
+Metrics
+view of a Free cluster displays only the following metrics:
+Connections
+Logical Size
+Network
+Opscounter
+To learn more, see
+Real Time Metrics.
+Authentication
+Free clusters support the following authentication methods only:
+Password (SCRAM-SHA1)
+X.509 Certificates
+AWS IAM
+Auto-Expand Storage
+Free clusters don&#x27;t provide
+automatically scaling storage.
+BSON
+Nested Object Depth
+Free clusters can store documents with a maximum of 50 nested levels.
+Build Index with Rolling Build
+Free clusters don&#x27;t support
+building indexes with a rolling build.
+Change Streams Filtering
+For Free clusters, you can use only strings and regular expressions in filters on database names (namespace
+ns
+fields) in
+change streams
+. You can&#x27;t use commands, such as
+$in
+, in database namespace filters. This limit doesn&#x27;t apply to filtering on collection names in change streams.
+Cluster Persistence
+Atlas
+may deactivate idle Free clusters as per the
+Terms of Service.
+Command Line Tools
+Free clusters and Flex clusters don&#x27;t support the following command line tool options:
+Command Line Tool
+Unsupported Options
+mongorestore
+--restoreDbUsersAndRoles
+--oplogReplay
+--preserveUUID
+mongodump
+--dumpDbUsersAndRoles
+--oplog
+For Free clusters, you can&#x27;t run
+mongorestore
+or
+mongodump
+on the
+admin
+database. If you use the
+--db
+option to set the destination database to
+admin
+, the program returns an error.
+Connections
+Free clusters can only have a maximum of 500 connections.
+Cursors
+Free clusters can&#x27;t use the
+noTimeout cursor option.
+Custom Roles
+Changes to
+custom roles
+might take up to 30 seconds to deploy in Free clusters.
+Database and Collections
+Free clusters can have a maximum of 100 databases and 500 collections total.
+Database Commands
+Certain database commands are unsupported or behave differently in a Free cluster. To learn more, see
+Command Limits in Free Clusters
+. For questions or comments related to restricted commands,
+contact support.
+Access to Collections in
+local
+,
+admin
+, and
+config
+Databases
+Free clusters don&#x27;t allow:
+Read access to any collection in the
+local
+database with the exception of read access to the oplog.
+You must precede a
+$regex
+query on an
+oplog
+in a Free cluster or a Flex cluster with a carat (
+^
+). Otherwise, the following error occurs:
+MongoServerError: Oplog ns RegEx queries must begin with ^
+Write access to any collection in the
+local
+and
+config
+databases.
+Read or write access to any collection in the
+admin
+database.
+Atlas
+issues an error similar to the following if you attempt to read or write to collections in these databases:
+command <cmd name> is not allowed in this Atlas tier
+(Unauthorized) not authorized on <db name> to execute command <cmd name>
+Database Logs
+Free clusters don&#x27;t allow you to download logs.
+Data Transfer Limits
+Free clusters limit the total data transferred into or out of the cluster in a rolling seven-day period. The rate limits vary by cluster tier as follows:
+Free clusters: 10 GB in and 10 GB out per period
+Atlas
+handles clusters that exceed the rate limit as follows:
+Atlas
+throttles the network speed of the cluster.
+Atlas
+triggers a one second cooldown period before resuming the cluster&#x27;s operations on a given connection. If the queue is greater than the operations per second limit, operations might wait for more than a second in the queue.
+If the amount of transferred data drops below the rate limit threshold,
+Atlas
+resumes processing of the queued data transfers on each connection before processing any new data transfers on that connection.
+Data Storage
+Free clusters limit the maximum total data storage space as follows:
+Free clusters: 0.5 GB
+Data storage space includes the number of bytes of all uncompressed BSON documents stored in all collections, plus the bytes stored in their associated indexes.
+JavaScript
+Free clusters don&#x27;t support server-side JavaScript. For example,
+$where
+and
+map-reduce
+are unsupported.
+Namespaces and Database Names
+Free cluster namespaces are limited to 95 bytes. Database names are limited to 38 bytes.
+Number of Free Clusters
+You can deploy at most
+one
+Free cluster per
+Atlas
+project. However if you have sales contracts with MongoDB, you might be able to deploy more Free clusters per project. To learn more, contact a MongoDB sales representative.
+Performance Advisor
+Free clusters don&#x27;t provide access to the
+Performance Advisor.
+Query Utilization
+The percentage of time that a query is running over any five minute period must remain under 100% on Free clusters.
+Real-Time Performance Panel
+Free clusters don&#x27;t provide access to the
+Real-Time Performance Panel.
+Sort in Memory
+Free clusters sort in memory limit is 32 MB.
+Throughput
+Free clusters limit the number of read and write operations per second. The rate limits vary by cluster tier as follows:
+Free clusters: 100 operations per second
+Atlas
+handles clusters that exceed the operations per second rate limit as follows:
+Atlas
+throttles the network speed of the cluster.
+Atlas
+triggers a one second cooldown period before resuming the cluster&#x27;s operations on a given connection. If the queue is greater than the operations per second limit, operations might wait for more than a second in the queue.
+If the number of operations per second drops below the rate limit threshold,
+Atlas
+resumes processing of the queued operations on each connection before processing any new operations on that connection.
+Automatic Pause of Idle Clusters
+Atlas
+automatically pauses Free clusters after 30 days of inactivity where there are zero connections to the cluster.
+You can
+resume
+the cluster at any time
+unless
+the paused cluster was running on an old version that
+Atlas
+can&#x27;t restore to the current version. You should export a copy of your data if you don&#x27;t plan to use your Free cluster for an extended period of time. To learn more, see
+Restore Data From Paused Free Cluster.
+Driver Minimum Requirements
+Driver
+Description
+Drivers that use a
+JRE
+or
+JDK
+Due to an issue with
+TLS
+1.3 support in the Java
+JDK
+(
+JDK-8236039
+), upgrade the
+JDK
+that supports the driver you use to connect to
+Atlas
+.
+Minimum versions of the
+JDK
+include:
+14u-cpu
+JDK-8249107
+14.0.2
+JDK-8247954
+13.0.3
+JDK-8241515
+11.0.8-oracle
+JDK-8238504
+11.0.7
+JDK-8237387
+8u261
+JDK-8243759
+emb-8u261
+JDK-8247097
+To learn more about support for
+TLS
+1.3 in Java-based languages, libraries, and drivers, see:
+MongoDB Java, Reactive Streams, and Scala Drivers
+Scala
+Kafka
+Back
+Flex Cluster Limits
+Next
+Unsupported Commands
+Rate this page
+On this page
+Configuration Limits
+Operational Limits
+Driver Minimum Requirements
+On this page
+Configuration Limits
+Operational Limits
+Driver Minimum Requirements
+Documentation
+Database
+VoyageAI Models
+Get Started
+Deployment
+Development
+Management
+MongoDB Atlas
+Overview
+Atlas Users
+Organizations
+Projects
+Clusters
+Backup, Restore, and Archive
+Migrate or Import Data
+Monitor Clusters
+Manage Billing
+Explore Your Data
+Production Notes
+Reference
+UI Shortcuts
+Cloud Providers
+Limits
+Service Limits
+Flex Cluster Limits
+Free Cluster Limits
+Unsupported Commands
+Supported Commands
+Oplog Access
+Event Types
+Host Metrics
+Resource Tags
+Supported Browsers
+Internal Databases
+Data Usage for AI Cluster Assistant
+Frequently Asked Questions
+APIs
+Atlas Kubernetes Operator
+Atlas for Government
+Release Notes
+Enterprise Management Tools
+Ops Manager
+Controllers for Kubernetes Operator
+Cloud Manager
+Self-Managed Deployments
+Select a version
+Installation
+Clusters
+Sharding
+Storage
+Backup and Restore
+Monitor Clusters
+Security
+Search and Vector Search
+Operations Checklist
+Production Notes
+Exit Codes & Statuses
+Release Notes
+FAQ
+Infrastructure As Code
+Overview
+MongoDB Atlas Terraform Provider
+Get Started with Terraform
+Terraform Modules
+MongoDB Atlas AWS CloudFormation Resources
+GraphQL APIs on AWS
+Migrate to Flex Clusters
+Client Libraries
+Tools
+Atlas Architecture Center
+Documentation
+Database
+VoyageAI Models
+Get Started
+Deployment
+Development
+Management
+Client Libraries
+Tools
+Atlas Architecture Center
+MongoDB Atlas
+Overview
+Atlas Users
+Organizations
+Projects
+Clusters
+Backup, Restore, and Archive
+Migrate or Import Data
+Monitor Clusters
+Manage Billing
+Explore Your Data
+Production Notes
+Reference
+UI Shortcuts
+Cloud Providers
+Limits
+Service Limits
+Flex Cluster Limits
+Free Cluster Limits
+Unsupported Commands
+Supported Commands
+Oplog Access
+Event Types
+Host Metrics
+Resource Tags
+Supported Browsers
+Internal Databases
+Data Usage for AI Cluster Assistant
+Frequently Asked Questions
+APIs
+Atlas Kubernetes Operator
+Atlas for Government
+Release Notes
+Enterprise Management Tools
+Ops Manager
+Controllers for Kubernetes Operator
+Cloud Manager
+Self-Managed Deployments
+Select a version
+Installation
+Clusters
+Sharding
+Storage
+Backup and Restore
+Monitor Clusters
+Security
+Search and Vector Search
+Operations Checklist
+Production Notes
+Exit Codes & Statuses
+Release Notes
+FAQ
+Infrastructure As Code
+Overview
+MongoDB Atlas Terraform Provider
+Get Started with Terraform
+Terraform Modules
+MongoDB Atlas AWS CloudFormation Resources
+GraphQL APIs on AWS
+Migrate to Flex Clusters
+English
+English
+Português
+Español
+한국어
+日本語
+简体中文
+© 2026 MongoDB, Inc.
+About
+Careers
+Investor Relations
+Legal
+Privacy Policy
+GitHub
+Security Information
+Trust Center
+Connect with Us
+Support
+Contact Us
+Customer Portal
+Atlas Status
+Customer Support
+Deployment Options
+MongoDB Atlas
+Enterprise Advanced
+Community Edition
+Data Basics
+Vector Databases
+NoSQL Databases
+Document Databases
+RAG Database
+ACID Transactions
+MERN Stack
+MEAN Stack
+© 2026 MongoDB, Inc.

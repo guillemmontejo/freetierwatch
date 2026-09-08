@@ -1,0 +1,28 @@
+name: Daily watch
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run watcher
+        run: node scripts/watch.js
+      - name: Commit changes
+        run: |
+          git config user.name "freetierwatch-bot"
+          git config user.email "actions@github.com"
+          git add -A data snapshots docs/data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: daily watch $(date -u +%F)"
+            git push
+          fi

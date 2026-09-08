@@ -1,0 +1,205 @@
+Why am I hitting API rate limits, and how do I increase them? | Mistral Help Center
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name Inter .
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+English
+Français
+Italiano
+English
+Search
+⌘
+K
+Help and Troubleshooting
+How do I contact support?
+How do I update my account information (email, password, and 2FA)?
+How can I upgrade or cancel my subscription?
+How can I subscribe to Pro on mobile?
+How can I manage my subscription on mobile (iOS and Android)?
+Refund policy: eligibility, timing, and how it works
+I’m a student or a teacher. Am I eligible for a discount?
+Why am I hitting API rate limits, and how do I increase them?
+Vibe
+Le Chat is now Vibe
+Can I trust the models&#x27; output?
+Trust, Security, Compliance
+Data Governance
+How can I control or delete data connected to third-party tools?
+As an admin on Team plan or Enterprise, do I have company-wide controls?
+How do you ensure the security of user data?
+Can I opt out of my input or output data being used for training?
+How do you handle my data when using the Memories feature?
+Who owns input and output in Vibe and Mistral’s APIs?
+Where do you store my data or my Organization&#x27;s data?
+How long do you store my data?
+How does Mistral ensure that my data remains encrypted and secure in transit and at rest?
+How do you use submitted feedback?
+How do I export my data from Vibe?
+How can I manage my cookie settings?
+How can I delete my account?
+Do you use my user data to train your Artificial Intelligence models?
+Do you use cookies at Mistral and why?
+Do you sell or share my data for marketing?
+Can I delete a chat conversation?
+Can I activate Zero Data Retention (ZDR)?
+Ethical and Safe Use
+Can children use Mistral products and services?
+Can other people view my conversations?
+Do you use my conversations with Vibe to show me ads?
+How can I report harmful or illegal content?
+Regulatory Compliance and Certification
+Do you have a Code of Conduct?
+Do you have SOC 2 or ISO 27001 certification?
+How can I exercise my GDPR rights?
+How does Mistral comply with the EU’s Digital Services Act (DSA)?
+Can I see your list of technical and organizational security measures?
+Where can I find your DPA (Data Processing Agreement)?
+Where can I find your Terms of Service?
+Who are your subprocessors, and how can I stay updated on changes?
+About our Models
+Does Mistral disclose its training datasets?
+Under which license are Mistral’s open models available?
+How can I quickly test your AI models?
+All Collections
+Help and Troubleshooting
+Why am I hitting API rate limits, and how do I increase them?
+Why am I hitting API rate limits, and how do I increase them?
+Updated over 3 weeks ago
+Rate limits cap how many requests and tokens you can send to the
+Mistral APIs
+. They are set at the
+organization level
+and apply across all your workspaces.
+📌
+API rate limits are not the same as your Vibe plan budget.
+Rate limits apply to the
+developer API / Studio
+. If you received an email about a
+Vibe Code CLI usage quota
+, that is your Vibe plan budget, see the
+FAQ
+section below ⬇️.
+Why you’re seeing 429 Too Many Requests
+The API enforces three limits:
+Requests per second (RPS)
+: concurrent requests.
+Tokens per minute
+: input + output throughput.
+Tokens per month
+: overall consumption cap.
+A
+429
+means you exceeded one of them.
+Free mode
+(the default) has the lowest limits, intended for evaluation and prototyping.
+🔎 See your current limits, usage, and tier on the
+Limits page
+of the Admin panel.
+How limits increase: plan and tiers
+Rate limits depend on your
+plan and usage tier
+:
+Free mode (default)
+: limited limits for testing and prototyping.
+Pay-as-you-go
+: unlocks Tier 1 and above.
+With pay-as-you-go, tiers upgrade
+automatically
+based on your
+cumulative billed amount
+(the running total of your invoices):
+Tier
+Requirement
+Tier 1
+Enabling pay-as-you-go
+Tier 2
+Over €20 / $20 billed
+Tier 3
+Over €100 / $100 billed
+Tier 4
+Over €500 / $500 billed
+Higher limits
+Over €2,000 / $2,000 billed, then contact support
+Once you reach
+Tier 4
+(over €2,000 / $2,000 billed),
+contact our support team
+with:
+your
+target requests per second
+,
+the
+specific model
+,
+your estimated
+tokens per minute and per month
+.
+🔑 Tiers track
+cumulative billing from usage
+, not prepaid credit top-ups.
+Adding credits does not raise your rate limits
+, you need to use our services and reach the required total-billing thresholds to unlock the next tier.
+FAQ
+I got a Vibe Code CLI usage quota email but I only use the API. What does it mean?
+This email is about your
+Vibe plan’s monthly budget
+, not your API rate limits. It usually means your API key was created as a
+plan key
+from
+Code › Vibe Code CLI
+, which is tied to your plan’s Vibe budget. When that budget is reached, the plan can stop working until the next billing period.
+For API automation, use a
+pay-as-you-go API key
+created in the
+console
+on
+Free mode or with pay-as-you-go
+, not a plan key from Code › Vibe Code CLI. Pay-as-you-go keys are governed by API rate limits, not the Vibe budget.
+If your API key returns
+401
+right after this email, or you can’t tell which key type you have,
+contact our support team
+with your
+organization ID
+. Never share the key itself.
+Where can I see my Vibe and API usage?
+View your
+monthly API and Vibe quota usage
+(shown as a percentage) at
+Code › CLI
+→
+View organization usage
+.
+I prepaid credits but I’m still rate-limited. Why?
+Prepaying credits adds funds to your account; it does
+not
+change your tier or rate limits. Your tier upgrades only as you
+consume tokens
+and reach the required total-billing thresholds with pay-as-you-go.
+Credits are automatically applied as your primary balance before your payment method is charged. If an invoice is issued
+before
+you add credits, those credits cannot be used to cover that already-issued invoice.
+Prepaid API credits are purchased
+without VAT
+. The invoice for the usage of those credits is generated when the credits are consumed.
+Why did my limits change after switching models?
+Rate limits are applied
+per model
+. When a model version is retired and you migrate to a newer one, its limits may differ. Check the
+Limits page
+for the new model.
+📩 Need a higher limit or facing a production incident?
+Contact our support team
+.
+Did this answer your question?
+Related Articles
+How do I contact support?
+How can I upgrade or cancel my subscription?
+On this page
+Why you’re seeing 429 Too Many Requests
+How limits increase: plan and tiers
+FAQ
+Frontier AI in your hands
+Terms of Service
+Privacy Policy
+Data Processing Addendum
+Legal notice

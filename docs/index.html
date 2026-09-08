@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FreeTierWatch — free-tier limits, watched daily</title>
+<meta name="description" content="Structured free-tier limits for 20 dev and AI services, re-checked every day. JSON, RSS, and dated change history.">
+<link rel="alternate" type="application/rss+xml" title="FreeTierWatch changes" href="./data/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F7F8F6;
+    --ink: #1B2A32;
+    --muted: #5C6E76;
+    --rule: #D8DEDA;
+    --link: #146C94;
+    --add: #0E7A3D;
+    --add-bg: #E3F2E8;
+    --del: #B3261E;
+    --del-bg: #F9E5E3;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --sans: "Archivo", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  a { color: var(--link); text-underline-offset: 3px; }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+  main { max-width: 1060px; margin: 0 auto; padding: 0 24px 96px; }
+
+  header.hero { padding: 72px 0 40px; }
+  .hero h1 {
+    font-variation-settings: "wdth" 118;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+    margin: 0 0 20px;
+    max-width: 18ch;
+  }
+  .hero p.lede { max-width: 58ch; font-size: 1.15rem; margin: 0 0 26px; color: var(--ink); }
+  .heartbeat { display: inline-flex; align-items: center; gap: 9px; color: var(--muted); font-size: 0.95rem; }
+  .heartbeat .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--add); animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: 0.25; } }
+  @media (prefers-reduced-motion: reduce) { .heartbeat .dot { animation: none; } }
+
+  .getlinks { display: flex; flex-wrap: wrap; gap: 12px 22px; margin: 26px 0 0; padding: 0; list-style: none; font-size: 1rem; }
+
+  .diffcard { border: 1.5px solid var(--ink); border-radius: 6px; overflow: hidden; margin: 44px 0 0; }
+  .diffcard .difftitle { padding: 10px 16px; border-bottom: 1.5px solid var(--ink); font-weight: 600; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+  .diffcard .difftitle time { color: var(--muted); font-weight: 400; }
+  .diffbody { font-family: var(--mono); font-size: 0.85rem; line-height: 1.7; padding: 12px 0; overflow-x: auto; }
+  .diffbody .line { padding: 0 16px 0 12px; white-space: pre-wrap; }
+  .diffbody .plus { background: var(--add-bg); color: var(--add); }
+  .diffbody .minus { background: var(--del-bg); color: var(--del); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .diffbody .ctx { color: var(--muted); }
+
+  h2 { font-variation-settings: "wdth" 110; font-weight: 700; font-size: 1.7rem; margin: 72px 0 8px; }
+  .sectionnote { color: var(--muted); max-width: 62ch; margin: 0 0 28px; }
+
+  .catlabel { font-weight: 700; font-size: 1.05rem; margin: 36px 0 4px; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-size: 0.85rem; color: var(--muted); font-weight: 500; padding: 6px 14px 6px 0; border-bottom: 1.5px solid var(--ink); }
+  td { padding: 12px 14px 12px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.svc { font-weight: 600; white-space: nowrap; }
+  td.svc .note { display: block; font-weight: 400; font-size: 0.82rem; color: var(--muted); white-space: normal; max-width: 26ch; }
+  .quota { font-family: var(--mono); font-size: 0.82rem; display: inline-block; background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 2px 8px; margin: 2px 6px 2px 0; }
+  .nofree { color: var(--del); font-weight: 600; }
+  td.meta { font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
+
+  .feed { list-style: none; margin: 0; padding: 0; }
+  .feed > li { border-left: 3px solid var(--ink); padding: 4px 0 4px 20px; margin: 0 0 26px; }
+  .feed .when { color: var(--muted); font-size: 0.9rem; }
+  .feed .who { font-weight: 700; }
+  .feed .diffbody { padding: 6px 0; }
+  .feed .diffbody .line { padding-left: 0; }
+  .empty { border-left: 3px solid var(--add); padding: 4px 0 4px 20px; color: var(--muted); max-width: 60ch; }
+
+  pre.use { font-family: var(--mono); font-size: 0.85rem; background: var(--ink); color: var(--paper); border-radius: 6px; padding: 18px 20px; overflow-x: auto; line-height: 1.7; }
+  pre.use .c { color: #8FB6C4; }
+
+  footer { border-top: 1.5px solid var(--ink); margin-top: 88px; padding: 22px 0 0; color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 8px 28px; }
+  footer a { color: var(--muted); }
+
+  .loaderr { border-left: 3px solid var(--del); padding: 4px 0 4px 20px; color: var(--del); max-width: 60ch; }
+  @media (max-width: 640px) {
+    td.meta { display: none; }
+    th.meta { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <h1>Free tiers shrink quietly. This page watches them daily.</h1>
+    <p class="lede">FreeTierWatch keeps the free-tier limits of 20 dev and AI services in one structured dataset, re-checks every provider's own pricing page each day, and publishes what changed — as JSON, RSS, and the ledger below.</p>
+    <p class="heartbeat"><span class="dot" aria-hidden="true"></span><span id="checked">Checked daily at 06:17 UTC</span></p>
+    <ul class="getlinks">
+      <li><a href="./data/freetiers.json">Download freetiers.json</a></li>
+      <li><a href="./data/feed.xml">Subscribe to the RSS feed</a></li>
+      <li><a href="https://github.com/guillemmontejo/freetierwatch">Read the source on GitHub</a></li>
+    </ul>
+    <div id="latest"></div>
+  </header>
+
+  <section aria-labelledby="limits">
+    <h2 id="limits">Current free-tier limits</h2>
+    <p class="sectionnote">Every number links back to the provider page it was read from, with the date we last verified it. Services with no free tier are listed too — knowing there isn't one is half the point.</p>
+    <div id="table"></div>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">Change ledger</h2>
+    <p class="sectionnote">Lines the daily check saw appear or disappear on a provider's pricing page. Confirmed quota changes are folded into the dataset; the git history of <a href="https://github.com/guillemmontejo/freetierwatch/commits/main/data/freetiers.json">freetiers.json</a> is the dated record.</p>
+    <div id="feed"></div>
+  </section>
+
+  <section aria-labelledby="use">
+    <h2 id="use">Use the data</h2>
+    <p class="sectionnote">The dataset is CC BY 4.0 — build on it, credit FreeTierWatch.</p>
+    <pre class="use"><span class="c"># structured limits for all services</span>
+curl -s https://guillemmontejo.github.io/freetierwatch/data/freetiers.json
+
+<span class="c"># everything the watcher has seen change</span>
+curl -s https://guillemmontejo.github.io/freetierwatch/data/changes.json</pre>
+    <p>Want changes pushed to email or Slack instead? <a href="https://github.com/guillemmontejo/freetierwatch/issues/1">Add a thumbs-up to the alerts issue</a> — enough interest and we build it.</p>
+  </section>
+
+  <footer>
+    <span>Data CC BY 4.0, code MIT</span>
+    <a href="https://github.com/guillemmontejo/freetierwatch">GitHub</a>
+    <a href="./data/feed.xml">RSS</a>
+    <span>Run by an autonomous watcher, rebuilt every day.</span>
+  </footer>
+</main>
+
+<script>
+(async () => {
+  const el = (tag, cls, text) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  };
+
+  const diffBlock = (change) => {
+    const body = el("div", "diffbody");
+    change.removed.forEach((l) => body.appendChild(el("div", "line minus", "- " + l)));
+    change.added.forEach((l) => body.appendChild(el("div", "line plus", "+ " + l)));
+    if (!change.removed.length && !change.added.length) body.appendChild(el("div", "line ctx", "page content changed"));
+    return body;
+  };
+
+  const fail = (id, what) => {
+    const box = el("div", "loaderr", what + " failed to load. Refresh, or read it raw in the GitHub repo.");
+    document.getElementById(id).replaceChildren(box);
+  };
+
+  let db, changes;
+  try {
+    db = await (await fetch("./data/freetiers.json")).json();
+  } catch { fail("table", "The dataset"); return; }
+  try {
+    changes = await (await fetch("./data/changes.json")).json();
+  } catch { changes = null; }
+
+  document.getElementById("checked").textContent =
+    "Checked daily at 06:17 UTC — dataset updated " + db.updated;
+
+  // Limits table, grouped by category
+  const groups = {};
+  db.services.forEach((s) => (groups[s.category] = [...(groups[s.category] || []), s]));
+  const tableRoot = document.getElementById("table");
+  const catNames = { compute: "Compute", hosting: "Hosting", database: "Databases", storage: "Storage", ci: "CI", email: "Email", "ai-api": "AI APIs", cache: "Caches & queues" };
+  Object.keys(groups).sort().forEach((cat) => {
+    tableRoot.appendChild(el("p", "catlabel", catNames[cat] || cat));
+    const t = el("table");
+    const head = el("tr");
+    ["Service", "Free tier", "Verified"].forEach((h, i) => {
+      const th = el("th", i === 2 ? "meta" : "", h);
+      head.appendChild(th);
+    });
+    t.appendChild(head);
+    groups[cat].forEach((s) => {
+      const tr = el("tr");
+      const svc = el("td", "svc");
+      const link = el("a", "", s.name);
+      link.href = s.source_url;
+      svc.appendChild(link);
+      if (s.notes) svc.appendChild(el("span", "note", s.notes));
+      tr.appendChild(svc);
+      const quotas = el("td");
+      if (s.no_free_tier) {
+        quotas.appendChild(el("span", "nofree", "No free tier"));
+      } else if (!s.free_tier.length) {
+        quotas.appendChild(el("span", "quota", "free tier exists, limits login-gated"));
+      } else {
+        s.free_tier.forEach((q) => {
+          const limit = q.limit === -1 ? "unlimited" : q.limit.toLocaleString("en-US");
+          quotas.appendChild(el("span", "quota", limit + " " + q.unit));
+        });
+      }
+      tr.appendChild(quotas);
+      tr.appendChild(el("td", "meta", s.verified));
+      t.appendChild(tr);
+    });
+    tableRoot.appendChild(t);
+  });
+
+  // Change ledger + hero diff
+  const feedRoot = document.getElementById("feed");
+  if (!changes || !changes.length) {
+    feedRoot.appendChild(el("div", "empty",
+      "No changes seen since the baseline snapshot. That is the good outcome — the watcher checked every page today and every free tier held still. The first shrink lands here."));
+    return;
+  }
+  const latest = changes[changes.length - 1];
+  const card = el("div", "diffcard");
+  const title = el("div", "difftitle");
+  title.appendChild(el("span", "", "Latest change: " + latest.service_name));
+  const t2 = el("time", "", latest.date);
+  t2.dateTime = latest.date;
+  title.appendChild(t2);
+  card.appendChild(title);
+  card.appendChild(diffBlock(latest));
+  document.getElementById("latest").appendChild(card);
+
+  const list = el("ul", "feed");
+  feedRoot.appendChild(list);
+  [...changes].reverse().slice(0, 30).forEach((c) => {
+    const li = el("li");
+    const p = el("p");
+    p.appendChild(el("span", "who", c.service_name));
+    p.appendChild(document.createTextNode(" — "));
+    p.appendChild(el("span", "when", c.date));
+    li.appendChild(p);
+    li.appendChild(diffBlock(c));
+    list.appendChild(li);
+  });
+})();
+</script>
+</body>
+</html>

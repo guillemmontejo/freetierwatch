@@ -1,0 +1,358 @@
+Limits · Cloudflare Pages docs
+Skip to content
+Documentation Index
+Fetch the complete documentation index at: https://developers.cloudflare.com/pages/llms.txt
+Use this file to discover all available pages before exploring further.
+Docs
+Directory
+API
+SDKs
+Changelog
+Search
+Ctrl
+K
+Log in
+Dashboard
+Pages
+/
+Overview
+Getting started
+Overview
+C3 CLI
+Direct Upload
+Git integration
+Framework guides
+Next.js
+Overview
+Static site
+Analog
+Angular
+Astro
+Blazor
+Brunch
+Docusaurus
+Elder.js
+Eleventy
+Ember
+Gatsby
+Gridsome
+Hexo
+Hono
+Hugo
+Jekyll
+MkDocs
+Nuxt
+Pelican
+Preact
+Qwik
+React
+Remix
+SolidStart
+Sphinx
+Static HTML
+SvelteKit
+Vite 3
+VitePress
+Vue
+Zola
+Configuration
+Branch deployment controls
+Build caching
+Build configuration
+Build image
+Build watch paths
+Custom domains
+Debugging Pages
+Deploy Hooks
+Early Hints
+Git integration
+Overview
+GitHub integration
+GitLab integration
+Troubleshooting builds
+Headers
+Monorepos
+Preview deployments
+Redirects
+REST API
+Rollbacks
+Serving Pages
+Functions
+Overview
+Get started
+Routing
+API reference
+Examples
+A/B testing with middleware
+Adding CORS headers
+Middleware
+Configuration
+Local development
+Bindings
+TypeScript
+Advanced mode
+Pages Plugins
+Overview
+Cloudflare Access
+Google Chat
+GraphQL
+hCaptcha
+Honeycomb
+Sentry
+Static Forms
+Stytch
+Turnstile
+Community Plugins
+vercel/og
+Metrics
+Debugging and logging
+Pricing
+Module support
+Smart Placement
+Beta
+Source maps and stack traces
+Tutorials
+Demos and architectures
+How to
+Add a custom domain to a branch
+Add custom HTTP headers
+Deploy a static WordPress site
+Enable Web Analytics
+Enable Zaraz
+Install private packages
+Preview Local Projects with Cloudflare Tunnel
+Redirecting *.pages.dev to a Custom Domain
+Redirecting www to domain apex
+Set build commands per branch
+Use Direct Upload with continuous integration
+Use Pages Functions for A/B testing
+Platform
+Limits
+Choose a data or storage product ↗
+Changelog
+Known issues
+Migrate to Workers ↗
+Agent resources
+Agent setup ↗
+Cloudflare Skills ↗
+Code Mode MCP Server ↗
+Domain-specific MCP Servers ↗
+MCP
+Pages llms.txt ↗
+Pages llms-full.txt ↗
+Cloudflare Docs llms.txt ↗
+Cloudflare Docs llms-full.txt ↗
+Home
+/
+Pages
+/
+Platform
+/
+Limits
+Limits
+Last updated
+Sep 5, 2026
+|
+Copy as Markdown
+|
+View as Markdown
+|
+Agent setup
+Overview
+Builds
+Custom domains
+Files
+File size
+Functions
+Headers
+Preview deployments
+Redirects
+Users
+Projects
+Below are limits observed by the Cloudflare Free plan. For more details on removing these limits, refer to the
+Cloudflare plans
+↗
+page.
+Need a higher limit?
+To request an adjustment to a limit, complete the
+Limit Increase Request Form
+↗
+. If the limit can be increased, Cloudflare will contact you with next steps.
+Builds
+Each time you push new code to your Git repository, Pages will build and deploy your site. Build limits depend on your plan:
+Free
+Pro
+Business
+Builds
+1 build at a time
+5 concurrent builds
+20 concurrent builds
+Builds per month
+500
+5,000
+20,000
+Builds will timeout after 20 minutes. Concurrent builds are counted per account.
+Custom domains
+Based on your Cloudflare plan type, a Pages project is limited to a specific number of custom domains. This limit is on a per-project basis.
+Free
+Pro
+Business
+Enterprise
+100
+250
+500
+500
+1
+Files
+Pages uploads each file on your site to Cloudflare's globally distributed network to deliver a low latency experience to every user that visits your site. Cloudflare Pages sites can contain up to 20,000 files on the Free plan.
+Paid plans (such as Pro, Business, and Enterprise plans) can have up to 100,000 files per site. To enable this increased limit, set the environment variable
+PAGES_WRANGLER_MAJOR_VERSION=4
+in your Pages project settings.
+File size
+The maximum file size for a single Cloudflare Pages site asset is 25 MiB.
+Larger Files
+To serve larger files, consider uploading them to
+R2
+and utilizing the
+public bucket
+feature. You can also use
+custom domains
+, such as
+static.example.com
+, for serving these files.
+Functions
+Requests to
+Pages functions
+count towards your quota for Workers plans, including requests from your Function to KV or Durable Object bindings.
+Pages supports the
+Standard usage model
+.
+Headers
+A
+_headers
+file can have a maximum of 100 header rules.
+An individual header in a
+_headers
+file can have a maximum of 2,000 characters. For managing larger headers, it is recommended to implement
+Pages Functions
+.
+Preview deployments
+You can have an unlimited number of
+preview deployments
+active on your project at a time.
+Redirects
+A
+_redirects
+file can have a maximum of 2,000 static redirects and 100 dynamic redirects, for a combined total of 2,100 redirects. It is recommended to use
+Bulk Redirects
+when you have a need for more than the
+_redirects
+file supports.
+Users
+Your Pages site can be managed by an unlimited number of users via the Cloudflare dashboard. Note that this does not correlate with your Git project – you can manage both public and private repositories, open issues, and accept pull requests via without impacting your Pages site.
+Projects
+Cloudflare Pages has a limit of 100 projects
+2
+per account. This limit is not routinely increased.
+If you need to host more than 100 sites, use one of these products designed for scale:
+Workers for Platforms
+— Deploy sites and applications at scale with no project limit. Supports
+static assets
+.
+Workers Static Assets
+— Deploy static sites as individual Workers. Paid plans support up to 500 Workers per account, each serving up to 100,000 static asset files.
+Note
+The Workers project limit (100 on Free, 500 on paid plans) is separate from the Pages project limit. Refer to
+Workers limits
+for details.
+In order to protect against abuse of the service, Cloudflare limits the number of new Pages projects you can create within your first 48 hours of using the service. If you are temporarily blocked from creating new projects, this restriction will automatically lift once the initial 48-hour window has passed.
+Footnotes
+If you need more custom domains, contact your account team.
+↩
+If you need a higher project limit, use
+Workers for Platforms
+.
+↩
+Previous
+Use Pages Functions for A/B testing
+Next
+Choose a data or storage product ↗
+Was this helpful?
+Yes
+No
+Edit page
+Report issue
+On this page
+Overview
+Builds
+Custom domains
+Files
+File size
+Functions
+Headers
+Preview deployments
+Redirects
+Users
+Projects
+Edit page
+Report issue
+Getting started
+Plans
+Contact sales
+Partners
+Find a partner
+Startups
+Under attack?
+Domain name search
+Company
+About
+Careers
+Investors
+Press
+Press kit
+Global network
+Public interest
+Project Galileo
+Athenian Project
+Cloudflare for Campaigns
+Project Fairshot
+Impact/ESG
+Compliance
+Compliance resources
+Trust Hub
+Data Protection
+Responsible AI
+Transparency report
+Report abuse
+Resources
+App innovation report
+Cloudflare Radar
+Case studies
+Status
+Support
+Events
+Blog
+Developers
+Documentation
+Learning center
+Community
+Solutions
+SSE and SASE platform
+Cloudflare AI Cloud
+AI Security
+Frontend Development Platform
+Multi-Tenant Platform Development
+Web Security Platform
+Start Building
+Log In
+© 2026 Cloudflare, Inc.
+Privacy policy
+|
+Report security issues
+|
+Terms of use
+|
+Trademark
+|
+Your privacy choices
+Docs

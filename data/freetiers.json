@@ -1,0 +1,419 @@
+{
+  "updated": "2026-09-08",
+  "site_url": "https://guillemmontejo.github.io/freetierwatch/",
+  "services": [
+    {
+      "id": "cloudflare-workers",
+      "name": "Cloudflare Workers",
+      "category": "compute",
+      "free_tier": [
+        {
+          "metric": "requests",
+          "limit": 100000,
+          "unit": "requests/day"
+        },
+        {
+          "metric": "cpu_time",
+          "limit": 10,
+          "unit": "ms/invocation"
+        },
+        {
+          "metric": "workers",
+          "limit": 100,
+          "unit": "workers/account"
+        }
+      ],
+      "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Daily request limit resets at midnight UTC; memory 128 MB on all plans."
+    },
+    {
+      "id": "cloudflare-pages",
+      "name": "Cloudflare Pages",
+      "category": "hosting",
+      "free_tier": [
+        {
+          "metric": "builds",
+          "limit": 500,
+          "unit": "builds/month"
+        },
+        {
+          "metric": "concurrent_builds",
+          "limit": 1,
+          "unit": "builds"
+        },
+        {
+          "metric": "requests",
+          "limit": -1,
+          "unit": "requests/month"
+        },
+        {
+          "metric": "bandwidth",
+          "limit": -1,
+          "unit": "GB/month"
+        }
+      ],
+      "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Static asset requests/bandwidth are unmetered; only builds are capped."
+    },
+    {
+      "id": "cloudflare-r2",
+      "name": "Cloudflare R2",
+      "category": "storage",
+      "free_tier": [
+        {
+          "metric": "storage",
+          "limit": 10,
+          "unit": "GB-month stored"
+        },
+        {
+          "metric": "class_a_operations",
+          "limit": 1000000,
+          "unit": "Class A ops/month"
+        },
+        {
+          "metric": "class_b_operations",
+          "limit": 10000000,
+          "unit": "Class B ops/month"
+        },
+        {
+          "metric": "egress",
+          "limit": -1,
+          "unit": "GB/month"
+        }
+      ],
+      "source_url": "https://developers.cloudflare.com/r2/pricing/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free tier applies to Standard storage only, not Infrequent Access; egress to Internet is always free."
+    },
+    {
+      "id": "vercel-hobby",
+      "name": "Vercel (Hobby)",
+      "category": "hosting",
+      "free_tier": [
+        {
+          "metric": "fast_data_transfer",
+          "limit": 100,
+          "unit": "GB/month"
+        },
+        {
+          "metric": "edge_requests",
+          "limit": 1000000,
+          "unit": "requests/month"
+        },
+        {
+          "metric": "function_invocations",
+          "limit": 1000000,
+          "unit": "invocations/month"
+        },
+        {
+          "metric": "active_cpu",
+          "limit": 4,
+          "unit": "hours/month"
+        },
+        {
+          "metric": "provisioned_memory",
+          "limit": 360,
+          "unit": "GB-hours/month"
+        }
+      ],
+      "source_url": "https://vercel.com/docs/limits",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Quotas live in the Next.js flight payload of the docs HTML (includedHobbyAllotment fields), so curl sees them; non-commercial use only."
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "category": "hosting",
+      "free_tier": [
+        {
+          "metric": "credits",
+          "limit": 300,
+          "unit": "credits/month"
+        }
+      ],
+      "source_url": "https://www.netlify.com/pricing/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Netlify moved to a credit-based free plan (300 credits/month covering builds, bandwidth, etc.); unused credits roll over for one month."
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "category": "ci",
+      "free_tier": [
+        {
+          "metric": "minutes",
+          "limit": 2000,
+          "unit": "minutes/month"
+        },
+        {
+          "metric": "package_storage",
+          "limit": 500,
+          "unit": "MB"
+        }
+      ],
+      "source_url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "GitHub Free plan; minutes are for private repos (public repos are free); Linux minutes count 1x."
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "database",
+      "free_tier": [
+        {
+          "metric": "database_size",
+          "limit": 500,
+          "unit": "MB"
+        },
+        {
+          "metric": "monthly_active_users",
+          "limit": 50000,
+          "unit": "MAU/month"
+        },
+        {
+          "metric": "egress",
+          "limit": 5,
+          "unit": "GB/month"
+        },
+        {
+          "metric": "file_storage",
+          "limit": 1,
+          "unit": "GB"
+        }
+      ],
+      "source_url": "https://supabase.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free projects pause after inactivity; shared CPU with 500 MB RAM."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "category": "database",
+      "free_tier": [
+        {
+          "metric": "projects",
+          "limit": 100,
+          "unit": "projects"
+        },
+        {
+          "metric": "compute",
+          "limit": 100,
+          "unit": "CU-hours/project/month"
+        },
+        {
+          "metric": "storage",
+          "limit": 0.5,
+          "unit": "GB/project"
+        },
+        {
+          "metric": "egress",
+          "limit": 5,
+          "unit": "GB/project/month"
+        }
+      ],
+      "source_url": "https://neon.com/docs/introduction/plans",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Serverless Postgres; free plan limits are per project."
+    },
+    {
+      "id": "railway",
+      "name": "Railway",
+      "category": "compute",
+      "free_tier": [
+        {
+          "metric": "usage_credit",
+          "limit": 1,
+          "unit": "USD/month"
+        }
+      ],
+      "source_url": "https://docs.railway.com/pricing/plans.md",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free plan: $1 usage credit/month (no rollover), 1 project, 0.5 GB RAM, 1 vCPU; separate one-time $5/30-day trial. Source is Railway's raw markdown docs endpoint."
+    },
+    {
+      "id": "render",
+      "name": "Render",
+      "category": "compute",
+      "free_tier": [
+        {
+          "metric": "instance_hours",
+          "limit": 750,
+          "unit": "hours/month"
+        }
+      ],
+      "source_url": "https://render.com/docs/free",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free web services spin down on idle; hours reset monthly, no rollover; free Postgres databases expire after 30 days."
+    },
+    {
+      "id": "fly-io",
+      "name": "Fly.io",
+      "category": "compute",
+      "free_tier": [],
+      "no_free_tier": true,
+      "source_url": "https://fly.io/docs/about/free-trial/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "No ongoing free tier; trial only: 2 hours of machine runtime or 7 days, whichever comes first, then a payment method is required."
+    },
+    {
+      "id": "upstash-redis",
+      "name": "Upstash Redis",
+      "category": "cache",
+      "free_tier": [
+        {
+          "metric": "data_size",
+          "limit": 256,
+          "unit": "MB"
+        },
+        {
+          "metric": "commands",
+          "limit": 500000,
+          "unit": "commands/month"
+        }
+      ],
+      "source_url": "https://upstash.com/docs/redis/overall/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free tier on every product; no card required."
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "category": "email",
+      "free_tier": [
+        {
+          "metric": "emails",
+          "limit": 3000,
+          "unit": "emails/month"
+        },
+        {
+          "metric": "emails_daily",
+          "limit": 100,
+          "unit": "emails/day"
+        }
+      ],
+      "source_url": "https://resend.com/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "1 custom domain on free plan."
+    },
+    {
+      "id": "google-gemini-api",
+      "name": "Google Gemini API",
+      "category": "ai-api",
+      "free_tier": [],
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free tier exists (input/output free of charge on eligible models, e.g. Gemini 3.8 Flash) but per-model RPM/RPD numbers were removed from public docs and now only show in AI Studio after login."
+    },
+    {
+      "id": "openai-api",
+      "name": "OpenAI API",
+      "category": "ai-api",
+      "free_tier": [],
+      "no_free_tier": true,
+      "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "No free API usage: a 'Free' usage tier exists (geography-gated, $100/month usage cap) but it grants no recurring free credits; all usage is pay-per-token."
+    },
+    {
+      "id": "anthropic-api",
+      "name": "Anthropic API",
+      "category": "ai-api",
+      "free_tier": [],
+      "no_free_tier": true,
+      "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "No free API tier; billing via prepaid Anthropic credit purchases, priced per token. claude.ai's consumer free plan is a separate product."
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "category": "ai-api",
+      "free_tier": [
+        {
+          "metric": "requests_per_minute",
+          "limit": 30,
+          "unit": "requests/minute"
+        },
+        {
+          "metric": "requests_per_day",
+          "limit": 1000,
+          "unit": "requests/day"
+        },
+        {
+          "metric": "tokens_per_minute",
+          "limit": 8000,
+          "unit": "tokens/minute"
+        },
+        {
+          "metric": "tokens_per_day",
+          "limit": 200000,
+          "unit": "tokens/day"
+        }
+      ],
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free Plan limits vary per model; values shown are the openai/gpt-oss-120b row (representative of most text models)."
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral La Plateforme",
+      "category": "ai-api",
+      "free_tier": [],
+      "source_url": "https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free mode exists (default, no card required) with RPS, tokens/minute and tokens/month caps, but exact numbers are only published on the logged-in Admin panel Limits page."
+    },
+    {
+      "id": "huggingface-inference",
+      "name": "Hugging Face Inference Providers",
+      "category": "ai-api",
+      "free_tier": [
+        {
+          "metric": "monthly_credits",
+          "limit": 0.1,
+          "unit": "USD/month"
+        }
+      ],
+      "source_url": "https://huggingface.co/docs/inference-providers/en/pricing",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free users get $0.10/month in inference credits ('subject to change'); PRO gets $2.00."
+    },
+    {
+      "id": "mongodb-atlas",
+      "name": "MongoDB Atlas",
+      "category": "database",
+      "free_tier": [
+        {
+          "metric": "storage",
+          "limit": 0.5,
+          "unit": "GB"
+        }
+      ],
+      "source_url": "https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/",
+      "js_rendered": false,
+      "verified": "2026-09-08",
+      "notes": "Free (formerly M0) cluster: one per project, MongoDB 8.0, no backups, no sharding; storage includes documents plus indexes."
+    }
+  ]
+}
