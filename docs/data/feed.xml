@@ -4,6 +4,33 @@
     <title>FreeTierWatch — free tier changes</title>
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
-
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,281 stars — Removed: 21,273 stars</description>
+    </item>
+    <item>
+      <title>Mistral La Plateforme: pricing/limits page changed</title>
+      <link>https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them</link>
+      <guid isPermaLink="false">mistral-2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Removed: Updated over 3 weeks ago</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 109K — Removed: 108.9K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-09T06:26:35.535Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-08T14:50:10.739Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
   </channel>
 </rss>

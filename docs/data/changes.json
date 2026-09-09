@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "date": "2026-09-09",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-09T06:26:35.535Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-08T14:50:10.739Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "109K"
+    ],
+    "removed": [
+      "108.9K"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "service_id": "mistral",
+    "service_name": "Mistral La Plateforme",
+    "source_url": "https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them",
+    "added": [],
+    "removed": [
+      "Updated over 3 weeks ago"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,281 stars"
+    ],
+    "removed": [
+      "21,273 stars"
+    ]
+  }
+]

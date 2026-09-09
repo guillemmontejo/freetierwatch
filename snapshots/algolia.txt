@@ -206,16 +206,16 @@ Algolia Academy
 Professional Services
 Professional Services
 Tools
+Agentic Readiness for Business
+Agentic Readiness for Business
+Agentic Readiness for Developers
+Agentic Readiness for Developers
 Search Grader
 Search Grader
 Profit Simulator
 Profit Simulator
 Ecommerce Search Audit
 Ecommerce Search Audit
-Agentic Readiness for Business
-Agentic Readiness for Business
-Agentic Readiness for Developers
-Agentic Readiness for Developers
 LLM Leaderboard
 LLM Leaderboard
 Quick Access
