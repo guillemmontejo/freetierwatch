@@ -7,6 +7,41 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,290 stars — Removed: 21,281 stars</description>
+    </item>
+    <item>
+      <title>Turso: pricing/limits page changed</title>
+      <link>https://turso.tech/pricing</link>
+      <guid isPermaLink="false">turso-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: $0/month | $4.99/month | Save $1/month | $24.92/month | Save $4.08/month | $416.58/month | Save $82.42/month | 24x7 Priority Email | $0/month | $4.99/month — Removed: $0 | 4.99 | 24.92 | 416.58 | Dedicated Cloud and BYOC deployments, custom SLAs, premium 24×7 support, unlimited usage, and everything in the Pro Plan.</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Large Postgres compute nodes now run up to 2× faster and with lower latency. Read the engineering writeup | Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console. — Removed: Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup.</description>
+    </item>
+    <item>
+      <title>GitHub Actions: pricing/limits page changed</title>
+      <link>https://docs.github.com/en/billing/concepts/product-billing/github-actions</link>
+      <guid isPermaLink="false">github-actions-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: All Docs are open source. See something that&amp;#x27;s wrong or unclear? Submit a pull request. | GitHub Inc. © 2026 — Removed: All GitHub docs are open source. See something that&amp;#x27;s wrong or unclear? Submit a pull request. | 2026</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-10T05:32:19.298Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-09T06:26:35.535Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-09-09</guid>
       <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 21,281 stars — Removed: 21,273 stars</description>

@@ -348,25 +348,21 @@ Budgets and alerts
 Further reading
 Understanding GitHub Actions
 Quickstart for GitHub Actions
+Back to top
 Help and support
-Did you find what you needed?
+Was this Doc helpful?
 Yes
 No
-Privacy policy
-Help us make these docs great!
-All GitHub docs are open source. See something that&#x27;s wrong or unclear? Submit a pull request.
+Help us make GitHub Docs great!
+All Docs are open source. See something that&#x27;s wrong or unclear? Submit a pull request.
 Make a contribution
-Learn how to contribute
 Still need help?
 Ask the GitHub community
 Contact support
-Legal
-©
-2026
-GitHub, Inc.
+Expert services
+Blog
+GitHub Inc. © 2026
 Terms
 Privacy
 Status
 Pricing
-Expert services
-Blog

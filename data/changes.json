@@ -44,5 +44,81 @@
     "removed": [
       "21,273 stars"
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-10T05:32:19.298Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-09T06:26:35.535Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "service_id": "github-actions",
+    "service_name": "GitHub Actions",
+    "source_url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+    "added": [
+      "All Docs are open source. See something that&#x27;s wrong or unclear? Submit a pull request.",
+      "GitHub Inc. © 2026"
+    ],
+    "removed": [
+      "All GitHub docs are open source. See something that&#x27;s wrong or unclear? Submit a pull request.",
+      "2026"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "Large Postgres compute nodes now run up to 2× faster and with lower latency. Read the engineering writeup",
+      "Inference is free during the beta. When billing begins, prices will match each provider&#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console."
+    ],
+    "removed": [
+      "Inference is free during the beta. When billing begins, prices will match each provider&#x27;s published list prices, with no additional markup."
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "service_id": "turso",
+    "service_name": "Turso",
+    "source_url": "https://turso.tech/pricing",
+    "added": [
+      "$0/month",
+      "$4.99/month",
+      "Save $1/month",
+      "$24.92/month",
+      "Save $4.08/month",
+      "$416.58/month",
+      "Save $82.42/month",
+      "24x7 Priority Email",
+      "$0/month",
+      "$4.99/month"
+    ],
+    "removed": [
+      "$0",
+      "4.99",
+      "24.92",
+      "416.58",
+      "Dedicated Cloud and BYOC deployments, custom SLAs, premium 24×7 support, unlimited usage, and everything in the Pro Plan."
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,290 stars"
+    ],
+    "removed": [
+      "21,281 stars"
+    ]
   }
 ]

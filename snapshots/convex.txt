@@ -39,7 +39,7 @@ Pricing
 npm
 1M weekly
 GitHub
-21,281 stars
+21,290 stars
 Log in
 Start building
 Choose Your Plan
