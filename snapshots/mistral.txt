@@ -63,7 +63,7 @@ All Collections
 Help and Troubleshooting
 Why am I hitting API rate limits, and how do I increase them?
 Why am I hitting API rate limits, and how do I increase them?
-Updated over a month ago
+August 12, 2026
 Rate limits cap how many requests and tokens you can send to the
 Mistral APIs
 . They are set at the

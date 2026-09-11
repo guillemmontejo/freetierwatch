@@ -512,7 +512,6 @@ for the App Prototyping agent
 Note: Some integrations (like Firebase App Hosting) require a billing account.
 Learn more.
 Choose a plan
-Looking for the Flame plan?
 No-cost
 (Spark plan)
 Get started
