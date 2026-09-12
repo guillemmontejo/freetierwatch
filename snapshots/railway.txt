@@ -44,14 +44,13 @@ You are only charged for the resources you actually use, which helps prevent run
 | **Network Egress** | $0.05 / GB ($0.000000047683716 / KB) |
 | [**Volume Storage**](/volumes) | $0.15 / GB / month ($0.000003472222222 / GB / minute) |
 To learn more about controlling your resource usage costs, read the FAQ on [How do I prevent spending more than I want to?](/pricing/faqs#how-do-i-prevent-spending-more-than-i-want-to)
-### VM pricing (Beta)
+### VM pricing
 Workloads that run on Railway's virtual machine primitive, such as [sandboxes](/sandboxes), are billed at VM rates. You are only charged for the resources a VM consumes while it runs.
 | Resource | Resource Price |
 | ------------------ | ---------------------------------------------- |
 | **RAM** | $50 / GB / month ($0.001157 / GB / minute) |
 | **CPU** | $50 / vCPU / month ($0.001157 / vCPU / minute) |
 | **Network Egress** | $0.05 / GB |
-VMs are in beta and available through [Priority Boarding](/platform/priority-boarding).
 ## Included usage
 The Hobby plan includes $5 of resource usage per month.
 If your total resource usage at the end of your billing period is $5 or less, you will not be charged for resource usage. If your total resource usage exceeds $5 in any given billing period, you will be charged the delta.

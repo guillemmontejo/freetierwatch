@@ -166,5 +166,65 @@
       "1M weekly",
       "21,290 stars"
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-12T05:38:18.103Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-11T05:55:11.050Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Gemini 2.5 Flash Image (",
+      "and will be shut down on October 2, 2026; migrate to",
+      "Gemini 3.1 Flash Image",
+      "Gemini 3.1 Flash Lite Image",
+      "Last updated 2026-09-11 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-11 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "gemini-embedding-001",
+      "Gemini Robotics ER 1.6 Preview",
+      "gemini-robotics-er-1.6-preview",
+      "$1.00 (text / image / video)",
+      "$2.00 (audio)",
+      "$5.00",
+      "Last updated 2026-09-08 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-08 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "service_id": "openai-api",
+    "service_name": "OpenAI API",
+    "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+    "added": [
+      "Rethinking skills and prompts for GPT-6 Astra"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-09-12",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.1M weekly",
+      "21,297 stars"
+    ],
+    "removed": [
+      "848.7K weekly",
+      "21,292 stars"
+    ]
   }
 ]

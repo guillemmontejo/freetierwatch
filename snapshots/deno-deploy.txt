@@ -1,7 +1,7 @@
 Deno Deploy Pricing
 Skip to main content
-Introducing Claw Patrol: an open-source security firewall for agents
-Read the post
+Introducing celld: self-hosted, distributed Durable Objects
+Learn more
 ->
 Dismiss
 ⌘K
