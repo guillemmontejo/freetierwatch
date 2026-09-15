@@ -5,6 +5,48 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Clerk: pricing/limits page changed</title>
+      <link>https://clerk.com/pricing</link>
+      <guid isPermaLink="false">clerk-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 501+ | 501+ — Removed: 500+ | 500+</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,319 stars — Removed: 21,307 stars</description>
+    </item>
+    <item>
+      <title>Groq: pricing/limits page changed</title>
+      <link>https://console.groq.com/docs/rate-limits</link>
+      <guid isPermaLink="false">groq-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Removed: qwen/qwen3.6-27b</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 109.2K — Removed: 109.1K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | — Learn about Vercel&amp;#x27;s pricing model, including the resources and services that are billed, and how they are priced. | This page links to (32) — Removed: 4 | 360 | $0.6 per 1,000,000 Invocations | Starting at $0.128 per hour | Starting at $0.0106 per GB-hr | Starting at $0.0035 per CPU Minute | $3.00 per 1,000,000 Reads | $10 per 1K writes | $0.0004 per 1K reads | $0.004 per 1K writes</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-09-14</guid>

@@ -285,13 +285,6 @@ openai/gpt-oss-safeguard-20b
 200K
 -
 -
-qwen/qwen3.6-27b
-30
-1K
-8K
-200K
--
--
 qwen/qwen3.8-27b
 30
 1K

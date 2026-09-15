@@ -3,8 +3,8 @@ Docs
 Changelog
 Search
 Ask AI
-Sign In
-Get Started
+Sign in
+Get started
 Search
 Ask
 Start

@@ -286,5 +286,86 @@
     "removed": [
       "21,305 stars"
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:",
+      "— Learn about Vercel&#x27;s pricing model, including the resources and services that are billed, and how they are priced.",
+      "This page links to (32)"
+    ],
+    "removed": [
+      "4",
+      "360",
+      "$0.6 per 1,000,000 Invocations",
+      "Starting at $0.128 per hour",
+      "Starting at $0.0106 per GB-hr",
+      "Starting at $0.0035 per CPU Minute",
+      "$3.00 per 1,000,000 Reads",
+      "$10 per 1K writes",
+      "$0.0004 per 1K reads",
+      "$0.004 per 1K writes"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "109.2K"
+    ],
+    "removed": [
+      "109.1K"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-09-15",
+    "service_id": "groq",
+    "service_name": "Groq",
+    "source_url": "https://console.groq.com/docs/rate-limits",
+    "added": [],
+    "removed": [
+      "qwen/qwen3.6-27b"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,319 stars"
+    ],
+    "removed": [
+      "21,307 stars"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "service_id": "clerk",
+    "service_name": "Clerk",
+    "source_url": "https://clerk.com/pricing",
+    "added": [
+      "501+",
+      "501+"
+    ],
+    "removed": [
+      "500+",
+      "500+"
+    ]
   }
 ]

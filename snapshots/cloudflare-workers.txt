@@ -514,7 +514,7 @@ Worker size
 Worker startup time
 Number of Workers
 Routes and domains
-Routes with wrangler dev --remote/* routes-remote-dev */
+Routes with wrangler dev --remote
 Cache API limits
 Log size
 Image Resizing with Workers
@@ -1227,7 +1227,7 @@ Worker size
 Worker startup time
 Number of Workers
 Routes and domains
-Routes with wrangler dev --remote/* routes-remote-dev */
+Routes with wrangler dev --remote
 Cache API limits
 Log size
 Image Resizing with Workers

@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-Just shipped: Claimable Neon - agents provision backends without signup, humans claim them later
+A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon
 Neon
 Docs
 Search
