@@ -1,16 +1,11 @@
 GitHub Actions billing - GitHub Docs
 Skip to main content
-GitHub Docs
-Version:
-Free, Pro, & Team
+Skip to content
+GitHub
+Docs
 Search or ask Copilot
-Search or ask
-Copilot
-Select language: current language is English
-Search or ask Copilot
-Search or ask
-Copilot
-Open menu
+/
+Menu
 Collapse sidebar
 Expand sidebar
 Scroll breadcrumbs left
@@ -109,9 +104,10 @@ Automate usage reporting
 Monitor costs with soft budgets
 Control costs at scale
 Gather insights
+In this article
 GitHub Actions billing
 Learn how usage of GitHub Actions is measured against your free allowance and how to pay for additional use.
-Copy as Markdown
+Copy markdown
 In this article
 How use of GitHub Actions is measured
 How storage billing works

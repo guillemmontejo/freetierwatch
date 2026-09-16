@@ -67,6 +67,10 @@ Custom Domains
 Routes
 workers.dev
 Secrets
+Roles and permissions
+Overview
+Workers
+Durable Objects
 Versions & deployments
 Overview
 Deployment management

@@ -304,7 +304,25 @@ Build container resources
 Static file uploads
 When using the CLI to deploy, the maximum size of the source files that can be uploaded is limited to 100 MB for Hobby and 1 GB for Pro. If the size of the source files exceeds this limit, the deployment will fail.
 Build cache maximum size
-The maximum size of the Build&#x27;s cache is 1 GB. It is retained for one month and it applies at the level of each
+The maximum size of the Build&#x27;s cache depends on the
+build machine type
+:
+Build machine type
+Maximum cache size
+Basic
+1.5
+GB
+Standard
+1.5
+GB
+Enhanced
+3
+GB
+Turbo
+4.75
+GB
+Elastic build machines use the limit of the machine type assigned to each build.
+The cache is retained for one month and applies at the level of each
 Build cache key
 .
 Monitoring
@@ -2209,7 +2227,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Vercel Functions Limits

@@ -367,5 +367,91 @@
       "500+",
       "500+"
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "The maximum size of the Build&#x27;s cache depends on the",
+      "1.5",
+      "1.5",
+      "4.75",
+      "From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "The maximum size of the Build&#x27;s cache is 1 GB. It is retained for one month and it applies at the level of each",
+      "From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "109.3K"
+    ],
+    "removed": [
+      "109.2K"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "Neon&#x27;s object model",
+      "Neon AI Gateway provides access to foundation models from OpenAI, Google, Meta, Databricks, and Alibaba through a single Neon credential. It&#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can access all available models.",
+      "Prices match each provider&#x27;s published list prices, with no additional markup, and draw down a prepaid credit balance you buy from the"
+    ],
+    "removed": [
+      "Neon&#x27;s object hierarchy",
+      "Inference is free during the beta. When billing begins, prices will match each provider&#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console."
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Gemini 3.8 Live, Gemini 3.8 Live Extended Thinking, and Gemini 3.1 Flash Live Preview",
+      "gemini-3.8-live",
+      "gemini-3.8-live-extended-thinking",
+      "Last updated 2026-09-15 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-15 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "Gemini 3.1 Flash Live Preview",
+      "Last updated 2026-09-11 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-11 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,329 stars"
+    ],
+    "removed": [
+      "21,319 stars"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "service_id": "openrouter-free-models",
+    "service_name": "OpenRouter (free models)",
+    "source_url": "https://openrouter.ai/docs/api_reference/limits",
+    "added": [
+      "See all 28 lines"
+    ],
+    "removed": [
+      "See all 22 lines"
+    ]
   }
 ]

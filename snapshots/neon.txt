@@ -9,6 +9,7 @@ Ask AI
 Log in
 Sign up
 Get started
+Concepts
 Products
 Postgres
 Auth
@@ -181,10 +182,9 @@ Free during beta (
 rates
 )
 AI Gateway
-(Beta)
 —
-Free during beta
-Free during beta
+Prepaid credits
+Prepaid credits
 Private network transfer
 —
 —
@@ -243,8 +243,8 @@ Invite member
 Invite members
 for details.
 Projects
-A project is a container for your database environment. It includes your database, branches, compute resources, and more. Similar to a Git repository that contains code, artifacts, and branches, a project contains all your database resources. Learn more about
-Neon&#x27;s object hierarchy
+A project is a container for your backend. It includes your database, branches, computes, and backend services like object storage and functions. Similar to a Git repository that contains code, artifacts, and branches, a project contains all your resources. Learn more about
+Neon&#x27;s object model
 .
 For most use cases, create a project for each app or customer to isolate data and manage resources.
 Included per plan:
@@ -573,11 +573,13 @@ See
 Neon Functions
 for what&#x27;s included and current limitations.
 AI Gateway
-Neon AI Gateway provides access to foundation models from OpenAI, Google, Meta, Databricks, and Alibaba through a single Neon credential. It is available on paid plans (Launch and Scale) during the beta. When AI Gateway reaches GA, any paid customer with prepaid credits will be able to access all available models.
-Inference is free during the beta. When billing begins, prices will match each provider&#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console.
+Neon AI Gateway provides access to foundation models from OpenAI, Google, Meta, Databricks, and Alibaba through a single Neon credential. It&#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can access all available models.
+Prices match each provider&#x27;s published list prices, with no additional markup, and draw down a prepaid credit balance you buy from the
+Billing
+page in the Neon Console.
 See
-AI Gateway pricing
-for details.
+AI Gateway prepaid credits
+for pricing details, buying credits, and usage limits.
 Private network transfer
 Bi-directional data transfer to and from your databases over private networking.
 Private networking is available on the
