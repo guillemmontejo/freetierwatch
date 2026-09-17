@@ -2227,7 +2227,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-09-17T05:41:14.142Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Vercel Functions Limits
@@ -2236,10 +2236,10 @@ Workflow Pricing and Limits
 — Understand how Vercel Workflows billing works and the limits that apply to runs, streams, and platform resources.
 Fair Use Guidelines
 — Learn how Vercel applies fair use guidelines across plans and usage-based resources.
-Pricing on Vercel
-— Learn about Vercel&#x27;s pricing model, including the resources and services that are billed, and how they are priced.
-Legacy Usage & Pricing for Functions
-— Learn about legacy usage and pricing for Vercel Functions.
+Configuring Maximum Duration for Vercel Functions
+— Learn how to set the maximum duration of a Vercel Function.
+Why aren&#x27;t commits triggering deployments on Vercel?
+— Commits not triggering deployments on Vercel? Walk the diagnostic checklist covering authentication, commit author acces
 This page links to (32)
 headers
 — Add custom HTTP headers to your Next.js app.

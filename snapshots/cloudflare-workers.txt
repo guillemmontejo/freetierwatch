@@ -437,7 +437,6 @@ TypeScript
 Overview
 Examples ↗
 Python Workers
-Beta
 Overview
 The Basics
 How Python Workers Work

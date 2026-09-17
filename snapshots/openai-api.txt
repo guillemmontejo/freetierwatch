@@ -603,6 +603,7 @@ Usage, governance, and compliance
 Governance
 Admin plugin
 Workspace analytics
+Usage Insights
 Analytics API
 Compliance API and audit events
 Deployment and model providers

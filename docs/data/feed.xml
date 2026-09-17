@@ -5,6 +5,55 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Mapbox: pricing/limits page changed</title>
+      <link>https://www.mapbox.com/pricing</link>
+      <guid isPermaLink="false">mapbox-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 2.5k — Removed: 500 | Up to 500 | 501 - 100,000 | $2.75 | $0.70</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Removed: 21,329 stars</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier. — Removed: 1 Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier.</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Last updated 2026-09-16 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-16 UTC.&quot;],[],[]] — Removed: Last updated 2026-09-15 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-15 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Neon AI Gateway provides access to open-weight and foundation models from multiple providers through a single Neon credential. It&amp;#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can use the open-weight models. Foundation models are rolled out gradually; see — Removed: Neon AI Gateway provides access to foundation models from OpenAI, Google, Meta, Databricks, and Alibaba through a single Neon credential. It&amp;#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can access all available models. | does not appear in the Console usage summary but will appear on your invoice if you exceed your plan&amp;#x27;s branch allowance.</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 109.9K | 64 vCPUs and 256 GB RAM | Dedicated · 2 vCPUs | Dedicated · 4 vCPUs | Dedicated · 8 vCPUs | Dedicated · 16 vCPUs | Dedicated · 32 vCPUs | Dedicated · 48 vCPUs | Dedicated · 64 vCPUs | Dedicated · 2 vCPUs — Removed: 109.3K | 2-core ARM | 64 cores and 256 GB RAM | 2-core ARM | 2-core ARM | 2-core ARM | 2-core ARM | 4-core ARM | 8-core ARM | 16-core ARM</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-17T05:41:14.142Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel? — Removed: From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | — Learn about Vercel&amp;#x27;s pricing model, including the resources and services that are billed, and how they are priced.</description>
+    </item>
+    <item>
       <title>OpenRouter (free models): pricing/limits page changed</title>
       <link>https://openrouter.ai/docs/api_reference/limits</link>
       <guid isPermaLink="false">openrouter-free-models-2026-09-16</guid>
