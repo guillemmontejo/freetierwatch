@@ -11,8 +11,7 @@ Docs
 View all results
 No results.
 There was an error with your request.
-Grafana Labs is a Leader in the 2026 Gartner® Magic
-Quadrant™ for Observability Platforms.
+Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms.
 Learn more
 Downloads
 Contact Us

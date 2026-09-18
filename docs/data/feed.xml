@@ -5,6 +5,48 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>OpenRouter (free models): pricing/limits page changed</title>
+      <link>https://openrouter.ai/docs/api_reference/limits</link>
+      <guid isPermaLink="false">openrouter-free-models-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 402</description>
+    </item>
+    <item>
+      <title>Grafana Cloud: pricing/limits page changed</title>
+      <link>https://grafana.com/pricing/</link>
+      <guid isPermaLink="false">grafana-cloud-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms. — Removed: Grafana Labs is a Leader in the 2026 Gartner® Magic</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.3M weekly | 21,342 stars — Removed: 1.1M weekly</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Lyria 3.5 &amp; Lyria Clip</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 5 GB included | $0.023/GB-month | $0.023/GB-month | 10 active / 400 waiting Capacity-Hours, 1M invocations | $0.10/$0.025/Capacity-Hour, $0.60/M | $0.12/$0.03/Capacity-Hour, $0.60/M | Neon Object Storage is S3-compatible object storage that branches with your Neon project. It&amp;#x27;s available on all plans, including Free. | Neon Functions are serverless Node.js compute you deploy onto a Neon branch, so your backend code runs next to your database. They&amp;#x27;re available on all plans, including Free. — Removed: A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon | Neon Object Storage is S3-compatible object storage that branches with your Neon project. It&amp;#x27;s available on all plans, including Free, during the beta. | There&amp;#x27;s no charge for Object Storage during the beta, but | Neon Functions are serverless Node.js compute you deploy onto a Neon branch, so your backend code runs next to your database. They&amp;#x27;re available on all plans, including Free, during the beta. | There&amp;#x27;s no charge for Functions during the beta, but</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: September 16, 2026 | From the Vercel docs graph (built 2026-09-18T06:04:11.849Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: September 3, 2026 | From the Vercel docs graph (built 2026-09-17T05:41:14.142Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Mapbox: pricing/limits page changed</title>
       <link>https://www.mapbox.com/pricing</link>
       <guid isPermaLink="false">mapbox-2026-09-17</guid>

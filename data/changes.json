@@ -562,5 +562,87 @@
       "$2.75",
       "$0.70"
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "September 16, 2026",
+      "From the Vercel docs graph (built 2026-09-18T06:04:11.849Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "September 3, 2026",
+      "From the Vercel docs graph (built 2026-09-17T05:41:14.142Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "5 GB included",
+      "$0.023/GB-month",
+      "$0.023/GB-month",
+      "10 active / 400 waiting Capacity-Hours, 1M invocations",
+      "$0.10/$0.025/Capacity-Hour, $0.60/M",
+      "$0.12/$0.03/Capacity-Hour, $0.60/M",
+      "Neon Object Storage is S3-compatible object storage that branches with your Neon project. It&#x27;s available on all plans, including Free.",
+      "Neon Functions are serverless Node.js compute you deploy onto a Neon branch, so your backend code runs next to your database. They&#x27;re available on all plans, including Free."
+    ],
+    "removed": [
+      "A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon",
+      "Neon Object Storage is S3-compatible object storage that branches with your Neon project. It&#x27;s available on all plans, including Free, during the beta.",
+      "There&#x27;s no charge for Object Storage during the beta, but",
+      "Neon Functions are serverless Node.js compute you deploy onto a Neon branch, so your backend code runs next to your database. They&#x27;re available on all plans, including Free, during the beta.",
+      "There&#x27;s no charge for Functions during the beta, but"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Lyria 3.5 & Lyria Clip"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-09-18",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.3M weekly",
+      "21,342 stars"
+    ],
+    "removed": [
+      "1.1M weekly"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "service_id": "grafana-cloud",
+    "service_name": "Grafana Cloud",
+    "source_url": "https://grafana.com/pricing/",
+    "added": [
+      "Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms."
+    ],
+    "removed": [
+      "Grafana Labs is a Leader in the 2026 Gartner® Magic"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "service_id": "openrouter-free-models",
+    "service_name": "OpenRouter (free models)",
+    "source_url": "https://openrouter.ai/docs/api_reference/limits",
+    "added": [
+      "402"
+    ],
+    "removed": []
   }
 ]

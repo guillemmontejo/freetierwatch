@@ -47,9 +47,10 @@ Latest Gemini models
 Nano Banana
 Veo
 Gemini Omni Flash
-Lyria 3.5
+Lyria 3.5 & Lyria Clip
+Overview
 Lyria RealTime
-Imagen
+Lyria prompt guide
 Text-to-speech
 Transcribe
 Live
@@ -87,6 +88,7 @@ Quickstart
 Antigravity agent
 Building managed agents
 Environments
+Credentials
 Hooks
 Deep Research agent
 Tools

@@ -217,7 +217,7 @@ Web search
 File search
 Retrieval
 Connect tools and data
-MCP and Connectors
+MCP servers
 Secure MCP Tunnel
 Build tool workflows
 Skills

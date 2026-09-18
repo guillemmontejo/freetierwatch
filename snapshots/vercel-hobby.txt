@@ -140,6 +140,7 @@ Microfrontends
 Storage
 Integrations
 Vercel Agent
+Public Beta
 Services
 beta
 Observe and improve
@@ -2085,7 +2086,7 @@ Sandbox vCPU provisioning ramp for Enterprise plan (vCPUs per minute).
 500
 owner
 Last updated
-September 3, 2026
+September 16, 2026
 Related Vercel documentation
 Previous
 Spend Management
@@ -2227,7 +2228,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-17T05:41:14.142Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-09-18T06:04:11.849Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Vercel Functions Limits
@@ -2294,7 +2295,7 @@ Understanding Vercel
 Static Configuration with vercel.json
 — Learn how to use vercel.json to configure and override the default behavior of Vercel from within your project.
 Projects overview
-— A project is the application that you have deployed to Vercel.
+— A project is where you deploy and operate frontend apps, APIs, backends, containers, and agent workloads on Vercel.
 Monitoring
 — Query and visualize your Vercel usage, traffic, and more with Monitoring.
 Limits and Pricing for Monitoring
@@ -2353,7 +2354,7 @@ Understanding Vercel
 Project settings
 — Use the project settings, to configure custom domains, environment variables, Git, integrations, deployment protection,
 Projects overview
-— A project is the application that you have deployed to Vercel.
+— A project is where you deploy and operate frontend apps, APIs, backends, containers, and agent workloads on Vercel.
 Managing projects
 — Learn how to manage your projects through the Vercel Dashboard.
 Make Your First Vercel API Request

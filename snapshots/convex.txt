@@ -37,8 +37,9 @@ Changelog
 Docs
 Pricing
 npm
-1.1M weekly
+1.3M weekly
 GitHub
+21,342 stars
 Log in
 Start building
 Choose Your Plan
@@ -180,8 +181,13 @@ Daily backups
 No
 Yes
 Yes
-Fine-grained permissions
-Fine-grained permissions
+Role-based access control (RBAC)
+Role-based access control (RBAC)
+Yes
+Yes
+Yes
+Custom roles
+Custom roles
 No
 No
 Yes

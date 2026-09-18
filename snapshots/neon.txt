@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon
+The Neon backend is GA: a complete set of primitives so agents can build
 Neon
 Docs
 Search
@@ -13,7 +13,6 @@ Concepts
 Products
 Postgres
 Auth
-Data API
 Neon Functions
 Object Storage
 AI Gateway
@@ -155,32 +154,17 @@ Snapshots
 100 manual snapshots
 100 manual snapshots
 Auth
-(Beta)
 Up to 60k MAU
 Up to 1M MAU
 Up to 1M MAU
 Object Storage
-(Beta)
-Free during beta (
-rates
-)
-Free during beta (
-rates
-)
-Free during beta (
-rates
-)
+5 GB included
+$0.023/GB-month
+$0.023/GB-month
 Functions
-(Beta)
-Free during beta (
-rates
-)
-Free during beta (
-rates
-)
-Free during beta (
-rates
-)
+10 active / 400 waiting Capacity-Hours, 1M invocations
+$0.10/$0.025/Capacity-Hour, $0.60/M
+$0.12/$0.03/Capacity-Hour, $0.60/M
 AI Gateway
 —
 Prepaid credits
@@ -517,10 +501,10 @@ See
 Managed Better Auth
 for more information.
 Object Storage
-Neon Object Storage is S3-compatible object storage that branches with your Neon project. It&#x27;s available on all plans, including Free, during the beta.
-There&#x27;s no charge for Object Storage during the beta, but
+Neon Object Storage is S3-compatible object storage that branches with your Neon project. It&#x27;s available on all plans, including Free.
+On paid plans, the following rates apply (
 usage limits
-apply. When billing begins, the following rates apply on all plans:
+also apply):
 Storage
 : $0.023/GB-month. Only stored volume is metered; there&#x27;s no per-operation charge.
 Egress
@@ -534,22 +518,21 @@ See
 Neon Object Storage
 for more information.
 Functions
-Neon Functions are serverless Node.js compute you deploy onto a Neon branch, so your backend code runs next to your database. They&#x27;re available on all plans, including Free, during the beta.
+Neon Functions are serverless Node.js compute you deploy onto a Neon branch, so your backend code runs next to your database. They&#x27;re available on all plans, including Free.
 You&#x27;re billed for compute only while a request is being processed. Billing starts when a request triggers the function and continues until processing finishes, either by returning a response or by completing any background
 waitUntil
 work it started. You aren&#x27;t billed between requests.
 Compute is measured in
 Capacity-Hours
-. During the beta, functions run at a fixed size, so one hour of function runtime equals one Capacity-Hour. That runtime is billed at two rates, and a single request usually incurs both:
+. Functions run at a fixed size, so one hour of function runtime equals one Capacity-Hour. That runtime is billed at two rates, and a single request usually incurs both:
 Active compute
 : billed while your code is actively using the CPU.
 Waiting compute
 : billed at a lower rate when your code isn&#x27;t using much CPU, typically while it waits on the network, a timer, or other I/O.
 Invocations
 are counted separately: each time your function is called counts as one invocation, regardless of how long it runs. Billed per million.
-There&#x27;s no charge for Functions during the beta, but
-usage limits
-apply. When billing begins, the following rates apply:
+Usage limits
+apply. On paid plans, Functions are billed at the following rates:
 Metric
 Launch
 Scale
@@ -565,8 +548,8 @@ $0.60/M
 On the
 Free
 plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per month.
-When billing begins, these Free allowances will be enforced at two levels: an account-wide total across all your projects, and an independent per-project limit.
-When billing begins, egress (data a function sends out) will count toward your
+These Free allowances are enforced at two levels: an account-wide total across all your projects, and an independent per-project limit.
+Egress (data a function sends out) counts toward your
 public network transfer
 allowance, which is shared across all products.
 See
@@ -716,19 +699,19 @@ Outbound data transfer (egress) from your databases to the public internet.
 Learn more
 .
 Function compute (active), capacity-hour
-Neon Functions compute for time your code is actively using the CPU. Free during the beta.
+Neon Functions compute for time your code is actively using the CPU.
 Learn more
 .
 Function compute (waiting), capacity-hour
-Neon Functions compute for time your code waits on I/O, billed at a lower rate. Free during the beta.
+Neon Functions compute for time your code waits on I/O, billed at a lower rate.
 Learn more
 .
 Function invocations, million
-Number of times your functions are called. Free during the beta.
+Number of times your functions are called.
 Learn more
 .
 Object storage, GB-month
-Stored Object Storage volume. Free during the beta.
+Stored Object Storage volume.
 Learn more
 .
 Usage-based cost examples
@@ -931,15 +914,9 @@ Set up Neon with AI
 Copy neon init command
 Neon Docs
 Neon is part of the Databricks Platform
-Neon status loading...
 © Neon 2026. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the
 Apache Software Foundation
 .
-Privacy Notice
-Terms of Use
-Neon Platform Terms
-Modern Slavery Statement
-California Privacy
 Company
 About
 Blog
@@ -976,3 +953,9 @@ Compliant
 Compliance Guide
 Neon’s Sub Contractors
 Trust Center
+Neon status loading...
+Privacy Notice
+Terms of Use
+Neon Platform Terms
+Modern Slavery Statement
+California Privacy
