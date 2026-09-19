@@ -644,5 +644,41 @@
       "402"
     ],
     "removed": []
+  },
+  {
+    "date": "2026-09-19",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-19T05:28:42.778Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-18T06:04:11.849Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "110K"
+    ],
+    "removed": [
+      "109.9K"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,343 stars"
+    ],
+    "removed": [
+      "21,342 stars"
+    ]
   }
 ]

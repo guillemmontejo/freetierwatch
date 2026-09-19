@@ -5,6 +5,27 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,343 stars — Removed: 21,342 stars</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 110K — Removed: 109.9K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-19T05:28:42.778Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-18T06:04:11.849Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>OpenRouter (free models): pricing/limits page changed</title>
       <link>https://openrouter.ai/docs/api_reference/limits</link>
       <guid isPermaLink="false">openrouter-free-models-2026-09-18</guid>
