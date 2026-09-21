@@ -7,6 +7,27 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,358 stars — Removed: 21,352 stars</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 110.4K — Removed: 110K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-21T05:26:59.511Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-20T05:21:37.343Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-09-20</guid>
       <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 1M weekly | 21,352 stars — Removed: 1.3M weekly | 21,343 stars</description>
@@ -332,27 +353,6 @@
       <guid isPermaLink="false">neon-2026-09-10</guid>
       <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Large Postgres compute nodes now run up to 2× faster and with lower latency. Read the engineering writeup | Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console. — Removed: Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup.</description>
-    </item>
-    <item>
-      <title>GitHub Actions: pricing/limits page changed</title>
-      <link>https://docs.github.com/en/billing/concepts/product-billing/github-actions</link>
-      <guid isPermaLink="false">github-actions-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: All Docs are open source. See something that&amp;#x27;s wrong or unclear? Submit a pull request. | GitHub Inc. © 2026 — Removed: All GitHub docs are open source. See something that&amp;#x27;s wrong or unclear? Submit a pull request. | 2026</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-10T05:32:19.298Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-09T06:26:35.535Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-09</guid>
-      <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,281 stars — Removed: 21,273 stars</description>
     </item>
   </channel>
 </rss>
