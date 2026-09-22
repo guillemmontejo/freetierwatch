@@ -67,6 +67,15 @@ Custom Domains
 Routes
 workers.dev
 Secrets
+Previews
+Overview
+Get started
+Configuration
+Resources and isolation
+Custom domains
+Test and debug
+Compare workflows
+Examples
 Roles and permissions
 Overview
 Workers
@@ -74,13 +83,13 @@ Durable Objects
 Versions & deployments
 Overview
 Deployment management
-Preview URLs
 Gradual deployments
 Overview
 Version affinity
 With Durable Objects
 Version overrides
 Rollbacks
+Version URLs
 CI/CD
 Overview
 Builds

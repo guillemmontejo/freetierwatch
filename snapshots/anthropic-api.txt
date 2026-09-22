@@ -339,7 +339,8 @@ Cache valid for 5 minutes
 2x base input price
 Cache valid for 1 hour
 Cache read (hit)
-0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1)
+0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1
+)
 Same duration as the preceding write
 Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens).
 These multipliers stack with other pricing modifiers, including the Batch API discount and data residency.
@@ -366,7 +367,9 @@ Data residency
 Fast mode pricing
 
 Fast mode
-, in research preview, provides significantly faster output for Claude Opus 5 and Claude Opus 4.8 at premium pricing. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) only; it is not available on Claude Platform on AWS or partner-operated cloud platforms.
+, in research preview, provides significantly faster output for
+Claude Opus 5
+and Claude Opus 4.8 at premium pricing. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) only; it is not available on Claude Platform on AWS or partner-operated cloud platforms.
 Model
 Input
 Output

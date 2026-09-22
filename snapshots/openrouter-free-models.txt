@@ -72,6 +72,7 @@ Providers
 Rerank
 Responses
 SCIM
+SystemOne
 Vault
 Video Generation
 Workspaces

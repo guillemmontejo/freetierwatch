@@ -5,6 +5,48 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Auth0: pricing/limits page changed</title>
+      <link>https://auth0.com/pricing</link>
+      <guid isPermaLink="false">auth0-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: B2B SaaS | B2B Connect | B2B SaaS | B2B Connect — Removed: Auth0 for AI Docs | What’s Auth0 for AI Agents? | Auth0 for AI Docs | What’s Auth0 for AI Agents?</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,366 stars — Removed: 21,358 stars</description>
+    </item>
+    <item>
+      <title>MongoDB Atlas: pricing/limits page changed</title>
+      <link>https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/</link>
+      <guid isPermaLink="false">mongodb-atlas-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Free clusters don&amp;#x27;t support the</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1 | and Claude Opus 4.8 at premium pricing. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) only; it is not available on Claude Platform on AWS or partner-operated cloud platforms. — Removed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1) | , in research preview, provides significantly faster output for Claude Opus 5 and Claude Opus 4.8 at premium pricing. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) only; it is not available on Claude Platform on AWS or partner-operated cloud platforms.</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 110.6K — Removed: 110.4K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-22T05:27:54.083Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-21T05:26:59.511Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-09-21</guid>
@@ -311,48 +353,6 @@
       <guid isPermaLink="false">convex-2026-09-11</guid>
       <pubDate>Fri, 11 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 848.7K weekly | 21,292 stars — Removed: 1M weekly | 21,290 stars</description>
-    </item>
-    <item>
-      <title>Mistral La Plateforme: pricing/limits page changed</title>
-      <link>https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them</link>
-      <guid isPermaLink="false">mistral-2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: August 12, 2026</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Removed: Large Postgres compute nodes now run up to 2× faster and with lower latency. Read the engineering writeup</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-11T05:55:11.050Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-10T05:32:19.298Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,290 stars — Removed: 21,281 stars</description>
-    </item>
-    <item>
-      <title>Turso: pricing/limits page changed</title>
-      <link>https://turso.tech/pricing</link>
-      <guid isPermaLink="false">turso-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: $0/month | $4.99/month | Save $1/month | $24.92/month | Save $4.08/month | $416.58/month | Save $82.42/month | 24x7 Priority Email | $0/month | $4.99/month — Removed: $0 | 4.99 | 24.92 | 416.58 | Dedicated Cloud and BYOC deployments, custom SLAs, premium 24×7 support, unlimited usage, and everything in the Pro Plan.</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Large Postgres compute nodes now run up to 2× faster and with lower latency. Read the engineering writeup | Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console. — Removed: Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup.</description>
     </item>
   </channel>
 </rss>

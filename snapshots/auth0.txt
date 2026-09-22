@@ -8,7 +8,7 @@ Português
 日本語
 Build
 Documentation
-Auth0 for AI Docs
+AI Identity Docs
 APIs
 SDKs
 Events Catalog
@@ -65,13 +65,11 @@ Auth0 at MCP Dev Summit
 ↗
 Product
 AI IDENTITY
-Auth0 for AI Agents
-Authentication
-Token Vault
-Auth for MCP
+B2B
+Commerce
 FEATURED CONTENT
 WHITEPAPER
-What’s Auth0 for AI Agents?
+Building Secure AI Agents
 CUSTOMER IDENTITY
 Universal Login
 Passwordless
@@ -82,7 +80,8 @@ Embedded Login
 Solutions
 USE CASES
 Enterprise
-B2B
+B2B SaaS
+B2B Connect
 B2C
 Startups
 Nonprofits
@@ -123,7 +122,7 @@ Login
 Let&#x27;s connect
 Build
 Documentation
-Auth0 for AI Docs
+AI Identity Docs
 APIs
 SDKs
 Events Catalog
@@ -180,13 +179,11 @@ Auth0 at MCP Dev Summit
 ↗
 Product
 AI IDENTITY
-Auth0 for AI Agents
-Authentication
-Token Vault
-Auth for MCP
+B2B
+Commerce
 FEATURED CONTENT
 WHITEPAPER
-What’s Auth0 for AI Agents?
+Building Secure AI Agents
 CUSTOMER IDENTITY
 Universal Login
 Passwordless
@@ -203,6 +200,7 @@ AUTHORIZATION
 Fine-Grained Authorization
 Access Management
 Machine-to-machine
+Token Vault
 PLATFORM & EXTENSIBILITY
 Cloud Deployments
 Actions
@@ -212,7 +210,8 @@ Extensibility
 Solutions
 USE CASES
 Enterprise
-B2B
+B2B SaaS
+B2B Connect
 B2C
 Startups
 Special Pricing

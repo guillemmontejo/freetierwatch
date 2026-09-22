@@ -546,6 +546,14 @@ project. However if you have sales contracts with MongoDB, you might be able to 
 Performance Advisor
 Free clusters don&#x27;t provide access to the
 Performance Advisor.
+Query Settings
+Free clusters don&#x27;t support the
+setQuerySettings
+and
+removeQuerySettings
+commands or the
+$querySettings
+aggregation pipeline stage.
 Query Utilization
 The percentage of time that a query is running over any five minute period must remain under 100% on Free clusters.
 Real-Time Performance Panel

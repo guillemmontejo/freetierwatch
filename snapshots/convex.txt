@@ -4,12 +4,14 @@ Realtime
 Keep your app up to date
 Authentication
 Over 80+ OAuth integrations
+AI Gateway
+Call any major model from one API
 Components
-Independent, modular, TypeScript building blocks for your backend.
-Open source
-Self host and develop locally
+Independent, modular, TypeScript building blocks for your backend
 AI Coding
 Generate high quality Convex code with AI
+Open source
+Self host and develop locally
 Compare
 Convex vs. Firebase
 Convex vs. Supabase
@@ -39,7 +41,7 @@ Pricing
 npm
 1M weekly
 GitHub
-21,358 stars
+21,366 stars
 Log in
 Start building
 Choose Your Plan
@@ -423,6 +425,15 @@ $0.132 per additional GB
 50 GB included ($0.12 per additional GB)
 50 GB included
 $0.12 per additional GB
+AI
+AI
+AI Gateway
+AI Gateway
+Same as
+OpenRouter pricing
+(Starter plan only)
+Same as
+OpenRouter pricing
 Free plan has built-in resources. Starter plan is pay-as-you-go beyond free tier limits. Professional includes higher built-in resources and lower per-unit rates.
 Questions?
 Need help choosing the right plan? Our team is here to help.
@@ -436,6 +447,7 @@ Realtime
 Auth
 Open source
 AI coding
+AI Gateway
 FAQ
 Merch
 Enterprise
