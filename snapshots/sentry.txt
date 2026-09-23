@@ -16,6 +16,7 @@ Session Replay
 Metrics
 NEW
 Tracing
+Tracing
 Agent Tracing
 Profiling
 Size Analysis

@@ -87,7 +87,7 @@ Production
 Home
 Get started
 Quickstart
-Using GPT-6 Astra
+Using GPT-6
 Key concepts
 Core concepts
 Responses API
@@ -279,6 +279,7 @@ Flex processing
 Safety and governance
 Safety best practices
 Red teaming
+Daybreak
 Safety checks
 Safety classifiers
 Cybersecurity checks
@@ -287,6 +288,7 @@ Under-18 guidance
 CSAM guidance
 Content provenance
 Your data
+Private Safety Processing
 Permissions
 Infrastructure and access
 Terraform provider
@@ -393,6 +395,7 @@ Conversions API
 Supported Events
 Advertiser API
 Overview
+API Partner Setup
 Campaign Management
 Bidding & Budgets
 Targeting
@@ -436,6 +439,7 @@ Get started with Work
 Import from another agent
 Foundations
 Prompting
+Model selection
 Personalize ChatGPT
 Skills & Plugins
 Permissions
@@ -727,6 +731,7 @@ Flex processing
 Safety and governance
 Safety best practices
 Red teaming
+Daybreak
 Safety checks
 Safety classifiers
 Cybersecurity checks
@@ -735,6 +740,7 @@ Under-18 guidance
 CSAM guidance
 Content provenance
 Your data
+Private Safety Processing
 Permissions
 Infrastructure and access
 Terraform provider

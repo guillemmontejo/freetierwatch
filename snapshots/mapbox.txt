@@ -1106,15 +1106,29 @@ Docs
 Search Box API pricing guide >
 Create interactive search experiences for addresses, places, and points of interest. Transactions are billed on a per-session basis.
 Detailed pricing
-Monthly sessions
+Monthly sessions (Standard pricing)
 0
 2.5k
 100k
 500k
 500k
 1M
-Monthly sessions
+Monthly sessions (Standard pricing)
 A search session is a series of /suggest and /retrieve API calls that are bundled together for billing purposes. A session includes 50 /suggest calls, and 1 /retrieve call, and it will automatically expire after 2 minutes of inactivity.
+Introductory preview pricing*
+Monthly sessions
+Up to 500
+501 - 100,000
+100,001 - 500,000
+500,001+
+1,000,000+
+Cost per 1,000
+Free
+$3.00
+$2.75
+$2.50
+Contact sales for discount
+Standard pricing
 Monthly requests
 Up to 2,500
 2,501 - 100,000
@@ -1140,14 +1154,28 @@ Get a list of POIs for a given category (e.g.,
 coffee shops
 around me), or get addresses and POIs around a given coordinate (e,g, what is around 33.9416° N, 118.4085° W).
 Detailed pricing
-Monthly requests
+Monthly requests (Standard pricing)
 0
 25k
 100k
 500k
 1M
-Monthly requests
+Monthly requests (Standard pricing)
 Request to /category and /reverse endpoints are billed on a per-request basis.
+Introductory preview pricing*
+Monthly requests
+Up to 50,000
+50,001 - 500,000
+500,001 - 1,000,000
+1,000,001+
+5,000,000+
+Cost per 1,000
+Free
+$1.00
+$0.85
+$0.70
+Contact sales for discount
+Standard pricing
 Monthly requests
 Up to 25,000
 25,001 - 100,000

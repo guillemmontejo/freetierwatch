@@ -833,5 +833,130 @@
       "Auth0 for AI Docs",
       "What’s Auth0 for AI Agents?"
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-23T10:10:42.084Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-22T05:27:54.083Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "110.7K"
+    ],
+    "removed": [
+      "110.6K"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Last updated 2026-09-22 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-22 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "Last updated 2026-09-16 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-16 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "openai-api",
+    "service_name": "OpenAI API",
+    "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+    "added": [
+      "Using GPT-6"
+    ],
+    "removed": [
+      "Using GPT-6 Astra"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "Claude Opus 5.5",
+      "Claude Opus 5.5",
+      "$8 / MTok",
+      "2",
+      "Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price.",
+      "2",
+      "Cache hits and refreshes on Claude Opus 5.5 are priced at 0.05x the base input price.",
+      "All other models use the standard 0.1x multiplier.",
+      "; 0.05x on Claude Opus 5.5",
+      "On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens)."
+    ],
+    "removed": [
+      "Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier."
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "992.1K weekly",
+      "21,372 stars"
+    ],
+    "removed": [
+      "1M weekly",
+      "21,366 stars"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "clerk",
+    "service_name": "Clerk",
+    "source_url": "https://clerk.com/pricing",
+    "added": [
+      "50,000 per app",
+      "Authenticate with a code sent directly to the user&#x27;s phone via SMS. US and Canada, $0.01 per SMS. International: market rate",
+      "An organization is retained when it has at least 2 members and at least one of those members is a monthly retained user for that month."
+    ],
+    "removed": [
+      "Authenticate with a code sent directly to the user&#x27;s phone via SMS. US and Canada, $0.01 per SMS + International: market rate",
+      "An organization is retained when it has at least 2 members and at least one of those members is a retained user."
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "auth0",
+    "service_name": "Auth0",
+    "source_url": "https://auth0.com/pricing",
+    "added": [
+      "AI Identity for B2B & AI Identity for Commerce"
+    ],
+    "removed": [
+      "Auth0 for AI Agents"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "service_id": "mapbox",
+    "service_name": "Mapbox",
+    "source_url": "https://www.mapbox.com/pricing",
+    "added": [
+      "Up to 500",
+      "501 - 100,000",
+      "$2.75",
+      "$0.70"
+    ],
+    "removed": []
   }
 ]

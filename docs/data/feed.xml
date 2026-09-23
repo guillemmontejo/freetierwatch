@@ -5,6 +5,69 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Mapbox: pricing/limits page changed</title>
+      <link>https://www.mapbox.com/pricing</link>
+      <guid isPermaLink="false">mapbox-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Up to 500 | 501 - 100,000 | $2.75 | $0.70</description>
+    </item>
+    <item>
+      <title>Auth0: pricing/limits page changed</title>
+      <link>https://auth0.com/pricing</link>
+      <guid isPermaLink="false">auth0-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: AI Identity for B2B &amp; AI Identity for Commerce — Removed: Auth0 for AI Agents</description>
+    </item>
+    <item>
+      <title>Clerk: pricing/limits page changed</title>
+      <link>https://clerk.com/pricing</link>
+      <guid isPermaLink="false">clerk-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 50,000 per app | Authenticate with a code sent directly to the user&amp;#x27;s phone via SMS. US and Canada, $0.01 per SMS. International: market rate | An organization is retained when it has at least 2 members and at least one of those members is a monthly retained user for that month. — Removed: Authenticate with a code sent directly to the user&amp;#x27;s phone via SMS. US and Canada, $0.01 per SMS + International: market rate | An organization is retained when it has at least 2 members and at least one of those members is a retained user.</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 992.1K weekly | 21,372 stars — Removed: 1M weekly | 21,366 stars</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Claude Opus 5.5 | Claude Opus 5.5 | $8 / MTok | 2 | Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. | 2 | Cache hits and refreshes on Claude Opus 5.5 are priced at 0.05x the base input price. | All other models use the standard 0.1x multiplier. | ; 0.05x on Claude Opus 5.5 | On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens). — Removed: Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier.</description>
+    </item>
+    <item>
+      <title>OpenAI API: pricing/limits page changed</title>
+      <link>https://platform.openai.com/docs/guides/rate-limits</link>
+      <guid isPermaLink="false">openai-api-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Using GPT-6 — Removed: Using GPT-6 Astra</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Last updated 2026-09-22 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-22 UTC.&quot;],[],[]] — Removed: Last updated 2026-09-16 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-16 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 110.7K — Removed: 110.6K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-23T10:10:42.084Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-22T05:27:54.083Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Auth0: pricing/limits page changed</title>
       <link>https://auth0.com/pricing</link>
       <guid isPermaLink="false">auth0-2026-09-22</guid>
@@ -290,69 +353,6 @@
       <guid isPermaLink="false">convex-2026-09-14</guid>
       <pubDate>Mon, 14 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 21,307 stars — Removed: 21,305 stars</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 109.1K — Removed: 109K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-14T05:25:27.571Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-13T05:25:27.843Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-13</guid>
-      <pubDate>Sun, 13 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,305 stars — Removed: 21,297 stars</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-13</guid>
-      <pubDate>Sun, 13 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-13T05:25:27.843Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-12T05:38:18.103Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1.1M weekly | 21,297 stars — Removed: 848.7K weekly | 21,292 stars</description>
-    </item>
-    <item>
-      <title>OpenAI API: pricing/limits page changed</title>
-      <link>https://platform.openai.com/docs/guides/rate-limits</link>
-      <guid isPermaLink="false">openai-api-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Rethinking skills and prompts for GPT-6 Astra</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Gemini 2.5 Flash Image ( | and will be shut down on October 2, 2026; migrate to | Gemini 3.1 Flash Image | Gemini 3.1 Flash Lite Image | Last updated 2026-09-11 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-11 UTC.&quot;],[],[]] — Removed: gemini-embedding-001 | Gemini Robotics ER 1.6 Preview | gemini-robotics-er-1.6-preview | $1.00 (text / image / video) | $2.00 (audio) | $5.00 | Last updated 2026-09-08 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-08 UTC.&quot;],[],[]]</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-12T05:38:18.103Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-11T05:55:11.050Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 848.7K weekly | 21,292 stars — Removed: 1M weekly | 21,290 stars</description>
     </item>
   </channel>
 </rss>
