@@ -7,6 +7,55 @@
     <item>
       <title>Mapbox: pricing/limits page changed</title>
       <link>https://www.mapbox.com/pricing</link>
+      <guid isPermaLink="false">mapbox-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 500 | 5,000,001+ — Removed: 2.5k</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,377 stars — Removed: 21,372 stars</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 5m writes | 1h writes | $10 | $50 | $12.50 | $20 | $4 | $20 | $5 | $8 — Removed: 5m cache writes | 1h cache writes | $12.50 / MTok | $20 / MTok | $0.25 / MTok | Claude Mythos 5.1 ( | $12.50 / MTok | $20 / MTok | $0.25 / MTok | $12.50 / MTok</description>
+    </item>
+    <item>
+      <title>OpenAI API: pricing/limits page changed</title>
+      <link>https://platform.openai.com/docs/guides/rate-limits</link>
+      <guid isPermaLink="false">openai-api-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Bringing my LED display to life with GPT-Live-1 and Codex</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Gemini 3.8 Flash TTS | gemini-3.8-flash-tts | Our 3.8 Flash Text-to-Speech audio model engineered for studio-grade voice fidelity, expressive acting, and long-form stability. | $0.50 (text) through December 31, 2026. | $1.00 (text) starting January 1, 2027. | $9.00 (audio) through December 31, 2026. | $18.00 (audio) starting January 1, 2027. | $0.125 (input caching) through December 31, 2026. | $0.25 (input caching) starting January 1, 2027. | $0.25 (text) through December 31, 2026. — Removed: Last updated 2026-09-22 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-22 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Fly.io: pricing/limits page changed</title>
+      <link>https://fly.io/docs/about/free-trial/</link>
+      <guid isPermaLink="false">fly-io-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Removed: date: 2025-10-27 | &lt;div class= callout &gt;If you hit any of the limits below before your 7 days are up, **your trial is considered exhausted**, and your apps will stop until you add a payment method.&lt;/div&gt; | - **2 total VM hours** (Shared across any machines you launch) &lt;br /&gt; **Note: Trial Machines are set to automatically stop after running for 5 minutes** | - **10 machines max** | - **20GB of volume storage** | - Up to **2 vCPUs per machine** | - **4GB memory per machine** | - Dedicated IPv4 addresses | *)]:mx-auto [body_:where(&amp;&gt;*)]:max-w-2xl [body:not(.toc)_:where(&amp;&gt;*)]:lg:mx-[calc(50%-min(50%,35rem))] [body_:where(&amp;&gt;*)]:lg:max-w-3xl min-w-0 relative&quot;&gt;</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-24T05:36:56.592Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-23T10:10:42.084Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel?</description>
+    </item>
+    <item>
+      <title>Mapbox: pricing/limits page changed</title>
+      <link>https://www.mapbox.com/pricing</link>
       <guid isPermaLink="false">mapbox-2026-09-23</guid>
       <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Up to 500 | 501 - 100,000 | $2.75 | $0.70</description>
@@ -304,55 +353,6 @@
       <guid isPermaLink="false">vercel-hobby-2026-09-16</guid>
       <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: The maximum size of the Build&amp;#x27;s cache depends on the | 1.5 | 1.5 | 4.75 | From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: The maximum size of the Build&amp;#x27;s cache is 1 GB. It is retained for one month and it applies at the level of each | From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Clerk: pricing/limits page changed</title>
-      <link>https://clerk.com/pricing</link>
-      <guid isPermaLink="false">clerk-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 501+ | 501+ — Removed: 500+ | 500+</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,319 stars — Removed: 21,307 stars</description>
-    </item>
-    <item>
-      <title>Groq: pricing/limits page changed</title>
-      <link>https://console.groq.com/docs/rate-limits</link>
-      <guid isPermaLink="false">groq-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Removed: qwen/qwen3.6-27b</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: A quarter of work, done in 6 days . How a solo founder built isolated Postgres per tenant on Neon</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 109.2K — Removed: 109.1K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | — Learn about Vercel&amp;#x27;s pricing model, including the resources and services that are billed, and how they are priced. | This page links to (32) — Removed: 4 | 360 | $0.6 per 1,000,000 Invocations | Starting at $0.128 per hour | Starting at $0.0106 per GB-hr | Starting at $0.0035 per CPU Minute | $3.00 per 1,000,000 Reads | $10 per 1K writes | $0.0004 per 1K reads | $0.004 per 1K writes</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,307 stars — Removed: 21,305 stars</description>
     </item>
   </channel>
 </rss>

@@ -1010,6 +1010,14 @@ Uploads per day (Enterprise).
 80000
 86400
 owner
+API key creation per team per hour.
+500
+3600
+team
+API key creation per user per hour.
+32
+3600
+user
 Token retrieval per minute.
 160
 60
@@ -2228,7 +2236,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-23T10:10:42.084Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-09-24T05:36:56.592Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Vercel Functions Limits
@@ -2237,10 +2245,10 @@ Workflow Pricing and Limits
 — Understand how Vercel Workflows billing works and the limits that apply to runs, streams, and platform resources.
 Fair Use Guidelines
 — Learn how Vercel applies fair use guidelines across plans and usage-based resources.
+Vercel Pricing
+— Choose a Vercel plan and compare features and usage pricing.
 Configuring Maximum Duration for Vercel Functions
 — Learn how to set the maximum duration of a Vercel Function.
-Why aren&#x27;t commits triggering deployments on Vercel?
-— Commits not triggering deployments on Vercel? Walk the diagnostic checklist covering authentication, commit author acces
 This page links to (32)
 headers
 — Add custom HTTP headers to your Next.js app.
