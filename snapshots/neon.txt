@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-Just shipped: Function Triggers - invoke a Neon Function when a file is uploaded to Object Storage
+The Neon backend is GA: a complete set of primitives so agents can build
 Neon
 Docs
 Search

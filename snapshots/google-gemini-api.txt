@@ -1303,6 +1303,12 @@ Output price
 Free of charge
 $9.00 (audio) through December 31, 2026.
 $18.00 (audio) starting January 1, 2027.
+Equivalent to $0.00225 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.0045 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Free of charge
 $0.125 (input caching) through December 31, 2026.
@@ -1323,6 +1329,12 @@ Output price
 Not available
 $4.50 (audio) through December 31, 2026.
 $9.00 (audio) starting January 1, 2027.
+Equivalent to $0.001125 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.00225 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Not available
 $0.0625 (input caching) through December 31, 2026.
@@ -1343,6 +1355,12 @@ Output price
 Not available
 $4.50 (audio) through December 31, 2026.
 $9.00 (audio) starting January 1, 2027.
+Equivalent to $0.001125 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.00225 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Not available
 $0.025 (input caching) through December 31, 2026.
@@ -1363,6 +1381,12 @@ Output price
 Free of charge
 $16.20 (audio) through December 31, 2026.
 $32.40 (audio) starting January 1, 2027.
+Equivalent to $0.00405 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.0081 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Free of charge
 $0.225 (input caching) through December 31, 2026.
@@ -1389,6 +1413,12 @@ Output price
 Free of charge
 $6.00 (audio) through December 31, 2026.
 $12.00 (audio) starting January 1, 2027.
+Equivalent to $0.0015 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.003 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Free of charge
 $0.125 (input caching) through December 31, 2026.
@@ -1409,6 +1439,12 @@ Output price
 Not available
 $3.00 (audio) through December 31, 2026.
 $6.00 (audio) starting January 1, 2027.
+Equivalent to $0.00075 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.0015 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Not available
 $0.0625 (input caching) through December 31, 2026.
@@ -1429,6 +1465,12 @@ Output price
 Not available
 $3.00 (audio) through December 31, 2026.
 $6.00 (audio) starting January 1, 2027.
+Equivalent to $0.00075 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.0015 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Not available
 $0.025 (input caching) through December 31, 2026.
@@ -1449,6 +1491,12 @@ Output price
 Free of charge
 $10.80 (audio) through December 31, 2026.
 $21.60 (audio) starting January 1, 2027.
+Equivalent to $0.0027 per 10s audio
+*
+through December 31, 2026.
+Equivalent to $0.0054 per 10s audio
+*
+starting January 1, 2027.
 Context caching price
 Free of charge
 $0.225 (input caching) through December 31, 2026.
@@ -2499,8 +2547,8 @@ Apache 2.0 License
 . For details, see the
 Google Developers Site Policies
 . Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-09-23 UTC.
-[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-09-23 UTC."],[],[]]
+Last updated 2026-09-24 UTC.
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-09-24 UTC."],[],[]]
 Terms
 Privacy
 Manage cookies

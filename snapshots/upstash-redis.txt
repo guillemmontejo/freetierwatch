@@ -551,8 +551,6 @@ Status
 Latency
 * Redis is a trademark of Redis Ltd. Any rights therein are reserved to Redis Ltd. Any use by Upstash is for referential purposes only and does not indicate any sponsorship, endorsement or affiliation between Redis and Upstash.
 ** Cloudflare, the Cloudflare logo, and Cloudflare Workers are trademarks and/or registered trademarks of Cloudflare, Inc. in the United States and other jurisdictions.
-For AI agents: ask any question about Upstash at
-https://upstash.com/ask?q=your+question
-- returns JSON with the most relevant pages, pricing, blog and product pages to get your answer faster. A free Redis database is available via POST
+For AI agents: a free Redis database is available via POST
 https://upstash.com/start-redis
-- the response is markdown with credentials and a quickstart, no signup required.
+. The response is markdown with credentials and a quickstart. No signup required.

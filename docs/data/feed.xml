@@ -5,6 +5,27 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Equivalent to $0.00225 per 10s audio | through December 31, 2026. | Equivalent to $0.0045 per 10s audio | starting January 1, 2027. | Equivalent to $0.001125 per 10s audio | through December 31, 2026. | Equivalent to $0.00225 per 10s audio | starting January 1, 2027. | Equivalent to $0.001125 per 10s audio | through December 31, 2026. — Removed: Last updated 2026-09-23 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-23 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 20 GB included | then $0.50 per GB | 20 GB included | then $0.50 per GB | Log Ingestion Usage x 100 | Log Ingestion Usage x 100</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-25T05:54:54.356Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel? — Removed: From the Vercel docs graph (built 2026-09-24T05:36:56.592Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Mapbox: pricing/limits page changed</title>
       <link>https://www.mapbox.com/pricing</link>
       <guid isPermaLink="false">mapbox-2026-09-24</guid>
@@ -332,27 +353,6 @@
       <guid isPermaLink="false">google-gemini-api-2026-09-16</guid>
       <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Gemini 3.8 Live, Gemini 3.8 Live Extended Thinking, and Gemini 3.1 Flash Live Preview | gemini-3.8-live | gemini-3.8-live-extended-thinking | Last updated 2026-09-15 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-15 UTC.&quot;],[],[]] — Removed: Gemini 3.1 Flash Live Preview | Last updated 2026-09-11 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-11 UTC.&quot;],[],[]]</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Neon&amp;#x27;s object model | Neon AI Gateway provides access to foundation models from OpenAI, Google, Meta, Databricks, and Alibaba through a single Neon credential. It&amp;#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can access all available models. | Prices match each provider&amp;#x27;s published list prices, with no additional markup, and draw down a prepaid credit balance you buy from the — Removed: Neon&amp;#x27;s object hierarchy | Inference is free during the beta. When billing begins, prices will match each provider&amp;#x27;s published list prices, with no additional markup, drawing down a prepaid credit balance you buy from the Billing page in the Neon Console.</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 109.3K — Removed: 109.2K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: The maximum size of the Build&amp;#x27;s cache depends on the | 1.5 | 1.5 | 4.75 | From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: The maximum size of the Build&amp;#x27;s cache is 1 GB. It is retained for one month and it applies at the level of each | From the Vercel docs graph (built 2026-09-15T06:10:09.927Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
     </item>
   </channel>
 </rss>

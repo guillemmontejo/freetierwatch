@@ -18,7 +18,7 @@ Apps on Fly.io
 Language & Framework Guides
 Fly Machines
 Managed Postgres
-Fly Postgres
+Fly Postgres (Unmanaged)
 Databases & Storage
 Fly Volumes
 Fly Kubernetes
