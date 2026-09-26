@@ -31,7 +31,7 @@ Build an Interactive ChatGPT App
 Local development
 Overview
 Environment variables and secrets
-Vite Plugin ↗
+Vite Plugin ↗︎
 Choosing between Wrangler & Vite
 Developing with multiple Workers
 Adding local data
@@ -47,7 +47,7 @@ Start from existing
 Start from scratch
 Start from Worker
 Workers Sites configuration
-Bindings ↗
+Bindings ↗︎
 Cloudflare Access
 Compatibility dates
 Compatibility flags
@@ -139,35 +139,35 @@ Overview
 Wasm in JavaScript
 Bindings (env)
 Overview
-AI ↗
-Analytics Engine ↗
-Assets ↗
-Browser Run ↗
-D1 ↗
-Dispatcher (Workers for Platforms) ↗
-Durable Objects ↗
+AI ↗︎
+Analytics Engine ↗︎
+Assets ↗︎
+Browser Run ↗︎
+D1 ↗︎
+Dispatcher (Workers for Platforms) ↗︎
+Durable Objects ↗︎
 Dynamic Worker Loaders
-Environment Variables ↗
-Hyperdrive ↗
-Images ↗
-KV ↗
-Media Transformations ↗
+Environment Variables ↗︎
+Hyperdrive ↗︎
+Images ↗︎
+KV ↗︎
+Media Transformations ↗︎
 mTLS
-Queues ↗
-R2 ↗
+Queues ↗︎
+R2 ↗︎
 Rate Limiting
-Secrets ↗
-Secrets Store ↗
+Secrets ↗︎
+Secrets Store ↗︎
 Beta
 Service bindings
 Overview
 HTTP
 RPC (WorkerEntrypoint)
-Stream ↗
-Vectorize ↗
+Stream ↗︎
+Vectorize ↗︎
 Version metadata
 Beta
-Workflows ↗
+Workflows ↗︎
 Cache
 Console
 Context (ctx)
@@ -176,10 +176,10 @@ EventSource
 Fetch
 Handlers
 Overview
-Alarm Handler ↗
-Email Handler ↗
+Alarm Handler ↗︎
+Email Handler ↗︎
 Fetch Handler
-Queue Handler ↗
+Queue Handler ↗︎
 Scheduled Handler
 Tail Handler
 Headers
@@ -234,7 +234,7 @@ Single Page Application (SPA)
 Static Site Generation (SSG) and custom 404 pages
 Worker script
 Advanced
-Gradual rollouts ↗
+Gradual rollouts ↗︎
 HTML handling
 Serving a subdirectory
 Headers
@@ -273,18 +273,18 @@ Waku
 Mobile applications
 Expo
 APIs
-FastAPI ↗
-Flask ↗
-Hono ↗
+FastAPI ↗︎
+Flask ↗︎
+Hono ↗︎
 AI & agents
-Agents SDK ↗
-LangChain ↗
+Agents SDK ↗︎
+LangChain ↗︎
 Databases
 Connect to databases
-Analytics Engine ↗
-Vectorize (vector database) ↗
-Cloudflare D1 ↗
-Hyperdrive ↗
+Analytics Engine ↗︎
+Vectorize (vector database) ↗︎
+Cloudflare D1 ↗︎
+Hyperdrive ↗︎
 3rd Party Integrations
 Overview
 Neon
@@ -442,10 +442,10 @@ Languages
 Overview
 JavaScript
 Overview
-Examples ↗
+Examples ↗︎
 TypeScript
 Overview
-Examples ↗
+Examples ↗︎
 Python Workers
 Overview
 The Basics
@@ -477,7 +477,7 @@ Deploy to Cloudflare buttons
 Claim deployments (temporary accounts)
 Built with Cloudflare button
 Known issues
-Workers for Platforms ↗
+Workers for Platforms ↗︎
 Infrastructure as Code (IaC)
 Glossary
 Reference
@@ -487,15 +487,15 @@ Migrate from Service Workers to ES Modules
 Protocols
 Security model
 Agent resources
-Agent setup ↗
-Cloudflare Skills ↗
-Code Mode MCP Server ↗
-Domain-specific MCP Servers ↗
+Agent setup ↗︎
+Cloudflare Skills ↗︎
+Code Mode MCP Server ↗︎
+Domain-specific MCP Servers ↗︎
 MCP
-Workers llms.txt ↗
-Workers llms-full.txt ↗
-Cloudflare Docs llms.txt ↗
-Cloudflare Docs llms-full.txt ↗
+Workers llms.txt ↗︎
+Workers llms-full.txt ↗︎
+Cloudflare Docs llms.txt ↗︎
+Cloudflare Docs llms-full.txt ↗︎
 Home
 /
 Workers
@@ -590,7 +590,7 @@ file size
 Need a higher limit?
 To request an adjustment to a limit, complete the
 Limit Increase Request Form
-↗
+↗︎
 . If the limit can be increased, Cloudflare will contact you with next steps.
 Request and response limits
 Limit
@@ -758,7 +758,7 @@ instead of holding it in Worker memory.
 Update Zod
 — If your Worker uses Zod, use
 version 4.5.0 or later
-↗
+↗︎
 . Earlier versions use substantially more memory per schema.
 Profile memory usage
 — Use
@@ -1029,7 +1029,7 @@ To reduce startup time, avoid expensive work in global scope. Move initializatio
 Need a higher limit?
 To request an adjustment to a limit, complete the
 Limit Increase Request Form
-↗
+↗︎
 . If the limit can be increased, Cloudflare will contact you with next steps.
 Number of Workers
 Limit

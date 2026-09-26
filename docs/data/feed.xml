@@ -5,6 +5,34 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.3M weekly | 21,382 stars — Removed: 992.1K weekly | 21,377 stars</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Vercel Workflows limits the size and throughput of each workflow run, including events and steps per run, payload size, stored data per run, and stream throughput. It also rate limits the requests your team&amp;#x27;s workflows make to the Workflows backend, such as creating events, writing to streams, and reading run data. Requests over the rate limit are retried automatically with backoff, so hitting it slows your workflows down but does not cause them to fail. See | From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: Vercel Workflows limits include concurrency limits of up to 100,000, 50 MB max payload size, and 2 GB max entity storage per run. See | From the Vercel docs graph (built 2026-09-25T05:54:54.356Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
+      <title>Cloudflare R2: pricing/limits page changed</title>
+      <link>https://developers.cloudflare.com/r2/pricing/</link>
+      <guid isPermaLink="false">cloudflare-r2-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: R2 Data Catalog ↗︎ | R2 SQL ↗︎ | R2 llms.txt ↗︎ | R2 llms-full.txt ↗︎ | R2 Data Catalog ↗︎ — Removed: R2 Data Catalog ↗ | R2 SQL ↗ | R2 llms.txt ↗ | R2 llms-full.txt ↗ | R2 Data Catalog ↗</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers: pricing/limits page changed</title>
+      <link>https://developers.cloudflare.com/workers/platform/limits/</link>
+      <guid isPermaLink="false">cloudflare-workers-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: D1 ↗︎ | R2 ↗︎ | Cloudflare D1 ↗︎ — Removed: D1 ↗ | R2 ↗ | Cloudflare D1 ↗</description>
+    </item>
+    <item>
       <title>Google Gemini API: pricing/limits page changed</title>
       <link>https://ai.google.dev/gemini-api/docs/pricing</link>
       <guid isPermaLink="false">google-gemini-api-2026-09-25</guid>
@@ -325,34 +353,6 @@
       <guid isPermaLink="false">supabase-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 109.9K | 64 vCPUs and 256 GB RAM | Dedicated · 2 vCPUs | Dedicated · 4 vCPUs | Dedicated · 8 vCPUs | Dedicated · 16 vCPUs | Dedicated · 32 vCPUs | Dedicated · 48 vCPUs | Dedicated · 64 vCPUs | Dedicated · 2 vCPUs — Removed: 109.3K | 2-core ARM | 64 cores and 256 GB RAM | 2-core ARM | 2-core ARM | 2-core ARM | 2-core ARM | 4-core ARM | 8-core ARM | 16-core ARM</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-17T05:41:14.142Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel? — Removed: From the Vercel docs graph (built 2026-09-16T05:53:57.161Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | — Learn about Vercel&amp;#x27;s pricing model, including the resources and services that are billed, and how they are priced.</description>
-    </item>
-    <item>
-      <title>OpenRouter (free models): pricing/limits page changed</title>
-      <link>https://openrouter.ai/docs/api_reference/limits</link>
-      <guid isPermaLink="false">openrouter-free-models-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: See all 28 lines — Removed: See all 22 lines</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,329 stars — Removed: 21,319 stars</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Gemini 3.8 Live, Gemini 3.8 Live Extended Thinking, and Gemini 3.1 Flash Live Preview | gemini-3.8-live | gemini-3.8-live-extended-thinking | Last updated 2026-09-15 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-15 UTC.&quot;],[],[]] — Removed: Gemini 3.1 Flash Live Preview | Last updated 2026-09-11 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-11 UTC.&quot;],[],[]]</description>
     </item>
   </channel>
 </rss>

@@ -34,6 +34,12 @@ Data storage
 Render Postgres
 Render Key Value (Redis®-compatible)
 Persistent disks
+Sandboxes
+EA
+Overview
+CLI commands
+TypeScript SDK
+Python SDK
 Deploys
 How deploys work
 Supported languages

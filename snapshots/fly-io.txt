@@ -43,7 +43,7 @@ Using Our Brand
 LiteFS
 Pricing
 Support
-Sign In
+Log In
 Sign Up
 Fly docs
 Machines API
@@ -59,7 +59,7 @@ Ask Assistant
 I
 Pricing
 Support
-Sign In
+Log In
 Sign Up
 Sign Up
 Search...

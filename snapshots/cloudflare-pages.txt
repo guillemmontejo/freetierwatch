@@ -128,20 +128,20 @@ Use Direct Upload with continuous integration
 Use Pages Functions for A/B testing
 Platform
 Limits
-Choose a data or storage product ↗
+Choose a data or storage product ↗︎
 Changelog
 Known issues
-Migrate to Workers ↗
+Migrate to Workers ↗︎
 Agent resources
-Agent setup ↗
-Cloudflare Skills ↗
-Code Mode MCP Server ↗
-Domain-specific MCP Servers ↗
+Agent setup ↗︎
+Cloudflare Skills ↗︎
+Code Mode MCP Server ↗︎
+Domain-specific MCP Servers ↗︎
 MCP
-Pages llms.txt ↗
-Pages llms-full.txt ↗
-Cloudflare Docs llms.txt ↗
-Cloudflare Docs llms-full.txt ↗
+Pages llms.txt ↗︎
+Pages llms-full.txt ↗︎
+Cloudflare Docs llms.txt ↗︎
+Cloudflare Docs llms-full.txt ↗︎
 Home
 /
 Pages
@@ -171,12 +171,12 @@ Users
 Projects
 Below are limits observed by the Cloudflare Free plan. For more details on removing these limits, refer to the
 Cloudflare plans
-↗
+↗︎
 page.
 Need a higher limit?
 To request an adjustment to a limit, complete the
 Limit Increase Request Form
-↗
+↗︎
 . If the limit can be increased, Cloudflare will contact you with next steps.
 Builds
 Each time you push new code to your Git repository, Pages will build and deploy your site. Build limits depend on your plan:
@@ -276,7 +276,7 @@ Workers for Platforms
 Previous
 Use Pages Functions for A/B testing
 Next
-Choose a data or storage product ↗
+Choose a data or storage product ↗︎
 Was this helpful?
 Yes
 No

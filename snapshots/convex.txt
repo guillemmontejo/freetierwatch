@@ -39,9 +39,9 @@ Changelog
 Docs
 Pricing
 npm
-992.1K weekly
+1.3M weekly
 GitHub
-21,377 stars
+21,382 stars
 Log in
 Start building
 Choose Your Plan
@@ -430,10 +430,10 @@ AI
 AI Gateway
 AI Gateway
 Same as
-OpenRouter pricing
+OpenRouter
 (Starter plan only)
 Same as
-OpenRouter pricing
+OpenRouter
 Free plan has built-in resources. Starter plan is pay-as-you-go beyond free tier limits. Professional includes higher built-in resources and lower per-unit rates.
 Questions?
 Need help choosing the right plan? Our team is here to help.

@@ -48,6 +48,7 @@ alpha.decisions
 TTS
 STT
 OAuth
+Batch
 Benchmarks
 BYOK
 Chat

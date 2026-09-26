@@ -1126,5 +1126,69 @@
       "Last updated 2026-09-23 UTC.",
       "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-23 UTC.\"],[],[]]"
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "service_id": "cloudflare-workers",
+    "service_name": "Cloudflare Workers",
+    "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+    "added": [
+      "D1 ↗︎",
+      "R2 ↗︎",
+      "Cloudflare D1 ↗︎"
+    ],
+    "removed": [
+      "D1 ↗",
+      "R2 ↗",
+      "Cloudflare D1 ↗"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "service_id": "cloudflare-r2",
+    "service_name": "Cloudflare R2",
+    "source_url": "https://developers.cloudflare.com/r2/pricing/",
+    "added": [
+      "R2 Data Catalog ↗︎",
+      "R2 SQL ↗︎",
+      "R2 llms.txt ↗︎",
+      "R2 llms-full.txt ↗︎",
+      "R2 Data Catalog ↗︎"
+    ],
+    "removed": [
+      "R2 Data Catalog ↗",
+      "R2 SQL ↗",
+      "R2 llms.txt ↗",
+      "R2 llms-full.txt ↗",
+      "R2 Data Catalog ↗"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "Vercel Workflows limits the size and throughput of each workflow run, including events and steps per run, payload size, stored data per run, and stream throughput. It also rate limits the requests your team&#x27;s workflows make to the Workflows backend, such as creating events, writing to streams, and reading run data. Requests over the rate limit are retried automatically with backoff, so hitting it slows your workflows down but does not cause them to fail. See",
+      "From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "Vercel Workflows limits include concurrency limits of up to 100,000, 50 MB max payload size, and 2 GB max entity storage per run. See",
+      "From the Vercel docs graph (built 2026-09-25T05:54:54.356Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.3M weekly",
+      "21,382 stars"
+    ],
+    "removed": [
+      "992.1K weekly",
+      "21,377 stars"
+    ]
   }
 ]

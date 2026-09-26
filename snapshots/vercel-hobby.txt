@@ -418,9 +418,11 @@ See the Cron Jobs
 limits
 section for more information about the limits of Cron Jobs on Vercel.
 Vercel Workflows limits
-Vercel Workflows limits include concurrency limits of up to 100,000, 50 MB max payload size, and 2 GB max entity storage per run. See
-Workflow pricing and limits
-for the full list of run, stream, and platform constraints.
+Vercel Workflows limits the size and throughput of each workflow run, including events and steps per run, payload size, stored data per run, and stream throughput. It also rate limits the requests your team&#x27;s workflows make to the Workflows backend, such as creating events, writing to streams, and reading run data. Requests over the rate limit are retried automatically with backoff, so hitting it slows your workflows down but does not cause them to fail. See
+Workflow limits
+and
+Workflow rate limits
+for the values on each plan.
 Vercel Functions
 The limits of Vercel functions are based on the
 runtime
@@ -2236,13 +2238,13 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-25T05:54:54.356Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
-Vercel Functions Limits
-— Learn about the limits and restrictions of using Vercel Functions.
 Workflow Pricing and Limits
 — Understand how Vercel Workflows billing works and the limits that apply to runs, streams, and platform resources.
+Vercel Functions Limits
+— Learn about the limits and restrictions of using Vercel Functions.
 Fair Use Guidelines
 — Learn how Vercel applies fair use guidelines across plans and usage-based resources.
 Configuring Maximum Duration for Vercel Functions
