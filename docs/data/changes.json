@@ -1190,5 +1190,27 @@
       "992.1K weekly",
       "21,377 stars"
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "service_id": "resend",
+    "service_name": "Resend",
+    "source_url": "https://resend.com/pricing",
+    "added": [
+      "With pay-as-you-go pricing, you can continue sending beyond your monthly quota and only pay for what you use. Overages are billed in buckets of 1,000 emails at your plan&#x27;s overage rate. You can enable this in your team settings under Transactional Overages. If you don&#x27;t enable pay-as-you-go and exceed your plan limits, you will be notified and given the option to upgrade to a higher plan."
+    ],
+    "removed": []
   }
 ]

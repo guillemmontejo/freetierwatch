@@ -2238,7 +2238,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Workflow Pricing and Limits
@@ -2299,7 +2299,7 @@ Fair Use Guidelines
 Runtime Logs
 — Learn how to search, inspect, and share your runtime logs with the Logs tab.
 Vercel Pro Plan
-— Learn about the Vercel Pro plan with credit-based billing, free viewer seats, and self-serve enterprise features for pro
+— Learn about the Vercel Pro plan with credit-based billing, one free first-year domain, free viewer seats, and self-serve
 Understanding Vercel
 — Learn all about Vercel&#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man
 Static Configuration with vercel.json

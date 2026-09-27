@@ -5,6 +5,20 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Resend: pricing/limits page changed</title>
+      <link>https://resend.com/pricing</link>
+      <guid isPermaLink="false">resend-2026-09-27</guid>
+      <pubDate>Sun, 27 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: With pay-as-you-go pricing, you can continue sending beyond your monthly quota and only pay for what you use. Overages are billed in buckets of 1,000 emails at your plan&amp;#x27;s overage rate. You can enable this in your team settings under Transactional Overages. If you don&amp;#x27;t enable pay-as-you-go and exceed your plan limits, you will be notified and given the option to upgrade to a higher plan.</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-27</guid>
+      <pubDate>Sun, 27 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-09-26</guid>
@@ -339,20 +353,6 @@
       <guid isPermaLink="false">google-gemini-api-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Last updated 2026-09-16 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-16 UTC.&quot;],[],[]] — Removed: Last updated 2026-09-15 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-15 UTC.&quot;],[],[]]</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Neon AI Gateway provides access to open-weight and foundation models from multiple providers through a single Neon credential. It&amp;#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can use the open-weight models. Foundation models are rolled out gradually; see — Removed: Neon AI Gateway provides access to foundation models from OpenAI, Google, Meta, Databricks, and Alibaba through a single Neon credential. It&amp;#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can access all available models. | does not appear in the Console usage summary but will appear on your invoice if you exceed your plan&amp;#x27;s branch allowance.</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 109.9K | 64 vCPUs and 256 GB RAM | Dedicated · 2 vCPUs | Dedicated · 4 vCPUs | Dedicated · 8 vCPUs | Dedicated · 16 vCPUs | Dedicated · 32 vCPUs | Dedicated · 48 vCPUs | Dedicated · 64 vCPUs | Dedicated · 2 vCPUs — Removed: 109.3K | 2-core ARM | 64 cores and 256 GB RAM | 2-core ARM | 2-core ARM | 2-core ARM | 2-core ARM | 4-core ARM | 8-core ARM | 16-core ARM</description>
     </item>
   </channel>
 </rss>

@@ -141,15 +141,25 @@ Flexible
 Trusted by
 Frequently asked questions
 Do you offer any discounts for annual subscriptions?
+No, we only provide monthly plans.
 Do you offer non-profit or education pricing?
+No, all plans are currently priced the same for every customer.
 What payment methods do you accept?
+We accept all major credit cards.
 Is there a free trial available?
+No, but we provide a free-forever plan.
 Who can I contact about a custom plan?
+Please contact us at resend.com/enterprise.
 What happens if I send more emails than my plan allows?
+With pay-as-you-go pricing, you can continue sending beyond your monthly quota and only pay for what you use. Overages are billed in buckets of 1,000 emails at your plan&#x27;s overage rate. You can enable this in your team settings under Transactional Overages. If you don&#x27;t enable pay-as-you-go and exceed your plan limits, you will be notified and given the option to upgrade to a higher plan.
 What is the difference between transactional and marketing emails?
+In Resend, transactional emails are emails sent using the /emails API, while marketing emails are sent using the /broadcasts API or through the Broadcasts interface in the dashboard. Transactional emails are typically triggered by user actions and include things like password resets or order confirmations. Marketing emails are typically sent to a list of contacts and include things like newsletters or promotional campaigns. Broadcast emails can only be sent to existing contacts, while transactional emails can be sent to any email address.
 What does unlimited broadcast sending mean?
+For marketing plans, the focus is on maintaining a relationship with your contacts. Therefore marketing plans are not limited by the number of emails you can send, but only by the number of contacts you have. Broadcasts can only be sent to existing contacts.
 Do broadcast emails count against the transactional email limits?
+No. Broadcast emails sent through the /broadcasts API or through the Broadcasts interface in the dashboard do not count against your transactional email limits. Only emails sent through the /emails API count towards your transactional email limits.
 How are inbound emails counted?
+Each received email counts towards your transactional emails quota.
 Our team loves Resend. It makes email sending so easy and reliable. After we switched to Dedicated IPs, our deliverability improved tremendously and we don&#x27;t hear complaints about emails landing on spam anymore.
 Vlad Matsiiako
 Co-founder of Infisical
