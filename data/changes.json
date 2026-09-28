@@ -1212,5 +1212,43 @@
       "With pay-as-you-go pricing, you can continue sending beyond your monthly quota and only pay for what you use. Overages are billed in buckets of 1,000 emails at your plan&#x27;s overage rate. You can enable this in your team settings under Transactional Overages. If you don&#x27;t enable pay-as-you-go and exceed your plan limits, you will be notified and given the option to upgrade to a higher plan."
     ],
     "removed": []
+  },
+  {
+    "date": "2026-09-28",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-28T05:31:37.384Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "110.8K"
+    ],
+    "removed": [
+      "110.7K"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.6M weekly",
+      "21,388 stars"
+    ],
+    "removed": [
+      "1.3M weekly",
+      "21,382 stars"
+    ]
   }
 ]

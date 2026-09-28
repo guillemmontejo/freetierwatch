@@ -5,6 +5,27 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.6M weekly | 21,388 stars — Removed: 1.3M weekly | 21,382 stars</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 110.8K — Removed: 110.7K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-09-28T05:31:37.384Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Resend: pricing/limits page changed</title>
       <link>https://resend.com/pricing</link>
       <guid isPermaLink="false">resend-2026-09-27</guid>
@@ -332,27 +353,6 @@
       <guid isPermaLink="false">mapbox-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 2.5k — Removed: 500 | Up to 500 | 501 - 100,000 | $2.75 | $0.70</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Removed: 21,329 stars</description>
-    </item>
-    <item>
-      <title>Anthropic API: pricing/limits page changed</title>
-      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
-      <guid isPermaLink="false">anthropic-api-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier. — Removed: 1 Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier.</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Last updated 2026-09-16 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-16 UTC.&quot;],[],[]] — Removed: Last updated 2026-09-15 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-15 UTC.&quot;],[],[]]</description>
     </item>
   </channel>
 </rss>
