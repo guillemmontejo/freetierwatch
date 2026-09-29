@@ -69,6 +69,7 @@ Models
 Observability
 Organization
 Presets
+Private Endpoints
 Providers
 Rerank
 Responses

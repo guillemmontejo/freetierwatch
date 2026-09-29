@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-The Neon backend is GA: a complete set of primitives so agents can build
+In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how
 Neon
 Docs
 Search

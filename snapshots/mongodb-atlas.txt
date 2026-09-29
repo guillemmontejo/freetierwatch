@@ -3,21 +3,23 @@ For AI agents: a documentation index is available at https://www.mongodb.com/doc
 Products
 Platform
 Atlas
-Build and scale with an AI-ready platform
+Build with the intelligent data platform
 Platform Services
 Database
-Deploy a multi-cloud database
+Power critical apps with real-time data
 Search
-Deliver engaging search experiences
+Deliver fast, relevant search at scale
 Vector Search
-Design intelligent apps with gen AI
-Stream Processing
-Integrate MongoDB and Kafka
+Build AI apps with accurate context
+Voyage AI
+Embed meaning and rerank results
+Atlas Agent Engine
+Build, deploy, and govern agents in production
 Self Managed
 Enterprise Advanced
-Run and manage MongoDB yourself
+Manage your apps on your infrastructure
 Community Edition
-Develop locally with MongoDB
+Develop locally with MongoDB, at no cost
 Tools
 Compass
 Work with MongoDB data in a GUI
@@ -26,40 +28,38 @@ Integrations with third-party services
 Relational Migrator
 Migrate to MongoDB with confidence
 View All Products
-Explore our full developer suite
+Explore our full product suite
 arrow-right
-MongoDB 8.0
-Our fastest version ever
+MongoDB 9.0
+The best version of MongoDB ever built
 arrow-right
 Build with MongoDB Atlas
 Get started for free in minutes
 Sign Up
-Test Enterprise Advanced
-Develop with MongoDB on-premises
-Download
+Explore Atlas Deployment Options
+Find the right deployment for your use case
+Learn more
 Try Community Edition
 Explore the latest version of MongoDB
 Download
 Resources
 Documentation
-Atlas Documentation
-Get started using Atlas
-Server Documentation
-Learn to use MongoDB
-Tools and Connectors
-Learn how to connect to MongoDB
-MongoDB Drivers
-Use drivers and libraries for MongoDB
+Learn how to build with MongoDB and get started today
+Skills and Certifications
+Develop in-demand skills and earn MongoDB certifications
+Books
+Read books and e-books about MongoDB
+MongoDB for Educators
+Take advantage of educator resources
+MongoDB for Students
+Take advantage of student benefits
+Community
+Join a community of developers
+Events and Webinars
+Find an event or webinar near you
 Resources Hub
 Get help building the next big thing with MongoDB
 arrow-right
-Connect
-Community
-Join a global community of developers
-Courses and Certification
-Learn for free from MongoDB
-Events and Webinars
-Find an event or webinar near you
 Solutions
 Use cases
 Artificial Intelligence
@@ -79,8 +79,8 @@ Manufacturing
 Solutions Library
 Organized and tailored solutions to kick-start projects
 arrow-right
-AI Applications Program
-Expedite your AI journey with expert guidance
+MongoDB AMP
+Modernize applications up to 3x faster
 Learn more
 arrow-right
 Startups and AI Innovators
@@ -89,7 +89,7 @@ Learn more
 arrow-right
 Customer Case Studies
 Hear directly from our users
-See Stories
+See stories
 arrow-right
 Company
 Careers
@@ -121,21 +121,23 @@ Get Started
 Products
 Platform
 Atlas
-Build and scale with an AI-ready platform
+Build with the intelligent data platform
 Platform Services
 Database
-Deploy a multi-cloud database
+Power critical apps with real-time data
 Search
-Deliver engaging search experiences
+Deliver fast, relevant search at scale
 Vector Search
-Design intelligent apps with gen AI
-Stream Processing
-Integrate MongoDB and Kafka
+Build AI apps with accurate context
+Voyage AI
+Embed meaning and rerank results
+Atlas Agent Engine
+Build, deploy, and govern agents in production
 Self Managed
 Enterprise Advanced
-Run and manage MongoDB yourself
+Manage your apps on your infrastructure
 Community Edition
-Develop locally with MongoDB
+Develop locally with MongoDB, at no cost
 Tools
 Compass
 Work with MongoDB data in a GUI
@@ -144,40 +146,38 @@ Integrations with third-party services
 Relational Migrator
 Migrate to MongoDB with confidence
 View All Products
-Explore our full developer suite
+Explore our full product suite
 arrow-right
-MongoDB 8.0
-Our fastest version ever
+MongoDB 9.0
+The best version of MongoDB ever built
 arrow-right
 Build with MongoDB Atlas
 Get started for free in minutes
 Sign Up
-Test Enterprise Advanced
-Develop with MongoDB on-premises
-Download
+Explore Atlas Deployment Options
+Find the right deployment for your use case
+Learn more
 Try Community Edition
 Explore the latest version of MongoDB
 Download
 Resources
 Documentation
-Atlas Documentation
-Get started using Atlas
-Server Documentation
-Learn to use MongoDB
-Tools and Connectors
-Learn how to connect to MongoDB
-MongoDB Drivers
-Use drivers and libraries for MongoDB
+Learn how to build with MongoDB and get started today
+Skills and Certifications
+Develop in-demand skills and earn MongoDB certifications
+Books
+Read books and e-books about MongoDB
+MongoDB for Educators
+Take advantage of educator resources
+MongoDB for Students
+Take advantage of student benefits
+Community
+Join a community of developers
+Events and Webinars
+Find an event or webinar near you
 Resources Hub
 Get help building the next big thing with MongoDB
 arrow-right
-Connect
-Community
-Join a global community of developers
-Courses and Certification
-Learn for free from MongoDB
-Events and Webinars
-Find an event or webinar near you
 Solutions
 Use cases
 Artificial Intelligence
@@ -197,8 +197,8 @@ Manufacturing
 Solutions Library
 Organized and tailored solutions to kick-start projects
 arrow-right
-AI Applications Program
-Expedite your AI journey with expert guidance
+MongoDB AMP
+Modernize applications up to 3x faster
 Learn more
 arrow-right
 Startups and AI Innovators
@@ -207,7 +207,7 @@ Learn more
 arrow-right
 Customer Case Studies
 Hear directly from our users
-See Stories
+See stories
 arrow-right
 Company
 Careers
@@ -640,6 +640,7 @@ Operational Limits
 Driver Minimum Requirements
 Documentation
 Database
+Atlas Agent Engine
 VoyageAI Models
 Get Started
 Deployment
@@ -647,6 +648,8 @@ Development
 Management
 MongoDB Atlas
 Overview
+Atlas Infinite Edition
+Atlas Core Edition
 Atlas Users
 Organizations
 Projects
@@ -710,6 +713,7 @@ Tools
 Atlas Architecture Center
 Documentation
 Database
+Atlas Agent Engine
 VoyageAI Models
 Get Started
 Deployment
@@ -720,6 +724,8 @@ Tools
 Atlas Architecture Center
 MongoDB Atlas
 Overview
+Atlas Infinite Edition
+Atlas Core Edition
 Atlas Users
 Organizations
 Projects
@@ -794,12 +800,15 @@ Privacy Policy
 GitHub
 Security Information
 Trust Center
-Connect with Us
+Follow Us
 Support
 Contact Us
 Customer Portal
 Atlas Status
+Product Updates
 Customer Support
+Manage Cookies
+Your Privacy Choices
 Deployment Options
 MongoDB Atlas
 Enterprise Advanced
@@ -811,5 +820,6 @@ Document Databases
 RAG Database
 ACID Transactions
 MERN Stack
+Agent Memory
 MEAN Stack
 © 2026 MongoDB, Inc.

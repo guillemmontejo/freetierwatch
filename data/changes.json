@@ -1250,5 +1250,110 @@
       "1.3M weekly",
       "21,382 stars"
     ]
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-09-29T06:00:03.823Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-28T05:31:37.384Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "110.9K"
+    ],
+    "removed": [
+      "110.8K"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "Claude Sonnet 5.5",
+      "Claude Sonnet 5.5",
+      "Claude Sonnet 5.5",
+      "Claude Sonnet 5.5"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "mongodb-atlas",
+    "service_name": "MongoDB Atlas",
+    "source_url": "https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/",
+    "added": [
+      "MongoDB 9.0",
+      "Modernize applications up to 3x faster",
+      "MongoDB 9.0",
+      "Modernize applications up to 3x faster"
+    ],
+    "removed": [
+      "MongoDB 8.0",
+      "MongoDB 8.0"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,392 stars"
+    ],
+    "removed": [
+      "21,388 stars"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "service_id": "grafana-cloud",
+    "service_name": "Grafana Cloud",
+    "source_url": "https://grafana.com/pricing/",
+    "added": [
+      "Use the interactive calculator to see what you&#x27;ll pay at your scale. Pricing is volume-based and tiered, so your effective rate drops automatically as you grow.",
+      "$0.05/GB",
+      "$0.40/GB",
+      "$0.10/GB",
+      "$0.05/GB",
+      "$0.40/GB",
+      "$0.10/GB",
+      "Limited to 2,232 host hours & 37,944 container hours per month",
+      "$0.01",
+      "/ host hour ($7.20/host)"
+    ],
+    "removed": [
+      "= 5\">",
+      "svg]:px-3 gmui:flex-1 gmui:md:flex-none\" disabled>",
+      "svg]:px-3 gmui:flex-1 gmui:md:flex-none\" disabled>",
+      "ul]:my-2 tw:[&>ul]:pl-0 tw:[&>ul]:pricing-options-list tw:[&>h3]:text-2xs tw:[&>h3]:font-semibold tw:[&>h3]:mb-0\">",
+      "ul]:my-2 tw:[&>ul]:pl-0 tw:[&>ul]:pricing-options-list tw:[&>h3]:text-2xs tw:[&>h3]:font-semibold tw:[&>h3]:mb-0\">",
+      "ul]:my-2 tw:[&>ul]:pl-0 tw:[&>ul]:pricing-options-list tw:[&>h3]:text-2xs tw:[&>h3]:font-semibold tw:[&>h3]:mb-0\">",
+      "ul]:my-2 tw:[&>ul]:pl-0 tw:[&>ul]:pricing-options-list tw:[&>p]:text-sm tw:[&>p]:mb-1 tw:last:basis-2/5 tw:last:grow tw:last:shrink-0 tw:last:mt-2 tw:last:container:mt-6\" data-translate-label=product-details-pricing-plan-content>",
+      "Rate / 1k series",
+      "10k – 100k",
+      "$5.90"
+    ]
   }
 ]

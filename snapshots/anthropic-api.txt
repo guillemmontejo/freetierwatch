@@ -8,7 +8,7 @@ Resources
 Best practices
 Models & pricing
 
-CLI, SDKs, and libraries
+SDKs, CLI, and libraries
 Claude API skill
 Release notes
 
@@ -28,7 +28,7 @@ Models
 Models overview
 Claude Fable 5.1
 Claude Opus 5.5
-Claude Sonnet 5
+Claude Sonnet 5.5
 Claude Haiku 4.5
 Specialized models
 
@@ -98,7 +98,7 @@ $8
 / MTok
 $0.20
 / MTok
-Claude Sonnet 5
+Claude Sonnet 5.5
 The best combination of speed and intelligence
 $2
 / MTok
@@ -237,6 +237,17 @@ $18.75
 $30
 / MTok
 $1.50
+/ MTok
+Claude Sonnet 5
+$2
+/ MTok
+$10
+/ MTok
+$2.50
+/ MTok
+$4
+/ MTok
+$0.20
 / MTok
 Claude Sonnet 4.6
 $3
@@ -494,7 +505,7 @@ $2
 / MTok
 $10
 / MTok
-Claude Sonnet 5
+Claude Sonnet 5.5
 The best combination of speed and intelligence
 $1
 / MTok
@@ -561,6 +572,11 @@ Claude Opus 4
 $7.50
 / MTok
 $37.50
+/ MTok
+Claude Sonnet 5
+$1
+/ MTok
+$5
 / MTok
 Claude Sonnet 4.6
 $1.50
@@ -630,17 +646,12 @@ auto
 none
 286
 tokens
-Claude Sonnet 5
+Claude Sonnet 5.5
 The best combination of speed and intelligence
 auto
 ,
 none
-354
-tokens
-any
-,
-tool
-474
+286
 tokens
 Claude Haiku 4.5
 The fastest model with near-frontier intelligence
@@ -734,6 +745,17 @@ any
 ,
 tool
 315
+tokens
+Claude Sonnet 5
+auto
+,
+none
+354
+tokens
+any
+,
+tool
+474
 tokens
 Claude Sonnet 4.6
 auto
