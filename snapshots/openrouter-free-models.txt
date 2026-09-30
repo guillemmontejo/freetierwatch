@@ -75,6 +75,7 @@ Rerank
 Responses
 SCIM
 SystemOne
+Tools
 Vault
 Video Generation
 Workspaces

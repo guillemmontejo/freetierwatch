@@ -41,7 +41,7 @@ Pricing
 npm
 1.6M weekly
 GitHub
-21,392 stars
+21,398 stars
 Log in
 Start building
 Choose Your Plan
@@ -434,7 +434,7 @@ OpenRouter
 (Starter plan only)
 Same as
 OpenRouter
-Free plan has built-in resources. Starter plan is pay-as-you-go beyond free tier limits. Professional includes higher built-in resources and lower per-unit rates.
+Free plan has built-in resources. Starter plan is pay-as-you-go beyond free tier limits. Professional includes higher built-in resources and lower per-unit rates. Included amounts are shared across regions.
 Questions?
 Need help choosing the right plan? Our team is here to help.
 View FAQ

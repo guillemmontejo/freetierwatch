@@ -5,6 +5,34 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,398 stars — Removed: 21,392 stars</description>
+    </item>
+    <item>
+      <title>OpenAI API: pricing/limits page changed</title>
+      <link>https://platform.openai.com/docs/guides/rate-limits</link>
+      <guid isPermaLink="false">openai-api-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: $5 in total credit purchases | $100 in total credit purchases | $500 in total credit purchases | 5,000 | 1,000,000 | 5,000 | 2,000,000 | 10,000 | 4,000,000 | 10,000 — Removed: Tier 1 | $5 paid | Tier 2 | $50 paid | Tier 3 | $100 paid | $1,000 / month | Tier 4 | $250 paid | Tier 5</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Skydive&amp;#x27;s agents deploy their own Neon backends in 0.7 seconds. Read the story — Removed: In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: api-checks-get-all-checks-v2 | api-checks-get-check-v2 | api-checks-get-all-check-runs-v2 | api-checks-get-run-for-check-v2 | api-checks-get-check-run-v2 | From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (33) — Removed: From the Vercel docs graph (built 2026-09-29T06:00:03.823Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (32)</description>
+    </item>
+    <item>
       <title>Grafana Cloud: pricing/limits page changed</title>
       <link>https://grafana.com/pricing/</link>
       <guid isPermaLink="false">grafana-cloud-2026-09-29</guid>
@@ -325,34 +353,6 @@
       <guid isPermaLink="false">groq-2026-09-20</guid>
       <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
       <description>Removed: 250 | 70K | 250 | 70K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-20T05:21:37.343Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-19T05:28:42.778Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-19</guid>
-      <pubDate>Sat, 19 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,343 stars — Removed: 21,342 stars</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-19</guid>
-      <pubDate>Sat, 19 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 110K — Removed: 109.9K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-19</guid>
-      <pubDate>Sat, 19 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-19T05:28:42.778Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-18T06:04:11.849Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
     </item>
   </channel>
 </rss>

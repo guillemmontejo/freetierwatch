@@ -1355,5 +1355,78 @@
       "10k – 100k",
       "$5.90"
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "api-checks-get-all-checks-v2",
+      "api-checks-get-check-v2",
+      "api-checks-get-all-check-runs-v2",
+      "api-checks-get-run-for-check-v2",
+      "api-checks-get-check-run-v2",
+      "From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:",
+      "This page links to (33)"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-29T06:00:03.823Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:",
+      "This page links to (32)"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "Skydive&#x27;s agents deploy their own Neon backends in 0.7 seconds. Read the story"
+    ],
+    "removed": [
+      "In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "service_id": "openai-api",
+    "service_name": "OpenAI API",
+    "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+    "added": [
+      "$5 in total credit purchases",
+      "$100 in total credit purchases",
+      "$500 in total credit purchases",
+      "5,000",
+      "1,000,000",
+      "5,000",
+      "2,000,000",
+      "10,000",
+      "4,000,000",
+      "10,000"
+    ],
+    "removed": [
+      "Tier 1",
+      "$5 paid",
+      "Tier 2",
+      "$50 paid",
+      "Tier 3",
+      "$100 paid",
+      "$1,000 / month",
+      "Tier 4",
+      "$250 paid",
+      "Tier 5"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,398 stars"
+    ],
+    "removed": [
+      "21,392 stars"
+    ]
   }
 ]

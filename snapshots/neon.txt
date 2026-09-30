@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how
+Skydive&#x27;s agents deploy their own Neon backends in 0.7 seconds. Read the story
 Neon
 Docs
 Search

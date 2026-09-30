@@ -16,6 +16,7 @@ Dashboard
 Workers
 /
 Overview
+Build Output
 Getting started
 CLI
 Dashboard
@@ -41,6 +42,7 @@ Share a local dev server
 Playground
 Configuration
 Overview
+Programmatic configuration
 Workers Sites
 Overview
 Start from existing
@@ -315,6 +317,11 @@ Breakpoints
 Profiling CPU usage
 Profiling Memory
 Query Builder
+Issues
+Beta
+Overview
+Investigate issues
+Set up an automation
 Exporting OpenTelemetry Data
 Overview
 Export to Honeycomb
