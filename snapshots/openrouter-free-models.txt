@@ -57,6 +57,7 @@ Containers
 Credits
 Datasets
 Embeddings
+End Users
 Endpoints
 Files
 Generations

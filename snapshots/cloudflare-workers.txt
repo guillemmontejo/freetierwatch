@@ -16,7 +16,6 @@ Dashboard
 Workers
 /
 Overview
-Build Output
 Getting started
 CLI
 Dashboard
@@ -42,7 +41,7 @@ Share a local dev server
 Playground
 Configuration
 Overview
-Programmatic configuration
+Programmatic configuration ↗︎
 Workers Sites
 Overview
 Start from existing
@@ -100,6 +99,7 @@ Configuration
 Automatic pull requests
 Git integration
 Overview
+Artifacts integration
 GitHub integration
 GitLab integration
 Cursor Origin integration
@@ -142,6 +142,7 @@ Wasm in JavaScript
 Bindings (env)
 Overview
 AI ↗︎
+AI Search ↗︎
 Analytics Engine ↗︎
 Assets ↗︎
 Browser Run ↗︎
@@ -407,6 +408,7 @@ Overview
 Workers
 General commands
 Artifacts
+Basin Pipelines
 Browser
 Certificates
 Containers
@@ -415,7 +417,6 @@ Flagship
 Hyperdrive
 KV
 Pages
-Pipelines
 Queues
 R2
 Secrets Store

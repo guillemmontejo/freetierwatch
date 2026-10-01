@@ -1428,5 +1428,136 @@
     "removed": [
       "21,392 stars"
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "cloudflare-r2",
+    "service_name": "Cloudflare R2",
+    "source_url": "https://developers.cloudflare.com/r2/pricing/",
+    "added": [
+      "Oct 1, 2026",
+      "Basin Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to"
+    ],
+    "removed": [
+      "R2 Data Catalog ↗︎",
+      "R2 SQL ↗︎",
+      "Aug 7, 2026",
+      "R2 Data Catalog pricing",
+      "R2 Data Catalog pricing",
+      "R2 Data Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to",
+      "R2 Data Catalog pricing",
+      "R2 Data Catalog ↗︎",
+      "R2 Data Catalog pricing"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-01T09:59:12.744Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:",
+      "Why aren&#x27;t commits triggering deployments on Vercel?"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Last updated 2026-10-01 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-01 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "Gemini 2.5 Computer Use Preview",
+      "gemini-2.5-computer-use-preview-10-2025",
+      "$2.50, prompts > 200k token",
+      "Gemini 2.5 Computer Use Preview",
+      "Last updated 2026-09-24 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-24 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "openai-api",
+    "service_name": "OpenAI API",
+    "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+    "added": [
+      "Tier 1",
+      "$5 paid",
+      "Tier 2",
+      "$50 paid",
+      "Tier 3",
+      "$100 paid",
+      "$1,000 / month",
+      "Tier 4",
+      "$250 paid",
+      "Tier 5"
+    ],
+    "removed": [
+      "$5 in total credit purchases",
+      "$100 in total credit purchases",
+      "$500 in total credit purchases",
+      "5,000",
+      "1,000,000",
+      "5,000",
+      "2,000,000",
+      "10,000",
+      "4,000,000",
+      "10,000"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.7M weekly",
+      "21,405 stars"
+    ],
+    "removed": [
+      "1.6M weekly",
+      "21,398 stars"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "clerk",
+    "service_name": "Clerk",
+    "source_url": "https://clerk.com/pricing",
+    "added": [
+      "101+",
+      "101+",
+      "Provision and deprovision users from your customers&#x27; identity providers. Counted separately from SSO connections.",
+      "1 directory",
+      "101+",
+      "1 directory",
+      "101+"
+    ],
+    "removed": [
+      "101 - 500",
+      "$30/mo each",
+      "501+",
+      "$15/mo each",
+      "101 - 500",
+      "$30/mo each",
+      "501+",
+      "$15/mo each"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "service_id": "algolia",
+    "service_name": "Algolia",
+    "source_url": "https://www.algolia.com/pricing",
+    "added": [
+      "Answer 3 quick questions to see which plan fits best"
+    ],
+    "removed": []
   }
 ]

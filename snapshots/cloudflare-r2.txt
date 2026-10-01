@@ -102,10 +102,8 @@ Durability
 Unicode interoperability
 Wrangler commands
 Pricing
-R2 Data Catalog ↗︎
-Beta
-R2 SQL ↗︎
-Beta
+Basin Catalog ↗︎
+Basin SQL ↗︎
 Agent resources
 Agent setup ↗︎
 Cloudflare Skills ↗︎
@@ -123,7 +121,7 @@ R2
 Pricing
 Pricing
 Last updated
-Aug 7, 2026
+Oct 1, 2026
 |
 Copy as Markdown
 |
@@ -139,7 +137,7 @@ Class B operations
 Free operations
 Data retrieval
 Minimum storage duration
-R2 Data Catalog pricing
+Basin Catalog pricing
 Data migration pricing
 Super Slurper
 Sippy
@@ -283,9 +281,9 @@ Standard storage
 None
 Infrequent Access storage
 30 days
-R2 Data Catalog pricing
-R2 Data Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to
-R2 Data Catalog pricing
+Basin Catalog pricing
+Basin Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to
+Basin Catalog pricing
 .
 Data migration pricing
 Super Slurper
@@ -408,7 +406,7 @@ does not incur data transfer (egress) charges and is free. If you connect other 
 Previous
 Wrangler commands
 Next
-R2 Data Catalog ↗︎
+Basin Catalog ↗︎
 Was this helpful?
 Yes
 No
@@ -424,7 +422,7 @@ Class B operations
 Free operations
 Data retrieval
 Minimum storage duration
-R2 Data Catalog pricing
+Basin Catalog pricing
 Data migration pricing
 Super Slurper
 Sippy

@@ -347,6 +347,84 @@ INCLUDES:
 5K recommendation requests/month
 5K crawls/month
 See full features grid
+Scalable pricing for smarter search
+Powering the world s best AI experiences start for free, grow seamlessly and upgrade anytime
+Help me choose a plan
+Answer 3 quick questions to see which plan fits best
+Search Requests
+Monthly search requests
+Enter amount
+Records
+Total records across all indices
+Enter amount
+See all plans and pricing
+Estimated starting prices update as you adjust usage. Figures are directional only
+based on the values you enter and are not a guaranteed or binding quote.
+Best value
+Elevate
+Enterprise-scale AI Search
+Starting at
+Custom
+Volume-based
+Everything in Grow+, Plus:
+NeuralSearch
+AI Collections
+Smart Groups
+Real-time personalization
+99.99% availability
+Access to SSO and enhanced SLA
+Access to enterprise-level Support plans
+Professional services available
+Start Evaluation
+Grow Plus
+Keyword search with AI capabilities
+Starting at
+$
+0
+/ month
+Everything in Grow, plus:
+Rules: 10,000/index
+AI Synonyms
+AI Ranking
+Advanced Personalization
+Query Categorization
+Collections
+90 days analytics retention
+Start for free
+Your team will likely benefit from volume discounts at this level.
+Evaluate options with sales
+Best value
+Grow
+Keyword search
+Starting at
+$
+0
+/ month
+Keyword Search + Browse
+Query suggestions
+Rules: 10/index
+Manual synonyms
+Data transformation
+30 days analytics retention
+Third party integrations + connectors
+US, UK, EU hosting locations
+Start for free
+Your team will likely benefit from volume discounts at this level.
+Evaluate options with sales
+Best value
+Free
+Search and recommendations
+Get started building your best search experiences ever with access to some of our features to start for free.
+No credit card required.
+Includes:
+10K search requests/month
+50K records included
+5K recommendation requests/month
+5K crawls/month
+Build for free
+Your selected usage exceeds the limits of our free plan. Get started with a monthly plan instead.
+Your team will likely benefit from volume discounts at this level.
+Evaluate options with sales
 Detailed feature comparison
 Free
 Grow

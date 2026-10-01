@@ -5,6 +5,55 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Algolia: pricing/limits page changed</title>
+      <link>https://www.algolia.com/pricing</link>
+      <guid isPermaLink="false">algolia-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Answer 3 quick questions to see which plan fits best</description>
+    </item>
+    <item>
+      <title>Clerk: pricing/limits page changed</title>
+      <link>https://clerk.com/pricing</link>
+      <guid isPermaLink="false">clerk-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 101+ | 101+ | Provision and deprovision users from your customers&amp;#x27; identity providers. Counted separately from SSO connections. | 1 directory | 101+ | 1 directory | 101+ — Removed: 101 - 500 | $30/mo each | 501+ | $15/mo each | 101 - 500 | $30/mo each | 501+ | $15/mo each</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.7M weekly | 21,405 stars — Removed: 1.6M weekly | 21,398 stars</description>
+    </item>
+    <item>
+      <title>OpenAI API: pricing/limits page changed</title>
+      <link>https://platform.openai.com/docs/guides/rate-limits</link>
+      <guid isPermaLink="false">openai-api-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Tier 1 | $5 paid | Tier 2 | $50 paid | Tier 3 | $100 paid | $1,000 / month | Tier 4 | $250 paid | Tier 5 — Removed: $5 in total credit purchases | $100 in total credit purchases | $500 in total credit purchases | 5,000 | 1,000,000 | 5,000 | 2,000,000 | 10,000 | 4,000,000 | 10,000</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Last updated 2026-10-01 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-01 UTC.&quot;],[],[]] — Removed: Gemini 2.5 Computer Use Preview | gemini-2.5-computer-use-preview-10-2025 | $2.50, prompts &gt; 200k token | Gemini 2.5 Computer Use Preview | Last updated 2026-09-24 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-24 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-01T09:59:12.744Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel?</description>
+    </item>
+    <item>
+      <title>Cloudflare R2: pricing/limits page changed</title>
+      <link>https://developers.cloudflare.com/r2/pricing/</link>
+      <guid isPermaLink="false">cloudflare-r2-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Oct 1, 2026 | Basin Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to — Removed: R2 Data Catalog ↗︎ | R2 SQL ↗︎ | Aug 7, 2026 | R2 Data Catalog pricing | R2 Data Catalog pricing | R2 Data Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to | R2 Data Catalog pricing | R2 Data Catalog ↗︎ | R2 Data Catalog pricing</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-09-30</guid>
@@ -304,55 +353,6 @@
       <guid isPermaLink="false">anthropic-api-2026-09-22</guid>
       <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1 | and Claude Opus 4.8 at premium pricing. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) only; it is not available on Claude Platform on AWS or partner-operated cloud platforms. — Removed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1) | , in research preview, provides significantly faster output for Claude Opus 5 and Claude Opus 4.8 at premium pricing. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) only; it is not available on Claude Platform on AWS or partner-operated cloud platforms.</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-22</guid>
-      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 110.6K — Removed: 110.4K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-22</guid>
-      <pubDate>Tue, 22 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-22T05:27:54.083Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-21T05:26:59.511Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-21</guid>
-      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,358 stars — Removed: 21,352 stars</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-21</guid>
-      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 110.4K — Removed: 110K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-21</guid>
-      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-21T05:26:59.511Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-20T05:21:37.343Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1M weekly | 21,352 stars — Removed: 1.3M weekly | 21,343 stars</description>
-    </item>
-    <item>
-      <title>Groq: pricing/limits page changed</title>
-      <link>https://console.groq.com/docs/rate-limits</link>
-      <guid isPermaLink="false">groq-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Removed: 250 | 70K | 250 | 70K</description>
     </item>
   </channel>
 </rss>

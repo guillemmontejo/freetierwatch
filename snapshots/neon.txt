@@ -16,6 +16,7 @@ Auth
 Neon Functions
 Object Storage
 AI Gateway
+Lakebase Search
 Platform
 Manage & operate
 Resilience & architecture

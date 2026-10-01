@@ -1360,21 +1360,6 @@ api-integrations-get-resource-drains
 100
 60
 user
-Marketplace config retrieval per minute.
-api-integrations-marketplace-config-get
-100
-60
-ip
-Marketplace config updates per minute.
-api-integrations-marketplace-config-update
-20
-60
-owner
-Marketplace featured image uploads per minute.
-api-integrations-marketplace-featured-image-upload
-10
-60
-user
 Integration product get per minute.
 api-integrations-get-product
 120
@@ -2619,7 +2604,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-10-01T09:59:12.744Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Workflow Pricing and Limits
@@ -2628,10 +2613,10 @@ Vercel Functions Limits
 — Learn about the limits and restrictions of using Vercel Functions.
 Fair Use Guidelines
 — Learn how Vercel applies fair use guidelines across plans and usage-based resources.
-Why aren&#x27;t commits triggering deployments on Vercel?
-— Commits not triggering deployments on Vercel? Walk the diagnostic checklist covering authentication, commit author acces
 Legacy Usage & Pricing for Functions
 — Learn about legacy usage and pricing for Vercel Functions.
+Configuring Maximum Duration for Vercel Functions
+— Learn how to set the maximum duration of a Vercel Function.
 This page links to (33)
 headers
 — Add custom HTTP headers to your Next.js app.
