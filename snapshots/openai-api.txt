@@ -302,6 +302,7 @@ Safety checks
 Safety classifiers
 Cybersecurity checks
 Misalignment monitoring
+Enforcement notifications
 Under-18 guidance
 CSAM guidance
 Content provenance
@@ -440,6 +441,7 @@ Campaign Management
 Bidding & Budgets
 Targeting
 Product Feeds
+Hotel Feeds (limited beta)
 Conversion Tracking
 Reporting
 Troubleshooting
@@ -810,6 +812,7 @@ Safety checks
 Safety classifiers
 Cybersecurity checks
 Misalignment monitoring
+Enforcement notifications
 Under-18 guidance
 CSAM guidance
 Content provenance
@@ -845,7 +848,6 @@ Rate limits
 Spend limits
 Admin APIs
 Error codes
-*+*]:mt-3">
 Copy Page
 Rate limits
 Understand API rate limits and restrictions.

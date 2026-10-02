@@ -144,6 +144,7 @@ Overview
 AI ↗︎
 AI Search ↗︎
 Analytics Engine ↗︎
+Analytics SQL binding
 Assets ↗︎
 Browser Run ↗︎
 D1 ↗︎
@@ -323,13 +324,7 @@ Beta
 Overview
 Investigate issues
 Set up an automation
-Exporting OpenTelemetry Data
-Overview
-Export to Honeycomb
-Export to Grafana Cloud
-Export to Axiom
-Export to Sentry
-Export to PostHog
+OpenTelemetry export
 MCP server
 MCP
 Errors and exceptions
