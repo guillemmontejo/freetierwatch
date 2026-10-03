@@ -5,6 +5,34 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Clerk: pricing/limits page changed</title>
+      <link>https://clerk.com/pricing</link>
+      <guid isPermaLink="false">clerk-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Additional $75/mo each from January 1, 2027 | Provision and deprovision users with SCIM or Google Workspace. Counted separately from SSO connections. Billing for Directory Sync connections starts January 1, 2027. — Removed: Provision and deprovision users from your customers&amp;#x27; identity providers. Counted separately from SSO connections. | 1 directory | 1 directory</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,416 stars — Removed: 21,406 stars</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Major update to our Free Plan: now with 1 GB of Postgres storage per project, 100 projects included</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-03T05:30:18.930Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-02T05:40:03.380Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Algolia: pricing/limits page changed</title>
       <link>https://www.algolia.com/pricing</link>
       <guid isPermaLink="false">algolia-2026-10-02</guid>
@@ -325,34 +353,6 @@
       <guid isPermaLink="false">clerk-2026-09-23</guid>
       <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 50,000 per app | Authenticate with a code sent directly to the user&amp;#x27;s phone via SMS. US and Canada, $0.01 per SMS. International: market rate | An organization is retained when it has at least 2 members and at least one of those members is a monthly retained user for that month. — Removed: Authenticate with a code sent directly to the user&amp;#x27;s phone via SMS. US and Canada, $0.01 per SMS + International: market rate | An organization is retained when it has at least 2 members and at least one of those members is a retained user.</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 992.1K weekly | 21,372 stars — Removed: 1M weekly | 21,366 stars</description>
-    </item>
-    <item>
-      <title>Anthropic API: pricing/limits page changed</title>
-      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
-      <guid isPermaLink="false">anthropic-api-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Claude Opus 5.5 | Claude Opus 5.5 | $8 / MTok | 2 | Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. | 2 | Cache hits and refreshes on Claude Opus 5.5 are priced at 0.05x the base input price. | All other models use the standard 0.1x multiplier. | ; 0.05x on Claude Opus 5.5 | On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens). — Removed: Cache hits and refreshes on Claude Fable 5.1 and Claude Mythos 5.1 are priced at 0.025x the base input price. All other models use the standard 0.1x multiplier.</description>
-    </item>
-    <item>
-      <title>OpenAI API: pricing/limits page changed</title>
-      <link>https://platform.openai.com/docs/guides/rate-limits</link>
-      <guid isPermaLink="false">openai-api-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Using GPT-6 — Removed: Using GPT-6 Astra</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Last updated 2026-09-22 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-22 UTC.&quot;],[],[]] — Removed: Last updated 2026-09-16 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-16 UTC.&quot;],[],[]]</description>
     </item>
   </channel>
 </rss>

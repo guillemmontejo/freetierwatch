@@ -1,4 +1,6 @@
 Turso Database Pricing
+Turso is joining Supabase to give every agent its own database
+Read the news →
 Turso
 Product
 Solutions

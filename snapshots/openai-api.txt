@@ -660,6 +660,7 @@ Managed configuration
 Remote connections
 Workspace model availability
 Amazon Bedrock
+Bedrock GovCloud configuration
 Connect to a gateway
 Deploy Codex through a gateway
 Gateway compatibility
