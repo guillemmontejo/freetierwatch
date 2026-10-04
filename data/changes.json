@@ -1695,5 +1695,41 @@
       "1 directory",
       "1 directory"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-04T07:10:36.076Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-03T05:30:18.930Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "service_id": "groq",
+    "service_name": "Groq",
+    "source_url": "https://console.groq.com/docs/rate-limits",
+    "added": [
+      "3"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-10-04",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.9M weekly",
+      "21,417 stars"
+    ],
+    "removed": [
+      "1.8M weekly",
+      "21,416 stars"
+    ]
   }
 ]

@@ -5,6 +5,27 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.9M weekly | 21,417 stars — Removed: 1.8M weekly | 21,416 stars</description>
+    </item>
+    <item>
+      <title>Groq: pricing/limits page changed</title>
+      <link>https://console.groq.com/docs/rate-limits</link>
+      <guid isPermaLink="false">groq-2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 3</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-04T07:10:36.076Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-03T05:30:18.930Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
       <title>Clerk: pricing/limits page changed</title>
       <link>https://clerk.com/pricing</link>
       <guid isPermaLink="false">clerk-2026-10-03</guid>
@@ -332,27 +353,6 @@
       <guid isPermaLink="false">vercel-hobby-2026-09-24</guid>
       <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: From the Vercel docs graph (built 2026-09-24T05:36:56.592Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-23T10:10:42.084Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel?</description>
-    </item>
-    <item>
-      <title>Mapbox: pricing/limits page changed</title>
-      <link>https://www.mapbox.com/pricing</link>
-      <guid isPermaLink="false">mapbox-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Up to 500 | 501 - 100,000 | $2.75 | $0.70</description>
-    </item>
-    <item>
-      <title>Auth0: pricing/limits page changed</title>
-      <link>https://auth0.com/pricing</link>
-      <guid isPermaLink="false">auth0-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: AI Identity for B2B &amp; AI Identity for Commerce — Removed: Auth0 for AI Agents</description>
-    </item>
-    <item>
-      <title>Clerk: pricing/limits page changed</title>
-      <link>https://clerk.com/pricing</link>
-      <guid isPermaLink="false">clerk-2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 50,000 per app | Authenticate with a code sent directly to the user&amp;#x27;s phone via SMS. US and Canada, $0.01 per SMS. International: market rate | An organization is retained when it has at least 2 members and at least one of those members is a monthly retained user for that month. — Removed: Authenticate with a code sent directly to the user&amp;#x27;s phone via SMS. US and Canada, $0.01 per SMS + International: market rate | An organization is retained when it has at least 2 members and at least one of those members is a retained user.</description>
     </item>
   </channel>
 </rss>

@@ -123,7 +123,7 @@ Workers Cache
 Overview
 Configuration
 Cache keys
-Purging the cache
+Purge and invalidate the cache
 Examples
 Debugging
 Limitations
