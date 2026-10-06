@@ -494,7 +494,7 @@ Pricing
 Glossary
 Available on
 ChatGPT desktop app
-Remote
+ChatGPT mobile app
 ChatGPT on the web
 Codex CLI
 Codex IDE extension

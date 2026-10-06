@@ -95,10 +95,7 @@ Copy page
 Credit Limits and Rate Limits
 Copy page
 Copy page
-Making additional accounts or API keys will not affect your rate limits, as we
-govern capacity globally. We do however have different rate limits for
-different models, so you can share the load that way if you do run into
-issues.
+Making additional accounts or API keys will not affect your rate limits, as we govern capacity globally. We do however have different rate limits for different models, so you can share the load that way if you do run into issues.
 OpenRouter enforces two kinds of limits:
 Limit type
 What it governs
@@ -411,17 +408,14 @@ fallback models
 to try a different model when all providers for the first are exhausted.
 Successful inference responses do not include
 X-RateLimit-*
-headers. When
-OpenRouter itself returns a
-error for a platform limit, the error response
-carries
+headers. When OpenRouter itself returns a
+error for a platform limit, the error response carries
 X-RateLimit-Limit
 ,
 X-RateLimit-Remaining
 , and
 X-RateLimit-Reset
-headers describing the limit that was hit. When every attempted provider
-returned a retry hint, the error response also carries a
+headers describing the limit that was hit. When every attempted provider returned a retry hint, the error response also carries a
 Retry-After
 header. To monitor your remaining quota before hitting a limit, call
 GET /api/v1/key

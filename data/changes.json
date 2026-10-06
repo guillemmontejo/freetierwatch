@@ -1792,5 +1792,94 @@
     "removed": [
       "21,417 stars"
     ]
+  },
+  {
+    "date": "2026-10-06",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-06T09:42:32.185Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-05T05:39:47.698Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "64 TB",
+      "64 TB"
+    ],
+    "removed": [
+      "16 TB",
+      "16 TB"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "service_id": "groq",
+    "service_name": "Groq",
+    "source_url": "https://console.groq.com/docs/rate-limits",
+    "added": [
+      "3"
+    ],
+    "removed": [
+      "5"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "service_id": "huggingface-inference",
+    "service_name": "Hugging Face Inference Providers",
+    "source_url": "https://huggingface.co/docs/inference-providers/en/pricing",
+    "added": [
+      ". It returns a daily time series of usage broken down by member, model, and provider, including the number of requests, the cost (in cents), and input, output, and cached input token counts (token counts are only reported for chat completions). Costs are rounded to the nearest cent for each row, so very small amounts may show as 0 and the sum of rows may differ slightly from your invoice. Requests appear in the results up to 2 hours after they are made.",
+      "https://huggingface.co/api/organizations/my-org-name/billing/usage/inference?startDate=2026-09-01T00:00:00Z&endDate=2026-09-30T00:00:00Z&limit=31",
+      "query parameters set the time window: it defaults to the current month and must fall within the last 12 months. Results are paginated by day: use the",
+      "query parameter to set how many days are returned per page (7 by default, up to 31), and follow the"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-10-06",
+    "service_id": "mongodb-atlas",
+    "service_name": "MongoDB Atlas",
+    "source_url": "https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/",
+    "added": [
+      "14u-cpu:",
+      "14.0.2:",
+      "13.0.3:",
+      "11.0.8-oracle:",
+      "11.0.7:",
+      "8u261:",
+      "emb-8u261:"
+    ],
+    "removed": [
+      "14u-cpu",
+      "14.0.2",
+      "13.0.3",
+      "11.0.8-oracle",
+      "11.0.7",
+      "8u261",
+      "emb-8u261"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "2M weekly",
+      "21,426 stars"
+    ],
+    "removed": [
+      "1.9M weekly",
+      "21,423 stars"
+    ]
   }
 ]

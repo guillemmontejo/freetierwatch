@@ -249,7 +249,7 @@ openai/gpt-oss-20b
 -
 -
 openai/gpt-oss-safeguard-20b
-5
+3
 1K
 2K
 200K

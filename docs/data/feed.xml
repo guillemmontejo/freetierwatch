@@ -7,6 +7,48 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 2M weekly | 21,426 stars — Removed: 1.9M weekly | 21,423 stars</description>
+    </item>
+    <item>
+      <title>MongoDB Atlas: pricing/limits page changed</title>
+      <link>https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/</link>
+      <guid isPermaLink="false">mongodb-atlas-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 14u-cpu: | 14.0.2: | 13.0.3: | 11.0.8-oracle: | 11.0.7: | 8u261: | emb-8u261: — Removed: 14u-cpu | 14.0.2 | 13.0.3 | 11.0.8-oracle | 11.0.7 | 8u261 | emb-8u261</description>
+    </item>
+    <item>
+      <title>Hugging Face Inference Providers: pricing/limits page changed</title>
+      <link>https://huggingface.co/docs/inference-providers/en/pricing</link>
+      <guid isPermaLink="false">huggingface-inference-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: . It returns a daily time series of usage broken down by member, model, and provider, including the number of requests, the cost (in cents), and input, output, and cached input token counts (token counts are only reported for chat completions). Costs are rounded to the nearest cent for each row, so very small amounts may show as 0 and the sum of rows may differ slightly from your invoice. Requests appear in the results up to 2 hours after they are made. | https://huggingface.co/api/organizations/my-org-name/billing/usage/inference?startDate=2026-09-01T00:00:00Z&amp;endDate=2026-09-30T00:00:00Z&amp;limit=31 | query parameters set the time window: it defaults to the current month and must fall within the last 12 months. Results are paginated by day: use the | query parameter to set how many days are returned per page (7 by default, up to 31), and follow the</description>
+    </item>
+    <item>
+      <title>Groq: pricing/limits page changed</title>
+      <link>https://console.groq.com/docs/rate-limits</link>
+      <guid isPermaLink="false">groq-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 3 — Removed: 5</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 64 TB | 64 TB — Removed: 16 TB | 16 TB</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-06T09:42:32.185Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-05T05:39:47.698Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-05</guid>
       <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 21,423 stars — Removed: 21,417 stars</description>
@@ -311,48 +353,6 @@
       <guid isPermaLink="false">cloudflare-r2-2026-09-26</guid>
       <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: R2 Data Catalog ↗︎ | R2 SQL ↗︎ | R2 llms.txt ↗︎ | R2 llms-full.txt ↗︎ | R2 Data Catalog ↗︎ — Removed: R2 Data Catalog ↗ | R2 SQL ↗ | R2 llms.txt ↗ | R2 llms-full.txt ↗ | R2 Data Catalog ↗</description>
-    </item>
-    <item>
-      <title>Cloudflare Workers: pricing/limits page changed</title>
-      <link>https://developers.cloudflare.com/workers/platform/limits/</link>
-      <guid isPermaLink="false">cloudflare-workers-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: D1 ↗︎ | R2 ↗︎ | Cloudflare D1 ↗︎ — Removed: D1 ↗ | R2 ↗ | Cloudflare D1 ↗</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Equivalent to $0.00225 per 10s audio | through December 31, 2026. | Equivalent to $0.0045 per 10s audio | starting January 1, 2027. | Equivalent to $0.001125 per 10s audio | through December 31, 2026. | Equivalent to $0.00225 per 10s audio | starting January 1, 2027. | Equivalent to $0.001125 per 10s audio | through December 31, 2026. — Removed: Last updated 2026-09-23 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-23 UTC.&quot;],[],[]]</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 20 GB included | then $0.50 per GB | 20 GB included | then $0.50 per GB | Log Ingestion Usage x 100 | Log Ingestion Usage x 100</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-25T05:54:54.356Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel? — Removed: From the Vercel docs graph (built 2026-09-24T05:36:56.592Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Mapbox: pricing/limits page changed</title>
-      <link>https://www.mapbox.com/pricing</link>
-      <guid isPermaLink="false">mapbox-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 500 | 5,000,001+ — Removed: 2.5k</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,377 stars — Removed: 21,372 stars</description>
     </item>
   </channel>
 </rss>

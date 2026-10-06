@@ -605,19 +605,19 @@ Atlas
 Minimum versions of the
 JDK
 include:
-14u-cpu
+14u-cpu:
 JDK-8249107
-14.0.2
+14.0.2:
 JDK-8247954
-13.0.3
+13.0.3:
 JDK-8241515
-11.0.8-oracle
+11.0.8-oracle:
 JDK-8238504
-11.0.7
+11.0.7:
 JDK-8237387
-8u261
+8u261:
 JDK-8243759
-emb-8u261
+emb-8u261:
 JDK-8247097
 To learn more about support for
 TLS
