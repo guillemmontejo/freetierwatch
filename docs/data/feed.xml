@@ -5,6 +5,83 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Algolia: pricing/limits page changed</title>
+      <link>https://www.algolia.com/pricing</link>
+      <guid isPermaLink="false">algolia-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 2026 Algolia customer excellence awards</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,432 stars — Removed: 21,426 stars</description>
+    </item>
+    <item>
+      <title>MongoDB Atlas: pricing/limits page changed</title>
+      <link>https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/</link>
+      <guid isPermaLink="false">mongodb-atlas-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: See how MongoDB 9.0 delivers up to 2x higher throughput.</description>
+    </item>
+    <item>
+      <title>Hugging Face Inference Providers: pricing/limits page changed</title>
+      <link>https://huggingface.co/docs/inference-providers/en/pricing</link>
+      <guid isPermaLink="false">huggingface-inference-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: $0.10, subject to change</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 | Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). | On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens). — Removed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5) | Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens).</description>
+    </item>
+    <item>
+      <title>OpenAI API: pricing/limits page changed</title>
+      <link>https://platform.openai.com/docs/guides/rate-limits</link>
+      <guid isPermaLink="false">openai-api-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: $5 in total credit purchases | $100 in total credit purchases | $500 in total credit purchases | 5,000 | 1,000,000 | 5,000 | 2,000,000 | 10,000 | 4,000,000 | 10,000 — Removed: Tier 1 | $5 paid | Tier 2 | $50 paid | Tier 3 | $100 paid | $1,000 / month | Tier 4 | $250 paid | Tier 5</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Gemini Nano Banana 2.1 🍌 | gemini-nano-banana-2.1 | An update to Nano Banana 2 (Gemini 3.1 Flash Image), built for high-efficiency | generation across 1K, 2K, and 4K resolutions. | $1.50 (text/image/video) | $7.50 (text and thinking) | Equivalent to $0.0336 per 1K image | $0.0504 per 2K image | and $0.113 per 4K image | $0.75 (text, image, video) — Removed: Last updated 2026-10-01 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-01 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Resend: pricing/limits page changed</title>
+      <link>https://resend.com/pricing</link>
+      <guid isPermaLink="false">resend-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: No. The API rate limit (requests per second) is set per team and is the same on every plan, so upgrading doesn&amp;#x27;t change it. If you&amp;#x27;re hitting the limit, the Batch Email API sends up to 100 emails in one request, and each batch request counts as a single request against the limit. If your sending pattern still needs a higher limit, contact support with your expected volume and we&amp;#x27;ll review it. | No. The plans are Free, Pro, Scale, and Enterprise. If you occasionally need more than your plan includes, pay-as-you-go lets a paid plan keep sending past its monthly quota at the plan&amp;#x27;s overage rate. It&amp;#x27;s an option on paid plans, not a plan of its own.</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Example: The Launch plan includes 10 branches/project. You create 2 extra branches for 5 hours each → 10 extra branch-hours × $0.002/hour = ~$0.02 total. — Removed: Example: The Launch plan includes 10 branches/project. You create 2 extra branches for 5 hours each → 10 extra branch-hours × $0.002/hour = ~$0.20 total.</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 111.2K — Removed: 111.1K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-07T05:48:34.144Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Pages that link here (30) | By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19) — Removed: From the Vercel docs graph (built 2026-10-06T09:42:32.185Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Pages that link here (29) | By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (18)</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-06</guid>
@@ -276,83 +353,6 @@
       <guid isPermaLink="false">anthropic-api-2026-09-29</guid>
       <pubDate>Tue, 29 Sep 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Claude Sonnet 5.5 | Claude Sonnet 5.5 | Claude Sonnet 5.5 | Claude Sonnet 5.5</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 110.9K — Removed: 110.8K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-29T06:00:03.823Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-28T05:31:37.384Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1.6M weekly | 21,388 stars — Removed: 1.3M weekly | 21,382 stars</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 110.8K — Removed: 110.7K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-28T05:31:37.384Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Resend: pricing/limits page changed</title>
-      <link>https://resend.com/pricing</link>
-      <guid isPermaLink="false">resend-2026-09-27</guid>
-      <pubDate>Sun, 27 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: With pay-as-you-go pricing, you can continue sending beyond your monthly quota and only pay for what you use. Overages are billed in buckets of 1,000 emails at your plan&amp;#x27;s overage rate. You can enable this in your team settings under Transactional Overages. If you don&amp;#x27;t enable pay-as-you-go and exceed your plan limits, you will be notified and given the option to upgrade to a higher plan.</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-27</guid>
-      <pubDate>Sun, 27 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-09-27T05:36:42.591Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1.3M weekly | 21,382 stars — Removed: 992.1K weekly | 21,377 stars</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Vercel Workflows limits the size and throughput of each workflow run, including events and steps per run, payload size, stored data per run, and stream throughput. It also rate limits the requests your team&amp;#x27;s workflows make to the Workflows backend, such as creating events, writing to streams, and reading run data. Requests over the rate limit are retried automatically with backoff, so hitting it slows your workflows down but does not cause them to fail. See | From the Vercel docs graph (built 2026-09-26T05:38:30.463Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: Vercel Workflows limits include concurrency limits of up to 100,000, 50 MB max payload size, and 2 GB max entity storage per run. See | From the Vercel docs graph (built 2026-09-25T05:54:54.356Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Cloudflare R2: pricing/limits page changed</title>
-      <link>https://developers.cloudflare.com/r2/pricing/</link>
-      <guid isPermaLink="false">cloudflare-r2-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: R2 Data Catalog ↗︎ | R2 SQL ↗︎ | R2 llms.txt ↗︎ | R2 llms-full.txt ↗︎ | R2 Data Catalog ↗︎ — Removed: R2 Data Catalog ↗ | R2 SQL ↗ | R2 llms.txt ↗ | R2 llms-full.txt ↗ | R2 Data Catalog ↗</description>
     </item>
   </channel>
 </rss>

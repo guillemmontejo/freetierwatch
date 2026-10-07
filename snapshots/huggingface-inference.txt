@@ -147,15 +147,17 @@ to get started
 Copy page
 Pricing and Billing
 Access 200+ models from leading AI inference providers with centralized, transparent, pay-as-you-go pricing. No infrastructure management required—just pay for what you use, with no markup from Hugging Face.
-Free Credits to Get Started
-Every Hugging Face user receives monthly credits to experiment with Inference Providers:
+Included Monthly Credits
+PRO users and Team or Enterprise organizations receive monthly credits to use with Inference Providers. Free users can use Inference Providers by purchasing credits, or by upgrading to
+PRO
+:
 Account Type
 Monthly Credits
 Can be spent on
 Extra usage (pay-as-you-go)
 Free Users
-$0.10, subject to change
-Inference Providers
+None
+-
 yes (credits purchase required)
 PRO Users
 $2.00
@@ -215,7 +217,7 @@ See the
 Organization Billing section
 below for more details.
 All users
-can continue using the API after exhausting their monthly credits by purchasing additional credits. This ensures uninterrupted access to models for production workloads.
+can use the API beyond their included monthly credits (if any) by purchasing additional credits. This ensures uninterrupted access to models for production workloads.
 Hugging Face charges you the same rates as the provider, with no additional fees. We just pass through the provider costs directly.
 You can track your spending anytime on your
 billing page
@@ -262,7 +264,7 @@ Custom Provider Key
 Here is a table that sums up what we’ve seen so far:
 HF routing
 Billed by
-Free-tier included
+Included credits apply
 Pay-as-you-go
 Integration
 Routed Requests
@@ -285,7 +287,7 @@ when using the JavaScript or Python SDKs. When making a routed request with a cu
 HF-Inference cost
 As you may have noticed, you can select to work with
 "hf-inference"
-provider. This service used to be called “Inference API (serverless)” prior to Inference Providers. From a user point of view, working with HF Inference is the same as with any other provider. Past the free-tier credits, you get charged for every inference request based on the compute time x price of the underlying hardware.
+provider. This service used to be called “Inference API (serverless)” prior to Inference Providers. From a user point of view, working with HF Inference is the same as with any other provider. Past your included credits (if any), you get charged for every inference request based on the compute time x price of the underlying hardware.
 For instance, a request to
 black-forest-labs/FLUX.1-dev
 that takes 10 seconds to complete on a GPU machine that costs $0.00012 per second to run, will be billed $0.0012.
@@ -412,10 +414,9 @@ Hub integration
 →
 Pricing and
 Billing
-Free
-Credits to
-Get
-Started
+Included
+Monthly
+Credits
 How
 Billing
 Works:

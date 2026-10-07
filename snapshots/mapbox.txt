@@ -201,6 +201,8 @@ Newsroom
 The latest Mapbox news and press resources
 Events
 Connect with Mapbox at virtual and in-person events
+Developer Blog
+Explore Mapbox developer articles and tutorials
 Learn
 Customer Showcase
 See customer use cases and impact across industries
@@ -420,6 +422,8 @@ Newsroom
 The latest Mapbox news and press resources
 Events
 Connect with Mapbox at virtual and in-person events
+Developer Blog
+Explore Mapbox developer articles and tutorials
 Learn
 Customer Showcase
 See customer use cases and impact across industries

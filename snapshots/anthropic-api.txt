@@ -431,9 +431,11 @@ Cache valid for 5 minutes
 2x base input price
 Cache valid for 1 hour
 Cache read (hit)
-0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5)
+0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5
+)
 Same duration as the preceding write
-Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens).
+Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens).
+On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens).
 These multipliers stack with other pricing modifiers, including the Batch API discount and data residency.
 For implementation details, supported models, and code examples, see
 Prompt caching

@@ -160,6 +160,14 @@ Do broadcast emails count against the transactional email limits?
 No. Broadcast emails sent through the /broadcasts API or through the Broadcasts interface in the dashboard do not count against your transactional email limits. Only emails sent through the /emails API count towards your transactional email limits.
 How are inbound emails counted?
 Each received email counts towards your transactional emails quota.
+Does upgrading my plan raise the API rate limit?
+No. The API rate limit (requests per second) is set per team and is the same on every plan, so upgrading doesn&#x27;t change it. If you&#x27;re hitting the limit, the Batch Email API sends up to 100 emails in one request, and each batch request counts as a single request against the limit. If your sending pattern still needs a higher limit, contact support with your expected volume and we&#x27;ll review it.
+Can I send my newsletter through the /emails API instead of Broadcasts?
+Yes. A newsletter can be sent through the /emails API, or through the /broadcasts API or the Broadcasts interface in the dashboard. Either way your recipients must have consented to receive it and must be able to unsubscribe: Broadcasts handle the unsubscribe link for you when your message includes the {{{RESEND_UNSUBSCRIBE_URL}}} placeholder, while emails sent through the /emails API need your own visible unsubscribe link plus the List-Unsubscribe and List-Unsubscribe-Post headers. Every recipient of an /emails API send counts as one email against your transactional quota; broadcasts count against your contacts instead.
+Is open and click tracking included on the Free plan?
+Yes. Open and click tracking is a per-domain setting available on every plan, including Free. The Marketing analytics feature on the pricing page is the separate analytics dashboard for your broadcasts, not tracking.
+Is there a plan between Free and Pro?
+No. The plans are Free, Pro, Scale, and Enterprise. If you occasionally need more than your plan includes, pay-as-you-go lets a paid plan keep sending past its monthly quota at the plan&#x27;s overage rate. It&#x27;s an option on paid plans, not a plan of its own.
 Our team loves Resend. It makes email sending so easy and reliable. After we switched to Dedicated IPs, our deliverability improved tremendously and we don&#x27;t hear complaints about emails landing on spam anymore.
 Vlad Matsiiako
 Co-founder of Infisical

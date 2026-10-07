@@ -1,5 +1,8 @@
 Atlas Free Cluster Limits - Atlas - MongoDB Docs
 For AI agents: a documentation index is available at https://www.mongodb.com/docs/llms.txt — markdown versions of all pages are available by appending .md to any URL path.
+See how MongoDB 9.0 delivers up to 2x higher throughput.
+MongoDB Branding Shape
+Register now >
 Products
 Platform
 Atlas

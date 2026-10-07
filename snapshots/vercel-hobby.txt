@@ -2525,10 +2525,8 @@ Bot Management
 BotID
 Tools
 Vercel Drop
-New
 Vercel Agent
 Vercel Plugin
-New
 Agent Skills
 Domains
 v0
@@ -2546,12 +2544,9 @@ All frameworks
 SDKs
 Vercel SDK
 Workflow SDK
-New
 Flags SDK
 Chat SDK
-New
 Queues SDK
-New
 Streamdown
 Build
 AI Apps
@@ -2604,7 +2599,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-10-06T09:42:32.185Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-10-07T05:48:34.144Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Workflow Pricing and Limits
@@ -2684,8 +2679,8 @@ Limits and Pricing for Speed Insights
 — Learn about our limits and pricing when using Vercel Speed Insights. Different limitations are applied depending on your
 Workflow Pricing and Limits
 — Understand how Vercel Workflows billing works and the limits that apply to runs, streams, and platform resources.
-Pages that link here (29)
-By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (18)
+Pages that link here (30)
+By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19)
 From v0
 Vercel Integration
 — How v0 and Vercel work in tandem.
@@ -2715,6 +2710,8 @@ Usage & Pricing for Cron Jobs
 — Learn about cron jobs usage and pricing details.
 Creating & Triggering Deploy Hooks
 — Learn how to create and trigger deploy hooks to integrate Vercel deployments with other systems.
+Troubleshooting Build Errors
+— Learn how to resolve common scenarios you may encounter during the Build step, including build errors that cancel a depl
 Environment variables
 — Learn more about environment variables on Vercel.
 Vercel Functions Limits
