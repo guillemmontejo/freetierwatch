@@ -29,7 +29,7 @@ Models overview
 Claude Fable 5.1
 Claude Opus 5.5
 Claude Sonnet 5.5
-Claude Haiku 4.5
+Claude Haiku 5.5
 Specialized models
 
 Legacy models
@@ -43,6 +43,7 @@ Model IDs and versioning
 Model deprecations
 Model cards
 Pricing
+API credits for subscribers
 System prompts
 
 Console
@@ -108,19 +109,31 @@ $2.50
 / MTok
 $4
 / MTok
+$0.10
+/ MTok
+Claude Haiku 5.5
+For high-volume, latency-sensitive tasks such as classification, extraction, and routing
+$0.10
+/ MTok
+for prompts up to 100,000 tokens
+$0.50
+/ MTok
+$0.125
+/ MTok
 $0.20
 / MTok
-Claude Haiku 4.5
-The fastest model with near-frontier intelligence
+$0.01
+/ MTok
+$0.50
+/ MTok
+for prompts over 100,000 tokens
+$2.50
+/ MTok
+$0.625
+/ MTok
 $1
 / MTok
-$5
-/ MTok
-$1.25
-/ MTok
-$2
-/ MTok
-$0.10
+$0.05
 / MTok
 
 Additional models
@@ -283,6 +296,17 @@ $6
 / MTok
 $0.30
 / MTok
+Claude Haiku 4.5
+$1
+/ MTok
+$5
+/ MTok
+$1.25
+/ MTok
+$2
+/ MTok
+$0.10
+/ MTok
 Claude Haiku 3.5
 
 $0.80
@@ -324,7 +348,7 @@ Regional and multi-region endpoints include a 10% premium over global endpoints.
 Data residency pricing
 .
 Scope:
-This pricing structure applies to Claude Sonnet 4.5, Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.
+This pricing structure applies to Claude Sonnet 4.5 (deprecated), Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.
 For implementation details and code examples:
 Amazon Bedrock global vs regional endpoints
 for Opus 4.7, Haiku 4.5, and later models, or
@@ -432,10 +456,11 @@ Cache valid for 5 minutes
 Cache valid for 1 hour
 Cache read (hit)
 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5
+and Claude Sonnet 5.5
 )
 Same duration as the preceding write
 Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens).
-On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens).
+On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).
 These multipliers stack with other pricing modifiers, including the Batch API discount and data residency.
 For implementation details, supported models, and code examples, see
 Prompt caching
@@ -513,11 +538,17 @@ $1
 / MTok
 $5
 / MTok
-Claude Haiku 4.5
-The fastest model with near-frontier intelligence
-$0.50
+Claude Haiku 5.5
+For high-volume, latency-sensitive tasks such as classification, extraction, and routing
+$0.05
 / MTok
-$2.50
+for prompts up to 100,000 tokens
+$0.25
+/ MTok
+$0.25
+/ MTok
+for prompts over 100,000 tokens
+$1.25
 / MTok
 
 Additional models
@@ -596,6 +627,11 @@ $1.50
 / MTok
 $7.50
 / MTok
+Claude Haiku 4.5
+$0.50
+/ MTok
+$2.50
+/ MTok
 Claude Haiku 3.5
 
 $0.40
@@ -607,11 +643,16 @@ Batch processing
 .
 Long context pricing
 
-Claude 4.6 and later models and
+Claude 4.6 and later models (except Claude Haiku 5.5) and
 Claude Mythos Preview
 include the full
 1M token context window
 at standard pricing. (A 900k-token request is billed at the same per-token rate as a 9k-token request.) Prompt caching and batch processing discounts apply at standard rates across the full context window.
+Claude Haiku 5.5 is priced by prompt length: a prompt of over 100,000 tokens pays higher prices.
+Model pricing
+and
+Batch processing
+list both sets of prices.
 Tool use pricing
 
 Tool use requests are priced based on:
@@ -655,17 +696,17 @@ auto
 none
 286
 tokens
-Claude Haiku 4.5
-The fastest model with near-frontier intelligence
+Claude Haiku 5.5
+For high-volume, latency-sensitive tasks such as classification, extraction, and routing
 auto
 ,
 none
-496
+286
 tokens
 any
 ,
 tool
-588
+406
 tokens
 
 Additional models
@@ -792,6 +833,17 @@ any
 ,
 tool
 315
+tokens
+Claude Haiku 4.5
+auto
+,
+none
+496
+tokens
+any
+,
+tool
+588
 tokens
 Claude Haiku 3.5
 
@@ -1109,14 +1161,6 @@ Session runtime
 $0.08
 Total
 $0.525
-
-Example calculation for processing 10,000 support tickets:
-Average ~3,700 tokens per conversation
-Using Claude Haiku 4.5 at $1/MTok input, $5/MTok output
-Total cost: ~$37.00 per 10,000 tickets
-For a detailed walkthrough of this calculation, see the
-customer support agent guide
-.
 Additional pricing considerations
 
 Cost optimization strategies

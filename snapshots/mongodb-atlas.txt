@@ -351,6 +351,8 @@ search
 nodes, or other workload-isolation nodes. You can configure dedicated nodes only on
 M10+
 clusters.
+For general guidance on MongoDB version numbering, release types, and upgrade paths, see
+MongoDB Versions and Upgrade Paths.
 Operational Limits
 The following table lists the operational limits of
 Atlas

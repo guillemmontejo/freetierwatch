@@ -2041,5 +2041,56 @@
       "2026 Algolia customer excellence awards"
     ],
     "removed": []
+  },
+  {
+    "date": "2026-10-08",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-08T05:38:39.548Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-07T05:48:34.144Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "Claude Haiku 5.5",
+      "Claude Haiku 5.5",
+      "for prompts up to 100,000 tokens",
+      "$0.125",
+      "$0.01",
+      "for prompts over 100,000 tokens",
+      "$0.625",
+      "This pricing structure applies to Claude Sonnet 4.5 (deprecated), Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.",
+      "and Claude Sonnet 5.5",
+      "On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5)."
+    ],
+    "removed": [
+      "This pricing structure applies to Claude Sonnet 4.5, Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.",
+      "On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens).",
+      "Claude 4.6 and later models and",
+      "Example calculation for processing 10,000 support tickets:",
+      "Average ~3,700 tokens per conversation",
+      "Using Claude Haiku 4.5 at $1/MTok input, $5/MTok output",
+      "Total cost: ~$37.00 per 10,000 tickets"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,434 stars"
+    ],
+    "removed": [
+      "21,432 stars"
+    ]
   }
 ]
