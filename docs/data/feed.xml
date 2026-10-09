@@ -5,6 +5,55 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Mapbox: pricing/limits page changed</title>
+      <link>https://www.mapbox.com/pricing</link>
+      <guid isPermaLink="false">mapbox-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: Join our annual developer conference, September 15-17 | Join our annual developer conference, September 15-17</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,446 stars — Removed: 21,434 stars</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Claude Haiku 5.5 is priced by prompt length: a request whose prompt is over 100,000 tokens pays higher prices. A request&amp;#x27;s prompt length counts all of its input tokens, including cache reads and cache writes. Each request is priced on its own: a request over the threshold pays the higher prices even when part of its prompt is a cache hit, and earlier requests keep the prices they were billed at. — Removed: Claude Haiku 5.5 is priced by prompt length: a prompt of over 100,000 tokens pays higher prices.</description>
+    </item>
+    <item>
+      <title>Upstash Redis: pricing/limits page changed</title>
+      <link>https://upstash.com/docs/redis/overall/pricing</link>
+      <guid isPermaLink="false">upstash-redis-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: This site has a search endpoint: https://context7.com/api/v2/ask?siteKey=ask_4cf2adc7846aa874f833b068&amp;query=&lt;URL-encoded question&gt;. It returns documentation that answers the question, with a source link for each part. No API key is needed. If nothing matches, it says so. | Free tier includes 250MB data size and 500K commands per month. | Are paid databases&amp;#x27; first 250MB data and 500K commands free? | Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, Insights in the console, multi-zone high availability, and encryption at rest. — Removed: 256 MB | Free tier includes 256MB data size and 500K commands per month. | Are paid databases&amp;#x27; first 256MB data and 500K commands free? | Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, multi-zone high availability, and encryption at rest. | 256 MB</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: From the Vercel docs graph (built 2026-10-08T05:38:39.548Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (33) | — Learn how to use Vercel&amp;#x27;s build logs to monitor the progress of building or running your deployment, and check for possi | — Learn all about Vercel&amp;#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man | Pages that link here (30) | By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19) | From v0 | — How v0 and Vercel work in tandem. | Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute | Troubleshooting Build Error: Build step did not complete within the maximum of 45 minutes</description>
+    </item>
+    <item>
+      <title>Cloudflare Pages: pricing/limits page changed</title>
+      <link>https://developers.cloudflare.com/pages/platform/limits/</link>
+      <guid isPermaLink="false">cloudflare-pages-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: Vite 3</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers: pricing/limits page changed</title>
+      <link>https://developers.cloudflare.com/workers/platform/limits/</link>
+      <guid isPermaLink="false">cloudflare-workers-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Oct 8, 2026 — Removed: Sep 5, 2026</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-08</guid>
@@ -304,55 +353,6 @@
       <guid isPermaLink="false">google-gemini-api-2026-10-01</guid>
       <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Last updated 2026-10-01 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-01 UTC.&quot;],[],[]] — Removed: Gemini 2.5 Computer Use Preview | gemini-2.5-computer-use-preview-10-2025 | $2.50, prompts &gt; 200k token | Gemini 2.5 Computer Use Preview | Last updated 2026-09-24 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-09-24 UTC.&quot;],[],[]]</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-01T09:59:12.744Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | Why aren&amp;#x27;t commits triggering deployments on Vercel?</description>
-    </item>
-    <item>
-      <title>Cloudflare R2: pricing/limits page changed</title>
-      <link>https://developers.cloudflare.com/r2/pricing/</link>
-      <guid isPermaLink="false">cloudflare-r2-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Oct 1, 2026 | Basin Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to — Removed: R2 Data Catalog ↗︎ | R2 SQL ↗︎ | Aug 7, 2026 | R2 Data Catalog pricing | R2 Data Catalog pricing | R2 Data Catalog charges for catalog operations and compaction data processed, in addition to standard R2 storage and operations. For full details, refer to | R2 Data Catalog pricing | R2 Data Catalog ↗︎ | R2 Data Catalog pricing</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,398 stars — Removed: 21,392 stars</description>
-    </item>
-    <item>
-      <title>OpenAI API: pricing/limits page changed</title>
-      <link>https://platform.openai.com/docs/guides/rate-limits</link>
-      <guid isPermaLink="false">openai-api-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: $5 in total credit purchases | $100 in total credit purchases | $500 in total credit purchases | 5,000 | 1,000,000 | 5,000 | 2,000,000 | 10,000 | 4,000,000 | 10,000 — Removed: Tier 1 | $5 paid | Tier 2 | $50 paid | Tier 3 | $100 paid | $1,000 / month | Tier 4 | $250 paid | Tier 5</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Skydive&amp;#x27;s agents deploy their own Neon backends in 0.7 seconds. Read the story — Removed: In Neon, restoring 100 TB takes as long as restoring 10 GB (seconds). See how</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: api-checks-get-all-checks-v2 | api-checks-get-check-v2 | api-checks-get-all-check-runs-v2 | api-checks-get-run-for-check-v2 | api-checks-get-check-run-v2 | From the Vercel docs graph (built 2026-09-30T11:40:56.688Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (33) — Removed: From the Vercel docs graph (built 2026-09-29T06:00:03.823Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (32)</description>
-    </item>
-    <item>
-      <title>Grafana Cloud: pricing/limits page changed</title>
-      <link>https://grafana.com/pricing/</link>
-      <guid isPermaLink="false">grafana-cloud-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Use the interactive calculator to see what you&amp;#x27;ll pay at your scale. Pricing is volume-based and tiered, so your effective rate drops automatically as you grow. | $0.05/GB | $0.40/GB | $0.10/GB | $0.05/GB | $0.40/GB | $0.10/GB | Limited to 2,232 host hours &amp; 37,944 container hours per month | $0.01 | / host hour ($7.20/host) — Removed: = 5&quot;&gt; | svg]:px-3 gmui:flex-1 gmui:md:flex-none&quot; disabled&gt; | svg]:px-3 gmui:flex-1 gmui:md:flex-none&quot; disabled&gt; | ul]:my-2 tw:[&amp;&gt;ul]:pl-0 tw:[&amp;&gt;ul]:pricing-options-list tw:[&amp;&gt;h3]:text-2xs tw:[&amp;&gt;h3]:font-semibold tw:[&amp;&gt;h3]:mb-0&quot;&gt; | ul]:my-2 tw:[&amp;&gt;ul]:pl-0 tw:[&amp;&gt;ul]:pricing-options-list tw:[&amp;&gt;h3]:text-2xs tw:[&amp;&gt;h3]:font-semibold tw:[&amp;&gt;h3]:mb-0&quot;&gt; | ul]:my-2 tw:[&amp;&gt;ul]:pl-0 tw:[&amp;&gt;ul]:pricing-options-list tw:[&amp;&gt;h3]:text-2xs tw:[&amp;&gt;h3]:font-semibold tw:[&amp;&gt;h3]:mb-0&quot;&gt; | ul]:my-2 tw:[&amp;&gt;ul]:pl-0 tw:[&amp;&gt;ul]:pricing-options-list tw:[&amp;&gt;p]:text-sm tw:[&amp;&gt;p]:mb-1 tw:last:basis-2/5 tw:last:grow tw:last:shrink-0 tw:last:mt-2 tw:last:container:mt-6&quot; data-translate-label=product-details-pricing-plan-content&gt; | Rate / 1k series | 10k – 100k | $5.90</description>
     </item>
   </channel>
 </rss>

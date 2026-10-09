@@ -1,6 +1,6 @@
 Deno Deploy Pricing
 Skip to main content
-Introducing celld: self-hosted, distributed Durable Objects
+Deno is joining Cloudflare!
 Learn more
 ->
 Dismiss

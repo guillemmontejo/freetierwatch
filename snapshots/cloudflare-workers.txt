@@ -331,6 +331,7 @@ MCP
 Errors and exceptions
 Integrations
 Sentry
+Profiling in production
 Source maps and stack traces
 Testing
 Overview
@@ -509,7 +510,7 @@ Platform
 Limits
 Limits
 Last updated
-Sep 5, 2026
+Oct 8, 2026
 |
 Copy as Markdown
 |
@@ -1043,6 +1044,9 @@ Workers per account
 100
 500
 1
+If you are building a platform where your end customers deploy their own sites or applications, use
+Workers for Platforms
+, which runs an unlimited number of user Workers.
 Routes and domains
 Limit
 Value

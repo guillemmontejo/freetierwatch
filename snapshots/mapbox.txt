@@ -219,8 +219,8 @@ Education
 Resources for students and instructors
 Security
 Protect the security of your account, data, and users
-Featured Event
-Join our annual developer conference, September 15-17
+Featured
+Tools for AI
 Learn more
 →
 Pricing
@@ -440,8 +440,8 @@ Education
 Resources for students and instructors
 Security
 Protect the security of your account, data, and users
-Featured Event
-Join our annual developer conference, September 15-17
+Featured
+Tools for AI
 Learn more
 →
 Pricing

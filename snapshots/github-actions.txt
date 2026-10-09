@@ -8,13 +8,11 @@ Search or ask Copilot
 Menu
 Collapse sidebar
 Expand sidebar
-Scroll breadcrumbs left
 Home
 Billing and payments
 Concepts
 Product billing
 GitHub Actions
-Scroll breadcrumbs right
 Billing and payments
 Get started
 How billing works

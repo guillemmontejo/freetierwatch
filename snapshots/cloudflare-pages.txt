@@ -51,7 +51,6 @@ SolidStart
 Sphinx
 Static HTML
 SvelteKit
-Vite 3
 VitePress
 Vue
 Zola

@@ -2092,5 +2092,100 @@
     "removed": [
       "21,432 stars"
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "cloudflare-workers",
+    "service_name": "Cloudflare Workers",
+    "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+    "added": [
+      "Oct 8, 2026"
+    ],
+    "removed": [
+      "Sep 5, 2026"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "cloudflare-pages",
+    "service_name": "Cloudflare Pages",
+    "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
+    "added": [],
+    "removed": [
+      "Vite 3"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-08T05:38:39.548Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:",
+      "This page links to (33)",
+      "— Learn how to use Vercel&#x27;s build logs to monitor the progress of building or running your deployment, and check for possi",
+      "— Learn all about Vercel&#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man",
+      "Pages that link here (30)",
+      "By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19)",
+      "From v0",
+      "— How v0 and Vercel work in tandem.",
+      "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+      "Troubleshooting Build Error: Build step did not complete within the maximum of 45 minutes"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "upstash-redis",
+    "service_name": "Upstash Redis",
+    "source_url": "https://upstash.com/docs/redis/overall/pricing",
+    "added": [
+      "This site has a search endpoint: https://context7.com/api/v2/ask?siteKey=ask_4cf2adc7846aa874f833b068&query=<URL-encoded question>. It returns documentation that answers the question, with a source link for each part. No API key is needed. If nothing matches, it says so.",
+      "Free tier includes 250MB data size and 500K commands per month.",
+      "Are paid databases&#x27; first 250MB data and 500K commands free?",
+      "Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, Insights in the console, multi-zone high availability, and encryption at rest."
+    ],
+    "removed": [
+      "256 MB",
+      "Free tier includes 256MB data size and 500K commands per month.",
+      "Are paid databases&#x27; first 256MB data and 500K commands free?",
+      "Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, multi-zone high availability, and encryption at rest.",
+      "256 MB"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "Claude Haiku 5.5 is priced by prompt length: a request whose prompt is over 100,000 tokens pays higher prices. A request&#x27;s prompt length counts all of its input tokens, including cache reads and cache writes. Each request is priced on its own: a request over the threshold pays the higher prices even when part of its prompt is a cache hit, and earlier requests keep the prices they were billed at."
+    ],
+    "removed": [
+      "Claude Haiku 5.5 is priced by prompt length: a prompt of over 100,000 tokens pays higher prices."
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,446 stars"
+    ],
+    "removed": [
+      "21,434 stars"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "service_id": "mapbox",
+    "service_name": "Mapbox",
+    "source_url": "https://www.mapbox.com/pricing",
+    "added": [],
+    "removed": [
+      "Join our annual developer conference, September 15-17",
+      "Join our annual developer conference, September 15-17"
+    ]
   }
 ]
