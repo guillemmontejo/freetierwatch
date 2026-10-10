@@ -181,6 +181,37 @@ Glossary
 Limits
 Overview
 Fair Use Guidelines
+On this page
+Request a limit increase
+General limits
+Pro trial limits
+Routes created per deployment
+Build time per deployment
+Build container resources
+Static file uploads
+Build cache maximum size
+Observability Plus
+Logs
+Environment variables
+Domains
+Files
+Proxied request timeout
+Web Analytics
+Speed Insights
+Cron Jobs
+Vercel Workflows limits
+Vercel Functions
+Connecting a project to a Git repository
+Reserved variables
+Rate limits
+Rate limit examples
+Domain deletion
+Team deletion
+Username change
+Builds per hour (Hobby)
+Deployments per day (Hobby)
+Deploy hook triggers
+Dynamic quotas
 Copy page
 Copy page
 Limits
@@ -428,30 +459,21 @@ and
 Workflow rate limits
 for the values on each plan.
 Vercel Functions
-The limits of Vercel functions are based on the
-runtime
-that you use.
-For example, different runtimes allow for different
-bundle sizes
-,
-maximum duration
-, and
-memory
-.
-If you have an existing project, deployed to Vercel before April 23rd 2025 and
-not using Fluid compute
-, Vercel Functions have the following defaults and maximum limits for the duration of a function:
-Default
-Maximum
+Vercel Functions run on
+Fluid compute
+, which is enabled by default for new projects. Its key limits per plan:
+Limit
 Hobby
-10s
-60s (1 minute)
-Pro
-15s
-300s (5 minutes)
-Enterprise
-15s
-900s (15 minutes)
+Pro and Enterprise
+Maximum duration
+300s (5 minutes) default and max
+300s default, 800s max, up to 1800s (30 minutes) in beta
+Memory and CPU
+2 GB / 1 vCPU default and max
+2 GB / 1 vCPU default, up to 4 GB / 2 vCPU max
+For the full reference, see
+Vercel Functions limitations
+.
 Connecting a project to a Git repository
 ​Vercel does not support connecting a project on your Hobby team to Git repositories owned by Git organizations. You can either switch to an existing Team or create a new one.
 The same limitation applies in the Project creation flow when importing an existing Git repository or when cloning a Vercel template to a new Git repository as part of your Git organization.
@@ -2471,37 +2493,6 @@ Fair Use Guidelines
 Was this helpful?
 supported.
 Send
-On this page
-Request a limit increase
-General limits
-Pro trial limits
-Routes created per deployment
-Build time per deployment
-Build container resources
-Static file uploads
-Build cache maximum size
-Observability Plus
-Logs
-Environment variables
-Domains
-Files
-Proxied request timeout
-Web Analytics
-Speed Insights
-Cron Jobs
-Vercel Workflows limits
-Vercel Functions
-Connecting a project to a Git repository
-Reserved variables
-Rate limits
-Rate limit examples
-Domain deletion
-Team deletion
-Username change
-Builds per hour (Hobby)
-Deployments per day (Hobby)
-Deploy hook triggers
-Dynamic quotas
 Agent Stack
 AI SDK
 AI Gateway
@@ -2598,4 +2589,149 @@ X
 LinkedIn
 YouTube
 Instagram
-The cross-link map is temporarily unavailable.
+Cross-link map: Limits (/docs/limits)
+From the Vercel docs graph (built 2026-10-10T05:32:43.016Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+https://vercel.com/docs/graph.json
+Semantically closest pages
+Workflow Pricing and Limits
+— Understand how Vercel Workflows billing works and the limits that apply to runs, streams, and platform resources.
+Vercel Functions Limits
+— Learn about the limits and restrictions of using Vercel Functions.
+Fair Use Guidelines
+— Learn how Vercel applies fair use guidelines across plans and usage-based resources.
+Legacy Usage & Pricing for Functions
+— Learn about legacy usage and pricing for Vercel Functions.
+Vercel Pricing
+— Choose a Vercel plan and compare features and usage pricing.
+This page links to (34)
+headers
+— Add custom HTTP headers to your Next.js app.
+rewrites
+— Add rewrites to your Next.js app.
+Dynamic Route Segments
+— Use Dynamic Segments to read URL path params and generate routes from dynamic data.
+How to handle redirects in Next.js
+— Learn the different ways to handle redirects in Next.js.
+Pricing for Web Analytics
+— Learn about pricing for Vercel Web Analytics.
+Build Output API
+— The Build Output API is a file-system-based specification for a directory structure that can produce a Vercel deployment
+Build Output Configuration
+— Learn about the Build Output Configuration file, which is used to configure the behavior of a Deployment.
+Configuring a Build
+— Vercel automatically configures the build settings for many front-end frameworks, but you can also customize the build a
+Managing Builds
+— Vercel allows you to increase the speed of your builds when needed in specific situations and workflows.
+Usage & Pricing for Cron Jobs
+— Learn about cron jobs usage and pricing details.
+Creating & Triggering Deploy Hooks
+— Learn how to create and trigger deploy hooks to integrate Vercel deployments with other systems.
+Deploying to Vercel
+— Create, verify, and manage preview and production deployments on Vercel from Git, Vercel CLI, or the REST API.
+Accessing Build Logs
+— Learn how to use Vercel&#x27;s build logs to monitor the progress of building or running your deployment, and check for possi
+Troubleshooting Build Errors
+— Learn how to resolve common scenarios you may encounter during the Build step, including build errors that cancel a depl
+Environment variables
+— Learn more about environment variables on Vercel.
+Reserved environment variables
+— Reserved environment variables are reserved by Vercel Vercel Function runtimes.
+System environment variables
+— System environment variables are automatically populated by Vercel, such as the URL of the deployment or the name of the
+Fluid compute
+— Learn about fluid compute, an execution model for Vercel Functions that provides a more flexible and efficient way to ru
+Vercel Functions Limits
+— Learn about the limits and restrictions of using Vercel Functions.
+Runtimes
+— Runtimes transform your source code into Functions, which are served by our CDN. Learn about the official runtimes suppo
+Incremental Static Regeneration \(ISR\)
+— ISR serves cached static pages while regenerating content in the background. Vercel\\
+Fair Use Guidelines
+— Learn how Vercel applies fair use guidelines across plans and usage-based resources.
+Runtime Logs
+— Learn how to search, inspect, and share your runtime logs with the Logs tab.
+Observability Plus
+— Learn about using Observability Plus and its limits.
+Vercel Pro Plan
+— Learn about the Vercel Pro plan with credit-based billing, one free first-year domain, free viewer seats, and self-serve
+Understanding Vercel
+— Learn all about Vercel&#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man
+Static Configuration with vercel.json
+— Learn how to use vercel.json to configure and override the default behavior of Vercel from within your project.
+Projects overview
+— A project is where you deploy and operate frontend apps, APIs, backends, containers, and agent workloads on Vercel.
+Query
+— Query and visualize your Vercel usage, traffic, and more in observability.
+Monitoring
+— Query and visualize your Vercel usage, traffic, and more with Monitoring.
+Limits and Pricing for Monitoring
+— Learn about our limits and pricing when using Monitoring. Different limitations are applied depending on your plan.
+Vercel REST API Reference
+— Interact programmatically with your Vercel account using the SDK or direct HTTP requests.
+Limits and Pricing for Speed Insights
+— Learn about our limits and pricing when using Vercel Speed Insights. Different limitations are applied depending on your
+Workflow Pricing and Limits
+— Understand how Vercel Workflows billing works and the limits that apply to runs, streams, and platform resources.
+Pages that link here (30)
+By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19)
+From v0
+Vercel Integration
+— How v0 and Vercel work in tandem.
+From vercel-changelog
+CDN origin timeout increased to two minutes
+CLI deployment limits removed
+Increased limit for projects per Git repo
+Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute
+From vercel-kb
+Deploy to Vercel with Self-Hosted Git Pipelines \(GitLab & Bitbucket\)
+— Learn how to use GitLab Pipelines to deploy to Vercel including support for self-managed GitLab.
+How to add and manage environment variables on Vercel
+— Add environment variables to Vercel through the dashboard, CLI, or REST API, scope them to each environment, and pull th
+How to build a honeypot with Vercel Web Application Firewall
+— Learn how to build a honeypot with Vercel Web Application Firewall \(WAF\) that catches bots ignoring your robots.txt. C
+Troubleshooting Build Error: Build step did not complete within the maximum of 45 minutes
+— Learn common reasons Vercel builds hit the 45-minute limit and how to reduce build times so your deployments stay fast a
+Why has my account or deployment been paused?
+— Learn why a Vercel account or deployment gets paused, from budget and usage limits to policy violations, and how to resu
+From vercel-web
+Vercel Pricing
+— Choose a Vercel plan and compare features and usage pricing.
+From vercel-docs
+vercel deploy
+— Learn how to deploy your Vercel projects using the vercel deploy CLI command.
+Usage & Pricing for Cron Jobs
+— Learn about cron jobs usage and pricing details.
+Creating & Triggering Deploy Hooks
+— Learn how to create and trigger deploy hooks to integrate Vercel deployments with other systems.
+Troubleshooting Build Errors
+— Learn how to resolve common scenarios you may encounter during the Build step, including build errors that cancel a depl
+Environment variables
+— Learn more about environment variables on Vercel.
+Vercel Functions Limits
+— Learn about the limits and restrictions of using Vercel Functions.
+Glossary
+— Learn about the terms and concepts used in Vercel&#x27;s products and documentation.
+Fair Use Guidelines
+— Learn how Vercel applies fair use guidelines across plans and usage-based resources.
+Using Monorepos
+— Vercel provides support for monorepos. Learn how to deploy a monorepo here.
+Notifications
+— Learn how to use Notifications to view and manage important alerts about your deployments, domains, integrations, accoun
+Understanding Vercel
+— Learn all about Vercel&#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man
+Project settings
+— Use the project settings, to configure custom domains, environment variables, Git, integrations, deployment protection,
+Projects overview
+— A project is where you deploy and operate frontend apps, APIs, backends, containers, and agent workloads on Vercel.
+Managing projects
+— Learn how to manage your projects through the Vercel Dashboard.
+Make Your First Vercel API Request
+— Create a scoped Vercel access token, make a read-only REST API request, and call the same operation with the Vercel SDK.
+Vercel Sandbox pricing and quotas
+— Understand how Vercel Sandbox billing works, what&#x27;s included in each plan, and the quotas that apply.
+Spend Management
+— Learn how to get notified about your account spend and configure a webhook.
+Vercel Blob Pricing
+— Learn about the pricing for Vercel Blob.
+Firewall concepts
+— Understand the fundamentals behind the Vercel Firewall.

@@ -2187,5 +2187,106 @@
       "Join our annual developer conference, September 15-17",
       "Join our annual developer conference, September 15-17"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "300s (5 minutes) default and max",
+      "300s default, 800s max, up to 1800s (30 minutes) in beta",
+      "2 GB / 1 vCPU default and max",
+      "2 GB / 1 vCPU default, up to 4 GB / 2 vCPU max",
+      "From the Vercel docs graph (built 2026-10-10T05:32:43.016Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:",
+      "This page links to (34)",
+      "— Learn how to use Vercel&#x27;s build logs to monitor the progress of building or running your deployment, and check for possi",
+      "— Learn all about Vercel&#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man",
+      "Pages that link here (30)",
+      "By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19)"
+    ],
+    "removed": [
+      "If you have an existing project, deployed to Vercel before April 23rd 2025 and",
+      "10s",
+      "60s (1 minute)",
+      "15s",
+      "300s (5 minutes)",
+      "15s",
+      "900s (15 minutes)"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.",
+      "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.",
+      "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.",
+      "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.",
+      "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.",
+      "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.",
+      "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.",
+      "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.",
+      "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.",
+      "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries."
+    ],
+    "removed": [
+      "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.",
+      "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries",
+      "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.",
+      "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries",
+      "Gemini 3.7 Flash",
+      "gemini-3.7-flash",
+      "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.",
+      "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries",
+      "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.",
+      "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "offers global endpoints and multi-region endpoints (dynamic routing within a geographic area) for these models, and regional endpoints for Claude Sonnet 4.6 and earlier models.",
+      "0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 and Claude Sonnet 5.5)",
+      "Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).",
+      "parameter incurs a 1.1x multiplier on all token pricing categories, including input tokens, output tokens, cache writes, and cache reads. On Claude Haiku 5.5, the multiplier also applies to the higher prices for prompts over 100,000 tokens (see",
+      "Claude 4.7 and later models and Claude Mythos Preview",
+      "Claude 4.6 and earlier models",
+      "text_editor_20250728",
+      "(Claude 4.7 and later models and Claude Mythos Preview)",
+      "974 tokens",
+      "text_editor_20250728"
+    ],
+    "removed": [
+      "0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5",
+      "and Claude Sonnet 5.5",
+      "Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens).",
+      "On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).",
+      "parameter incurs a 1.1x multiplier on all token pricing categories, including input tokens, output tokens, cache writes, and cache reads. Global routing (the default) uses standard pricing.",
+      "Claude Opus 5, Claude Opus 4.8, and Claude Opus 4.7",
+      "Claude Opus 4.6, Claude Sonnet 4.6, and earlier",
+      "text_editor_20250429",
+      "(Claude 4.x)",
+      "700 tokens"
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.7M weekly",
+      "21,448 stars"
+    ],
+    "removed": [
+      "2M weekly",
+      "21,446 stars"
+    ]
   }
 ]

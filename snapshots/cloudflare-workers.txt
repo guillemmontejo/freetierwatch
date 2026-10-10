@@ -113,8 +113,6 @@ Event subscriptions
 Troubleshooting builds
 Builds API reference
 Limits & pricing
-MCP server
-MCP
 External CI/CD
 Overview
 GitHub Actions
@@ -326,8 +324,6 @@ Overview
 Investigate issues
 Set up an automation
 OpenTelemetry export
-MCP server
-MCP
 Errors and exceptions
 Integrations
 Sentry
