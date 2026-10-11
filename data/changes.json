@@ -2288,5 +2288,50 @@
       "2M weekly",
       "21,446 stars"
     ]
+  },
+  {
+    "date": "2026-10-11",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-11T05:27:30.050Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-10T05:32:43.016Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,460 stars"
+    ],
+    "removed": [
+      "21,448 stars"
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "service_id": "openrouter-free-models",
+    "service_name": "OpenRouter (free models)",
+    "source_url": "https://openrouter.ai/docs/api_reference/limits",
+    "added": [
+      "Handling 403 budget errors",
+      "&#x27;workspace_default_member&#x27;",
+      "&#x27;workspace_default_key&#x27;",
+      "&#x27;member&#x27;",
+      "&#x27;api_key&#x27;",
+      "&#x27;workspace&#x27;",
+      "&#x27;key_limit&#x27;",
+      "&#x27;daily&#x27;",
+      "&#x27;weekly&#x27;",
+      "&#x27;monthly&#x27;"
+    ],
+    "removed": [
+      "See all 28 lines"
+    ]
   }
 ]
