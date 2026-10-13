@@ -506,7 +506,7 @@ Platform
 Limits
 Limits
 Last updated
-Oct 8, 2026
+Oct 12, 2026
 |
 Copy as Markdown
 |
@@ -519,6 +519,7 @@ Request and response limits
 CPU time
 Memory
 Duration
+Runtime updates
 Daily requests
 Subrequests
 Worker-to-Worker subrequests
@@ -798,8 +799,11 @@ ctx.waitUntil()
 to perform work after returning a response.
 waitUntil()
 can extend execution for up to 30 seconds after the response is sent or the client disconnects.
-Note
-Cloudflare updates the Workers runtime a few times per week. The runtime gives in-flight requests a 30-second grace period to finish. If a request does not finish within this time, the runtime terminates it. This scenario is very unlikely because it requires a long-running request to coincide with a runtime update.
+Runtime updates
+Cloudflare regularly updates the Workers runtime. During routine updates, processes running the previous version of the Workers runtime give existing Workers requests and connections up to 20 minutes to finish. This includes streaming HTTP responses and WebSocket connections.
+Once the updated version of the Workers runtime is ready, it handles new incoming HTTP requests. Processes running the previous version stop accepting these requests and drain existing work during their grace period.
+The grace period applies to each process running the previous version, not to each request. When it ends, that process terminates its remaining requests and connections.
+Crashes, resource pressure, and shutdowns can interrupt work earlier. Design long-running applications to handle disconnections and safely retry interrupted work.
 Daily requests
 Workers scale automatically across the Cloudflare global network. There is no general limit on requests per second.
 Accounts on the Workers Free plan have a daily request limit of 100,000 requests, resetting at midnight UTC. When a Worker exceeds this limit, Cloudflare returns
@@ -1185,7 +1189,9 @@ Wall time limit
 Details
 Incoming HTTP request
 Unlimited
-No hard limit while the client remains connected. A Worker that is still streaming a response body remains active.
+No hard limit while the client remains connected. Workers requests are subject to the
+grace period for runtime updates
+. A Worker that is still streaming a response body remains active.
 waitUntil()
 extends execution for up to 30 seconds after the response or disconnect.
 Cron Triggers
@@ -1235,6 +1241,7 @@ Request and response limits
 CPU time
 Memory
 Duration
+Runtime updates
 Daily requests
 Subrequests
 Worker-to-Worker subrequests

@@ -5,6 +5,27 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,461 stars — Removed: 21,460 stars</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-13T05:35:52.211Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-12T05:34:10.371Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers: pricing/limits page changed</title>
+      <link>https://developers.cloudflare.com/workers/platform/limits/</link>
+      <guid isPermaLink="false">cloudflare-workers-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Oct 12, 2026 | Cloudflare regularly updates the Workers runtime. During routine updates, processes running the previous version of the Workers runtime give existing Workers requests and connections up to 20 minutes to finish. This includes streaming HTTP responses and WebSocket connections. — Removed: Oct 8, 2026 | Cloudflare updates the Workers runtime a few times per week. The runtime gives in-flight requests a 30-second grace period to finish. If a request does not finish within this time, the runtime terminates it. This scenario is very unlikely because it requires a long-running request to coincide with a runtime update.</description>
+    </item>
+    <item>
       <title>Supabase: pricing/limits page changed</title>
       <link>https://supabase.com/pricing</link>
       <guid isPermaLink="false">supabase-2026-10-12</guid>
@@ -332,27 +353,6 @@
       <guid isPermaLink="false">neon-2026-10-03</guid>
       <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: Major update to our Free Plan: now with 1 GB of Postgres storage per project, 100 projects included</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-03T05:30:18.930Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-02T05:40:03.380Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Algolia: pricing/limits page changed</title>
-      <link>https://www.algolia.com/pricing</link>
-      <guid isPermaLink="false">algolia-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Gartner IT Symposium/Xpo™ 2026: Oct 19-22, Orlando — Removed: Algolia DevCon 2026: Oct 1, 2026 — VIRTUAL</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1.8M weekly | 21,406 stars — Removed: 1.7M weekly | 21,405 stars</description>
     </item>
   </channel>
 </rss>

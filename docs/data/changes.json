@@ -2357,5 +2357,43 @@
     "removed": [
       "111.2K"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "service_id": "cloudflare-workers",
+    "service_name": "Cloudflare Workers",
+    "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+    "added": [
+      "Oct 12, 2026",
+      "Cloudflare regularly updates the Workers runtime. During routine updates, processes running the previous version of the Workers runtime give existing Workers requests and connections up to 20 minutes to finish. This includes streaming HTTP responses and WebSocket connections."
+    ],
+    "removed": [
+      "Oct 8, 2026",
+      "Cloudflare updates the Workers runtime a few times per week. The runtime gives in-flight requests a 30-second grace period to finish. If a request does not finish within this time, the runtime terminates it. This scenario is very unlikely because it requires a long-running request to coincide with a runtime update."
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-13T05:35:52.211Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-12T05:34:10.371Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,461 stars"
+    ],
+    "removed": [
+      "21,460 stars"
+    ]
   }
 ]
