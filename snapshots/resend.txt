@@ -142,8 +142,8 @@ Trusted by
 Frequently asked questions
 Do you offer any discounts for annual subscriptions?
 No, we only provide monthly plans.
-Do you offer non-profit or education pricing?
-No, all plans are currently priced the same for every customer.
+Do you offer nonprofit or education pricing?
+Registered nonprofits can apply for a discount at resend.com/nonprofits. We do not offer education pricing.
 What payment methods do you accept?
 We accept all major credit cards.
 Is there a free trial available?
@@ -380,6 +380,6 @@ Emails
 Continue sending and receiving emails beyond your quota. Resend automatically charges your plan&#x27;s overage rate for each additional bucket of 1,000 emails. Available to paid subscriptions.
 Enable pay-as-you-go
 Automations
-· $0.0015 / per run
+· $0.0015 / run
 Start with 10,000 Automation Runs for free, and scale as you need. Resend automatically charges for each run beyond the free limit. Available to paid subscriptions.
 Enable pay-as-you-go

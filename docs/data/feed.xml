@@ -7,6 +7,62 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 21,464 stars — Removed: 21,461 stars</description>
+    </item>
+    <item>
+      <title>MongoDB Atlas: pricing/limits page changed</title>
+      <link>https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/</link>
+      <guid isPermaLink="false">mongodb-atlas-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: See how MongoDB 9.0 delivers up to 2x higher throughput.</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: A one-hour coding session using Claude Opus 5.5 that consumes 50,000 input tokens and 15,000 output tokens: | 50,000 × $4 / 1,000,000 | 15,000 × $20 / 1,000,000 | $0.58 | 10,000 × $4 / 1,000,000 | $0.04 | 40,000 × $4 × 0.05 / 1,000,000 | $0.008 | 15,000 × $20 / 1,000,000 | $0.428 — Removed: A one-hour coding session using Claude Opus 5 that consumes 50,000 input tokens and 15,000 output tokens: | 50,000 × $5 / 1,000,000 | 15,000 × $25 / 1,000,000 | $0.375 | $0.705 | 10,000 × $5 / 1,000,000 | 40,000 × $5 × 0.1 / 1,000,000 | $0.02 | 15,000 × $25 / 1,000,000 | $0.375</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Gemini 4 Argon is now available. | Gemini 4 Argon | gemini-4-argon | Our flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, autonomous multi-step agents, and long-decode generation up to 1M tokens. | Gemini 4 Argon is not available on the Free tier or on the | $2.00 through November 30, 2026. | $4.00 starting December 1, 2026. | $10.00 through November 30, 2026. | $20.00 starting December 1, 2026. | $0.10 through November 30, 2026. — Removed: Gemini 3.8 Flash is now available. | Last updated 2026-10-09 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-09 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Resend: pricing/limits page changed</title>
+      <link>https://resend.com/pricing</link>
+      <guid isPermaLink="false">resend-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: · $0.0015 / run — Removed: · $0.0015 / per run</description>
+    </item>
+    <item>
+      <title>Neon: pricing/limits page changed</title>
+      <link>https://neon.com/docs/introduction/plans</link>
+      <guid isPermaLink="false">neon-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 10 active / 400 waiting Capacity-Hours, 1M invocations per project | plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per project per month. Each project gets its own allowance, and it isn&amp;#x27;t shared with your other projects. The | is separate: it caps in-flight invocations across your account to prevent abuse and isn&amp;#x27;t a usage allowance. | Egress (data a function sends out) counts toward the project&amp;#x27;s — Removed: 10 active / 400 waiting Capacity-Hours, 1M invocations | plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per month.</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 111.5K — Removed: 111.4K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: From the Vercel docs graph (built 2026-10-14T10:24:21.026Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-13T05:35:52.211Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-13</guid>
       <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 21,461 stars — Removed: 21,460 stars</description>
@@ -297,62 +353,6 @@
       <guid isPermaLink="false">groq-2026-10-05</guid>
       <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 5 — Removed: 3</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 111.1K — Removed: 111K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-05T05:39:47.698Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-04T07:10:36.076Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-04</guid>
-      <pubDate>Sun, 04 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1.9M weekly | 21,417 stars — Removed: 1.8M weekly | 21,416 stars</description>
-    </item>
-    <item>
-      <title>Groq: pricing/limits page changed</title>
-      <link>https://console.groq.com/docs/rate-limits</link>
-      <guid isPermaLink="false">groq-2026-10-04</guid>
-      <pubDate>Sun, 04 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 3</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-04</guid>
-      <pubDate>Sun, 04 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-04T07:10:36.076Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-03T05:30:18.930Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Clerk: pricing/limits page changed</title>
-      <link>https://clerk.com/pricing</link>
-      <guid isPermaLink="false">clerk-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Additional $75/mo each from January 1, 2027 | Provision and deprovision users with SCIM or Google Workspace. Counted separately from SSO connections. Billing for Directory Sync connections starts January 1, 2027. — Removed: Provision and deprovision users from your customers&amp;#x27; identity providers. Counted separately from SSO connections. | 1 directory | 1 directory</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,416 stars — Removed: 21,406 stars</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Major update to our Free Plan: now with 1 GB of Postgres storage per project, 100 projects included</description>
     </item>
   </channel>
 </rss>

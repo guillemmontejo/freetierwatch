@@ -777,6 +777,9 @@ data: { id : cmpl-abc123 , object : chat.completion.chunk , created :1234567890,
 See
 Handling Errors During Streaming
 for details and code examples.
+Was this page helpful?
+Yes
+No
 Embeddings
 Authentication
 Assistant

@@ -179,6 +179,7 @@ Fetch
 Handlers
 Overview
 Alarm Handler ↗︎
+Connect Handler
 Email Handler ↗︎
 Fetch Handler
 Queue Handler ↗︎
@@ -261,6 +262,7 @@ TanStack Start
 Microfrontends
 SvelteKit
 Vike
+Foldkit
 fate
 More guides...
 Analog

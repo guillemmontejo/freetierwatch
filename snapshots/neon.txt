@@ -164,7 +164,7 @@ Object Storage
 $0.023/GB-month
 $0.023/GB-month
 Functions
-10 active / 400 waiting Capacity-Hours, 1M invocations
+10 active / 400 waiting Capacity-Hours, 1M invocations per project
 $0.10/$0.025/Capacity-Hour, $0.60/M
 $0.12/$0.03/Capacity-Hour, $0.60/M
 AI Gateway
@@ -551,11 +551,12 @@ $0.60/M
 $0.60/M
 On the
 Free
-plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per month.
-These Free allowances are enforced at two levels: an account-wide total across all your projects, and an independent per-project limit.
-Egress (data a function sends out) counts toward your
+plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per project per month. Each project gets its own allowance, and it isn&#x27;t shared with your other projects. The
+concurrency limit
+is separate: it caps in-flight invocations across your account to prevent abuse and isn&#x27;t a usage allowance.
+Egress (data a function sends out) counts toward the project&#x27;s
 public network transfer
-allowance, which is shared across all products.
+allowance, which is also per project and shared across all products in that project.
 See
 Neon Functions
 for what&#x27;s included and current limitations.

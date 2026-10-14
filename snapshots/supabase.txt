@@ -6,7 +6,7 @@ Solutions
 Pricing
 Docs
 Blog
-111.4K
+111.5K
 Sign in
 Start your project
 Open main menu
@@ -79,7 +79,7 @@ Enterprise
 For large-scale applications running Internet scale workloads.
 Contact Us
 Custom
-Designated Support manager
+Technical Account Management
 Uptime SLAs
 Supports AWS PrivateLink
 24×7×365 premium enterprise support

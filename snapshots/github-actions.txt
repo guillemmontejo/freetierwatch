@@ -55,6 +55,7 @@ Payments in India
 Manage plan and licenses
 Upgrade plan
 Downgrade plan
+Change billing cycle
 Manage pending changes
 View enterprise usage
 Manage user licenses
@@ -82,6 +83,7 @@ Create as CSP partner
 Manage client org
 Troubleshooting
 Declined card
+Authorization holds
 Locked account
 Azure sub connection
 Enterprise license usage

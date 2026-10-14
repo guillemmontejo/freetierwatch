@@ -2395,5 +2395,132 @@
     "removed": [
       "21,460 stars"
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-14T10:24:21.026Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-13T05:35:52.211Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "111.5K"
+    ],
+    "removed": [
+      "111.4K"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "neon",
+    "service_name": "Neon",
+    "source_url": "https://neon.com/docs/introduction/plans",
+    "added": [
+      "10 active / 400 waiting Capacity-Hours, 1M invocations per project",
+      "plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per project per month. Each project gets its own allowance, and it isn&#x27;t shared with your other projects. The",
+      "is separate: it caps in-flight invocations across your account to prevent abuse and isn&#x27;t a usage allowance.",
+      "Egress (data a function sends out) counts toward the project&#x27;s"
+    ],
+    "removed": [
+      "10 active / 400 waiting Capacity-Hours, 1M invocations",
+      "plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per month."
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "resend",
+    "service_name": "Resend",
+    "source_url": "https://resend.com/pricing",
+    "added": [
+      "· $0.0015 / run"
+    ],
+    "removed": [
+      "· $0.0015 / per run"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Gemini 4 Argon is now available.",
+      "Gemini 4 Argon",
+      "gemini-4-argon",
+      "Our flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, autonomous multi-step agents, and long-decode generation up to 1M tokens.",
+      "Gemini 4 Argon is not available on the Free tier or on the",
+      "$2.00 through November 30, 2026.",
+      "$4.00 starting December 1, 2026.",
+      "$10.00 through November 30, 2026.",
+      "$20.00 starting December 1, 2026.",
+      "$0.10 through November 30, 2026."
+    ],
+    "removed": [
+      "Gemini 3.8 Flash is now available.",
+      "Last updated 2026-10-09 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-09 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "A one-hour coding session using Claude Opus 5.5 that consumes 50,000 input tokens and 15,000 output tokens:",
+      "50,000 × $4 / 1,000,000",
+      "15,000 × $20 / 1,000,000",
+      "$0.58",
+      "10,000 × $4 / 1,000,000",
+      "$0.04",
+      "40,000 × $4 × 0.05 / 1,000,000",
+      "$0.008",
+      "15,000 × $20 / 1,000,000",
+      "$0.428"
+    ],
+    "removed": [
+      "A one-hour coding session using Claude Opus 5 that consumes 50,000 input tokens and 15,000 output tokens:",
+      "50,000 × $5 / 1,000,000",
+      "15,000 × $25 / 1,000,000",
+      "$0.375",
+      "$0.705",
+      "10,000 × $5 / 1,000,000",
+      "40,000 × $5 × 0.1 / 1,000,000",
+      "$0.02",
+      "15,000 × $25 / 1,000,000",
+      "$0.375"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "mongodb-atlas",
+    "service_name": "MongoDB Atlas",
+    "source_url": "https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/",
+    "added": [],
+    "removed": [
+      "See how MongoDB 9.0 delivers up to 2x higher throughput."
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,464 stars"
+    ],
+    "removed": [
+      "21,461 stars"
+    ]
   }
 ]
