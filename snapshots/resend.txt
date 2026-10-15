@@ -49,6 +49,28 @@ Batch sending
 Open tracking
 Link tracking
 React Email
+Inboxes
+Free
+Pro
+Scale
+Enterprise
+Inboxes
+3
+3
+3
+Flexible
+Additional inboxes
+–
+$1 / inbox
+$1 / inbox
+Flexible
+Inbox emails
+Transactional quota
+Transactional quota
+Transactional quota
+Transactional quota
+Threads
+Agent access
 Deliverability & reliability
 Free
 Pro
@@ -160,6 +182,8 @@ Do broadcast emails count against the transactional email limits?
 No. Broadcast emails sent through the /broadcasts API or through the Broadcasts interface in the dashboard do not count against your transactional email limits. Only emails sent through the /emails API count towards your transactional email limits.
 How are inbound emails counted?
 Each received email counts towards your transactional emails quota.
+How are inboxes priced?
+Every plan includes 3 inboxes. On paid plans with pay-as-you-go enabled, each additional inbox is billed at $1 per month. Inboxes do not come with a separate email allowance: every email sent or received through an inbox counts towards your transactional emails quota.
 Does upgrading my plan raise the API rate limit?
 No. The API rate limit (requests per second) is set per team and is the same on every plan, so upgrading doesn&#x27;t change it. If you&#x27;re hitting the limit, the Batch Email API sends up to 100 emails in one request, and each batch request counts as a single request against the limit. If your sending pattern still needs a higher limit, contact support with your expected volume and we&#x27;ll review it.
 Can I send my newsletter through the /emails API instead of Broadcasts?
@@ -327,6 +351,7 @@ $0 / mo
 3,000 emails / mo
 100 emails a day
 3 domains
+3 inboxes
 Ticket support
 10,000 automation runs
 30-day data retention
@@ -382,4 +407,8 @@ Enable pay-as-you-go
 Automations
 · $0.0015 / run
 Start with 10,000 Automation Runs for free, and scale as you need. Resend automatically charges for each run beyond the free limit. Available to paid subscriptions.
+Enable pay-as-you-go
+Inboxes
+· $1 / inbox
+Start with 3 inboxes for free, and scale as you need. With pay-as-you-go enabled, Resend charges for each additional inbox per month. Inbox emails use your transactional quota. Available to paid subscriptions.
 Enable pay-as-you-go

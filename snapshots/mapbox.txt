@@ -41,6 +41,9 @@ Navigation SDK for Automotive
 In-vehicle infotainment and navigation services
 Navigation for Mobile
 Routing and directions for iOS & Android
+Mapbox 3D Live Navigation
+New
+Your lane, your route, and everything around you
 Mapbox 3D Lanes
 New
 3D lane-level guidance for precise navigation
@@ -262,6 +265,9 @@ Navigation SDK for Automotive
 In-vehicle infotainment and navigation services
 Navigation for Mobile
 Routing and directions for iOS & Android
+Mapbox 3D Live Navigation
+New
+Your lane, your route, and everything around you
 Mapbox 3D Lanes
 New
 3D lane-level guidance for precise navigation
@@ -1514,6 +1520,8 @@ Navigation
 Navigation Overview
 Navigation for Automotive
 Navigation for Mobile
+Mapbox 3D Live Navigation
+Mapbox 3D Lanes
 MapGPT
 Matrix API
 Mapbox for EV

@@ -2590,7 +2590,7 @@ LinkedIn
 YouTube
 Instagram
 Cross-link map: Limits (/docs/limits)
-From the Vercel docs graph (built 2026-10-14T10:24:21.026Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+From the Vercel docs graph (built 2026-10-15T05:50:43.280Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
 https://vercel.com/docs/graph.json
 Semantically closest pages
 Workflow Pricing and Limits

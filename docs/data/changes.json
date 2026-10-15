@@ -2522,5 +2522,86 @@
     "removed": [
       "21,461 stars"
     ]
+  },
+  {
+    "date": "2026-10-15",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "From the Vercel docs graph (built 2026-10-15T05:50:43.280Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ],
+    "removed": [
+      "From the Vercel docs graph (built 2026-10-14T10:24:21.026Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "service_id": "resend",
+    "service_name": "Resend",
+    "source_url": "https://resend.com/pricing",
+    "added": [
+      "$1 / inbox",
+      "$1 / inbox",
+      "Every plan includes 3 inboxes. On paid plans with pay-as-you-go enabled, each additional inbox is billed at $1 per month. Inboxes do not come with a separate email allowance: every email sent or received through an inbox counts towards your transactional emails quota.",
+      "3 inboxes",
+      "· $1 / inbox",
+      "Start with 3 inboxes for free, and scale as you need. With pay-as-you-go enabled, Resend charges for each additional inbox per month. Inbox emails use your transactional quota. Available to paid subscriptions."
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-10-15",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "$0.015",
+      "$9.00, prompts > 200k tokens",
+      "$0.10, prompts",
+      "$0.20, prompts > 200k tokens",
+      "$0.75 (text/image/video)",
+      "Last updated 2026-10-15 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-15 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "$0.75 (text, image, video)",
+      "Last updated 2026-10-14 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-14 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "service_id": "openai-api",
+    "service_name": "OpenAI API",
+    "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+    "added": [
+      "Maintaining software with the GPT-6 family"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-10-15",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "21,469 stars"
+    ],
+    "removed": [
+      "21,464 stars"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "service_id": "mapbox",
+    "service_name": "Mapbox",
+    "source_url": "https://www.mapbox.com/pricing",
+    "added": [
+      "Mapbox 3D Live Navigation",
+      "Mapbox 3D Live Navigation",
+      "Mapbox 3D Live Navigation"
+    ],
+    "removed": []
   }
 ]
