@@ -348,13 +348,15 @@ traffic.
 They can
 send
 private network requests to your data stores and paid services in the same region.
-Free web services can&#x27;t listen on reserved ports
+Free web services can&#x27;t bind to Render&#x27;s
+reserved ports
+(
 18012
 ,
 18013
 , or
 19099
-.
+).
 Free web services can&#x27;t send outbound network traffic on ports
 25
 ,
@@ -362,6 +364,11 @@ Free web services can&#x27;t send outbound network traffic on ports
 , or
 587
 , commonly used for SMTP.
+Render blocks outbound traffic on port
+25
+for
+all
+services.
 Free Postgres
 The limitations below are specific to
 Render Postgres

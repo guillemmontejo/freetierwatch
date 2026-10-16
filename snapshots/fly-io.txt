@@ -72,6 +72,7 @@ Sprite docs
 Sprites API
 About
 Fly.io Free Trial
+Check what the Fly.io free trial includes, its VM hour, Machine, volume and memory limits, how to track usage, and what happens when the trial ends.
 Fly.io runs your apps close to your users. This page explains how our free trial works and what resources you can use before you need to add a payment method.
 ​
 Free Trial overview
@@ -115,6 +116,7 @@ How Billing Works
 Fly.io Pricing Calculator
 Previous
 Support
+Get help with Fly.io through the community forum, billing email, paid email support and Support Portal, and see what to include in a ticket and what&#x27;s in scope.
 Next
 ⌘
 I

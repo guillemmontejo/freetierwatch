@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-Major update to our Free Plan: now with 1 GB of Postgres storage per project, 100 projects included
+Neon now has realtime: Live SQL with full reactivity. Try it in Beta today
 Neon
 Docs
 Search
@@ -13,7 +13,8 @@ Concepts
 Products
 Postgres
 Auth
-Neon Functions
+Realtime
+Functions
 Object Storage
 AI Gateway
 Lakebase Search
