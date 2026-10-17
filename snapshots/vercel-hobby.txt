@@ -112,6 +112,8 @@ MCP
 Vercel Connect
 eve
 beta
+Agent Harnesses
+beta
 Agent Resources
 Run agents and backends
 Functions

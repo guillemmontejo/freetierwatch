@@ -2738,5 +2738,44 @@
     "removed": [
       "21,469 stars"
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "service_id": "netlify",
+    "service_name": "Netlify",
+    "source_url": "https://www.netlify.com/pricing/",
+    "added": [
+      "10",
+      "50"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-10-17",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Gemini 4 Argon is not available on the Free tier.",
+      "Last updated 2026-10-16 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-16 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "Gemini 4 Argon is not available on the Free tier or on the",
+      "Last updated 2026-10-15 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-15 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "23,825 stars"
+    ],
+    "removed": [
+      "21,474 stars"
+    ]
   }
 ]

@@ -171,9 +171,9 @@ Hang out with us
 Community
 Events
 Merch
-Sentry Cookbook
-Step-by-step recipes for debugging, monitoring, and fixing issues with Sentry.
-Explore Cookbook
+Automated Debugging Hub
+Guides, recipes, and videos on how Sentry gives your agents the context to find root causes and fix bugs.
+Automate Your Debugging
 Docs
 Pricing
 Sign In

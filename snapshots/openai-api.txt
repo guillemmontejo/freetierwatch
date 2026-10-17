@@ -238,6 +238,8 @@ Async tool calling
 Computer and code
 Shell
 Computer use
+Integration recipes
+Driver reference
 Apply Patch
 Local shell
 Code interpreter
@@ -645,9 +647,10 @@ Roles and workspace permissions
 Personal access tokens
 Service accounts
 Deployment and configuration
-Windows app deployment
+Windows app and CLI deployment
 Manage app updates
 Managed configuration
+Codex security cookbook
 Remote connections
 Workspace model availability
 Amazon Bedrock
@@ -720,11 +723,11 @@ Docs
 Showcase
 All posts
 Recent
+Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
 Rethinking skills and prompts for GPT-6 Astra
 Architectural visualization with Astra
-Building games with Astra
 Topics
 General
 API
