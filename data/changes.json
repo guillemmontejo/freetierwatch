@@ -2777,5 +2777,17 @@
     "removed": [
       "21,474 stars"
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "23,829 stars"
+    ],
+    "removed": [
+      "23,825 stars"
+    ]
   }
 ]
