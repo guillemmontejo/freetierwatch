@@ -2789,5 +2789,31 @@
     "removed": [
       "23,825 stars"
     ]
+  },
+  {
+    "date": "2026-10-19",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "111.7K"
+    ],
+    "removed": [
+      "111.6K"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1M weekly",
+      "23,831 stars"
+    ],
+    "removed": [
+      "1.7M weekly",
+      "23,829 stars"
+    ]
   }
 ]
