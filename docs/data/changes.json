@@ -2815,5 +2815,58 @@
       "1.7M weekly",
       "23,829 stars"
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "111.9K"
+    ],
+    "removed": [
+      "111.7K"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "and will be shut down on October 22, 2026; migrate to",
+      "Veo 3.1 Preview (",
+      "and will be shut down on October 22, 2026; migrate to",
+      "Last updated 2026-10-19 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-19 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "Last updated 2026-10-16 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-16 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.1M weekly",
+      "23,836 stars"
+    ],
+    "removed": [
+      "1M weekly",
+      "23,831 stars"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "service_id": "algolia",
+    "service_name": "Algolia",
+    "source_url": "https://www.algolia.com/pricing",
+    "added": [],
+    "removed": [
+      "Gartner IT Symposium/Xpo™ 2026: Oct 19-22, Orlando"
+    ]
   }
 ]

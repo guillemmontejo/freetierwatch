@@ -5,6 +5,34 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Algolia: pricing/limits page changed</title>
+      <link>https://www.algolia.com/pricing</link>
+      <guid isPermaLink="false">algolia-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: Gartner IT Symposium/Xpo™ 2026: Oct 19-22, Orlando</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.1M weekly | 23,836 stars — Removed: 1M weekly | 23,831 stars</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: and will be shut down on October 22, 2026; migrate to | Veo 3.1 Preview ( | and will be shut down on October 22, 2026; migrate to | Last updated 2026-10-19 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-19 UTC.&quot;],[],[]] — Removed: Last updated 2026-10-16 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-16 UTC.&quot;],[],[]]</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 111.9K — Removed: 111.7K</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-19</guid>
@@ -325,34 +353,6 @@
       <guid isPermaLink="false">upstash-redis-2026-10-09</guid>
       <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: This site has a search endpoint: https://context7.com/api/v2/ask?siteKey=ask_4cf2adc7846aa874f833b068&amp;query=&lt;URL-encoded question&gt;. It returns documentation that answers the question, with a source link for each part. No API key is needed. If nothing matches, it says so. | Free tier includes 250MB data size and 500K commands per month. | Are paid databases&amp;#x27; first 250MB data and 500K commands free? | Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, Insights in the console, multi-zone high availability, and encryption at rest. — Removed: 256 MB | Free tier includes 256MB data size and 500K commands per month. | Are paid databases&amp;#x27; first 256MB data and 500K commands free? | Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, multi-zone high availability, and encryption at rest. | 256 MB</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Removed: From the Vercel docs graph (built 2026-10-08T05:38:39.548Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (33) | — Learn how to use Vercel&amp;#x27;s build logs to monitor the progress of building or running your deployment, and check for possi | — Learn all about Vercel&amp;#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man | Pages that link here (30) | By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19) | From v0 | — How v0 and Vercel work in tandem. | Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute | Troubleshooting Build Error: Build step did not complete within the maximum of 45 minutes</description>
-    </item>
-    <item>
-      <title>Cloudflare Pages: pricing/limits page changed</title>
-      <link>https://developers.cloudflare.com/pages/platform/limits/</link>
-      <guid isPermaLink="false">cloudflare-pages-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Removed: Vite 3</description>
-    </item>
-    <item>
-      <title>Cloudflare Workers: pricing/limits page changed</title>
-      <link>https://developers.cloudflare.com/workers/platform/limits/</link>
-      <guid isPermaLink="false">cloudflare-workers-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Oct 8, 2026 — Removed: Sep 5, 2026</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-08</guid>
-      <pubDate>Thu, 08 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,434 stars — Removed: 21,432 stars</description>
     </item>
   </channel>
 </rss>
