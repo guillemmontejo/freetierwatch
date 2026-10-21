@@ -579,7 +579,7 @@ api-abuse-create-report
 owner
 Artifacts requests per minute (Free).
 api-artifacts-free
-200
+300
 60
 owner
 Requests per minute to fetch the microfrontends groups for a team.
@@ -599,7 +599,7 @@ api-microfrontends-best-default-app-deployment
 owner
 Artifacts requests per minute (Paid).
 api-artifacts-paid
-20000
+30000
 60
 owner
 Remote Cache purge requests per minute.

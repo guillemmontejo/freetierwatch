@@ -5,6 +5,34 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Grafana Cloud: pricing/limits page changed</title>
+      <link>https://grafana.com/pricing/</link>
+      <guid isPermaLink="false">grafana-cloud-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: See everything announced at ObservabilityCON 2026: AI that monitors your AI, faster log search, lower telemetry costs, and more. — Removed: Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms.</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 23,851 stars — Removed: 23,836 stars</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 112.6K — Removed: 111.9K</description>
+    </item>
+    <item>
+      <title>Vercel (Hobby): pricing/limits page changed</title>
+      <link>https://vercel.com/docs/limits</link>
+      <guid isPermaLink="false">vercel-hobby-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 30000 — Removed: 20000</description>
+    </item>
+    <item>
       <title>Algolia: pricing/limits page changed</title>
       <link>https://www.algolia.com/pricing</link>
       <guid isPermaLink="false">algolia-2026-10-20</guid>
@@ -325,34 +353,6 @@
       <guid isPermaLink="false">vercel-hobby-2026-10-10</guid>
       <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 300s (5 minutes) default and max | 300s default, 800s max, up to 1800s (30 minutes) in beta | 2 GB / 1 vCPU default and max | 2 GB / 1 vCPU default, up to 4 GB / 2 vCPU max | From the Vercel docs graph (built 2026-10-10T05:32:43.016Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (34) | — Learn how to use Vercel&amp;#x27;s build logs to monitor the progress of building or running your deployment, and check for possi | — Learn all about Vercel&amp;#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man | Pages that link here (30) | By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19) — Removed: If you have an existing project, deployed to Vercel before April 23rd 2025 and | 10s | 60s (1 minute) | 15s | 300s (5 minutes) | 15s | 900s (15 minutes)</description>
-    </item>
-    <item>
-      <title>Mapbox: pricing/limits page changed</title>
-      <link>https://www.mapbox.com/pricing</link>
-      <guid isPermaLink="false">mapbox-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Removed: Join our annual developer conference, September 15-17 | Join our annual developer conference, September 15-17</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,446 stars — Removed: 21,434 stars</description>
-    </item>
-    <item>
-      <title>Anthropic API: pricing/limits page changed</title>
-      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
-      <guid isPermaLink="false">anthropic-api-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Claude Haiku 5.5 is priced by prompt length: a request whose prompt is over 100,000 tokens pays higher prices. A request&amp;#x27;s prompt length counts all of its input tokens, including cache reads and cache writes. Each request is priced on its own: a request over the threshold pays the higher prices even when part of its prompt is a cache hit, and earlier requests keep the prices they were billed at. — Removed: Claude Haiku 5.5 is priced by prompt length: a prompt of over 100,000 tokens pays higher prices.</description>
-    </item>
-    <item>
-      <title>Upstash Redis: pricing/limits page changed</title>
-      <link>https://upstash.com/docs/redis/overall/pricing</link>
-      <guid isPermaLink="false">upstash-redis-2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: This site has a search endpoint: https://context7.com/api/v2/ask?siteKey=ask_4cf2adc7846aa874f833b068&amp;query=&lt;URL-encoded question&gt;. It returns documentation that answers the question, with a source link for each part. No API key is needed. If nothing matches, it says so. | Free tier includes 250MB data size and 500K commands per month. | Are paid databases&amp;#x27; first 250MB data and 500K commands free? | Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, Insights in the console, multi-zone high availability, and encryption at rest. — Removed: 256 MB | Free tier includes 256MB data size and 500K commands per month. | Are paid databases&amp;#x27; first 256MB data and 500K commands free? | Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, multi-zone high availability, and encryption at rest. | 256 MB</description>
     </item>
   </channel>
 </rss>

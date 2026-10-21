@@ -2868,5 +2868,53 @@
     "removed": [
       "Gartner IT Symposium/Xpo™ 2026: Oct 19-22, Orlando"
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "service_id": "vercel-hobby",
+    "service_name": "Vercel (Hobby)",
+    "source_url": "https://vercel.com/docs/limits",
+    "added": [
+      "30000"
+    ],
+    "removed": [
+      "20000"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "112.6K"
+    ],
+    "removed": [
+      "111.9K"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "23,851 stars"
+    ],
+    "removed": [
+      "23,836 stars"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "service_id": "grafana-cloud",
+    "service_name": "Grafana Cloud",
+    "source_url": "https://grafana.com/pricing/",
+    "added": [
+      "See everything announced at ObservabilityCON 2026: AI that monitors your AI, faster log search, lower telemetry costs, and more."
+    ],
+    "removed": [
+      "Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms."
+    ]
   }
 ]
