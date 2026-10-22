@@ -307,6 +307,7 @@ Real-time personalization
 Access to SSO and enhanced SLA
 Access to enterprise-level Support plans
 Professional services available
+Get a demo
 Pay as you go
 Grow Plus
 NEW
@@ -322,6 +323,7 @@ Advanced Personalization
 Query Categorization
 Collections
 90 days analytics retention
+Get a demo
 Grow
 Keyword search
 Start for free
@@ -336,6 +338,7 @@ Data transformation
 30 days analytics retention
 Third party integrations + connectors
 US, UK, EU hosting locations
+Get a demo
 Free
 Search and recommendations
 Build for free
@@ -346,6 +349,7 @@ INCLUDES:
 50K records included
 5K recommendation requests/month
 5K crawls/month
+Get a demo
 See full features grid
 Scalable pricing for smarter search
 Powering the world s best AI experiences start for free, grow seamlessly and upgrade anytime

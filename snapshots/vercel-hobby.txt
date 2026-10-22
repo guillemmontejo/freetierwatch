@@ -108,6 +108,7 @@ Build AI apps
 AI Gateway
 Token Pass
 AI SDK
+Chat SDK
 MCP
 Vercel Connect
 eve

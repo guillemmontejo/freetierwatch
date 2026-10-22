@@ -5,6 +5,41 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 768.2K weekly | 23,867 stars — Removed: 1.1M weekly | 23,851 stars</description>
+    </item>
+    <item>
+      <title>Hugging Face Inference Providers: pricing/limits page changed</title>
+      <link>https://huggingface.co/docs/inference-providers/en/pricing</link>
+      <guid isPermaLink="false">huggingface-inference-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: https://router.huggingface.co/v1 | https://router.huggingface.co/v1/chat/completions | &amp;#x27;HF_TOKEN&amp;#x27; | https://router.huggingface.co/v1 | https://router.huggingface.co/v1/chat/completions</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Regional and multi-region endpoints include a 10 percent premium over global endpoints. The Claude API (first-party) is global by default; for first-party data residency options and pricing, see | bills through AWS Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 USD per CCU, and reports the CCU quantity to AWS Marketplace hourly. Your AWS bill shows a single CCU line item. | $0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price) | ), then converted to CCUs at $0.01 USD per CCU | bills through the Azure Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 USD per CCU, and reports the CCU quantity to the Azure Marketplace hourly. Your Azure bill shows a single CCU line item. | $0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price) | ), then converted to CCUs at $0.01 USD per CCU | On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see | provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, | The Batch API allows asynchronous processing of large volumes of requests with a 50 percent discount on both input and output tokens. — Removed: Regional and multi-region endpoints include a 10% premium over global endpoints. The Claude API (first-party) is global by default; for first-party data residency options and pricing, see | bills through AWS Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 per CCU, and reports the CCU quantity to AWS Marketplace hourly. Your AWS bill shows a single CCU line item. | $0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price) | ), then converted to CCUs at $0.01 per CCU | bills through the Azure Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 per CCU, and reports the CCU quantity to the Azure Marketplace hourly. Your Azure bill shows a single CCU line item. | $0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price) | ), then converted to CCUs at $0.01 per CCU | This applies to the Claude API (first-party) and Claude Platform on AWS. On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see | provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, on | The Batch API allows asynchronous processing of large volumes of requests with a 50% discount on both input and output tokens.</description>
+    </item>
+    <item>
+      <title>Upstash Redis: pricing/limits page changed</title>
+      <link>https://upstash.com/docs/redis/overall/pricing</link>
+      <guid isPermaLink="false">upstash-redis-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: +$200/month per database | +$200/month per database</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 113.2K — Removed: 112.6K</description>
+    </item>
+    <item>
       <title>Grafana Cloud: pricing/limits page changed</title>
       <link>https://grafana.com/pricing/</link>
       <guid isPermaLink="false">grafana-cloud-2026-10-21</guid>
@@ -318,41 +353,6 @@
       <guid isPermaLink="false">convex-2026-10-11</guid>
       <pubDate>Sun, 11 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 21,460 stars — Removed: 21,448 stars</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-11T05:27:30.050Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-10T05:32:43.016Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 1.7M weekly | 21,448 stars — Removed: 2M weekly | 21,446 stars</description>
-    </item>
-    <item>
-      <title>Anthropic API: pricing/limits page changed</title>
-      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
-      <guid isPermaLink="false">anthropic-api-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: offers global endpoints and multi-region endpoints (dynamic routing within a geographic area) for these models, and regional endpoints for Claude Sonnet 4.6 and earlier models. | 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 and Claude Sonnet 5.5) | Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5). | parameter incurs a 1.1x multiplier on all token pricing categories, including input tokens, output tokens, cache writes, and cache reads. On Claude Haiku 5.5, the multiplier also applies to the higher prices for prompts over 100,000 tokens (see | Claude 4.7 and later models and Claude Mythos Preview | Claude 4.6 and earlier models | text_editor_20250728 | (Claude 4.7 and later models and Claude Mythos Preview) | 974 tokens | text_editor_20250728 — Removed: 0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 | and Claude Sonnet 5.5 | Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). | On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5). | parameter incurs a 1.1x multiplier on all token pricing categories, including input tokens, output tokens, cache writes, and cache reads. Global routing (the default) uses standard pricing. | Claude Opus 5, Claude Opus 4.8, and Claude Opus 4.7 | Claude Opus 4.6, Claude Sonnet 4.6, and earlier | text_editor_20250429 | (Claude 4.x) | 700 tokens</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. | 5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries. | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. | 5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries. | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. | 5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries. | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. | 5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries. | 5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests. | 5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries. — Removed: 5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests. | 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries | 5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests. | 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries | Gemini 3.7 Flash | gemini-3.7-flash | 5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests. | 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries | 5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests. | 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 300s (5 minutes) default and max | 300s default, 800s max, up to 1800s (30 minutes) in beta | 2 GB / 1 vCPU default and max | 2 GB / 1 vCPU default, up to 4 GB / 2 vCPU max | From the Vercel docs graph (built 2026-10-10T05:32:43.016Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: | This page links to (34) | — Learn how to use Vercel&amp;#x27;s build logs to monitor the progress of building or running your deployment, and check for possi | — Learn all about Vercel&amp;#x27;s Pro Plan free trial, including features, usage limits, and options post-trial. Learn how to man | Pages that link here (30) | By site: v0 (1) · vercel-changelog (4) · vercel-kb (5) · vercel-web (1) · vercel-docs (19) — Removed: If you have an existing project, deployed to Vercel before April 23rd 2025 and | 10s | 60s (1 minute) | 15s | 300s (5 minutes) | 15s | 900s (15 minutes)</description>
     </item>
   </channel>
 </rss>

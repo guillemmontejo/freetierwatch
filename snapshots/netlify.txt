@@ -189,21 +189,9 @@ Security & compliance
 Get support
 Features
 Free
-{pricingDescriptions[plan.name]}
--->
--->
 Personal
-{pricingDescriptions[plan.name]}
--->
--->
 Pro
-{pricingDescriptions[plan.name]}
--->
--->
 Enterprise
-{pricingDescriptions[plan.name]}
--->
--->
 Usage credits
 Usage credits
 Included credits per month

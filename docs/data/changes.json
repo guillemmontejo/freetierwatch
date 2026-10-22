@@ -2916,5 +2916,86 @@
     "removed": [
       "Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms."
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "113.2K"
+    ],
+    "removed": [
+      "112.6K"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "service_id": "upstash-redis",
+    "service_name": "Upstash Redis",
+    "source_url": "https://upstash.com/docs/redis/overall/pricing",
+    "added": [],
+    "removed": [
+      "+$200/month per database",
+      "+$200/month per database"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "Regional and multi-region endpoints include a 10 percent premium over global endpoints. The Claude API (first-party) is global by default; for first-party data residency options and pricing, see",
+      "bills through AWS Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 USD per CCU, and reports the CCU quantity to AWS Marketplace hourly. Your AWS bill shows a single CCU line item.",
+      "$0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)",
+      "), then converted to CCUs at $0.01 USD per CCU",
+      "bills through the Azure Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 USD per CCU, and reports the CCU quantity to the Azure Marketplace hourly. Your Azure bill shows a single CCU line item.",
+      "$0.01 USD per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)",
+      "), then converted to CCUs at $0.01 USD per CCU",
+      "On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see",
+      "provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5,",
+      "The Batch API allows asynchronous processing of large volumes of requests with a 50 percent discount on both input and output tokens."
+    ],
+    "removed": [
+      "Regional and multi-region endpoints include a 10% premium over global endpoints. The Claude API (first-party) is global by default; for first-party data residency options and pricing, see",
+      "bills through AWS Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 per CCU, and reports the CCU quantity to AWS Marketplace hourly. Your AWS bill shows a single CCU line item.",
+      "$0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)",
+      "), then converted to CCUs at $0.01 per CCU",
+      "bills through the Azure Marketplace using Claude Consumption Units (CCUs). Anthropic rates your token usage in USD at standard per-model, per-feature rates, applies any negotiated discount, converts the result to CCUs at $0.01 per CCU, and reports the CCU quantity to the Azure Marketplace hourly. Your Azure bill shows a single CCU line item.",
+      "$0.01 per CCU (fixed; discounts apply at token-to-CCU conversion, not to the CCU price)",
+      "), then converted to CCUs at $0.01 per CCU",
+      "This applies to the Claude API (first-party) and Claude Platform on AWS. On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see",
+      "provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, on",
+      "The Batch API allows asynchronous processing of large volumes of requests with a 50% discount on both input and output tokens."
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "service_id": "huggingface-inference",
+    "service_name": "Hugging Face Inference Providers",
+    "source_url": "https://huggingface.co/docs/inference-providers/en/pricing",
+    "added": [
+      "https://router.huggingface.co/v1",
+      "https://router.huggingface.co/v1/chat/completions",
+      "&#x27;HF_TOKEN&#x27;",
+      "https://router.huggingface.co/v1",
+      "https://router.huggingface.co/v1/chat/completions"
+    ],
+    "removed": []
+  },
+  {
+    "date": "2026-10-22",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "768.2K weekly",
+      "23,867 stars"
+    ],
+    "removed": [
+      "1.1M weekly",
+      "23,851 stars"
+    ]
   }
 ]
