@@ -1178,6 +1178,16 @@ api-keys-post-user
 32
 3600
 user
+API key budget updates per team per hour.
+api-keys-quota-patch-team
+2000
+3600
+team
+API key budget updates per user per hour.
+api-keys-quota-patch-user
+1000
+3600
+user
 Token retrieval per minute.
 api-user-tokens-get
 160
@@ -1775,12 +1785,12 @@ api-drains-update
 user
 Drain create per minute.
 api-drains-create-drain
-30
+300
 60
 user
 Drain delete per minute.
 api-drains-delete-drain
-30
+300
 60
 user
 Drain retrieval per minute.
@@ -1790,7 +1800,7 @@ api-drains-get-drain
 user
 Drain update per minute.
 api-drains-update-drain
-30
+300
 60
 user
 Drain test per minute.

@@ -335,6 +335,8 @@ Turso Database
 Quickstart
 Changelog
 Releases
+Turso vs Neon
+Turso vs Postgres
 Company
 About
 Contact Us

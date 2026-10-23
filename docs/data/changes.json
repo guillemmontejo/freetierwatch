@@ -2997,5 +2997,103 @@
       "1.1M weekly",
       "23,851 stars"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "113.6K"
+    ],
+    "removed": [
+      "113.2K"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "service_id": "upstash-redis",
+    "service_name": "Upstash Redis",
+    "source_url": "https://upstash.com/docs/redis/overall/pricing",
+    "added": [
+      "A free account can have 1 database. On a paid account, the first 10 databases have no per-database charge, and each additional database costs $0.50 per month, up to 100 databases."
+    ],
+    "removed": [
+      "You can create up to 10 databases for free. Beyond that, you are charged $0.5 per database up to 100 databases."
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Last updated 2026-10-22 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-22 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "and will be shut down on October 22, 2026; migrate to",
+      "Billing is based on total output token consumption, calculated at a rate of 5,792 tokens per second of 720p video. Under Standard pricing, this equates to an effective price of approximately $0.10 per second.",
+      "Veo 3.1",
+      "veo-3.1-generate-preview",
+      "veo-3.1-fast-generate-preview",
+      "veo-3.1-lite-generate-preview",
+      "Try Veo 3.1",
+      "Veo 3.1 Preview (",
+      "veo-3.1-generate-preview",
+      "veo-3.1-fast-generate-preview"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "service_id": "anthropic-api",
+    "service_name": "Anthropic API",
+    "source_url": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "added": [
+      "for Opus 4.7, Haiku 4.5, and later models, or the",
+      "This applies to the Claude API (first-party), Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see",
+      "provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, on",
+      "105",
+      "239",
+      "1",
+      "105",
+      "6039",
+      "7123",
+      "7345"
+    ],
+    "removed": [
+      "for Opus 4.7, Haiku 4.5, and later models, or",
+      "On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see",
+      "provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5,",
+      "input_tokens : 105,",
+      "output_tokens : 239,",
+      "code_execution_requests : 1",
+      "input_tokens : 105,",
+      "output_tokens : 6039,",
+      "cache_read_input_tokens : 7123,",
+      "cache_creation_input_tokens : 7345,"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "23,875 stars"
+    ],
+    "removed": [
+      "23,867 stars"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "service_id": "algolia",
+    "service_name": "Algolia",
+    "source_url": "https://www.algolia.com/pricing",
+    "added": [
+      "Compare 24 LLMs on relevance, hallucinations, speed and cost in real agent workloads."
+    ],
+    "removed": []
   }
 ]

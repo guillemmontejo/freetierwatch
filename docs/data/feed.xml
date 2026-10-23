@@ -5,6 +5,48 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Algolia: pricing/limits page changed</title>
+      <link>https://www.algolia.com/pricing</link>
+      <guid isPermaLink="false">algolia-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Compare 24 LLMs on relevance, hallucinations, speed and cost in real agent workloads.</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 23,875 stars — Removed: 23,867 stars</description>
+    </item>
+    <item>
+      <title>Anthropic API: pricing/limits page changed</title>
+      <link>https://docs.claude.com/en/docs/about-claude/pricing</link>
+      <guid isPermaLink="false">anthropic-api-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: for Opus 4.7, Haiku 4.5, and later models, or the | This applies to the Claude API (first-party), Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see | provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, on | 105 | 239 | 1 | 105 | 6039 | 7123 | 7345 — Removed: for Opus 4.7, Haiku 4.5, and later models, or | On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see | provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, | input_tokens : 105, | output_tokens : 239, | code_execution_requests : 1 | input_tokens : 105, | output_tokens : 6039, | cache_read_input_tokens : 7123, | cache_creation_input_tokens : 7345,</description>
+    </item>
+    <item>
+      <title>Google Gemini API: pricing/limits page changed</title>
+      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
+      <guid isPermaLink="false">google-gemini-api-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: Last updated 2026-10-22 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-22 UTC.&quot;],[],[]] — Removed: and will be shut down on October 22, 2026; migrate to | Billing is based on total output token consumption, calculated at a rate of 5,792 tokens per second of 720p video. Under Standard pricing, this equates to an effective price of approximately $0.10 per second. | Veo 3.1 | veo-3.1-generate-preview | veo-3.1-fast-generate-preview | veo-3.1-lite-generate-preview | Try Veo 3.1 | Veo 3.1 Preview ( | veo-3.1-generate-preview | veo-3.1-fast-generate-preview</description>
+    </item>
+    <item>
+      <title>Upstash Redis: pricing/limits page changed</title>
+      <link>https://upstash.com/docs/redis/overall/pricing</link>
+      <guid isPermaLink="false">upstash-redis-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: A free account can have 1 database. On a paid account, the first 10 databases have no per-database charge, and each additional database costs $0.50 per month, up to 100 databases. — Removed: You can create up to 10 databases for free. Beyond that, you are charged $0.5 per database up to 100 databases.</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 113.6K — Removed: 113.2K</description>
+    </item>
+    <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-22</guid>
@@ -311,48 +353,6 @@
       <guid isPermaLink="false">convex-2026-10-13</guid>
       <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 21,461 stars — Removed: 21,460 stars</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-13T05:35:52.211Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-12T05:34:10.371Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Cloudflare Workers: pricing/limits page changed</title>
-      <link>https://developers.cloudflare.com/workers/platform/limits/</link>
-      <guid isPermaLink="false">cloudflare-workers-2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Oct 12, 2026 | Cloudflare regularly updates the Workers runtime. During routine updates, processes running the previous version of the Workers runtime give existing Workers requests and connections up to 20 minutes to finish. This includes streaming HTTP responses and WebSocket connections. — Removed: Oct 8, 2026 | Cloudflare updates the Workers runtime a few times per week. The runtime gives in-flight requests a 30-second grace period to finish. If a request does not finish within this time, the runtime terminates it. This scenario is very unlikely because it requires a long-running request to coincide with a runtime update.</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 111.4K — Removed: 111.2K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-12T05:34:10.371Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-11T05:27:30.050Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>OpenRouter (free models): pricing/limits page changed</title>
-      <link>https://openrouter.ai/docs/api_reference/limits</link>
-      <guid isPermaLink="false">openrouter-free-models-2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Handling 403 budget errors | &amp;#x27;workspace_default_member&amp;#x27; | &amp;#x27;workspace_default_key&amp;#x27; | &amp;#x27;member&amp;#x27; | &amp;#x27;api_key&amp;#x27; | &amp;#x27;workspace&amp;#x27; | &amp;#x27;key_limit&amp;#x27; | &amp;#x27;daily&amp;#x27; | &amp;#x27;weekly&amp;#x27; | &amp;#x27;monthly&amp;#x27; — Removed: See all 28 lines</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,460 stars — Removed: 21,448 stars</description>
     </item>
   </channel>
 </rss>

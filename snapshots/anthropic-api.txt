@@ -327,13 +327,15 @@ Cloud platform pricing
 
 This section covers partner-operated cloud platforms, where the cloud provider invoices you. For Anthropic-operated cloud platforms billed through a marketplace, see
 Claude Platform on AWS pricing
-and
+,
+Claude Models on Google Cloud (Anthropic managed) billing
+, and
 Claude in Microsoft Foundry pricing
 .
 Claude models are available on
 Amazon Bedrock
 and
-Google Cloud
+Claude Models on Google Cloud (Google managed)
 . For official pricing, visit:
 Amazon Bedrock pricing
 Google Cloud pricing
@@ -342,7 +344,7 @@ Regional and multi-region endpoint pricing for Claude 4.5 models and beyond
 Starting with Claude Sonnet 4.5, Haiku 4.5, and Opus 4.5:
 Bedrock
 offers two endpoint types: global endpoints (dynamic routing for maximum availability) and regional endpoints (guaranteed data routing through specific geographic regions).
-Google Cloud
+Claude Models on Google Cloud (Google managed)
 offers global endpoints and multi-region endpoints (dynamic routing within a geographic area) for these models, and regional endpoints for Claude Sonnet 4.6 and earlier models.
 Regional and multi-region endpoints include a 10 percent premium over global endpoints. The Claude API (first-party) is global by default; for first-party data residency options and pricing, see
 Data residency pricing
@@ -350,11 +352,11 @@ Data residency pricing
 Scope:
 This pricing structure applies to Claude Sonnet 4.5 (deprecated), Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.
 For implementation details and code examples:
-Amazon Bedrock global vs regional endpoints
-for Opus 4.7, Haiku 4.5, and later models, or
-the legacy integration
+Amazon Bedrock global versus regional endpoints
+for Opus 4.7, Haiku 4.5, and later models, or the
+legacy integration
 for all other models on Bedrock
-Google Cloud global, multi-region, and regional endpoints
+Claude Models on Google Cloud (Google managed) global, multi-region, and regional endpoints
 Claude Platform on AWS pricing
 
 Claude Platform on AWS
@@ -469,15 +471,12 @@ inference_geo
 parameter incurs a 1.1x multiplier on all token pricing categories, including input tokens, output tokens, cache writes, and cache reads. On Claude Haiku 5.5, the multiplier also applies to the higher prices for prompts over 100,000 tokens (see
 Long context pricing
 ). Global routing (the default) uses standard pricing.
-This applies to the Claude API (first-party) and Claude Platform on AWS.
-On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see
+This applies to the Claude API (first-party), Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). On Claude in Microsoft Foundry, the same 1.1x multiplier applies to deployments that use the US Data Zone Standard deployment type (see
 Inference geography
-).
-Partner-operated platforms (Bedrock and Google Cloud) have independent regional pricing.
-See
-Bedrock
+). Partner-operated platforms, Bedrock and Claude Models on Google Cloud (Google managed), have independent regional pricing. See
+Bedrock pricing
 and
-Google Cloud
+Google Cloud pricing
 for details. Earlier models do not support the
 inference_geo
 parameter and always use standard pricing; requests that include the parameter on these models return a 400 error.
@@ -487,12 +486,11 @@ Data residency
 Fast mode pricing
 
 Fast mode
-provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5,
-on
+provides significantly faster output for Claude Opus 5.5, Claude Opus 5, and Claude Opus 4.8 at premium pricing. Fast mode for Claude Opus 5 and Claude Opus 4.8 is in research preview. Fast mode pricing applies across the full context window, including requests over 200k input tokens. Fast mode is available on the Claude API (first-party) and, for Claude Opus 5.5, on
+Claude Models on Google Cloud (Anthropic managed)
+and on
 Claude in Microsoft Foundry
-for deployments hosted on Azure
-; it is not available on Claude Platform on AWS or partner-operated cloud platforms
-.
+for deployments hosted on Azure.
 Model
 Input
 Output
@@ -905,11 +903,21 @@ $0.05 USD per hour, per container
 If files are included in the request, execution time is billed even if the tool is not called, because files are preloaded onto the container.
 Code execution usage is tracked in the response:
 {
-usage : {
-input_tokens : 105,
-output_tokens : 239,
-server_tool_use : {
-code_execution_requests : 1
+"usage"
+: {
+"input_tokens"
+:
+105
+,
+"output_tokens"
+:
+239
+,
+"server_tool_use"
+: {
+"code_execution_requests"
+:
+1
 }
 }
 }
@@ -933,13 +941,29 @@ Web search tool
 
 Web search usage is charged in addition to token usage:
 {
-usage : {
-input_tokens : 105,
-output_tokens : 6039,
-cache_read_input_tokens : 7123,
-cache_creation_input_tokens : 7345,
-server_tool_use : {
-web_search_requests : 1
+"usage"
+: {
+"input_tokens"
+:
+105
+,
+"output_tokens"
+:
+6039
+,
+"cache_read_input_tokens"
+:
+7123
+,
+"cache_creation_input_tokens"
+:
+7345
+,
+"server_tool_use"
+: {
+"web_search_requests"
+:
+1
 }
 }
 }
@@ -954,13 +978,29 @@ Web fetch usage has
 no additional charges
 beyond standard token costs:
 {
-usage : {
-input_tokens : 25039,
-output_tokens : 931,
-cache_read_input_tokens : 0,
-cache_creation_input_tokens : 0,
-server_tool_use : {
-web_fetch_requests : 1
+"usage"
+: {
+"input_tokens"
+:
+25039
+,
+"output_tokens"
+:
+931
+,
+"cache_read_input_tokens"
+:
+0
+,
+"cache_creation_input_tokens"
+:
+0
+,
+"server_tool_use"
+: {
+"web_fetch_requests"
+:
+1
 }
 }
 }

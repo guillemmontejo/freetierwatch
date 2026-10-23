@@ -24,6 +24,9 @@ Algolia mark white
 Algolia logo white
 CLOSE
 Products
+Unlock the power of agentic AI
+Give shoppers an AI assistant grounded in your product data, with your search tuning built in.
+Read more
 AI Search & Retrieval
 Overview
 Search
@@ -89,6 +92,9 @@ Built for peace of mind.
 Security & Compliance
 Built for peace of mind.
 Solutions
+Algolia + Walgreens
+See how Walgreens doubled search conversion with Algolia.
+Read the case study
 Industries
 SEE ALL
 Auto Parts
@@ -145,6 +151,9 @@ Salesforce
 Salesforce
 Pricing
 Developers
+View the Algolia LLM leaderboard
+Compare 24 LLMs on relevance, hallucinations, speed and cost in real agent workloads.
+View now
 Get started
 Developer Hub
 Developer Hub
@@ -177,6 +186,9 @@ API Status
 Support
 Support
 Resources
+Ready to unlock the benefits of agentic AI?
+Where does your org rank on the path to agentic AI? Take the quiz and find out.
+Take the quiz
 Discover
 Algolia Blog
 Algolia Blog
