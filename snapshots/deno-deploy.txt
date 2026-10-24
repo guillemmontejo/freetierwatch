@@ -255,17 +255,6 @@ Not included
 Not included
 Not included
 99.95%
-Compliance
-SOC2 Type 1
-Not included
-Not included
-Not included
-Included
-DPA
-Not included
-Not included
-Not included
-Included
 Free
 $0 /month
 For personal use and smaller projects
@@ -344,11 +333,6 @@ Onboarding support:
 Receive hands-on expert guidance from our engineers as you onboard to Deno Deploy
 No
 Reliability SLA:
-No
-Compliance
-SOC2 Type 1:
-No
-DPA:
 No
 Start free
 Pro
@@ -439,11 +423,6 @@ Receive hands-on expert guidance from our engineers as you onboard to Deno Deplo
 No
 Reliability SLA:
 No
-Compliance
-SOC2 Type 1:
-No
-DPA:
-No
 Go Pro
 Builder
 $200 /month
@@ -533,11 +512,6 @@ Receive hands-on expert guidance from our engineers as you onboard to Deno Deplo
 No
 Reliability SLA:
 No
-Compliance
-SOC2 Type 1:
-No
-DPA:
-No
 Start Building
 Enterprise
 Custom
@@ -618,11 +592,6 @@ Receive hands-on expert guidance from our engineers as you onboard to Deno Deplo
 Yes
 Reliability SLA:
 99.95%
-Compliance
-SOC2 Type 1:
-Yes
-DPA:
-Yes
 Contact us
 *Additional pricing applies for Deno Sandboxes. See the
 Deno Sandbox page

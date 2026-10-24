@@ -39,9 +39,9 @@ Changelog
 Docs
 Pricing
 npm
-768.2K weekly
+456.7K weekly
 GitHub
-23,875 stars
+23,888 stars
 Log in
 Start building
 Choose Your Plan
@@ -481,7 +481,7 @@ LinkedIn
 GitHub
 A Trusted Solution
 SOC 2
-Type II Compliant
+Type 2 Compliant
 HIPAA
 Compliant
 GDPR

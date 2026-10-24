@@ -182,6 +182,7 @@ Sessions
 Run and continue sessions
 Events and items
 Manage sessions
+Scheduled automations
 Webhooks
 Environments and sandboxes
 OpenAI-hosted sandboxes
@@ -579,6 +580,7 @@ Cloud environments
 Build with Codex
 Codex SDK
 App Server
+Model catalogs
 GitHub Action
 Non-interactive mode
 Third-party integrations
@@ -852,8 +854,8 @@ Admin APIs
 Error codes
 Copy Page
 Rate limits
-Understand API rate limits and restrictions.
 Copy Page
+Understand API rate limits and restrictions.
 Rate limits are restrictions that our API imposes on the number of times a user or client can
 access our services within a specified period of time.
 Why do we have rate limits?

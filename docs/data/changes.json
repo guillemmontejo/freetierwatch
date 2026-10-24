@@ -3095,5 +3095,46 @@
       "Compare 24 LLMs on relevance, hallucinations, speed and cost in real agent workloads."
     ],
     "removed": []
+  },
+  {
+    "date": "2026-10-24",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "113.7K"
+    ],
+    "removed": [
+      "113.6K"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "service_id": "deno-deploy",
+    "service_name": "Deno Deploy",
+    "source_url": "https://deno.com/deploy/pricing",
+    "added": [],
+    "removed": [
+      "SOC2 Type 1",
+      "SOC2 Type 1:",
+      "SOC2 Type 1:",
+      "SOC2 Type 1:",
+      "SOC2 Type 1:"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "456.7K weekly",
+      "23,888 stars",
+      "Type 2 Compliant"
+    ],
+    "removed": [
+      "768.2K weekly",
+      "23,875 stars"
+    ]
   }
 ]

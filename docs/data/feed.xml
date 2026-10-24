@@ -5,6 +5,27 @@
     <link>https://guillemmontejo.github.io/freetierwatch/</link>
     <description>Daily automated monitoring of free-tier limits across dev and AI services.</description>
     <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 456.7K weekly | 23,888 stars | Type 2 Compliant — Removed: 768.2K weekly | 23,875 stars</description>
+    </item>
+    <item>
+      <title>Deno Deploy: pricing/limits page changed</title>
+      <link>https://deno.com/deploy/pricing</link>
+      <guid isPermaLink="false">deno-deploy-2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Removed: SOC2 Type 1 | SOC2 Type 1: | SOC2 Type 1: | SOC2 Type 1: | SOC2 Type 1:</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 113.7K — Removed: 113.6K</description>
+    </item>
+    <item>
       <title>Algolia: pricing/limits page changed</title>
       <link>https://www.algolia.com/pricing</link>
       <guid isPermaLink="false">algolia-2026-10-23</guid>
@@ -332,27 +353,6 @@
       <guid isPermaLink="false">neon-2026-10-14</guid>
       <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 10 active / 400 waiting Capacity-Hours, 1M invocations per project | plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per project per month. Each project gets its own allowance, and it isn&amp;#x27;t shared with your other projects. The | is separate: it caps in-flight invocations across your account to prevent abuse and isn&amp;#x27;t a usage allowance. | Egress (data a function sends out) counts toward the project&amp;#x27;s — Removed: 10 active / 400 waiting Capacity-Hours, 1M invocations | plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per month.</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 111.5K — Removed: 111.4K</description>
-    </item>
-    <item>
-      <title>Vercel (Hobby): pricing/limits page changed</title>
-      <link>https://vercel.com/docs/limits</link>
-      <guid isPermaLink="false">vercel-hobby-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: From the Vercel docs graph (built 2026-10-14T10:24:21.026Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON: — Removed: From the Vercel docs graph (built 2026-10-13T05:35:52.211Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 21,461 stars — Removed: 21,460 stars</description>
     </item>
   </channel>
 </rss>

@@ -1378,6 +1378,11 @@ api-integrations-marketplace-request-secrets-rotation
 120
 60
 user
+Marketplace integration resource secrets syncs to connected projects per minute.
+api-integrations-marketplace-sync-resource-secrets
+60
+60
+user
 Marketplace integration security rules operations per minute.
 api-integrations-marketplace-security-rules
 120

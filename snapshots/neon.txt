@@ -610,9 +610,9 @@ Scale
 Uptime SLA
 Guaranteed service availability is offered on the
 Scale
-plan. Contact
-support
-via the console for details.
+plan. For uptime commitments, Service Credits, and exclusions, see the
+Neon Service Level Agreement
+.
 Support
 Support level by plan:
 Free
