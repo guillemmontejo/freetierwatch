@@ -3136,5 +3136,19 @@
       "768.2K weekly",
       "23,875 stars"
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "844.3K weekly",
+      "23,891 stars"
+    ],
+    "removed": [
+      "456.7K weekly",
+      "23,888 stars"
+    ]
   }
 ]

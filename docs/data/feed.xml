@@ -7,6 +7,13 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 844.3K weekly | 23,891 stars — Removed: 456.7K weekly | 23,888 stars</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-24</guid>
       <pubDate>Sat, 24 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 456.7K weekly | 23,888 stars | Type 2 Compliant — Removed: 768.2K weekly | 23,875 stars</description>
@@ -346,13 +353,6 @@
       <guid isPermaLink="false">resend-2026-10-14</guid>
       <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: · $0.0015 / run — Removed: · $0.0015 / per run</description>
-    </item>
-    <item>
-      <title>Neon: pricing/limits page changed</title>
-      <link>https://neon.com/docs/introduction/plans</link>
-      <guid isPermaLink="false">neon-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 10 active / 400 waiting Capacity-Hours, 1M invocations per project | plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per project per month. Each project gets its own allowance, and it isn&amp;#x27;t shared with your other projects. The | is separate: it caps in-flight invocations across your account to prevent abuse and isn&amp;#x27;t a usage allowance. | Egress (data a function sends out) counts toward the project&amp;#x27;s — Removed: 10 active / 400 waiting Capacity-Hours, 1M invocations | plan, you get 10 active Capacity-Hours, 400 waiting Capacity-Hours, and 1 million invocations per month.</description>
     </item>
   </channel>
 </rss>
