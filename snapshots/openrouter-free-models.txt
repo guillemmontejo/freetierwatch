@@ -80,6 +80,7 @@ Vault
 Video Generation
 Workspaces
 On this page
+Back to top
 Checking your limits
 Credit limits
 In-flight spending budget

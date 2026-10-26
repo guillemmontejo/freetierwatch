@@ -7,6 +7,20 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 618.5K weekly | 23,897 stars — Removed: 844.3K weekly | 23,891 stars</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 113.9K — Removed: 113.7K</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-10-25</guid>
       <pubDate>Sun, 25 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 844.3K weekly | 23,891 stars — Removed: 456.7K weekly | 23,888 stars</description>
@@ -339,20 +353,6 @@
       <guid isPermaLink="false">anthropic-api-2026-10-14</guid>
       <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: A one-hour coding session using Claude Opus 5.5 that consumes 50,000 input tokens and 15,000 output tokens: | 50,000 × $4 / 1,000,000 | 15,000 × $20 / 1,000,000 | $0.58 | 10,000 × $4 / 1,000,000 | $0.04 | 40,000 × $4 × 0.05 / 1,000,000 | $0.008 | 15,000 × $20 / 1,000,000 | $0.428 — Removed: A one-hour coding session using Claude Opus 5 that consumes 50,000 input tokens and 15,000 output tokens: | 50,000 × $5 / 1,000,000 | 15,000 × $25 / 1,000,000 | $0.375 | $0.705 | 10,000 × $5 / 1,000,000 | 40,000 × $5 × 0.1 / 1,000,000 | $0.02 | 15,000 × $25 / 1,000,000 | $0.375</description>
-    </item>
-    <item>
-      <title>Google Gemini API: pricing/limits page changed</title>
-      <link>https://ai.google.dev/gemini-api/docs/pricing</link>
-      <guid isPermaLink="false">google-gemini-api-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: Gemini 4 Argon is now available. | Gemini 4 Argon | gemini-4-argon | Our flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, autonomous multi-step agents, and long-decode generation up to 1M tokens. | Gemini 4 Argon is not available on the Free tier or on the | $2.00 through November 30, 2026. | $4.00 starting December 1, 2026. | $10.00 through November 30, 2026. | $20.00 starting December 1, 2026. | $0.10 through November 30, 2026. — Removed: Gemini 3.8 Flash is now available. | Last updated 2026-10-09 UTC. | [[[&quot;Easy to understand&quot;,&quot;easyToUnderstand&quot;,&quot;thumb-up&quot;],[&quot;Solved my problem&quot;,&quot;solvedMyProblem&quot;,&quot;thumb-up&quot;],[&quot;Other&quot;,&quot;otherUp&quot;,&quot;thumb-up&quot;]],[[&quot;Missing the information I need&quot;,&quot;missingTheInformationINeed&quot;,&quot;thumb-down&quot;],[&quot;Too complicated / too many steps&quot;,&quot;tooComplicatedTooManySteps&quot;,&quot;thumb-down&quot;],[&quot;Out of date&quot;,&quot;outOfDate&quot;,&quot;thumb-down&quot;],[&quot;Samples / code issue&quot;,&quot;samplesCodeIssue&quot;,&quot;thumb-down&quot;],[&quot;Other&quot;,&quot;otherDown&quot;,&quot;thumb-down&quot;]],[&quot;Last updated 2026-10-09 UTC.&quot;],[],[]]</description>
-    </item>
-    <item>
-      <title>Resend: pricing/limits page changed</title>
-      <link>https://resend.com/pricing</link>
-      <guid isPermaLink="false">resend-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: · $0.0015 / run — Removed: · $0.0015 / per run</description>
     </item>
   </channel>
 </rss>
