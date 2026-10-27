@@ -128,7 +128,6 @@ beta
 Workflows
 Sandbox
 Container Registry
-beta
 Ship and scale
 Projects
 Git

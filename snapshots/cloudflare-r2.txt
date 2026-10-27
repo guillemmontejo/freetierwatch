@@ -68,7 +68,6 @@ S3 SDKs
 aws CLI
 aws-sdk-go
 aws-sdk-java
-aws-sdk-js
 aws-sdk-js-v3
 aws-sdk-kotlin
 aws-sdk-net
@@ -121,7 +120,7 @@ R2
 Pricing
 Pricing
 Last updated
-Oct 1, 2026
+Oct 26, 2026
 |
 Copy as Markdown
 |
@@ -148,7 +147,7 @@ Infrequent access example
 Asset hosting
 Cloudflare billing policy
 Frequently asked questions
-Will I be charged for unauthorized requests to my R2 bucket?
+Will I be charged for failed requests to my R2 bucket?
 R2 charges based on the total volume of data stored, along with two classes of operations on that data:
 Class A operations
 which are more expensive and tend to mutate state.
@@ -385,10 +384,36 @@ To learn more about how usage is billed, refer to
 Cloudflare Billing Policy
 .
 Frequently asked questions
-Will I be charged for unauthorized requests to my R2 bucket?
-No. You are not charged for operations when the caller does not have permission to make the request (HTTP 401
+Will I be charged for failed requests to my R2 bucket?
+Requests that fail during authentication or authorization are not charged. This includes:
+HTTP 401 (
 Unauthorized
-response status code).
+) — missing or invalid credentials.
+HTTP 403 when caused by an authentication failure such as
+SignatureDoesNotMatch
+,
+ExpiredRequest
+, or
+RequestTimeTooSkewed
+.
+HTTP 403 (
+AccessDenied
+) when valid credentials do not have permission to perform the operation.
+Some requests that pass authentication and authorization but fail for other reasons are counted and billed according to the operation's class. For example:
+A
+PutObject
+returning HTTP 412 (
+PreconditionFailed
+) due to a conditional header like
+If-None-Match
+counts as a Class A operation.
+A
+PutObject
+returning HTTP 400 (
+BadDigest
+) due to a mismatched
+Content-MD5
+counts as a Class A operation.
 Footnotes
 Egressing directly from R2, including via the
 Workers API
@@ -433,7 +458,7 @@ Infrequent access example
 Asset hosting
 Cloudflare billing policy
 Frequently asked questions
-Will I be charged for unauthorized requests to my R2 bucket?
+Will I be charged for failed requests to my R2 bucket?
 Edit page
 Report issue
 Getting started

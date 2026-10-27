@@ -642,7 +642,7 @@ Driver Minimum Requirements
 Documentation
 Database
 Atlas Agent Engine
-VoyageAI Models
+Voyage AI Models
 Get Started
 Deployment
 Development
@@ -715,7 +715,7 @@ Atlas Architecture Center
 Documentation
 Database
 Atlas Agent Engine
-VoyageAI Models
+Voyage AI Models
 Get Started
 Deployment
 Development

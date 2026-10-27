@@ -3176,5 +3176,85 @@
       "844.3K weekly",
       "23,891 stars"
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "service_id": "cloudflare-r2",
+    "service_name": "Cloudflare R2",
+    "source_url": "https://developers.cloudflare.com/r2/pricing/",
+    "added": [
+      "Oct 26, 2026",
+      "Will I be charged for failed requests to my R2 bucket?",
+      "Will I be charged for failed requests to my R2 bucket?",
+      "HTTP 401 (",
+      "HTTP 403 when caused by an authentication failure such as",
+      "HTTP 403 (",
+      "returning HTTP 412 (",
+      "returning HTTP 400 (",
+      "Content-MD5",
+      "Will I be charged for failed requests to my R2 bucket?"
+    ],
+    "removed": [
+      "Oct 1, 2026",
+      "Will I be charged for unauthorized requests to my R2 bucket?",
+      "Will I be charged for unauthorized requests to my R2 bucket?",
+      "No. You are not charged for operations when the caller does not have permission to make the request (HTTP 401",
+      "Will I be charged for unauthorized requests to my R2 bucket?"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "service_id": "supabase",
+    "service_name": "Supabase",
+    "source_url": "https://supabase.com/pricing",
+    "added": [
+      "114.1K"
+    ],
+    "removed": [
+      "113.9K"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "service_id": "google-gemini-api",
+    "service_name": "Google Gemini API",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "added": [
+      "Gemini 4 Argon is not available on the Free tier. Every token the model processes is counted and billed, including thinking tokens and internal tool system instructions and function declarations when using grounding.",
+      "Last updated 2026-10-27 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-27 UTC.\"],[],[]]"
+    ],
+    "removed": [
+      "Gemini 4 Argon is not available on the Free tier.",
+      "Last updated 2026-10-22 UTC.",
+      "[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-10-22 UTC.\"],[],[]]"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "service_id": "openai-api",
+    "service_name": "OpenAI API",
+    "source_url": "https://platform.openai.com/docs/guides/rate-limits",
+    "added": [
+      "September 28, 2026"
+    ],
+    "removed": [
+      "scheduled shutdown date of September 28, 2026",
+      "gpt-5.6-terra"
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "service_id": "convex",
+    "service_name": "Convex",
+    "source_url": "https://www.convex.dev/pricing",
+    "added": [
+      "1.3M weekly",
+      "23,903 stars"
+    ],
+    "removed": [
+      "618.5K weekly",
+      "23,897 stars"
+    ]
   }
 ]

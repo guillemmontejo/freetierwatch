@@ -1172,13 +1172,11 @@ Adding random jitter to the delay helps retries from all hitting at the same tim
 Note that unsuccessful requests contribute to your per-minute limit, so continuously resending a request won’t work.
 The legacy Completions examples below use
 gpt-3.5-turbo-instruct
-, which has a
-scheduled shutdown date of September 28, 2026
-. After that date, retain the retry pattern but migrate the request to
+, which was shut down on
+September 28, 2026
+. You can use the same retry pattern with current models by migrating to
 Responses or Chat Completions
-with
-gpt-5.6-terra
-; changing the model ID in a Completions request is not sufficient.
+.
 The Python examples below demonstrate fallback backoff. They don’t inspect
 Retry-After
 : before using them, add handling for valid server hints so the wrappers don’t retry sooner than requested. Disable SDK retries or account for them in your application’s retry limits.
