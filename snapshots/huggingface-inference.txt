@@ -4,7 +4,6 @@ Models
 Datasets
 Spaces
 Buckets
-new
 Docs
 Enterprise
 Pricing
@@ -136,7 +135,6 @@ Together
 WaveSpeedAI
 Z.ai
 Hub API
-Register as an Inference Provider
 Join the Hugging Face community
 and get access to the augmented documentation experience
 Collaborate on models, datasets and Spaces

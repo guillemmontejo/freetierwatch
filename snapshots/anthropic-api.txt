@@ -54,11 +54,11 @@ Pricing
 
 Copy page
 
-Learn about Anthropic&#x27;s pricing structure for models and features
+Learn about Anthropic’s pricing structure for models and features
 
 Copy page
 
-This page provides detailed pricing information for Anthropic&#x27;s models and features. All prices are in USD.
+This page provides detailed pricing information for Anthropic’s models and features. All prices are in USD.
 For the most current pricing information, visit
 claude.com/pricing
 .
@@ -648,7 +648,7 @@ Claude Mythos Preview
 include the full
 1M token context window
 at standard pricing. (A 900k-token request is billed at the same per-token rate as a 9k-token request.) Prompt caching and batch processing discounts apply at standard rates across the full context window.
-Claude Haiku 5.5 is priced by prompt length: a request whose prompt is over 100,000 tokens pays higher prices. A request&#x27;s prompt length counts all of its input tokens, including cache reads and cache writes. Each request is priced on its own: a request over the threshold pays the higher prices even when part of its prompt is a cache hit, and earlier requests keep the prices they were billed at. The
+Claude Haiku 5.5 is priced by prompt length: a request whose prompt is over 100,000 tokens pays higher prices. A request’s prompt length counts all of its input tokens, including cache reads and cache writes. Each request is priced on its own: a request over the threshold pays the higher prices even when part of its prompt is a cache hit, and earlier requests keep the prices they were billed at. The
 model pricing
 and
 batch processing pricing
@@ -924,7 +924,7 @@ Code execution usage is tracked in the response:
 
 Text editor tool
 
-The text editor tool uses the same pricing structure as other tools used with Claude. It follows the standard input and output token pricing based on the Claude model you&#x27;re using.
+The text editor tool uses the same pricing structure as other tools used with Claude. It follows the standard input and output token pricing based on the Claude model you’re using.
 In addition to the base tokens, the following additional input tokens are needed for the text editor tool:
 Tool
 Additional input tokens
@@ -1050,7 +1050,7 @@ Vision pricing
 )
 Tool execution results returned to Claude
 
-If you&#x27;re also using bash or text editor tools alongside computer use, those tools have their own token costs as documented in their respective pages.
+If you’re also using bash or text editor tools alongside computer use, those tools have their own token costs as documented in their respective pages.
 Browser use tool
 
 Browser use follows the standard
@@ -1087,14 +1087,14 @@ apply identically. Web search triggered inside a session incurs the standard $10
 Claude Platform on AWS pricing
 ).
 Fast mode premium pricing
-applies when an agent&#x27;s
+applies when an agent’s
 model.speed
 is set to
 fast
 .
 The
 data residency multiplier
-also applies: when an agent&#x27;s
+also applies: when an agent’s
 model.inference_geo
 is pinned to
 us
@@ -1103,7 +1103,7 @@ The following Messages API modifiers do
 not
 apply to Claude Managed Agents sessions:
 Modifier
-Why it doesn&#x27;t apply
+Why it doesn’t apply
 Batch API discount
 Sessions are stateful and interactive. There is no batch mode.
 Cloud platform pricing
@@ -1117,7 +1117,7 @@ Session runtime
 $0.08 USD per session-hour
 running
 status duration
-Runtime is measured to the millisecond and accrues only while the session&#x27;s status is
+Runtime is measured to the millisecond and accrues only while the session’s status is
 running
 . Time spent
 idle
@@ -1231,9 +1231,9 @@ Frequently asked questions
 
 How is token usage calculated?
 
-Tokens are pieces of text that models process. How many tokens the same text produces depends on the model&#x27;s tokenizer, the language, and the type of content. Claude 4.7 and later models and Claude Mythos Preview use a newer tokenizer that produces approximately 30 percent more tokens for the same text than earlier models. To see how many tokens a request uses on a specific model, count it with
+Tokens are pieces of text that models process. How many tokens the same text produces depends on the model’s tokenizer, the language, and the type of content. Claude 4.7 and later models and Claude Mythos Preview use a newer tokenizer that produces approximately 30 percent more tokens for the same text than earlier models. To see how many tokens a request uses on a specific model, count it with
 token counting
-and that model&#x27;s ID.
+and that model’s ID.
 Are there free tiers or trials?
 
 New users receive a small amount of free credits to test the API.
