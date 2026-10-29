@@ -649,8 +649,7 @@ Development
 Management
 MongoDB Atlas
 Overview
-Atlas Infinite Edition
-Atlas Core Edition
+Database Editions
 Atlas Users
 Organizations
 Projects
@@ -725,8 +724,7 @@ Tools
 Atlas Architecture Center
 MongoDB Atlas
 Overview
-Atlas Infinite Edition
-Atlas Core Edition
+Database Editions
 Atlas Users
 Organizations
 Projects

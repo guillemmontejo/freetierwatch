@@ -1,13 +1,6 @@
 Neon plans - Neon Docs
 Neon now has realtime: Live SQL with full reactivity. Try it in Beta today
-Neon
 Docs
-Search
-...
-⌘K
-Ask AI
-Log in
-Sign up
 Get started
 Concepts
 Products
@@ -41,7 +34,11 @@ Roadmap
 RSS feeds
 Starter code
 Examples repo
-Learn PostgreSQL
+Search...
+⌘K
+Ask AI
+Log in
+Sign up
 Search
 ...
 ⌘K
@@ -65,6 +62,8 @@ Plans & billing
 Plans
 Neon plans
 Copy page
+View as Markdown
+Set up agent
 Neon offers plans to support you at every stage, from your first prototype to production at scale.
 Start for free, then
 pay only for what you use
@@ -916,8 +915,6 @@ Invoice metrics
 Usage-based cost examples
 Frequently asked questions
 Need help?
-Set up Neon with AI
-Copy neon init command
 Neon Docs
 Neon is part of the Databricks Platform
 © Neon 2026. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the

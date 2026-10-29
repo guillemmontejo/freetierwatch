@@ -136,6 +136,8 @@ new
 CLI
 Monorepos
 Builds
+CI
+beta
 Deployments
 Domains
 Vercel for Platforms

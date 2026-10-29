@@ -96,6 +96,7 @@ Get started
 Quickstart
 Using GPT-6
 Key concepts
+API credits for ChatGPT subscribers
 Core concepts
 Responses API
 Decisions API

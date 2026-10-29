@@ -70,6 +70,7 @@ Observability
 Organization
 Presets
 Private Endpoints
+Private Providers
 Providers
 Rerank
 Responses

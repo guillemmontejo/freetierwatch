@@ -340,7 +340,7 @@ Turso vs Postgres
 Company
 About
 Contact Us
-Support
+Support (Dashboard)
 Trust
 Blog
 Brand
