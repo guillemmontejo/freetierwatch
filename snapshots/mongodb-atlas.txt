@@ -37,7 +37,7 @@ Build with MongoDB Atlas
 Get started for free in minutes
 Sign Up
 Explore Atlas Deployment Options
-Find the right deployment for your use case
+Develop with self-managed MongoDB
 Learn more
 Try Community Edition
 Explore the latest version of MongoDB
@@ -155,7 +155,7 @@ Build with MongoDB Atlas
 Get started for free in minutes
 Sign Up
 Explore Atlas Deployment Options
-Find the right deployment for your use case
+Develop with self-managed MongoDB
 Learn more
 Try Community Edition
 Explore the latest version of MongoDB
@@ -238,24 +238,16 @@ menu-vertical
 Get Started
 Docs Menu
 Ask MongoDB AI
+/
 Docs Home
 /
-/
-Limits
-Docs Home
 /
 Management
 /
 Reference
 /
 Limits
-Docs Home
 /
-Management
-/
-Reference
-/
-Limits
 Atlas
 Free Cluster Limits
 Copy page
@@ -808,10 +800,11 @@ Product Updates
 Customer Support
 Manage Cookies
 Your Privacy Choices
-Deployment Options
+Build
 MongoDB Atlas
 Enterprise Advanced
 Community Edition
+Voyage AI
 Data Basics
 Vector Databases
 NoSQL Databases

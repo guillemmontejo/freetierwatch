@@ -45,6 +45,7 @@ API Changelog
 API Reference
 Analytics
 alpha.decisions
+alpha.extractions
 TTS
 STT
 OAuth

@@ -112,9 +112,7 @@ Chat SDK
 MCP
 Vercel Connect
 eve
-beta
 Agent Harnesses
-beta
 Agent Resources
 Run agents and backends
 Functions
@@ -122,9 +120,7 @@ Fluid Compute
 Routing Middleware
 Cron Jobs
 Queues
-beta
 Daemons
-beta
 Workflows
 Sandbox
 Container Registry
@@ -137,7 +133,6 @@ CLI
 Monorepos
 Builds
 CI
-beta
 Deployments
 Domains
 Vercel for Platforms
@@ -147,11 +142,10 @@ Microfrontends
 Storage
 Integrations
 Vercel Agent
-beta
 Services
-beta
 Observe and improve
 Observability
+Agent Runs
 Vercel Toolbar
 Feature Flags
 Rolling Releases
@@ -162,7 +156,6 @@ Bot Management
 BotID
 Deployment Protection
 Key Management
-beta
 Passport
 new
 Identity & Access

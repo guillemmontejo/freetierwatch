@@ -678,7 +678,7 @@ Collaboration and sharing
 GPTs and sharing
 Plugins and connections
 Plugin controls
-Plugin management
+Import and sync plugins from GitHub
 Skill controls
 Migrate custom GPTs to plugins
 Usage and analytics
@@ -1266,7 +1266,7 @@ Example 2: Using the backoff library
 Another python library that provides function decorators for backoff and retry is
 backoff
 :
-Using the Tenacity library
+Using the backoff library
 1
 2
 3

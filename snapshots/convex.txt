@@ -39,9 +39,9 @@ Changelog
 Docs
 Pricing
 npm
-2M weekly
+2.4M weekly
 GitHub
-23,909 stars
+23,916 stars
 Log in
 Start building
 Choose Your Plan
