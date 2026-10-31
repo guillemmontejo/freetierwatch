@@ -120,7 +120,7 @@ R2
 Pricing
 Pricing
 Last updated
-Oct 26, 2026
+Oct 30, 2026
 |
 Copy as Markdown
 |
@@ -182,6 +182,12 @@ Free
 1
 Free
 1
+Buckets per account
+First 100,000 included + $0.10 per additional bucket per month
+First 100,000 included + $0.10 per additional bucket per month
+The bucket allowance is shared across all storage classes and applies regardless of your Workers plan. Refer to
+R2 limits
+for bucket creation limits and how to request a limit increase.
 Billable unit rounding
 Cloudflare rounds up your usage to the next billing unit.
 For example:

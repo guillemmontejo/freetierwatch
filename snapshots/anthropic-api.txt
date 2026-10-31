@@ -31,9 +31,9 @@ Claude Opus 5.5
 Claude Sonnet 5.5
 Claude Haiku 5.5
 Specialized models
-
+
 Legacy models
-
+
 Guides
 Choosing a model
 Optimizing for cost and intelligence
@@ -135,7 +135,7 @@ $1
 / MTok
 $0.05
 / MTok
-
+
 Additional models
 Claude Mythos 5.1
 
@@ -550,7 +550,7 @@ $0.25
 for prompts over 100,000 tokens
 $1.25
 / MTok
-
+
 Additional models
 Claude Mythos 5.1
 
@@ -708,7 +708,7 @@ any
 tool
 406
 tokens
-
+
 Additional models
 Claude Opus 5
 auto

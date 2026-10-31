@@ -372,7 +372,9 @@ included per app
 $75/mo each
 16 - 100
 $60/mo each
-101+
+101 - 250
+$48/mo each
+251+
 Contact us
 1 connection
 included per app
@@ -380,7 +382,9 @@ included per app
 $75/mo each
 16 - 100
 $60/mo each
-101+
+101 - 250
+$48/mo each
+251+
 Contact us
 Directory Sync connections
 Provision and deprovision users with SCIM or Google Workspace. Counted separately from SSO connections. Billing for Directory Sync connections starts January 1, 2027.
@@ -391,7 +395,9 @@ included per app
 $75/mo each
 16 - 100
 $60/mo each
-101+
+101 - 250
+$48/mo each
+251+
 Contact us
 1 connection
 included per app
@@ -399,7 +405,9 @@ included per app
 $75/mo each
 16 - 100
 $60/mo each
-101+
+101 - 250
+$48/mo each
+251+
 Contact us
 Waitlist mode
 Collect sign-up requests in a waitlist and choose who gets access.
@@ -653,8 +661,8 @@ Product
 Authentication
 Multi-tenancy
 Billing
-CLI
 MCP server
+CLI
 Agents
 SDKs
 React

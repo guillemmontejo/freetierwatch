@@ -679,6 +679,12 @@ Controllers for Kubernetes Operator
 Cloud Manager
 Self-Managed Deployments
 Select a version
+9.0 (Current)
+8.0
+7.0
+9.1 (Upcoming)
+8.3
+Legacy Docs
 Installation
 Clusters
 Sharding
@@ -754,6 +760,12 @@ Controllers for Kubernetes Operator
 Cloud Manager
 Self-Managed Deployments
 Select a version
+9.0 (Current)
+8.0
+7.0
+9.1 (Upcoming)
+8.3
+Legacy Docs
 Installation
 Clusters
 Sharding

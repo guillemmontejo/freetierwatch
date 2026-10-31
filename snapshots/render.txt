@@ -63,6 +63,10 @@ Create & configure sandboxes
 Execute commands
 Manage files
 Manage snapshots
+Use with…
+Claude Managed Agents
+Cursor Cloud Agents
+OpenAI Agents API
 SDK/CLI reference
 TypeScript SDK
 Python SDK
