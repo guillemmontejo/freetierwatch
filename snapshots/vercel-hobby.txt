@@ -111,7 +111,6 @@ AI SDK
 Chat SDK
 MCP
 Vercel Connect
-eve
 Agent Harnesses
 Agent Resources
 Run agents and backends
