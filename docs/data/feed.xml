@@ -7,6 +7,20 @@
     <item>
       <title>Convex: pricing/limits page changed</title>
       <link>https://www.convex.dev/pricing</link>
+      <guid isPermaLink="false">convex-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 1.8M weekly | 23,919 stars — Removed: 2.1M weekly | 23,918 stars</description>
+    </item>
+    <item>
+      <title>Supabase: pricing/limits page changed</title>
+      <link>https://supabase.com/pricing</link>
+      <guid isPermaLink="false">supabase-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 06:00:00 GMT</pubDate>
+      <description>Added/changed: 114.4K — Removed: 114.3K</description>
+    </item>
+    <item>
+      <title>Convex: pricing/limits page changed</title>
+      <link>https://www.convex.dev/pricing</link>
       <guid isPermaLink="false">convex-2026-11-01</guid>
       <pubDate>Sun, 01 Nov 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: 2.1M weekly | 23,918 stars — Removed: 2.4M weekly | 23,917 stars</description>
@@ -339,20 +353,6 @@
       <guid isPermaLink="false">grafana-cloud-2026-10-21</guid>
       <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
       <description>Added/changed: See everything announced at ObservabilityCON 2026: AI that monitors your AI, faster log search, lower telemetry costs, and more. — Removed: Grafana Labs is a Leader in the 2026 Gartner® Magic Quadrant™ for Observability Platforms.</description>
-    </item>
-    <item>
-      <title>Convex: pricing/limits page changed</title>
-      <link>https://www.convex.dev/pricing</link>
-      <guid isPermaLink="false">convex-2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 23,851 stars — Removed: 23,836 stars</description>
-    </item>
-    <item>
-      <title>Supabase: pricing/limits page changed</title>
-      <link>https://supabase.com/pricing</link>
-      <guid isPermaLink="false">supabase-2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
-      <description>Added/changed: 112.6K — Removed: 111.9K</description>
     </item>
   </channel>
 </rss>

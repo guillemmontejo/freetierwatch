@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-Neon now has realtime: Live SQL with full reactivity. Try it in Beta today
+Managed Better Auth is now an OAuth provider, with MCP support
 Docs
 Get started
 Concepts
