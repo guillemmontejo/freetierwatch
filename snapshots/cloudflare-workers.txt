@@ -432,6 +432,8 @@ Vite plugin
 Overview
 Get started
 Tutorial - React SPA with an API
+v2 beta
+Beta
 Reference
 API
 Static Assets

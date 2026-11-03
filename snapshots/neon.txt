@@ -108,7 +108,7 @@ Branches
 10/project
 25/project
 Extra branches
-—
+Not available
 $1.50/branch-month (prorated hourly)
 $1.50/branch-month (prorated hourly)
 Compute
@@ -136,31 +136,31 @@ Monitoring
 3 days
 14 days
 Metrics/logs export
-—
-—
+Not available
+Not available
 ✅
 Spending notifications
-—
+Not available
 ✅
 ✅
 Instant restore
-—
+Not available
 $0.20/GB-month
 $0.20/GB-month
 History window
-6 hours, up to 1 GB-month
+6 hours, up to 1 GB of changes
 Up to 7 days
 Up to 30 days
 Snapshots
 1 manual snapshot
-100 manual snapshots
-100 manual snapshots
+100 manual snapshots, $0.09/GB-month
+100 manual snapshots, $0.09/GB-month
 Auth
-Up to 60k MAU
-Up to 1M MAU
-Up to 1M MAU
+Up to 60k MAU/project
+Up to 1M MAU/project
+Up to 1M MAU/project
 Object Storage
-5 GB included
+5 GB/project
 $0.023/GB-month
 $0.023/GB-month
 Functions
@@ -168,27 +168,44 @@ Functions
 $0.10/$0.025/Capacity-Hour, $0.60/M
 $0.12/$0.03/Capacity-Hour, $0.60/M
 AI Gateway
-—
+Not available
 Prepaid credits
 Prepaid credits
+Data API
+No separate charge
+No separate charge
+No separate charge
+Realtime
+Free during beta
+Free during beta
+Free during beta
 Private network transfer
-—
-—
+Not available
+Not available
 $0.01/GB
 Compliance and security
-—
+Not available
 Protected branches
 SOC 2, ISO, GDPR,
 HIPAA
 , Protected branches, IP Allow, Private Networking
 Uptime SLA
-—
-—
+Not available
+Not available
 ✅
 Support
 Community
 Billing support
 Standard (additional options for higher-volume customers)
+To upgrade or downgrade, go to
+Billing
+>
+Change plan
+in the
+Neon Console
+. See
+Change your plan
+for what happens to your resources when you switch.
 Plan features
 This section describes the features listed in the
 Plan overview
@@ -435,7 +452,7 @@ Neon stores a change history to support point-in-time restore (instant restore).
 root branches
 , so PITR storage is charged only for root branches. Child branches do not add to this charge.
 Free
-: No charge, 6-hour limit, capped at 1 GB of change history
+: No charge, up to 6 hours, limited to 1 GB of change history per project
 Launch
 : Up to 7 days, billed at $0.20/GB-month
 Scale
@@ -456,7 +473,7 @@ instant restore
 can reach (and how much change history is retained) for your project.
 The maximum history window per plan:
 Free
-: No charge, 6-hour limit, capped at 1 GB-month of changes
+: Up to 6 hours, limited to 1 GB of change history per project
 Launch
 : Up to 7 days
 Scale
@@ -489,15 +506,15 @@ Auth
 Managed Better Auth is a managed authentication service built on
 Better Auth
 , fully integrated into the Neon platform.
-Monthly Active User (MAU) limits per plan:
+Monthly Active User (MAU) limits per project:
 Free
-: Up to 60,000 MAU
+: Up to 60,000 MAU per project
 Launch
-: Up to 1M MAU (
+: Up to 1M MAU per project (
 request an increase in console
 if you need more)
 Scale
-: Up to 1M MAU (
+: Up to 1M MAU per project (
 request an increase in console
 if you need more)
 An MAU (Monthly Active User) is a unique user who authenticates at least once during a monthly billing period.
@@ -570,6 +587,25 @@ page in the Neon Console.
 See
 AI Gateway prepaid credits
 for pricing details, buying credits, and usage limits.
+Data API
+The
+Neon Data API
+lets you query your database over HTTP. It&#x27;s available on all plans with no separate charge. The queries it runs use your database compute, so they count toward your
+compute
+usage like any other query. Responses count toward your
+public network transfer
+allowance.
+Realtime
+Neon Realtime
+is free to use during the beta. Neon doesn&#x27;t charge for the live query engine or the Live SQL API service. Your workload can still generate usage that&#x27;s billed by your plan:
+Database compute
+: starting a live query can wake your compute, which counts toward your
+compute
+usage.
+Network transfer
+: data sent to clients counts toward your
+public network transfer
+allowance.
 Private network transfer
 Bi-directional data transfer to and from your databases over private networking.
 Private networking is available on the
@@ -648,13 +684,13 @@ Public network transfer, GB
 Private network transfer, GB (if
 Private Networking
 is enabled)
-—
+Not shown
 Database extra branches, branch-month
-—
+Not shown
 Function compute (active), capacity-hour
 Function compute (waiting), capacity-hour
 Function invocations, million
-—
+Not shown
 Object storage, GB-month
 note
 Extra branches
@@ -662,7 +698,9 @@ Extra branches
 Neon Functions
 , and
 Object Storage
-do not appear in the Console usage summary but can appear on your invoice.
+don&#x27;t appear in the Console usage summary but can appear on your invoice. AI Gateway usage draws down your
+prepaid credit balance
+rather than appearing as a usage line item.
 Invoice metrics
 The following metrics may appear on your Neon invoice. Each metric represents a specific type of usage that contributes to your monthly bill.
 Metric
@@ -817,7 +855,7 @@ CU-hours = compute size (in CU) × hours running
 Examples:
 • 0.25 CU for 4 hours = 1 CU-hour
 • 2 CU for 3 hours = 6 CU-hours
-Your plan&#x27;s compute price per CU-hour depends on whether you are on Launch or Scale. On the Free plan, you have 100 CU-hours/month included.
+Your plan&#x27;s compute price per CU-hour depends on whether you are on Launch or Scale. On the Free plan, each project includes 100 CU-hours per month.
 How is storage usage billed in Neon?
 Storage is billed based on actual usage, measured in
 GB-months
@@ -833,7 +871,7 @@ $1.50/branch-month
 Example: If your plan includes 10 branches and you run 2 extra branches for 5 hours each, that&#x27;s 10 branch-hours (~$0.02).
 How are instant restores billed?
 Neon charges for PITR (point-in-time restore) storage only for branches you can point-in-time restore from: root branches. The charge is based on the amount of change history retained on those branches, not the number of restores you perform. Child branches do not add to PITR storage charges.
-• Free: Up to 6 hours of history, capped at 1 GB of changes, no charge.
+• Free: Up to 6 hours of history, limited to 1 GB of changes per project, no charge.
 • Launch: Up to 7 days of history, billed at $0.20/GB-month.
 • Scale: Up to 30 days of history, billed at $0.20/GB-month.
 Change history is stored as Postgres WAL records.
@@ -854,15 +892,23 @@ Autoscaling
 How are read replicas billed?
 Each read replica is its own compute and contributes to CU-hours.
 Do public network transfer limits reset each month?
-Yes. Free includes 5 GB/month. Launch and Scale include 500 GB per project per month. Beyond that, it&#x27;s $0.10/GB.
+Yes. Free includes 5 GB per project per month. Launch and Scale include 500 GB per project per month, then $0.10/GB.
 How is private network transfer billed?
 Only available on Scale: $0.01/GB, bidirectional, between Neon and private network services.
 What are the limits and quotas for the Free plan?
-The Free plan costs $0/month and includes 100 projects, 10 branches per project, 100 CU-hours of compute per project per month, autoscaling up to 2 CU (≈8 GB RAM), 1 GB of Postgres storage per project (up to 20 GB total across all projects), and 5 GB of public network transfer per project per month. It also includes a 6-hour instant restore history (capped at 1 GB-month of changes), 1 manual snapshot, up to 60,000 Managed Better Auth MAU, 1 day of monitoring history, and community support. Scale to zero is always enabled (computes suspend after 5 minutes of inactivity) and can&#x27;t be disabled. Compute (CU-hours) and network transfer reset each monthly billing period; projects, branches, and storage are continuous limits. For the full row-by-row breakdown, see the
+The Free plan costs $0/month and includes 100 projects, 10 branches per project, 100 CU-hours of compute per project per month, autoscaling up to 2 CU (≈8 GB RAM), 1 GB of Postgres storage per project (up to 20 GB total across all projects), and 5 GB of public network transfer per project per month. It also includes a 6-hour instant restore history (up to 1 GB of changes per project), 1 manual snapshot, up to 60,000 Managed Better Auth MAU per project, 1 day of monitoring history, and community support. Scale to zero is always enabled (computes suspend after 5 minutes of inactivity) and can&#x27;t be disabled. Compute (CU-hours) and network transfer reset each monthly billing period; projects, branches, and storage are continuous limits. For the full row-by-row breakdown, see the
 Plan overview
 table.
 What happens if I exceed my Free plan limits?
 On the Free plan, when you run out of CU-hours or public network transfer, your compute is suspended until the next billing period or until you upgrade. Exceeding the 1 GB per-project storage cap, or the 20 GB total cap across all your projects, causes operations that increase storage (inserts, updates, and deletes) to fail until you free space or upgrade. Branch creation fails once you reach 10 branches per project. None of these limits delete your data.
+How do I upgrade or downgrade my plan?
+In the Neon Console, go to
+Billing
+and select
+Change plan
+. After an upgrade, a compute picks up the new plan limits (such as maximum compute size) the next time it restarts. Before you downgrade, remove any projects, branches, or data that exceed the new plan&#x27;s allowances. See
+Change your plan
+.
 Do you charge for idle computes?
 If scale-to-zero is enabled, no. Computes that are suspended do not accrue CU-hours.
 What is the difference between root and child branch storage billing?
@@ -898,6 +944,8 @@ Discord Server
 to ask questions or see what others are doing with Neon. For paid plan support options, see
 Support
 .
+Last updated on
+October 23, 2026
 Was this page helpful?
 Yes
 No

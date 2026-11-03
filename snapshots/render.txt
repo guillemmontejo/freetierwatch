@@ -77,6 +77,8 @@ Tutorial
 Limits & pricing
 How to…
 Define tasks
+Define flows
+New
 Trigger runs
 Develop locally
 SDK reference
