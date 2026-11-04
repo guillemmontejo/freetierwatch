@@ -37,8 +37,6 @@ Inference Providers
 🏡 View all docs
 AWS Trainium & Inferentia
 Accelerate
-Argilla
-AutoTrain
 Bitsandbytes
 CLI
 Chat UI
@@ -46,8 +44,6 @@ Dataset viewer
 Datasets
 Deploying on AWS
 Diffusers
-Distilabel
-Evaluate
 Google Cloud
 Google TPUs
 Gradio
@@ -70,7 +66,6 @@ Sentence Transformers
 TRL
 Tasks
 Text Embeddings Inference
-Text Generation Inference
 Tokenizers
 Trackio
 Transformers

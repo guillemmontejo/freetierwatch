@@ -68,8 +68,8 @@ AI IDENTITY
 B2B
 Commerce
 FEATURED CONTENT
-WHITEPAPER
-Building Secure AI Agents
+Webinar
+Streamcast: Agentic Commerce
 CUSTOMER IDENTITY
 Universal Login
 Passwordless
@@ -182,8 +182,8 @@ AI IDENTITY
 B2B
 Commerce
 FEATURED CONTENT
-WHITEPAPER
-Building Secure AI Agents
+Webinar
+Streamcast: Agentic Commerce
 CUSTOMER IDENTITY
 Universal Login
 Passwordless
@@ -229,8 +229,9 @@ Architecture Playbooks
 Identity
 Connect
 FEATURED CONTENT
-WHITEPAPER
-From Prototype to Production
+EBOOK
+The Identity Layer Behind
+Agentic Commerce
 Library
 EXPLORE BY TOPIC
 AI
@@ -258,8 +259,9 @@ Zero Index Newsletter
 ↗
 Customer Stories
 FEATURED CONTENT
-WEBINAR
-Auth0 Launchpad
+Report
+The Customer Identity
+Trends Report
 Pricing
 Sign up
 Let&#x27;s connect

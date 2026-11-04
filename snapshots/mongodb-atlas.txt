@@ -491,7 +491,16 @@ oplog
 in a Free cluster or a Flex cluster with a carat (
 ^
 ). Otherwise, the following error occurs:
-MongoServerError: Oplog ns RegEx queries must begin with ^
+MongoServerError
+:
+Oplog
+ns
+RegEx
+queries
+must
+begin
+with
+^
 Write access to any collection in the
 local
 and

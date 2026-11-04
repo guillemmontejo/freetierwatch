@@ -117,6 +117,7 @@ Run agents and backends
 Functions
 Fluid Compute
 Routing Middleware
+Background Workers
 Cron Jobs
 Queues
 Daemons
@@ -613,6 +614,11 @@ api-projects-deployment-expiration
 owner
 Project expiration lock requests per minute.
 api-projects-expiration-lock
+200
+60
+owner
+Project expiration removal requests per minute.
+api-projects-expiration-remove
 200
 60
 owner
@@ -2363,6 +2369,21 @@ api-sandboxes-control-plane-pro
 owner
 Sandbox control plane requests per minute for Enterprise plan.
 api-sandboxes-control-plane-enterprise
+100000
+60
+owner
+Drive filesystem API requests per minute for Hobby plan.
+api-drives-public-fs-hobby
+1000
+60
+owner
+Drive filesystem API requests per minute for Pro plan.
+api-drives-public-fs-pro
+10000
+60
+owner
+Drive filesystem API requests per minute for Enterprise plan.
+api-drives-public-fs-enterprise
 100000
 60
 owner

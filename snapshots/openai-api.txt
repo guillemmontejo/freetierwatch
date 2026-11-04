@@ -8,6 +8,10 @@ ChatGPT
 Start searching
 API Dashboard
 Try ChatGPT
+Theme
+Light
+Dark
+System
 Home
 API
 Overview
@@ -76,6 +80,10 @@ Use cases
 Training
 Resources
 Resources
+Theme
+Light
+Dark
+System
 Search docs
 Suggested
 responses create
@@ -170,7 +178,6 @@ Audio and speech
 Getting started
 Voice agents
 Specialized models
-Deep research
 Embeddings
 Moderation
 Overview
@@ -244,7 +251,6 @@ Computer use
 Integration recipes
 Driver reference
 Apply Patch
-Local shell
 Code interpreter
 Media
 Image generation
@@ -281,6 +287,7 @@ Text to speech
 Audio in Chat Completions
 Go live
 Production best practices
+API keys and service accounts
 Deployment checklist
 Performance and quality
 Fast mode
@@ -794,6 +801,7 @@ API Dashboard
 Try ChatGPT
 Go live
 Production best practices
+API keys and service accounts
 Deployment checklist
 Performance and quality
 Fast mode
@@ -1173,13 +1181,11 @@ Automatic retries means you can recover from rate limit errors without crashes o
 Exponential backoff means that your first retries can be tried quickly, while still benefiting from longer delays if your first few retries fail
 Adding random jitter to the delay helps retries from all hitting at the same time.
 Note that unsuccessful requests contribute to your per-minute limit, so continuously resending a request won’t work.
-The legacy Completions examples below use
-gpt-3.5-turbo-instruct
-, which was shut down on
-September 28, 2026
-. You can use the same retry pattern with current models by migrating to
-Responses or Chat Completions
-.
+The following examples retry a
+gpt-6-luna
+request to the
+Responses API
+. Each wrapper limits attempts and disables the SDK’s built-in retries.
 The Python examples below demonstrate fallback backoff. They don’t inspect
 Retry-After
 : before using them, add handling for valid server hints so the wrappers don’t retry sooner than requested. Disable SDK retries or account for them in your application’s retry limits.
@@ -1210,24 +1216,41 @@ Using the Tenacity library
 17
 18
 19
+20
+21
+22
+23
+24
+25
+26
+27
+28
 from
 openai
 import
-OpenAI
+OpenAI, RateLimitError
 from
 tenacity
 import
 (
 retry,
+retry_if_exception_type,
 stop_after_attempt,
 wait_random_exponential,
 )
 # for exponential backoff
 client
 =
-OpenAI()
+OpenAI(
+max_retries
+=
+0
+)
 @retry
 (
+retry
+=
+retry_if_exception_type(RateLimitError),
 wait
 =
 wait_random_exponential(
@@ -1243,26 +1266,46 @@ stop
 =
 stop_after_attempt(
 6
-))
+),
+reraise
+=
+True
+,
+)
 def
-completion_with_backoff
+response_with_backoff
 (
 **
 kwargs):
 return
-client.completions.create(
+client.responses.create(
 **
 kwargs)
-completion_with_backoff(
+response
+=
+response_with_backoff(
 model
 =
-gpt-3.5-turbo-instruct
+gpt-6-luna
 ,
-prompt
+input
 =
-Once upon a time,
+Say hello in one sentence.
+,
+reasoning
+=
+{
+effort
+:
+none
+},
+max_output_tokens
+=
+64
 ,
 )
+print
+(response.output_text)
 Note that the Tenacity library is a third-party tool, and OpenAI makes no guarantees about
 its reliability or security.
 Example 2: Using the backoff library
@@ -1286,6 +1329,9 @@ Using the backoff library
 14
 15
 16
+17
+18
+19
 import
 backoff
 import
@@ -1296,28 +1342,51 @@ import
 OpenAI
 client
 =
-OpenAI()
+OpenAI(
+max_retries
+=
+0
+)
 @backoff.on_exception
-(backoff.expo, openai.RateLimitError)
+(backoff.expo, openai.RateLimitError,
+max_tries
+=
+6
+)
 def
-completions_with_backoff
+response_with_backoff
 (
 **
 kwargs):
 return
-client.completions.create(
+client.responses.create(
 **
 kwargs)
-completions_with_backoff(
+response
+=
+response_with_backoff(
 model
 =
-gpt-3.5-turbo-instruct
+gpt-6-luna
 ,
-prompt
+input
 =
-Once upon a time,
+Say hello in one sentence.
+,
+reasoning
+=
+{
+effort
+:
+none
+},
+max_output_tokens
+=
+64
 ,
 )
+print
+(response.output_text)
 Like Tenacity, the backoff library is a third-party tool, and OpenAI makes no guarantees about its reliability or security.
 Example 3: Manual backoff implementation
 If you don’t want to use third-party libraries, you can implement your own backoff logic following this example:
@@ -1381,6 +1450,15 @@ Using manual backoff implementation
 57
 58
 59
+60
+61
+62
+63
+64
+65
+66
+67
+68
 # imports
 import
 random
@@ -1394,7 +1472,11 @@ import
 OpenAI
 client
 =
-OpenAI()
+OpenAI(
+max_retries
+=
+0
+)
 # define a retry decorator
 def
 retry_with_exponential_backoff
@@ -1496,14 +1578,39 @@ return
 wrapper
 @retry_with_exponential_backoff
 def
-completions_with_backoff
+response_with_backoff
 (
 **
 kwargs):
 return
-client.completions.create(
+client.responses.create(
 **
 kwargs)
+response
+=
+response_with_backoff(
+model
+=
+gpt-6-luna
+,
+input
+=
+Say hello in one sentence.
+,
+reasoning
+=
+{
+effort
+:
+none
+},
+max_output_tokens
+=
+64
+,
+)
+print
+(response.output_text)
 Again, OpenAI makes no guarantees on the security or efficiency of this solution but it can be a good starting place for your own solution.
 Reduce the
 max_tokens

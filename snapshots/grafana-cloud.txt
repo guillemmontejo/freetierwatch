@@ -840,9 +840,12 @@ Getting Help
 Professional Services
 Hey AI
 Compare
+Arize vs. Grafana Cloud
 Datadog vs. Grafana Cloud
 Dynatrace vs. Grafana Cloud
 Elasticsearch vs. Grafana Cloud
+Langfuse vs. Grafana Cloud
+LangSmith vs. Grafana Cloud
 New Relic vs. Grafana Cloud
 PagerDuty vs. Grafana Cloud
 Splunk vs. Grafana Cloud
