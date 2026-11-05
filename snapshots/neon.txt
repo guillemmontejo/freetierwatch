@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-Managed Better Auth is now an OAuth provider, with MCP support
+How Kylon&#x27;s agents build on Neon: each workspace is a Neon project, each draft is a branch
 Docs
 Get started
 Concepts
@@ -144,7 +144,7 @@ Not available
 ✅
 ✅
 Instant restore
-Not available
+No charge, up to 6 hours
 $0.20/GB-month
 $0.20/GB-month
 History window
@@ -269,7 +269,7 @@ Postgres objects (databases, schemas, tables, records, indexes, roles) are creat
 You can create
 child branches
 for testing, previews, or development.
-Included per plan:
+Included per plan, counting the root branch:
 Free
 : 10 branches/project
 Launch
@@ -945,7 +945,7 @@ to ask questions or see what others are doing with Neon. For paid plan support o
 Support
 .
 Last updated on
-October 23, 2026
+November 4, 2026
 Was this page helpful?
 Yes
 No

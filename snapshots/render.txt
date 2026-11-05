@@ -182,6 +182,7 @@ Pentest policy
 Compare
 Heroku vs Render
 Vercel vs Render
+Collapse
 Deploy for Free
 Preview the Render platform with free web services and datastores.
 Copy page

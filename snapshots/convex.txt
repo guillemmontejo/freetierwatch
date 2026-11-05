@@ -42,7 +42,7 @@ Pricing
 npm
 2.5M weekly
 GitHub
-23,926 stars
+23,929 stars
 Log in
 Start building
 Choose Your Plan
@@ -85,9 +85,9 @@ Business & Enterprise
 For teams scaling rapidly and established products requiring custom solutions
 $2,500
 monthly minimum
-Everything in
+All
 Professional
-, plus…
+features, plus…
 Developers
 (50+)
 SAML/SSO
