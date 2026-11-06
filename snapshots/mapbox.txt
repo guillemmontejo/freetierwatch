@@ -65,8 +65,10 @@ Overview
 →
 Geocoding
 Geolocate and validate addresses
-Search Box
+Places
 New
+Detailed place data for AI
+Search Box
 User-friendly search interface
 Address Autofill
 Autocomplete for address forms
@@ -291,8 +293,10 @@ Overview
 →
 Geocoding
 Geolocate and validate addresses
-Search Box
+Places
 New
+Detailed place data for AI
+Search Box
 User-friendly search interface
 Address Autofill
 Autocomplete for address forms
@@ -1516,6 +1520,8 @@ Mapbox Tiling Service
 Search
 Search Overview
 Search Box
+Places
+NEW
 Geocoding
 Address Autofill
 Other

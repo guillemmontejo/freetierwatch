@@ -144,8 +144,6 @@ Optimization cycle
 Supervised fine-tuning
 Vision fine-tuning
 Direct preference optimization
-Reinforcement fine-tuning
-RFT use cases
 Best practices
 Assistants API
 Migration guide
@@ -591,7 +589,6 @@ Cloud environments
 Build with Codex
 Codex SDK
 App Server
-Model catalogs
 GitHub Action
 Non-interactive mode
 Third-party integrations
@@ -661,7 +658,7 @@ User lifecycle management
 Roles and workspace permissions
 Personal access tokens
 Service accounts
-Deployment and configuration
+Configuration
 Windows app and CLI deployment
 NFS home directories
 Manage app updates
@@ -670,12 +667,11 @@ Self-host configuration
 Codex security cookbook
 Remote connections
 Workspace model availability
+Advanced deployment
 Amazon Bedrock
-Bedrock GovCloud configuration
+GovCloud deployment
 Connect to a gateway
 Roll out a gateway
-Gateway compatibility
-Bedrock through LiteLLM
 ChatGPT EDU
 Education plans
 Higher education setup
@@ -928,6 +924,10 @@ Launch
 , and
 Grow
 . Your organization’s usage tier upgrades automatically as its total credit purchases reach each threshold. Higher tiers generally provide higher rate limits across models.
+Usage tiers describe rate limits. A model’s rate-limit entry does not confirm
+access for your organization, project, or API key. If a model is missing,
+check model availability
+.
 Tier
 Qualification
 Usage limits
@@ -1052,6 +1052,30 @@ https://api.openai.com/v1/fine_tuning/model_limits
 -H
 Authorization: Bearer
 $OPENAI_API_KEY
+Model availability
+Model access and rate limits are separate. Meeting a usage-tier threshold doesn’t grant access to every model. If a documented model is missing from Playground or
+GET /v1/models
+, or a request returns
+model_not_found
+:
+Check the model ID and endpoint.
+Use the exact ID from the
+model documentation
+, confirm that it supports your endpoint, and check for retirement or availability notices.
+Compare the organization, project, and credentials.
+Select the intended organization and project in Playground. Call
+List models
+with the same API key and any
+OpenAI-Organization
+and
+OpenAI-Project
+headers used by the failed request. A model visible in your dashboard session may still be unavailable to a different API key.
+Review project restrictions and model requirements.
+Ask someone who can manage the project to check its model permissions and data-retention settings. Follow any model-specific access requirements and review any rollout notices in the model documentation. A missing model alone does not identify the cause.
+Refresh and check again.
+After changing access settings, refresh the model list or Playground. If the model is still unavailable, contact support with the model ID, organization and project IDs, request time, error message, and the
+x-request-id
+response header, if available. Don’t share your API key.
 Error mitigation
 Handle rapid traffic increases and model overload
 The API can return

@@ -307,18 +307,6 @@ $2
 / MTok
 $0.10
 / MTok
-Claude Haiku 3.5
-
-$0.80
-/ MTok
-$4
-/ MTok
-$1
-/ MTok
-$1.60
-/ MTok
-$0.08
-/ MTok
 
 Additional notes
 All other models use the standard 0.1x multiplier.
@@ -632,12 +620,6 @@ $0.50
 / MTok
 $2.50
 / MTok
-Claude Haiku 3.5
-
-$0.40
-/ MTok
-$2
-/ MTok
 For more information about batch processing, see
 Batch processing
 .
@@ -845,18 +827,6 @@ any
 tool
 588
 tokens
-Claude Haiku 3.5
-
-auto
-,
-none
-264
-tokens
-any
-,
-tool
-355
-tokens
 These token counts are added to your normal input and output tokens to calculate the total cost of a request.
 For current per-model prices, refer to the
 model pricing
@@ -971,7 +941,7 @@ Web search usage is charged in addition to token usage:
 Web search is available on the Claude API for
 $10 USD per 1,000 searches
 , plus standard token costs for search-generated content. Web search results retrieved throughout a conversation are counted as input tokens, in search iterations run during a single turn and in subsequent conversation turns.
-Each web search counts as one use, regardless of the number of results returned. If an error occurs during web search, the web search will not be billed.
+Each web search counts as one use, regardless of the number of results returned. A web search that fails with an error is not billed.
 Web fetch tool
 
 Web fetch usage has

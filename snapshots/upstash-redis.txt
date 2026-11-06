@@ -550,6 +550,7 @@ Upstash
 2026
 Upstash, Inc. Based in California.
 Contact Us
+Knowledge Base
 Privacy Policy
 Terms of Service
 Redis Database

@@ -245,14 +245,23 @@ Redirects
 Direct Uploads
 Billing and Limitations
 Migration Guides
+Migrate from Vercel to Cloudflare Workers
+Overview
+Astro
+Next.js
+Nuxt
+Remix and React Router
+SvelteKit
+TanStack Start
+Static site or SPA
 Migrate from Pages to Workers
 Migrate from Netlify to Workers
-Migrate from Vercel to Workers
 Framework guides
 Deploy an existing project
 Web applications
 React + Vite
 Astro
+EmDash
 React Router (formerly Remix)
 Next.js
 OpenNext adapter

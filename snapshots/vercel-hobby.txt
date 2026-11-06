@@ -118,7 +118,7 @@ Functions
 Fluid Compute
 Routing Middleware
 Background Workers
-Cron Jobs
+Schedules
 Queues
 Daemons
 Workflows
@@ -2372,20 +2372,25 @@ api-sandboxes-control-plane-enterprise
 100000
 60
 owner
-Drive filesystem API requests per minute for Hobby plan.
-api-drives-public-fs-hobby
+Drive control plane requests per minute for Hobby plan.
+api-drives-control-plane-hobby
 1000
 60
 owner
-Drive filesystem API requests per minute for Pro plan.
-api-drives-public-fs-pro
+Drive control plane requests per minute for Pro plan.
+api-drives-control-plane-pro
 10000
 60
 owner
-Drive filesystem API requests per minute for Enterprise plan.
-api-drives-public-fs-enterprise
+Drive control plane requests per minute for Enterprise plan.
+api-drives-control-plane-enterprise
 100000
 60
+owner
+Drive and drive snapshot deletions per second.
+api-drives-control-plane-delete
+20
+1
 owner
 Sandbox, snapshot and drive deletions per second.
 api-sandboxes-control-plane-delete

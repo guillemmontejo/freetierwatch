@@ -1,5 +1,5 @@
 Neon plans - Neon Docs
-How Kylon&#x27;s agents build on Neon: each workspace is a Neon project, each draft is a branch
+Lakebase Postgres is built on object storage, but 99.99999% of reads are served from high-performance local caches
 Docs
 Get started
 Concepts
@@ -168,7 +168,7 @@ Functions
 $0.10/$0.025/Capacity-Hour, $0.60/M
 $0.12/$0.03/Capacity-Hour, $0.60/M
 AI Gateway
-Not available
+Prepaid credits
 Prepaid credits
 Prepaid credits
 Data API
@@ -578,7 +578,7 @@ See
 Neon Functions
 for what&#x27;s included and current limitations.
 AI Gateway
-Neon AI Gateway provides access to open-weight and foundation models from multiple providers through a single Neon credential. It&#x27;s available on paid plans (Launch and Scale). Any paid customer with prepaid credits can use every model in the catalog; see
+Neon AI Gateway provides access to open-weight and foundation models from multiple providers through a single Neon credential. It&#x27;s available on all plans, including Free. On the Free plan, you add a payment card and buy prepaid credits without upgrading. Any account with prepaid credits can use every model in the catalog; see
 Model access
 for details.
 Prices match each provider&#x27;s published list prices, with no additional markup, and draw down a prepaid credit balance you buy from the

@@ -295,6 +295,7 @@ Automations
 Audiences
 Broadcasts
 Inbound
+Inboxes
 Templates
 Webhooks
 Dedicated IPs
