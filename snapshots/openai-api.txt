@@ -121,6 +121,9 @@ Counting tokens
 SDKs and CLI
 OpenAI SDK
 OpenAI CLI
+Cloud providers
+Amazon Bedrock
+Google Cloud
 Resources
 Changelog
 Deprecations
@@ -341,7 +344,6 @@ GitHub Actions
 SPIFFE
 Idira
 IP egress ranges
-Amazon Bedrock
 Operations
 Rate limits
 Spend limits
@@ -855,7 +857,6 @@ GitHub Actions
 SPIFFE
 Idira
 IP egress ranges
-Amazon Bedrock
 Operations
 Rate limits
 Spend limits

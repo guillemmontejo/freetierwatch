@@ -247,7 +247,6 @@ Management
 Reference
 /
 Limits
-/
 Atlas
 Free Cluster Limits
 Copy page

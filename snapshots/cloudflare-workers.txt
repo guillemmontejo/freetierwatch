@@ -443,6 +443,7 @@ Get started
 Tutorial - React SPA with an API
 v2 beta
 Beta
+Vite+ on Workers
 Reference
 API
 Static Assets

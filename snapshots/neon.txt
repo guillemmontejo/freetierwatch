@@ -1,4 +1,5 @@
 Neon plans - Neon Docs
+Skip to main content
 Lakebase Postgres is built on object storage, but 99.99999% of reads are served from high-performance local caches
 Docs
 Get started

@@ -32,6 +32,8 @@ Convex for Open Source
 Support for open source projects
 Convex Community
 Share ideas and ask for help in our community Discord
+Customers
+Meet the teams building with Convex
 Stack
 Stack is the Convex developer portal and blog, sharing bright ideas and techniques for building with Convex.
 Explore Stack
@@ -42,7 +44,7 @@ Pricing
 npm
 2.6M weekly
 GitHub
-23,937 stars
+23,941 stars
 Log in
 Start building
 Choose Your Plan
@@ -418,6 +420,7 @@ Docs
 Blog
 Components
 Templates
+Customers
 Convex for Startups
 Convex for Open Source
 Champions

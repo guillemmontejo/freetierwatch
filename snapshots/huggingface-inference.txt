@@ -1,5 +1,7 @@
 Pricing and Billing · Hugging Face
 Hugging Face
+Search models, datasets, users...
+Ctrl K
 Models
 Datasets
 Spaces
