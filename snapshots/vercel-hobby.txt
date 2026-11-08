@@ -422,9 +422,9 @@ The maximum number of files that can be uploaded when creating a CLI
 Deployment
 is
 15,000
-for source files. Deployments that contain more files than the limit will fail at the
-build step
-.
+for source files. If you upload more files than the limit, Vercel rejects the request and does not create the deployment. To deploy more files, use the
+--archive=tgz
+option.
 Although there is no upper limit for output files created during a build, you can expect longer build times as a result of having many thousands of output files (100,000 or more, for example). If the build time exceeds 45 minutes then the build will fail.
 We recommend using
 Incremental Static Regeneration
@@ -517,7 +517,7 @@ Rate limit examples
 Below are six examples that provide further information on how rate limits work.
 Domain deletion
 You are able to delete up to
-60
+100
 domains every
 60
 seconds (1 minute). Should you hit the rate limit, you will need to wait another minute before you can delete another domain.
