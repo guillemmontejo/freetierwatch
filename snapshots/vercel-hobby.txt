@@ -2458,13 +2458,14 @@ cap how fast your provisioning rate for a resource can grow. They do not cap the
 Each dynamic quota has an allowed rate, measured per minute, that moves between a minimum and a maximum. The unit depends on the resource and is named in the limit&#x27;s description.
 You start at the
 minimum rate
-when you have made no requests against the limit for 10 minutes.
+when you have made no requests against the limit for 10 minutes. A quota that holds your allowed rate (see below) can take longer.
 While you consume at or above your current allowed rate, that rate climbs at the
 ramp per minute
 rate, toward the
 maximum rate
 .
 Consuming less than your allowed rate lets it decay back down toward the minimum at the same slope.
+The Sandbox vCPU quotas hold your allowed rate before it decays: for 5 minutes on Hobby, and for 10 minutes on Pro and Enterprise, after you last consumed at your full allowed rate.
 Your allowance is one minute&#x27;s worth of your current allowed rate, so you can spend a full minute of capacity in one burst and then wait for it to refill.
 For example, take a limit with a minimum rate of 100 units per minute, a ramp of 200 units per minute, and a maximum rate of 1,000 units per minute. After 10 minutes with no requests you start at 100 units per minute, which gives you an allowance of 100 units. Keep consuming at or above your allowed rate and it climbs to 300 units per minute after one minute, 500 after two minutes, and reaches the 1,000 maximum after four and a half minutes of sustained usage. Drop below your allowed rate and it falls back toward 100 units per minute at the same slope.
 Once your recent usage has drawn down your allowance, the API responds with a

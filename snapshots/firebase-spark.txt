@@ -347,7 +347,18 @@ Multiple buckets per project
 Not applicable
 check
 Crashlytics
+Mobile apps
 No-cost
+No-cost
+Web apps
+Not applicable
+Cloud Logging
+Cloud Logging pricing
+Cloud Storage
+Cloud Storage pricing
+Use the
+Google Cloud calculator
+to estimate project costs.
 SQL Connect
 Network egress
 330 MiB/day
@@ -524,10 +535,9 @@ gmp_analytics
 gmp_app_check
 gmp_app_distro
 gmp_cloud_messaging
-gmp_crashlytics
 gmp_inapp_messaging
 gmp_performance
-A/B Testing, Analytics, App Check, App Distribution, Cloud Messaging (FCM), Crashlytics, In-App Messaging, and Performance Monitoring.
+A/B Testing, Analytics, App Check, App Distribution, Cloud Messaging (FCM), In-App Messaging, and Performance Monitoring.
 check
 Generous no-cost usage limits
 check
@@ -554,30 +564,6 @@ Cloud Logging
 Not applicable
 Cloud Secrets Manager
 Not applicable
-Project-Id-Version: PROJECT VERSION
-Report-Msgid-Bugs-To: EMAIL@ADDRESS
-POT-Creation-Date: 2026-10-14 16:16+0000
-PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
-Last-Translator: FULL NAME
-Language: en
-Language-Team: en
-Plural-Forms: nplurals=2; plural=(n != 1)
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-Generated-By: Babel 2.8.0
-Project-Id-Version: PROJECT VERSION
-Report-Msgid-Bugs-To: EMAIL@ADDRESS
-POT-Creation-Date: 2026-10-14 16:16+0000
-PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
-Last-Translator: FULL NAME
-Language: en
-Language-Team: en
-Plural-Forms: nplurals=2; plural=(n != 1)
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-Generated-By: Babel 2.8.0
 Authentication
 keyboard_arrow_down
 keyboard_arrow_up
@@ -656,6 +642,15 @@ Download operations
 Not applicable
 Multiple buckets per project
 Not applicable
+Crashlytics
+keyboard_arrow_down
+keyboard_arrow_up
+Mobile apps
+No-cost
+Web apps
+Not applicable
+Cloud Logging
+Cloud Storage
 SQL Connect
 keyboard_arrow_down
 keyboard_arrow_up
@@ -777,18 +772,6 @@ Cloud Logging
 Cloud Logging pricing
 Cloud Secrets Manager
 Cloud Secrets Manager pricing
-Project-Id-Version: PROJECT VERSION
-Report-Msgid-Bugs-To: EMAIL@ADDRESS
-POT-Creation-Date: 2026-10-14 16:16+0000
-PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
-Last-Translator: FULL NAME
-Language: en
-Language-Team: en
-Plural-Forms: nplurals=2; plural=(n != 1)
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-Generated-By: Babel 2.8.0
 Use the
 Google Cloud calculator
 to estimate project costs.
@@ -924,6 +907,19 @@ Then
 Cloud Storage pricing
 Multiple buckets per project
 check
+Crashlytics
+keyboard_arrow_down
+keyboard_arrow_up
+Mobile apps
+No-cost
+Web apps
+Cloud Logging
+Cloud Logging pricing
+Cloud Storage
+Cloud Storage pricing
+Use the
+Google Cloud calculator
+to estimate project costs.
 SQL Connect
 keyboard_arrow_down
 keyboard_arrow_up
