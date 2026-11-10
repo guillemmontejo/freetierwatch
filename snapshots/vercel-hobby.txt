@@ -275,10 +275,8 @@ Concurrent Deployments
 Up to 500*
 Custom
 Disk Size (GB)
-32
-32 up to
 64
-32 up to
+64
 64
 Cron Jobs (per project)
 100*

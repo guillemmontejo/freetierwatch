@@ -124,6 +124,10 @@ Scale to zero
 After 5 min
 After 5 min, can be disabled
 Configurable (1 minute to always on)
+Read replicas
+3/project
+6/branch
+6/branch
 Storage
 1 GB/project, 20 GB account total
 $0.35/GB-month
@@ -365,6 +369,12 @@ Launch
 : 5 min inactivity; can disable
 Scale
 : Fully configurable; 1 minute to always on
+Read replicas
+Read replicas
+are read-only computes that serve reads from the same storage as your branch&#x27;s primary compute. Each read replica is billed as compute.
+All plans are limited to 6 read replicas per branch. The Free plan is also limited to 3 read replica computes per project, and the
+Agent plan
+allows up to 3 read replicas per project.
 Storage
 Storage is your data size, billed on actual usage in
 GB-months

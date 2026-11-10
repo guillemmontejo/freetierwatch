@@ -676,6 +676,7 @@ Resource Tags
 Supported Browsers
 Internal Databases
 Data Usage for AI Cluster Assistant
+Data Usage for Atlas Home Page Assistant
 Frequently Asked Questions
 APIs
 Atlas Kubernetes Operator
@@ -757,6 +758,7 @@ Resource Tags
 Supported Browsers
 Internal Databases
 Data Usage for AI Cluster Assistant
+Data Usage for Atlas Home Page Assistant
 Frequently Asked Questions
 APIs
 Atlas Kubernetes Operator
