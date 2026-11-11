@@ -890,6 +890,11 @@ api-domains-records-post
 50
 60
 owner
+Domains record list requests per domain per minute.
+api-domains-records-get
+50
+60
+resource
 Domains status retrieval per minute.
 api-domains-status
 150
@@ -1423,6 +1428,26 @@ user
 Integration product create per minute.
 api-integrations-update-product
 120
+3600
+user
+Integration product aliases get per minute.
+api-integrations-get-product-aliases
+120
+60
+user
+Integration product alias get per minute.
+api-integrations-get-product-alias
+240
+60
+user
+Integration product alias requests per hour.
+api-integrations-request-product-alias
+20
+3600
+user
+Integration product alias request cancellations per hour.
+api-integrations-cancel-product-alias-request
+60
 3600
 user
 Integration product billing plans retrieval per minute.
@@ -2383,6 +2408,21 @@ owner
 Drive control plane requests per minute for Enterprise plan.
 api-drives-control-plane-enterprise
 100000
+60
+owner
+Drive filesystem reads per minute for Hobby plan. Each read starts a drive cell.
+api-drives-fs-read-hobby
+10
+60
+owner
+Drive filesystem reads per minute for Pro plan. Each read starts a drive cell.
+api-drives-fs-read-pro
+30
+60
+owner
+Drive filesystem reads per minute for Enterprise plan. Each read starts a drive cell.
+api-drives-fs-read-enterprise
+60
 60
 owner
 Drive and drive snapshot deletions per second.

@@ -54,6 +54,7 @@ Use the R2 multipart API from Workers
 Workers API reference
 S3
 S3 API compatibility
+Conditional operations
 Extensions
 Presigned URLs
 Temporary credentials

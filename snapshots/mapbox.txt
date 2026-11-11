@@ -480,33 +480,24 @@ Licensing
 Support
 Navigation
 Monthly cost
+All prices in USD.
 version 3.x
 version 3.x
 version 2.x
 Metered trips
 Unlimited trips
-Navigation SDK v3.x
+Navigation SDK v3.x (Metered trips)
 Docs
 Navigation SDK iOS pricing guide >
 Navigation SDK Android pricing guide >
 Embed navigation with routing and guidance directly into your app. Pay a lower fee for each monthly active user (MAU) of your app plus a fee for each trip your users take.
 Detailed pricing
 Monthly active users
-0
-100
-5000
-10k
-20k
 Monthly active users
 A user of Mapbox services within your app during your month-long billing period. Monthly active users will appear on your invoice as
 Navigation SDK for Mobile
 .
 Monthly trips
-0
-1000
-50k
-100k
-200k
 Monthly trips
 The Nav SDK supports two types of trips: active guidance trips and free-drive trips. An active guidance trip is a navigation session that has turn-by-turn instructions to a specific destination. A free-drive trip is a navigation session that does not have turn by turn instructions to a specific destination, but still map-matches the user to a specific location and shows relevant information along their route.
 Active guidance trips will appear on your invoice as
@@ -514,78 +505,64 @@ Active Guidance Trips for Mobile
 and free-drive trips will appear as
 Free Drive Trips for Mobile
 .
+Navigation SDK v3.x (Metered trips): monthly active user pricing
 Monthly active users
-Up to 100
-101+
-20,000+
-‍
-Monthly trip counts
-Up to 1,000
-1,001 - 50,000
-50,001 - 100,000
-100,001+
-200,000+
 Cost per user
+Up to 100
 Free
+101 - 20,000
 $0.30
+20,001+
 Contact sales for discount
-‍
-‍
-‍
-‍
+Navigation SDK v3.x (Metered trips): monthly trip pricing
+Monthly trip counts
 Cost per trip count
+Up to 1,000
 Free
+1,001 - 50,000
 $0.08
+50,001 - 100,000
 $0.064
+100,001 - 200,000
 $0.048
+200,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
-Navigation SDK v3.x
+Navigation SDK v3.x (Unlimited trips)
 Docs
 Navigation SDK iOS pricing guide >
 Navigation SDK Android pricing guide >
 Embed navigation with routing and guidance directly into your app. Pay one fee for each monthly active user (MAU) of your application. This option includes unlimited trips at no additional cost.
 Detailed pricing
 Monthly active users
-0
-10
 Monthly active users
 A user of Mapbox services within your app during your month-long billing period including Directions API, Vector Tiles API, and Raster Tiles API requests.
+Navigation SDK v3.x (Unlimited trips): monthly active user pricing
 Monthly active users
-Up to 10
-11+
 Cost per user
+Up to 10
 Free
+11+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
-Navigation SDK v2.x
+Navigation SDK v2.x (Metered trips)
 Docs
 Navigation SDK iOS pricing guide >
 Navigation SDK Android pricing guide >
 Embed navigation with routing and guidance directly into your app. Pay a lower fee for each monthly active user (MAU) of your app plus a fee for each trip your users take.
 Detailed pricing
 Monthly active users
-0
-100
-5000
-10k
-20k
 Monthly active users
 A user of Mapbox services within your app during your month-long billing period. Monthly active users will appear on your invoice as
 Navigation SDK for Mobile
 .
 Monthly trips
-0
-1000
-50k
-100k
-200k
 Monthly trips
 The Nav SDK supports two types of trips: active guidance trips and free-drive trips. An active guidance trip is a navigation session that has turn-by-turn instructions to a specific destination. A free-drive trip is a navigation session that does not have turn by turn instructions to a specific destination, but still map-matches the user to a specific location and shows relevant information along their route.
 Active guidance trips will appear on your invoice as
@@ -593,51 +570,50 @@ Active Guidance Trips for Mobile
 and free-drive trips will appear as
 Free Drive Trips for Mobile
 .
+Navigation SDK v2.x (Metered trips): monthly active user pricing
 Monthly active users
-Up to 100
-101+
-20,000+
-‍
-Monthly trip counts
-Up to 1,000
-1,001 - 50,000
-50,001 - 100,000
-100,001+
-200,000+
 Cost per user
+Up to 100
 Free
+101 - 20,000
 $0.30
+20,001+
 Contact sales for discount
-‍
+Navigation SDK v2.x (Metered trips): monthly trip pricing
+Monthly trip counts
 Cost per trip count
+Up to 1,000
 Free
+1,001 - 50,000
 $0.08
+50,001 - 100,000
 $0.064
+100,001 - 200,000
 $0.048
+200,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
-Navigation SDK v2.x
+Navigation SDK v2.x (Unlimited trips)
 Docs
 Navigation SDK iOS pricing guide >
 Navigation SDK Android pricing guide >
 Embed navigation with routing and guidance directly into your app. Pay one fee for each monthly active user (MAU) of your application. This option includes unlimited trips at no additional cost.
 Detailed pricing
 Monthly active users
-0
-10
 Monthly active users
 A user of Mapbox services within your app during your month-long billing period including Directions API, Vector Tiles API, and Raster Tiles API requests.
+Navigation SDK v2.x (Unlimited trips): monthly active user pricing
 Monthly active users
-Up to 10
-11+
 Cost per user
+Up to 10
 Free
+11+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Directions API
@@ -646,27 +622,23 @@ Directions API pricing guide >
 Calculate optimal driving, walking, and cycling routes that take traffic and incidents into account.
 Detailed pricing
 Monthly requests
-0
-100k
-500k
-1M
-5M
 Monthly requests
 A single request for a traffic- and incident-aware route for driving, walking, or cycling.
+Directions API: monthly request pricing
 Monthly requests
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $2.00
+500,001 - 1,000,000
 $1.60
+1,000,001 - 5,000,000
 $1.20
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Map Matching API
@@ -675,27 +647,23 @@ Map matching API pricing guide >
 Snap fuzzy, inaccurate traces from a GPS unit or a phone to the road and path network. This produces clean paths that can be displayed on a map or used for analysis.
 Detailed pricing
 Monthly requests
-0
-100k
-500k
-1M
-5M
 Monthly requests
 A single request that takes recorded traces and snaps them to the Mapbox Streets road network.
+Map Matching API: monthly request pricing
 Monthly requests
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $2.00
+500,001 - 1,000,000
 $1.60
+1,000,001 - 5,000,000
 $1.20
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Optimization API
@@ -704,27 +672,23 @@ Optimization API pricing guide >
 Plan a multi-stop driving, bicycling, and walking route with stops in the most efficient order.
 Detailed pricing
 Monthly requests
-0
-100k
-500k
-1M
-5M
 Monthly requests
 A single request for a duration-optimized route between multiple input coordinates.
+Optimization API: monthly request pricing
 Monthly requests
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $2.00
+500,001 - 1,000,000
 $1.60
+1,000,001 - 5,000,000
 $1.20
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Matrix API
@@ -733,27 +697,23 @@ Matrix API pricing guide >
 Check the reachability of coordinates from each other, filter points by travel time, or run your own algorithms to solve optimization problems.
 Detailed pricing
 Monthly matrix elements
-0
-100k
-500k
-1M
-5M
 Monthly matrix elements
 A single element in a matrix or timetable that calculates travel times between many points.
+Matrix API: monthly matrix element pricing
 Monthly matrix elements
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $2.00
+500,001 - 1,000,000
 $1.60
+1,000,001 - 5,000,000
 $1.20
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Isochrone API
@@ -762,27 +722,23 @@ Isochrone API pricing guide >
 Compute areas that are reachable within a specified amount of time from a location and get the reachable regions as contours of polygons or lines you can display on a map.
 Detailed pricing
 Monthly requests
-0
-100k
-500k
-1M
-5M
 Monthly requests
 A single request for polygon or line features that show areas that are reachable within a specified amount of time from a location.
+Isochrone API: monthly request pricing
 Monthly requests
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $2.00
+500,001 - 1,000,000
 $1.60
+1,000,001 - 5,000,000
 $1.20
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Electronic Horizon (Public Preview)
@@ -795,6 +751,7 @@ Free via
 Navigation SDK
 Maps
 Monthly cost
+All prices in USD.
 Maps SDKs for Mobile
 Docs
 Maps SDK for iOS pricing guide >
@@ -804,27 +761,23 @@ Maps SDK for Android pricing guide (offline) >
 The Mobile Map SDKs power the most compelling map experiences for Android and iOS with dynamic rendering capabilities, powerful map controls and a modern developer experience.
 Detailed pricing
 Monthly active users
-0
-25k
-125k
-250k
-1.25M
 Monthly active users
 A single request for polygon or line features that show areas that are reachable within a specified amount of time from a location.
+Maps SDKs for Mobile: monthly active user pricing
 Monthly active users
-Up to 25,000
-25,001 - 125,000
-125,001 - 250,000
-250,001+
-1,250,000+
 Cost per 1,000
+Up to 25,000
 Free
+25,001 - 125,000
 $4.00
+125,001 - 250,000
 $3.20
+250,001 - 1,250,000
 $2.40
+1,250,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Map Loads for Web
@@ -835,30 +788,25 @@ Mapbox GL JS pricing guide >
 Mapbox GL JS is a JavaScript library for vector maps on the Web. Its performance, real-time styling, and interactivity features set the bar for anyone building fast, immersive maps on the web. A map load occurs whenever a Map object is initialized, offering users unlimited interactivity with your web map.
 Detailed pricing
 Monthly loads
-0
-‍50k
-100k
-‍200k
-‍1M
-‍5M
 Monthly loads
 A map load is counted every time Mapbox GL JS initializes on a webpage or in a web app. A map load includes unlimited Vector Tiles API and Raster Tiles API requests.
+Mapbox GL JS (Map Loads): monthly map load pricing
 Monthly loads
-Up to 50,000
-50,001 – 100,000
-100,001 – 200,000
-200,001 – 1,000,000
-1,000,001 – 5,000,000
-5,000,000+
 Cost per 1,000
+Up to 50,000
 Free
+50,001 – 100,000
 $5.00
+100,001 – 200,000
 $4.00
+200,001 – 1,000,000
 $3.00
+1,000,001 – 5,000,000
 $2.50
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Mapbox GL JS (Map Seats)
@@ -867,27 +815,23 @@ Mapbox GL JS pricing guide >
 Mapbox GL JS Seats is a JavaScript library built on top of Mapbox GL JS that offers metering and billing of Mapbox APIs by seats. The Seats option offers metering and billing by the number of monthly active users.
 Detailed pricing
 Monthly seats
-0
-3
-125
-250
-1250
 Monthly seats
 A user who uses Mapbox services within your web application during your month-long billing period. Each user may make unlimited Vector Tiles API and Raster Tiles API requests.
+Mapbox GL JS (Map Seats): monthly active user pricing
 Monthly active users
-Up to 3
-4 – 125
-126 – 250
-251+
-1,250+
 Cost per seat
+Up to 3
 Free
+4 – 125
 $4.00
+126 – 250
 $3.20
+251 – 1,250
 $2.40
+1,251+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Static Images API
@@ -896,27 +840,23 @@ Static Images API pricing guide >
 Generate static map images from Mapbox styles. These images can be displayed on web and mobile devices without the aid of a mapping library or API.
 Detailed pricing
 Monthly requests
-0
-50k
-500k
-1M
-5M
 Monthly requests
 A single request for a PNG image with customizable height and width generated from a GL style.
+Static Images API: monthly request pricing
 Monthly requests
-Up to 50,000
-50,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 50,000
 Free
+50,001 - 500,000
 $1.00
+500,001 - 1,000,000
 $0.80
+1,000,001 - 5,000,000
 $0.60
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Tilequery API
@@ -925,27 +865,23 @@ Tilequery API pricing guide >
 Retrieve data about specific features from a vector tileset, based on a given latitude and longitude.
 Detailed pricing
 Monthly requests
-0
-100k
-500k
-1M
-5M
 Monthly requests
 A single query for geographic features in one or more Mapbox-hosted vector tilesets at a given latitude and longitude.
+Tilequery API: monthly request pricing
 Monthly requests
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $1.50
+500,001 - 1,000,000
 $1.20
+1,000,001 - 5,000,000
 $0.90
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Vector Tiles API
@@ -954,27 +890,23 @@ Vector Tiles API pricing guide >
 Retrieve vector tiles generated from Mapbox-hosted vector tilesets.
 Detailed pricing
 Monthly tile requests
-0
-200k
-2M
-4M
-20M
 Monthly tile requests
 A single tile request from a vector tileset. This is typically one of a series of requests used to render vector-based slippy maps.
+Vector Tiles API: monthly tile request pricing
 Monthly tile requests
-Up to 200,000
-200,001 - 2,000,000
-2,000,001 - 4,000,000
-4,000,001+
-20,000,000+
 Cost per 1,000
+Up to 200,000
 Free
+200,001 - 2,000,000
 $0.25
+2,000,001 - 4,000,000
 $0.20
+4,000,001 - 20,000,000
 $0.15
+20,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Static Tiles API
@@ -983,27 +915,23 @@ Static Tiles API pricing guide >
 Retrieve raster tiles generated from Mapbox styles. Well-suited for maps with limited interactivity or use on devices that do not support WebGL.
 Detailed pricing
 Monthly tile requests
-0
-200k
-2M
-4M
-20M
 Monthly tile requests
 A request for a single raster tile generated from a GL style. This is typically one of a series of requests to make Mapbox.js, Leaflet, or other raster-based slippy maps.
+Static Tiles API: monthly tile request pricing
 Monthly tile requests
-Up to 200,000
-200,001 - 2,000,000
-2,000,001 - 4,000,000
-4,000,001+
-20,000,000+
 Cost per 1,000
+Up to 200,000
 Free
+200,001 - 2,000,000
 $0.50
+2,000,001 - 4,000,000
 $0.40
+4,000,001 - 20,000,000
 $0.30
+20,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Raster Tiles API
@@ -1012,27 +940,23 @@ Raster Tiles API pricing guide >
 Retrieve raster tiles generated from satellite imagery tilesets and tilesets generated from raster data uploaded to Mapbox.
 Detailed pricing
 Monthly tile requests
-0
-750k
-2M
-4M
-20M
 Monthly tile requests
 A single tile request from a raster tileset like Mapbox Satellite or another Mapbox-hosted raster tileset. This is typically one of a series of requests used to make slippy maps.
+Raster Tiles API: monthly tile request pricing
 Monthly tile requests
-Up to 750,000
-750,001 - 2,000,000
-2,000,001 - 4,000,000
-4,000,001+
-20,000,000+
 Cost per 1,000
+Up to 750,000
 Free
+750,001 - 2,000,000
 $0.25
+2,000,001 - 4,000,000
 $0.20
+4,000,001 - 20,000,000
 $0.15
+20,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Japan Weather Layers
@@ -1041,24 +965,21 @@ Japan Weather Layers pricing guide >
 Japan weather layers are weather tilesets covering Japan and the immediate surroundings, sourced from the Japan Meteorological Agency (JMA). The tilesets are served as raster or vector tiles.
 Detailed pricing
 Monthly tile requests
-0
-100k
-4M
-20M
 Monthly tile requests
 A single tile request from a raster tileset like Mapbox Satellite or another Mapbox-hosted raster tileset. This is typically one of a series of requests used to make slippy maps.
+Japan Weather Layers: monthly tile request pricing
 Monthly tile requests
-Up to 100,000
-100,001 - 4,000,000
-4,000,001 - 20,000,000
-20,000,001+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 4,000,000
 $0.25
+4,000,001 - 20,000,000
 $0.20
+20,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Indoor Map Tiles
@@ -1067,24 +988,21 @@ View pricing guide >
 Indoor map tiles is a curated tileset of global airport floor plans with detailed terminal footprints, gates, security checkpoints, retail locations, lounges and more. Developers can use the tileset in the turnkey indoor airport solution available in the Mapbox Standard basemap, or use it to build their own indoor airport experiences.
 Detailed pricing
 Monthly tile requests
-0
-10k
-250k
-1M
 Monthly tile requests
 A single tile request from a raster tileset like Mapbox Satellite or another Mapbox-hosted raster tileset. This is typically one of a series of requests used to make slippy maps.
+Indoor Map Tiles: monthly tile request pricing
 Monthly tile requests
-Up to 10,000
-10,001 - 250,000
-250,001 - 1,000,000
-1,000,001+
 Cost per 1,000
+Up to 10,000
 Free
+10,001 - 250,000
 $7.00
+250,001 - 1,000,000
 $4.25
+1,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Mapbox Geofencing
@@ -1094,74 +1012,68 @@ Maps SDK for Android pricing guide >
 Mapbox Geofencing for iOS and Android makes it simpler to configure and manage geofenced areas and monitor when a device enters, exits, or remains within defined boundaries.
 Detailed pricing
 Monthly active users
-0
-25k
-125k
-250k
-1.25M
 Monthly active users
 A user who uses Mapbox services within your web application during your month-long billing period.
+Mapbox Geofencing: monthly active user pricing
 Monthly active users
-Up to 25,000
-25,001 - 125,000
-125,001 - 250,000
-250,001 – 1,250,000
-1,250,001+
 Cost per 1,000
+Up to 25,000
 Free
+25,001 - 125,000
 $2.00
+125,001 - 250,000
 $1.60
+250,001 – 1,250,000
 $1.20
+1,250,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Search
 Monthly cost
+All prices in USD.
 Search Box API - Sessions
 Docs
 Search Box API pricing guide >
 Create interactive search experiences for addresses, places, and points of interest. Transactions are billed on a per-session basis.
 Detailed pricing
 Monthly sessions
-0
-500
-100k
-500k
-1M
 Monthly sessions
 A search session is a series of /suggest and /retrieve API calls that are bundled together for billing purposes. A session includes 50 /suggest calls, and 1 /retrieve call, and it will automatically expire after 2 minutes of inactivity.
 Introductory preview pricing*
+Search Box API - Sessions: introductory preview monthly session pricing
 Monthly sessions
-Up to 500
-501 - 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
 Cost per 1,000
+Up to 500
 Free
+501 - 100,000
 $3.00
+100,001 - 500,000
 $2.75
+500,001 - 1,000,000
 $2.50
+1,000,001+
 Contact sales for discount
 Standard pricing
-Monthly requests
-Up to 2,500
-2,501 - 100,000
-100,001 - 200,000
-200,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
+Search Box API - Sessions: standard monthly session pricing
+Monthly sessions
 Cost per 1,000
+Up to 2,500
 Free
+2,501 - 100,000
 $11.50
+100,001 - 200,000
 $10.00
+200,001 - 500,000
 $8.40
+500,001 - 1,000,000
 $6.60
+1,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Search Box API - Requests
@@ -1172,41 +1084,38 @@ coffee shops
 around me), or get addresses and POIs around a given coordinate (e,g, what is around 33.9416° N, 118.4085° W).
 Detailed pricing
 Monthly requests
-0
-50k
-500k
-1M
-5M
 Monthly requests
 Request to /category and /reverse endpoints are billed on a per-request basis.
 Introductory preview pricing*
+Search Box API - Requests: introductory preview monthly request pricing
 Monthly requests
-Up to 50,000
-50,001 - 500,000
-500,001 - 1,000,000
-1,000,001 – 5,000,000
-5,000,001+
 Cost per 1,000
+Up to 50,000
 Free
+50,001 - 500,000
 $1.00
+500,001 - 1,000,000
 $0.85
+1,000,001 – 5,000,000
 $0.70
+5,000,001+
 Contact sales for discount
 Standard pricing
+Search Box API - Requests: standard monthly request pricing
 Monthly requests
-Up to 25,000
-25,001 - 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
 Cost per 1,000
+Up to 25,000
 Free
+25,001 - 100,000
 $1.70
+100,001 - 500,000
 $1.50
+500,001 - 1,000,000
 $1.25
+1,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Temporary Geocoding API
@@ -1215,27 +1124,23 @@ Geocoding API pricing guide >
 Find addresses and places using addresses or geographic coordinates.
 Detailed pricing
 Monthly requests
-0
-100k
-500k
-1M
-5M
 Monthly requests
 A monthly amount of single search queries for places, addresses, or points of interest by name or geographic coordinate.
+Temporary Geocoding API: monthly request pricing
 Monthly requests
-Up to 100,000
-100,001 - 500,000
-500,001 - 1,000,000
-1,000,001+
-5,000,000+
 Cost per 1,000
+Up to 100,000
 Free
+100,001 - 500,000
 $0.75
+500,001 - 1,000,000
 $0.60
+1,000,001 - 5,000,000
 $0.45
+5,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Permanent Geocoding API
@@ -1244,25 +1149,21 @@ Geocoding API pricing guide >
 Permanently store forward and reverse search results, make batch geocoding requests, or both. Results from the Permanent Geocoding API are only available for your own personal or business use, and cannot be used for distribution or sublicense.
 Detailed pricing
 Monthly requests
-0
-250k
-500k
-750k
-1M
 Monthly requests
 A monthly amount of single search queries for places, addresses, or points of interest by name or geographic coordinate. If you&#x27;re interested in using this API, please
 contact Mapbox sales
 .
+Permanent Geocoding API: monthly request pricing
 Monthly requests
-1 - 500,000
-500,001+
-1,000,000+
 Cost per 1,000
+1 - 500,000
 $5.00
+500,001 - 1,000,000
 $4.00
+1,000,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Address Autofill
@@ -1271,27 +1172,23 @@ Address Autofill pricing guide >
 Autofill takes forward geocoding and automatically separates the address components to be used to quickly fill out a form, and returns a mini-map. Transactions are billed on a per session basis.
 Detailed pricing
 Monthly sessions
-0
-1k
-25k
-100k
-500k
 Monthly sessions
 The total number of user autofill sessions during your month-long billing period. Each session may include unlimited Temporary Geocoding API requests.
+Address Autofill: monthly session pricing
 Monthly sessions
-Up to 1,000
-1,001 - 25,000
-25,001 - 100,000
-100,001+
-500,000+
 Cost per 1,000
+Up to 1,000
 Free
+1,001 - 25,000
 $12.50
+25,001 - 100,000
 $10.00
+100,001 - 500,000
 $7.50
+500,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Data
@@ -1299,6 +1196,7 @@ New
 Update just a portion of your data without a time-consuming full tileset refresh.
 Get started
 Monthly cost
+All prices in USD.
 Custom Data Tileset Processing
 Docs
 MTS pricing guide >
@@ -1307,47 +1205,37 @@ Tilesets uploaded in Mapbox Studio >
 Tileset jobs are billed per processed megabyte and per processed compute unit (CUs) for each successfully published tileset. CUs represent the compute resources required to process a tileset job.
 Detailed pricing
 Monthly MB
-0
-10k
-50k
-100k
-1M
 Monthly MB
 The total file size (in megabytes) of the MTS tileset source or Uploads API upload processed by Mapbox. Processed megabytes will appear on your invoice as
 Tilesets Processing File Size
 .
 Monthly CUs
-0
-20
-1k
-5k
-10k
 Monthly CUs
 A compute unit (or CU) corresponds to the compute and processing resources a tileset processing job consumes. Most vector tileset processing jobs range from 0.3 to 5 CUs. More information is available in the tilesets pricing guide. Processed CUs will appear on your invoice as
 Tilesets Processing CU
 .
+Custom Data Tileset Processing: monthly MB pricing
 Monthly MB
-Up to 10,000
-10,000+
-‍
-Monthly compute units (CUs)
-Up to 20
-21 - 1,000
-1,001 - 5,000
-5,001 – 10,000
-10,000+
 Cost per MB
+Up to 10,000
 Free
+10,001+
 $0.007
-‍
+Custom Data Tileset Processing: monthly compute unit pricing
+Monthly compute units (CUs)
 Cost per CU
+Up to 20
 Free
+21 - 1,000
 $0.90
+1,001 - 5,000
 $0.85
+5,001 – 10,000
 $0.80
+10,001+
 Contact sales for discount
 Monthly cost
-0
+—
 Contact us for discount
 →
 Custom Data Tileset Hosting
@@ -1358,58 +1246,47 @@ Tilesets uploaded in Mapbox Studio >
 The number of custom tilesets multiplied by the days per month you host each tileset. For example, 3 tilesets hosted for 15 days is 45 tileset hosting days.
 Detailed pricing
 Monthly hosted tilesets
-0
-25
-100
-1k
-10k
-20k
 Monthly tileset hosting days
 Tileset hosting is metered daily as Tileset Hosting Days, which is the number of tilesets hosted for all or part of a day. For example, 3 tilesets hosted for 15 days is 45 tileset hosting days. Tileset hosting will appear on your invoice as
 Tileset Hosting Days
 . Mapbox default tilesets are exempt.
 Days hosted per month
-0
-10
-20
-30
 Monthly tileset hosting days
 Tileset hosting is metered daily as Tileset Hosting Days, which is the number of tilesets hosted for all or part of a day. For example, 3 tilesets hosted for 15 days is 45 tileset hosting days. Tileset hosting will appear on your invoice as
 Tileset Hosting Days
 . Mapbox default tilesets are exempt.
+Custom Data Tileset Hosting: monthly tileset hosting day pricing
 Monthly tileset hosting days
-Up to 750
-751 - 3,000
-3,001 - 30,000
-30,001 - 300,000
-300,001 - 600,000
-600,000+
-‍
-‍
-‍
-Average monthly hosted tilesets
-Up to 25
-26 - 100
-101 - 1,000
-1,001 - 10,000
-10,001 - 20,000
-20,000+
 Cost per tileset hosting day
+Up to 750
 Free
+751 - 3,000
 $0.01370
+3,001 - 30,000
 $0.01096
+30,001 - 300,000
 $0.00822
+300,001 - 600,000
 $0.00548
+600,001+
 $0.00274
+Custom Data Tileset Hosting: monthly hosted tileset pricing
+Average monthly hosted tilesets
 Monthly cost per tileset (30 days)
+Up to 25
 Free
+26 - 100
 $0.41
+101 - 1,000
 $0.33
+1,001 - 10,000
 $0.25
+10,001 - 20,000
 $0.16
+20,001+
 $0.08
 Monthly cost
-0
+—
 Contact us for discount
 →
 Mapbox Boundaries
@@ -1433,6 +1310,7 @@ Mapbox Movement is a global privacy-forward dataset of de-identified and aggrega
 Contact sales
 Vision
 Monthly cost
+All prices in USD.
 Vision SDKs for Mobile
 Docs
 Vision SDK for iOS pricing guide >

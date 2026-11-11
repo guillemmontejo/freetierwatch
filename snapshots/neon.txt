@@ -261,9 +261,9 @@ Free
 Launch
 : 100 projects
 Scale
-: 1,000 projects (soft limit; request more if needed via
-support
-)
+: 1,000 projects (soft limit; you can
+request more
+from the console)
 Branches
 Each Neon project is created with a
 root branch

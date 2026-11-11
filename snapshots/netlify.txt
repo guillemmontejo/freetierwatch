@@ -1,6 +1,6 @@
 Pricing and Plans | Netlify
-Netlify s official Discord is live.
-Join to share your work and connect with builders.
+Netlify goes full stack: Netlify Server is here.
+Run long-running backends with WebSockets, now in Early Access.
 Close announcement bar
 Site navigation
 Go to homepage
