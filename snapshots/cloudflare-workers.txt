@@ -84,6 +84,7 @@ Durable Objects
 Versions & deployments
 Overview
 Deployment management
+Version skew
 Gradual deployments
 Overview
 Version affinity
@@ -237,7 +238,7 @@ Single Page Application (SPA)
 Static Site Generation (SSG) and custom 404 pages
 Worker script
 Advanced
-Gradual rollouts ↗︎
+Deployments and version skew ↗︎
 HTML handling
 Serving a subdirectory
 Headers
@@ -263,6 +264,7 @@ React + Vite
 Astro
 EmDash
 React Router (formerly Remix)
+Remix 3
 Next.js
 OpenNext adapter
 Vue

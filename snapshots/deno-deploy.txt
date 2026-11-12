@@ -1,7 +1,7 @@
 Deno Deploy Pricing
 Skip to main content
-Deno is joining Cloudflare!
-Learn more
+Deno Deploy will be sunset in April 2027
+Read the announcement
 ->
 Dismiss
 ⌘K

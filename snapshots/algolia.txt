@@ -238,7 +238,7 @@ Login
 Logout
 Fix your search
 Get started
-Search or Ask AI
+✨ Search or Ask AI
 Close
 Fix your search
 Get started
@@ -250,6 +250,7 @@ Can Algolia help shoppers find products faster and increase sales?
 Will Algolia scale with our traffic and data size?
 Suggestions
 Products & Resources
+See all results
 Algolia Assist
 New chat
 Back to results
