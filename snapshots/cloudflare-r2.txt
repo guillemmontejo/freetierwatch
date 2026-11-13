@@ -59,6 +59,7 @@ Extensions
 Presigned URLs
 Temporary credentials
 Error codes
+Local development
 Examples
 Overview
 Multi-cloud setup ↗︎

@@ -10,13 +10,11 @@ Navigation
 Search
 AI
 Data
-Self-Hosted
+Self-hosted
 Maps
 Back
 Maps
 Smooth, fast, cross-platform maps
-Overview
-→
 Mapbox GL JS
 Immersive maps for web
 Mobile Maps SDK
@@ -27,16 +25,10 @@ Static Maps
 Embed map images
 Add Custom Data
 With the Mapbox Tiling Service
-featured Blog
-Detailed architecture and new design flexibility enhance the latest release of Mapbox Standard
-Read more
-→
 Navigation
 Back
 Navigation
 Custom navigation services
-Overview
-→
 Navigation SDK for Automotive
 In-vehicle infotainment and navigation services
 Navigation for Mobile
@@ -53,16 +45,10 @@ Autopilot Map
 Precision data for autopilot systems
 Matrix API
 Calculate travel time and distance
-featured Blog
-Never miss a turn again with Mapbox 3D Lanes
-Read more
-→
 Search
 Back
 Search
 Smart location data and search features
-Overview
-→
 Geocoding
 Geolocate and validate addresses
 Places
@@ -72,16 +58,10 @@ Search Box
 User-friendly search interface
 Address Autofill
 Autocomplete for address forms
-featured Blog
-Mapbox Geocoding adds 45 new countries and 73.2 million addresses
-Read more
-→
 AI
 Back
 Location Infrastructure for AI
 Build agents, apps, and vehicles that understand the physical world
-Overview
-→
 Tools for agents
 Bring location into your AI coding tools and applications
 Feedback Agent
@@ -89,34 +69,20 @@ New
 Capture better real-time feedback from users
 MapGPT
 A location-intelligent AI assistant
-featured Blog
-Maps turn conversational
-Read more
-→
 Data
 Back
 Data Products
 Unique, high-value geospatial datasets
-Overview
-→
 Traffic Data
 Live and typical traffic conditions
 Movement Data
 Population patterns through space and time
 Boundaries
 Global boundary data for analytics and enrichment
-featured Blog
-Faster updates, fresher map data: MTS now supports incremental updates
-Read more
-→
 Self-Hosted
 Back
 Atlas
 On-premise or private cloud solutions
-featured Blog
-Introducing Mapbox Atlas v3: Self-hosted maps without the infrastructure burden
-Read more
-→
 Solutions
 On-Demand Logistics
 Boost customer satisfaction and delivery performance
@@ -140,19 +106,19 @@ Drones & Robots
 Visualize, monitor, and manage robotic fleets
 Developers
 documentation
-Maps
-Navigation
-Search
-AI
-Data
+Maps ↗
+Navigation ↗
+Search ↗
+AI ↗
+Data ↗
 View all docs
 →
 connect
-Developer Discord
+Developer Discord ↗
 Online community to discuss projects and help fellow devs
-Stack Overflow
+Stack Overflow ↗
 Share and search technical questions and solutions
-Github
+Github ↗
 Find Mapbox public repos, view source code, and read changelogs
 Get Support
 Self-serve resources, account help, and technical assistance
@@ -161,15 +127,15 @@ Contract independent developers
 links
 Developer Quickstart
 Overview of developer resources
-Developer Cheat Sheet
+Developer Cheat Sheet ↗
 Snapshot overview of Mapbox services
-Help & Troubleshooting
+Help & Troubleshooting ↗
 Find answers and get help
-API Playgrounds
+API Playgrounds ↗
 Demo spaces to experiment with Mapbox
-Developer Tools
+Developer Tools ↗
 Web-based tools to help build with Mapbox
-API Status
+API Status ↗
 Real-time data on system performance
 Company
 Company
@@ -197,9 +163,6 @@ LinkedIn
 X
 Youtube
 Instagram
-Discord
-Github
-Blog
 Resources
 News
 Blog
@@ -226,10 +189,6 @@ Education
 Resources for students and instructors
 Security
 Protect the security of your account, data, and users
-Featured
-Tools for AI
-Learn more
-→
 Pricing
 Contact us
 Products
@@ -238,13 +197,11 @@ Navigation
 Search
 AI
 Data
-Self-Hosted
+Self-hosted
 Maps
 Back
 Maps
 Smooth, fast, cross-platform maps
-Overview
-→
 Mapbox GL JS
 Immersive maps for web
 Mobile Maps SDK
@@ -255,16 +212,10 @@ Static Maps
 Embed map images
 Add Custom Data
 With the Mapbox Tiling Service
-featured Blog
-Detailed architecture and new design flexibility enhance the latest release of Mapbox Standard
-Read more
-→
 Navigation
 Back
 Navigation
 Custom navigation services
-Overview
-→
 Navigation SDK for Automotive
 In-vehicle infotainment and navigation services
 Navigation for Mobile
@@ -281,16 +232,10 @@ Autopilot Map
 Precision data for autopilot systems
 Matrix API
 Calculate travel time and distance
-featured Blog
-Never miss a turn again with Mapbox 3D Lanes
-Read more
-→
 Search
 Back
 Search
 Smart location data and search features
-Overview
-→
 Geocoding
 Geolocate and validate addresses
 Places
@@ -300,16 +245,10 @@ Search Box
 User-friendly search interface
 Address Autofill
 Autocomplete for address forms
-featured Blog
-Mapbox Geocoding adds 45 new countries and 73.2 million addresses
-Read more
-→
 AI
 Back
 Location Infrastructure for AI
 Build agents, apps, and vehicles that understand the physical world
-Overview
-→
 Tools for agents
 Bring location into your AI coding tools and applications
 Feedback Agent
@@ -317,34 +256,20 @@ New
 Capture better real-time feedback from users
 MapGPT
 A location-intelligent AI assistant
-featured Blog
-Maps turn conversational
-Read more
-→
 Data
 Back
 Data Products
 Unique, high-value geospatial datasets
-Overview
-→
 Traffic Data
 Live and typical traffic conditions
 Movement Data
 Population patterns through space and time
 Boundaries
 Global boundary data for analytics and enrichment
-featured Blog
-Faster updates, fresher map data: MTS now supports incremental updates
-Read more
-→
 Self-Hosted
 Back
 Atlas
 On-premise or private cloud solutions
-featured Blog
-Introducing Mapbox Atlas v3: Self-hosted maps without the infrastructure burden
-Read more
-→
 Solutions
 On-Demand Logistics
 Boost customer satisfaction and delivery performance
@@ -368,19 +293,19 @@ Drones & Robots
 Visualize, monitor, and manage robotic fleets
 Developers
 documentation
-Maps
-Navigation
-Search
-AI
-Data
+Maps ↗
+Navigation ↗
+Search ↗
+AI ↗
+Data ↗
 View all docs
 →
 connect
-Developer Discord
+Developer Discord ↗
 Online community to discuss projects and help fellow devs
-Stack Overflow
+Stack Overflow ↗
 Share and search technical questions and solutions
-Github
+Github ↗
 Find Mapbox public repos, view source code, and read changelogs
 Get Support
 Self-serve resources, account help, and technical assistance
@@ -389,15 +314,15 @@ Contract independent developers
 links
 Developer Quickstart
 Overview of developer resources
-Developer Cheat Sheet
+Developer Cheat Sheet ↗
 Snapshot overview of Mapbox services
-Help & Troubleshooting
+Help & Troubleshooting ↗
 Find answers and get help
-API Playgrounds
+API Playgrounds ↗
 Demo spaces to experiment with Mapbox
-Developer Tools
+Developer Tools ↗
 Web-based tools to help build with Mapbox
-API Status
+API Status ↗
 Real-time data on system performance
 Company
 Company
@@ -425,9 +350,6 @@ LinkedIn
 X
 Youtube
 Instagram
-Discord
-Github
-Blog
 Resources
 News
 Blog
@@ -454,10 +376,6 @@ Education
 Resources for students and instructors
 Security
 Protect the security of your account, data, and users
-Featured
-Tools for AI
-Learn more
-→
 Pricing
 Sign up
 Log in

@@ -22,8 +22,8 @@ Documentation
 Get started with your favorite frameworks
 Search
 Search across Docs, Stack, and Discord
-Templates
-Use a recipe to get started quickly
+Examples
+Working apps to start your project from
 Convex Champions
 Ambassadors that support our thriving community
 Convex for Startups
@@ -44,7 +44,7 @@ Pricing
 npm
 2.6M weekly
 GitHub
-23,965 stars
+23,970 stars
 Log in
 Start building
 Choose Your Plan
@@ -444,7 +444,7 @@ Developers
 Docs
 Blog
 Components
-Templates
+Examples
 Customers
 Convex for Startups
 Convex for Open Source

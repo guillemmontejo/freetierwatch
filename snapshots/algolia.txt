@@ -12,9 +12,6 @@ Italian
 News:
 Algolia acquires Velou
 Read more
-Live webinar on Nov 12:
-Introducing Algolia's Native Shopify B2B Integration
-Register now
 Company
 Partners
 Support
@@ -24,9 +21,9 @@ Algolia mark white
 Algolia logo white
 CLOSE
 Products
-Unlock the power of agentic AI
-Give shoppers an AI assistant grounded in your product data, with your search tuning built in.
-Read more
+Try Algolia on your own data
+Drop in your own data or use our sample catalog and start searching instantly.
+Try it now
 AI Search & Retrieval
 Overview
 Search
@@ -269,48 +266,22 @@ Download logo pack
 Scalable pricing for smarter search
 Powering the world s best AI experiences start for free, grow seamlessly and upgrade anytime
 Help me choose a plan
-Answer 3 quick questions to see which plan fits best.
-Pricing plan finder
-Find the right plan for your team
-Tell us a bit about your use case and we’ll recommend the best starting point.
-What best describes your primary use case?
-*
-Choose the option that is closest to what you need today.
-Core search experience
-You need strong search basics and a fast way to get started
-Search with AI features
-You want more advanced relevance and AI-assisted experiences
-Enterprise-scale requirements
-You need higher scale, governance, and advanced support
-How much traffic or usage are you expecting?
-*
-Estimate based on current or near-term demand.
-Low
-Smaller-scale usage or early rollout
-Medium
-Growing usage across products or teams.
-High
-Large-scale or business-critical usage.
-Do you need enterprise support and advanced controls now?
-*
-This includes higher-touch support, governance, and more advanced commercial needs.
-No
-Not right now.
-Later
-Potentially in the future as we scale.
-Yes
-We need that now.
-Submit my responses
-Recommended plan
-Your best fit
-Based on your answers, this is the best fit for your team.
-Take the quiz again
-Annual plan
+Answer 3 quick questions to see which plan fits best
+Search Requests
+Monthly search requests
+Enter amount
+Records
+Total records across all indices
+Enter amount
+See all plans and pricing
+Estimated starting prices update as you adjust usage. Figures are directional only
+based on the values you enter and are not a guaranteed or binding quote.
+Best value
 Elevate
 Enterprise-scale AI Search
-Start Evaluation
-Volume-based discounts
-Custom search requests and records
+Starting at
+Custom
+Volume-based
 Everything in Grow+, Plus:
 NeuralSearch
 AI Collections
@@ -320,15 +291,14 @@ Real-time personalization
 Access to SSO and enhanced SLA
 Access to enterprise-level Support plans
 Professional services available
-Get a demo
-Pay as you go
+Start Evaluation
 Grow Plus
-NEW
 Keyword search with AI capabilities
-Start for free
-10K search requests /month included then $1.75 per additional 1K search requests
-100K records included then $0.40 per additional 1K records
-EVERYTHING IN GROW, PLUS:
+Starting at
+$
+0
+/ month
+Everything in Grow, plus:
 Rules: 10,000/index
 AI Synonyms
 AI Ranking
@@ -336,13 +306,16 @@ Advanced Personalization
 Query Categorization
 Collections
 90 days analytics retention
-Get a demo
+Start for free
+Your team will likely benefit from volume discounts at this level.
+Evaluate options with sales
+Best value
 Grow
 Keyword search
-Start for free
-10K search requests /month included then $0.50 per additional 1K search requests
-100K records included then $0.40 per additional 1K records
-INCLUDES
+Starting at
+$
+0
+/ month
 Keyword Search + Browse
 Query suggestions
 Rules: 10/index
@@ -351,19 +324,23 @@ Data transformation
 30 days analytics retention
 Third party integrations + connectors
 US, UK, EU hosting locations
-Get a demo
+Start for free
+Your team will likely benefit from volume discounts at this level.
+Evaluate options with sales
+Best value
 Free
 Search and recommendations
-Build for free
 Get started building your best search experiences ever with access to some of our features to start for free.
 No credit card required.
-INCLUDES:
+Includes:
 10K search requests/month
 50K records included
 5K recommendation requests/month
 5K crawls/month
-Get a demo
-See full features grid
+Build for free
+Your selected usage exceeds the limits of our free plan. Get started with a monthly plan instead.
+Your team will likely benefit from volume discounts at this level.
+Evaluate options with sales
 Detailed feature comparison
 Free
 Grow

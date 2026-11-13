@@ -1137,6 +1137,9 @@ Claude Managed Agents pricing
 
 Claude Managed Agents
 is billed on two dimensions: tokens and session runtime.
+For pricing of
+self-hosted Claude Managed Agents
+, contact your Anthropic account team.
 Tokens
 
 All tokens consumed by a Claude Managed Agents session are billed at the rates shown in

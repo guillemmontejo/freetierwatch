@@ -490,6 +490,7 @@ Workers (Historic)
 Wrangler
 Limits
 Choose a data or storage product
+Spending limits
 Betas
 Deploy to Cloudflare buttons
 Claim deployments (temporary accounts)
@@ -523,7 +524,7 @@ Platform
 Limits
 Limits
 Last updated
-Oct 29, 2026
+Nov 13, 2026
 |
 Copy as Markdown
 |
@@ -531,6 +532,7 @@ View as Markdown
 |
 Agent setup
 Overview
+Spending limits
 Account plan limits
 Request and response limits
 CPU time
@@ -554,6 +556,10 @@ Static Assets
 Unbound and Bundled plan limits
 Wall time limits by invocation type
 Related resources
+Spending limits
+To limit usage charges across your account, configure a
+Workers spending limit
+. A limit can reject new invocations once its threshold is reached. It is separate from the request, CPU time, and resource limits on this page.
 Account plan limits
 Feature
 Workers Free
@@ -1262,6 +1268,7 @@ Edit page
 Report issue
 On this page
 Overview
+Spending limits
 Account plan limits
 Request and response limits
 CPU time
