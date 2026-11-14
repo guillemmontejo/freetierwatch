@@ -912,14 +912,26 @@ Plan overview
 table.
 What happens if I exceed my Free plan limits?
 On the Free plan, when you run out of CU-hours or public network transfer, your compute is suspended until the next billing period or until you upgrade. Exceeding the 1 GB per-project storage cap, or the 20 GB total cap across all your projects, causes operations that increase storage (inserts, updates, and deletes) to fail until you free space or upgrade. Branch creation fails once you reach 10 branches per project. None of these limits delete your data.
-How do I restore a Free plan project that hit its limits before the reset?
-A suspended compute can&#x27;t accept connections until the next billing period. To restore it sooner and stay on Free, upgrade the organization that contains the project to Launch, then downgrade it back to Free right away (
+How do I restore or export a Free plan project that hit its limits?
+It depends on which limit you hit. If you hit the storage limit, your compute stays available. You can still query the project or export it with
+pg_dump
+, but writes fail until you free space or upgrade.
+If you ran out of CU-hours or public network transfer, the compute is suspended until the next billing period, and connections, including
+pg_dump
+, fail with SQLSTATE
+53000
+. To restore access sooner, upgrade the organization that contains the project to Launch (
 Billing
 >
 Change plan
-in the Neon Console). The plan change resets the Free plan allowances, and the project keeps its database. Launch has no minimum monthly fee and invoices under $0.50 are not collected, so the round trip costs nothing. If you ran out of public network transfer, fix what caused it first, or the project hits the limit again. See
+in the Neon Console). If you want to return to Free later, you can downgrade, and the plan change resets the Free plan&#x27;s monthly compute and network transfer allowances. Launch has no minimum monthly fee and invoices under $0.50 are not collected, so the round trip usually costs nothing. If you plan to export your data, do it before you downgrade, because
+pg_dump
+counts toward network transfer. If you ran out of network transfer, check what&#x27;s using it so the project doesn&#x27;t hit the limit again. See
 Reduce network transfer costs
 .
+You can load a dump into a new project in another Free organization, as long as the data fits within the Free plan&#x27;s 1 GB per-project storage limit. You can&#x27;t use
+project transfer
+to move a project from a Launch organization to a Free one, because the destination organization must be on the same plan or higher.
 How do I upgrade or downgrade my plan?
 In the Neon Console, go to
 Billing

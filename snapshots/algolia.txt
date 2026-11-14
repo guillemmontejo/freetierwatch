@@ -9,8 +9,11 @@ French
 Brazilian Portuguese
 Spanish
 Italian
+Webinar:
+Introducing Algolia's native Shopify B2B integration
+Watch now
 News:
-Algolia acquires Velou
+Orange Group deploys Algolia AI agents
 Read more
 Company
 Partners
