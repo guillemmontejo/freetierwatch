@@ -1253,11 +1253,6 @@ billing-invoices-update-password-protection
 10
 600
 owner
-Retry payment per ten minutes.
-billing-invoices-retry-payment
-25
-600
-owner
 Alias retrieval per ten minutes.
 now-alias-get
 300

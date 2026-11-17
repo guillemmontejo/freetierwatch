@@ -62,7 +62,7 @@ AI
 Back
 Location Infrastructure for AI
 Build agents, apps, and vehicles that understand the physical world
-Tools for agents
+Tools for Agents
 Bring location into your AI coding tools and applications
 Feedback Agent
 New
@@ -93,7 +93,7 @@ Plan, book, and explore the world all in one place
 Business Intelligence
 Enhance data analysis with location intelligence
 Weather
-Deliver accurate, real-time weather information
+Deliver accurate weather information
 Telecommunications
 Map real-time coverage and optimize network operations
 Outdoors
@@ -113,82 +113,46 @@ AI ↗
 Data ↗
 View all docs
 →
+Resources
+Developer Hub
+Developer Cheat Sheet ↗
+Developer Tools ↗
+Developer Playgrounds ↗
+Help & Troubleshooting ↗
+API Status ↗
 connect
 Developer Discord ↗
-Online community to discuss projects and help fellow devs
-Stack Overflow ↗
-Share and search technical questions and solutions
 Github ↗
-Find Mapbox public repos, view source code, and read changelogs
 Get Support
-Self-serve resources, account help, and technical assistance
 Developer Network
-Contract independent developers
-links
-Developer Quickstart
-Overview of developer resources
-Developer Cheat Sheet ↗
-Snapshot overview of Mapbox services
-Help & Troubleshooting ↗
-Find answers and get help
-API Playgrounds ↗
-Demo spaces to experiment with Mapbox
-Developer Tools ↗
-Web-based tools to help build with Mapbox
-API Status ↗
-Real-time data on system performance
 Company
 Company
 Who we are
-About our company mission and history
 What we value
-About what drives us
-What we do
-About Mapbox technologies and data
+About Mapbox Technologies
 Careers
 Work at Mapbox
 Hiring
-Opportunities to join our team
 Life at Mapbox
-How we support your career
 Diversity, Equity & Inclusion
-Building a Mapbox for everyone
 impact
 Sustainability
-Environmental and social responsibility
 Nonprofit Support
-Support for non-profits and positive impact organizations
-follow us
-LinkedIn
-X
-Youtube
-Instagram
 Resources
 News
 Blog
-Stay updated on product launches and new features
 Newsroom
-The latest Mapbox news and press resources
 Events
-Connect with Mapbox at virtual and in-person events
 Developer Blog
-Explore Mapbox developer articles and tutorials
 Learn
 Customer Showcase
-See customer use cases and impact across industries
 Webinars
-Live and on-demand videos about building with Mapbox
 Releases
-Explore the latest Mapbox product updates
 Downloadables
-See resources to build and stay current with Mapbox
 Get Help
 Support
-Flexible options for fast and expert help
 Education
-Resources for students and instructors
 Security
-Protect the security of your account, data, and users
 Pricing
 Contact us
 Products
@@ -249,7 +213,7 @@ AI
 Back
 Location Infrastructure for AI
 Build agents, apps, and vehicles that understand the physical world
-Tools for agents
+Tools for Agents
 Bring location into your AI coding tools and applications
 Feedback Agent
 New
@@ -280,7 +244,7 @@ Plan, book, and explore the world all in one place
 Business Intelligence
 Enhance data analysis with location intelligence
 Weather
-Deliver accurate, real-time weather information
+Deliver accurate weather information
 Telecommunications
 Map real-time coverage and optimize network operations
 Outdoors
@@ -300,82 +264,46 @@ AI ↗
 Data ↗
 View all docs
 →
+Resources
+Developer Hub
+Developer Cheat Sheet ↗
+Developer Tools ↗
+Developer Playgrounds ↗
+Help & Troubleshooting ↗
+API Status ↗
 connect
 Developer Discord ↗
-Online community to discuss projects and help fellow devs
-Stack Overflow ↗
-Share and search technical questions and solutions
 Github ↗
-Find Mapbox public repos, view source code, and read changelogs
 Get Support
-Self-serve resources, account help, and technical assistance
 Developer Network
-Contract independent developers
-links
-Developer Quickstart
-Overview of developer resources
-Developer Cheat Sheet ↗
-Snapshot overview of Mapbox services
-Help & Troubleshooting ↗
-Find answers and get help
-API Playgrounds ↗
-Demo spaces to experiment with Mapbox
-Developer Tools ↗
-Web-based tools to help build with Mapbox
-API Status ↗
-Real-time data on system performance
 Company
 Company
 Who we are
-About our company mission and history
 What we value
-About what drives us
-What we do
-About Mapbox technologies and data
+About Mapbox Technologies
 Careers
 Work at Mapbox
 Hiring
-Opportunities to join our team
 Life at Mapbox
-How we support your career
 Diversity, Equity & Inclusion
-Building a Mapbox for everyone
 impact
 Sustainability
-Environmental and social responsibility
 Nonprofit Support
-Support for non-profits and positive impact organizations
-follow us
-LinkedIn
-X
-Youtube
-Instagram
 Resources
 News
 Blog
-Stay updated on product launches and new features
 Newsroom
-The latest Mapbox news and press resources
 Events
-Connect with Mapbox at virtual and in-person events
 Developer Blog
-Explore Mapbox developer articles and tutorials
 Learn
 Customer Showcase
-See customer use cases and impact across industries
 Webinars
-Live and on-demand videos about building with Mapbox
 Releases
-Explore the latest Mapbox product updates
 Downloadables
-See resources to build and stay current with Mapbox
 Get Help
 Support
-Flexible options for fast and expert help
 Education
-Resources for students and instructors
 Security
-Protect the security of your account, data, and users
 Pricing
 Sign up
 Log in

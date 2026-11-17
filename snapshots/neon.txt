@@ -1,6 +1,6 @@
 Neon plans - Neon Docs
 Skip to main content
-See what&#x27;s recently landed on the Neon backend: Object Storage, Functions, AI Gateway, and more
+Build your agent on Neon and provision backends you fully control. See how Ideavo does it
 Docs
 Get started
 Concepts

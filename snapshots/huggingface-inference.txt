@@ -81,57 +81,38 @@ EN
 Get Started
 Inference Providers
 Pricing and Billing
-Hub integration
+Concepts
+Routing and Providers
+Hub Integration and Settings
 Security
-Guides
-Your First API Call
-Building Your First AI App
-Structured Outputs with LLMs
-Function Calling
-Responses API (beta)
-How to use OpenAI gpt-oss
-Build an Image Editor
-Automating Code Review with GitHub Actions
-Agentic Coding Environments with OpenEnv
-Evaluating Models with Inspect
-Integrations
-Overview
-Pi
-OpenCode
-Codex
-Claude Code
-Hermes Agent
-NeMo Data Designer
-MacWhisper
-Vision Agents
-VS Code with GitHub Copilot
-Add Your Integration
-Inference Tasks
+Capabilities
 Chat Completion
-Feature Extraction
+Responses API (beta)
+Messages API
+Tool Calling
+Structured Outputs
+Prompt Caching
+Embeddings
 Text to Image
 Text to Video
+Speech to Text
 Other Tasks
-Providers
-Baseten
-Cerebras
-Cohere
-DeepInfra
-Fal AI
-Featherless AI
-Fireworks
-Groq
-HF Inference
-Novita
-Nscale
-OVHcloud AI Endpoints
-Public AI
-Replicate
-Scaleway
-Together
-WaveSpeedAI
-Z.ai
+Integrations
+Overview
+Coding Agents
+Claude Code
+Codex
+OpenCode
+Pi
+Hermes Agent
+VS Code with GitHub Copilot
+Apps and Libraries
+Add Your Integration
+Tutorials
+Reference
+API Reference
 Hub API
+Providers
 Join the Hugging Face community
 and get access to the augmented documentation experience
 Collaborate on models, datasets and Spaces
@@ -174,38 +155,6 @@ usage beyond your quota), and
 Jobs
 . They are credited every month and applied automatically before any pay-as-you-go usage is billed.
 Your monthly credits automatically apply when you route requests through Hugging Face. For Team or Enterprise organizations, credits are shared among all members.
-How Billing Works: Choose Your Approach
-Inference Providers offers flexibility in how you’re billed. Understanding these options upfront helps you choose the best approach for your needs:
-Feature
-Routed by Hugging Face
-Custom Provider Key
-How it Works
-Your request routes through HF to the provider
-You set a custom provider key in HF settings
-Billing
-Pay-as-you-go on your HF account
-Billed directly by the provider
-Monthly Credits
-✅ Yes
-- Credits apply to eligible providers
-❌ No
-- Credits don’t apply
-Provider Account Needed
-❌ No
-- We handle everything
-✅ Yes
-- You need provider accounts
-Best For
-Simplicity, experimentation, consolidated billing
-More billing control, using non-integrated providers
-Integration
-SDKs, Playground, widgets, Data AI Studio
-SDKs, Playground, widgets, Data AI Studio
-Which Option Should I Choose?
-Start with Routed by Hugging Face
-if you want simplicity and to use your monthly credits
-Use Custom Provider Key
-if you need specific provider features or you’re consistently using the same provider
 Pay-as-you-Go Details
 To benefit from Team or Enterprise included credits, you need to explicitly specify the organization to be billed when performing the inference requests.
 See the
@@ -248,37 +197,6 @@ rel="next"
 URL in the
 Link
 response header to fetch the next page.
-Hugging Face Billing vs Custom Provider Key (Detailed Comparison)
-The documentation above assumes you are making routed requests to external providers. In practice, there are 2 different ways to run inference, each with unique billing implications:
-Hugging Face Routed Requests
-: This is the default method for using Inference Providers. Simply use the JavaScript or Python
-InferenceClient
-, or make raw HTTP requests with your Hugging Face User Access Token. Your request is automatically routed through Hugging Face to the provider’s platform. No separate provider account is required, and billing is managed directly by Hugging Face. This approach lets you seamlessly switch between providers without additional setup.
-Custom Provider Key
-: You can bring your own provider key to use with the Inference Providers. This is useful if you already have an account with a provider and you want to use it with the Inference Providers. Hugging Face won’t charge you for the call.
-Here is a table that sums up what we’ve seen so far:
-HF routing
-Billed by
-Included credits apply
-Pay-as-you-go
-Integration
-Routed Requests
-Yes
-Hugging Face
-Yes
-Yes (credits purchase required)
-SDKs, Playground, widgets, Data AI Studio
-Custom Provider Key
-Yes
-Provider
-No
-Yes
-SDKs, Playground, widgets, Data AI Studio
-You can set your custom provider key in the
-settings page
-on the Hub, or in the
-InferenceClient
-when using the JavaScript or Python SDKs. When making a routed request with a custom key, your code remains unchanged—you can still pass your Hugging Face User Access Token. Hugging Face will automatically swap the authentication when routing the request.
 HF-Inference cost
 As you may have noticed, you can select to work with
 "hf-inference"
@@ -656,24 +574,13 @@ Update
 on GitHub
 ←
 Inference Providers
-Hub integration
+Routing and Providers
 →
 Pricing and
 Billing
 Included
 Monthly
 Credits
-How
-Billing
-Works:
-Choose
-Your
-Approach
-Which
-Option
-Should
-I
-Choose?
 Pay-as-you-
 Go
 Details
@@ -682,14 +589,6 @@ Providers
 Usage
 Breakdown
 Retrieve organization usage via the API
-Hugging
-Face
-Billing vs
-Custom
-Provider
-Key (
-Detailed
-Comparison)
 H
 F-
 Inference cost
