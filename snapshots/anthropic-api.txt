@@ -22,6 +22,8 @@ Log in
 
 
 Search
+⌘
+K
 Ctrl
 K
 Models

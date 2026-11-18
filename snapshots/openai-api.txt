@@ -104,7 +104,7 @@ Production
 Home
 Get started
 Quickstart
-Using GPT-6
+Using GPT-6.2
 Key concepts
 API credits for ChatGPT subscribers
 Core concepts
@@ -680,6 +680,7 @@ Remote connections
 Workspace model availability
 Advanced deployment
 Amazon Bedrock
+Google Cloud
 GovCloud deployment
 Connect to a gateway
 Roll out a gateway
@@ -917,8 +918,19 @@ TPD
 (tokens per day),
 IPM
 (images per minute), and audio minutes per minute for some streaming audio models. Rate limits can be hit across any of the options depending on what occurs first. For example, you might send 20 requests with only 100 tokens to the ChatCompletions endpoint and that would fill your limit (if your RPM was 20), even if you didn’t send 150k tokens (if your TPM limit was 150k) within those 20 requests.
+The
+Batch/Background Rate Limit
+caps the total input tokens queued for a model. It applies to
 Batch API
-queue limits are calculated based on the total number of input tokens queued for a given model. Tokens from pending batch jobs are counted against your queue limit. Once a batch job is completed, its tokens are no longer counted against that model’s limit.
+jobs and
+Background mode
+requests with
+2h
+or
+8h
+completion windows. The API counts input tokens at submission. Once a batch job completes, its tokens no longer count toward the limit. Background requests with the default
+soonest
+window use the regular request and token limits.
 Other important things worth noting:
 Rate limits are defined at the
 organization level
@@ -1249,6 +1261,7 @@ decorator. The below example uses the
 tenacity.wait_random_exponential
 function to add random exponential backoff to a request.
 Using the Tenacity library
+Python
 1
 2
 3
@@ -1358,6 +1371,31 @@ max_output_tokens
 )
 print
 (response.output_text)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+require openai
+require retriable
+client = OpenAI::Client.new(max_retries: 0)
+response = Retriable.retriable(on: OpenAI::Errors::RateLimitError, tries: 6, base_interval: 1, max_interval: 60, multiplier: 2) do
+client.responses.create(
+model: gpt-6-luna ,
+input: Say hello in one sentence. ,
+reasoning: { effort: :low },
+max_output_tokens: 1024
+)
+end
+puts(response.output_text)
 Note that the Tenacity library is a third-party tool, and OpenAI makes no guarantees about
 its reliability or security.
 Example 2: Using the backoff library
@@ -1365,6 +1403,7 @@ Another python library that provides function decorators for backoff and retry i
 backoff
 :
 Using the backoff library
+Python
 1
 2
 3
@@ -1439,10 +1478,36 @@ max_output_tokens
 )
 print
 (response.output_text)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+require openai
+require retryable
+client = OpenAI::Client.new(max_retries: 0)
+response = Retryable.retryable(on: OpenAI::Errors::RateLimitError, tries: 6, sleep: ->(attempt) { rand * (2**attempt) }) do
+client.responses.create(
+model: gpt-6-luna ,
+input: Say hello in one sentence. ,
+reasoning: { effort: :low },
+max_output_tokens: 1024
+)
+end
+puts(response.output_text)
 Like Tenacity, the backoff library is a third-party tool, and OpenAI makes no guarantees about its reliability or security.
 Example 3: Manual backoff implementation
 If you don’t want to use third-party libraries, you can implement your own backoff logic following this example:
 Using manual backoff implementation
+Python
 1
 2
 3
@@ -1663,6 +1728,58 @@ max_output_tokens
 )
 print
 (response.output_text)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+require openai
+client = OpenAI::Client.new(max_retries: 0)
+def retry_with_exponential_backoff(initial_delay: 1, exponential_base: 2, jitter: true, max_retries: 10)
+retries = 0
+delay = initial_delay
+begin
+yield
+rescue OpenAI::Errors::RateLimitError
+raise if retries >= max_retries
+retries += 1
+delay *= exponential_base * (1 + (jitter ? rand : 0))
+sleep(delay)
+retry
+end
+end
+response = retry_with_exponential_backoff do
+client.responses.create(
+model: gpt-6-luna ,
+input: Say hello in one sentence. ,
+reasoning: { effort: :low },
+max_output_tokens: 1024
+)
+end
+puts(response.output_text)
 Again, OpenAI makes no guarantees on the security or efficiency of this solution but it can be a good starting place for your own solution.
 Reduce the
 max_tokens

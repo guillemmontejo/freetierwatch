@@ -54,6 +54,7 @@ Workloads that run on Railway's virtual machine primitive, such as [sandboxes](/
 | **Network Egress** | $0.05 / GB |
 The monthly figures are what a VM would cost if it held a full GB or kept a full vCPU busy for the entire month. VM usage is metered per second and draws from the same [included usage](#included-usage) as the rest of your plan.
 To keep sandbox costs down, destroy sandboxes when you're done or rely on the [idle timeout](/sandboxes#idle-timeout), and prefer [checkpoints](/sandboxes#checkpoints) over long-lived sandboxes for state you reuse.
+Each environment can run a limited number of sandboxes and hold a limited number of checkpoints, counted separately: 10 each on Trial and Free, 50 on Hobby, and 100 on Pro. See [Sandbox limits](/sandboxes#limits).
 ## Included usage
 The Hobby plan includes $5 of resource usage per month.
 If your total resource usage at the end of your billing period is $5 or less, you will not be charged for resource usage. If your total resource usage exceeds $5 in any given billing period, you will be charged the delta.

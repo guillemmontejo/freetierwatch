@@ -126,6 +126,7 @@ Adaptive Metrics eliminates unused time series data through aggregation and card
 Watch Adaptive Metrics at work
 FAQ
 What is metrics billable series?
+What is the Metrics query fair use policy?
 Do you provide discounts for higher usage volumes?
 Logs
 Fully-managed log aggregation system powered by Grafana Loki. Only pay for data you use with the Adaptive Logs feature.
@@ -177,6 +178,7 @@ Watch Adaptive Logs at work
 FAQ
 How do you define process, write, retain, and query?
 Do you offer retention greater than 30 days?
+What is the Logs query fair use policy?
 Do you offer discounts for higher usage?
 Traces
 Fully-managed, easy-to-use, highly-scalable, and cost-effective distributed tracing backend.

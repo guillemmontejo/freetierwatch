@@ -57,11 +57,11 @@ Default environment variables
 Sandboxes
 Beta
 Intro to sandboxes
-Limits
+Limits & pricing
 How to…
 Create & configure sandboxes
 Execute commands
-Manage files
+Upload and download files
 Manage snapshots
 Use with…
 Claude Managed Agents
