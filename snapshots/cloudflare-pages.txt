@@ -13,134 +13,6 @@ Ctrl
 K
 Log in
 Dashboard
-Pages
-/
-Overview
-Getting started
-Overview
-C3 CLI
-Direct Upload
-Git integration
-Framework guides
-Next.js
-Overview
-Static site
-Analog
-Angular
-Astro
-Blazor
-Brunch
-Docusaurus
-Elder.js
-Eleventy
-Ember
-Gatsby
-Gridsome
-Hexo
-Hono
-Hugo
-Jekyll
-MkDocs
-Nuxt
-Pelican
-Preact
-Qwik
-React
-Remix
-SolidStart
-Sphinx
-Static HTML
-SvelteKit
-VitePress
-Vue
-Zola
-Configuration
-Branch deployment controls
-Build caching
-Build configuration
-Build image
-Build watch paths
-Custom domains
-Debugging Pages
-Deploy Hooks
-Early Hints
-Git integration
-Overview
-GitHub integration
-GitLab integration
-Troubleshooting builds
-Headers
-Monorepos
-Preview deployments
-Redirects
-REST API
-Rollbacks
-Serving Pages
-Functions
-Overview
-Get started
-Routing
-API reference
-Examples
-A/B testing with middleware
-Adding CORS headers
-Middleware
-Configuration
-Local development
-Bindings
-TypeScript
-Advanced mode
-Pages Plugins
-Overview
-Cloudflare Access
-Google Chat
-GraphQL
-hCaptcha
-Honeycomb
-Sentry
-Static Forms
-Stytch
-Turnstile
-Community Plugins
-vercel/og
-Metrics
-Debugging and logging
-Pricing
-Module support
-Smart Placement
-Beta
-Source maps and stack traces
-Tutorials
-Demos and architectures
-How to
-Add a custom domain to a branch
-Add custom HTTP headers
-Deploy a static WordPress site
-Enable Web Analytics
-Enable Zaraz
-Install private packages
-Preview Local Projects with Cloudflare Tunnel
-Redirecting *.pages.dev to a Custom Domain
-Redirecting www to domain apex
-Set build commands per branch
-Use Direct Upload with continuous integration
-Use Pages Functions for A/B testing
-Platform
-Limits
-Choose a data or storage product ↗︎
-Changelog
-Known issues
-Migrate to Workers ↗︎
-Agent resources
-Agent setup ↗︎
-Cloudflare Skills ↗︎
-Code Mode MCP Server ↗︎
-Domain-specific MCP Servers ↗︎
-MCP
-Pages llms.txt ↗︎
-Pages llms-full.txt ↗︎
-Cloudflare Docs llms.txt ↗︎
-Cloudflare Docs llms-full.txt ↗︎
 Home
 /
 Pages
@@ -150,7 +22,7 @@ Platform
 Limits
 Limits
 Last updated
-Sep 5, 2026
+Nov 18, 2026
 |
 Copy as Markdown
 |
@@ -295,6 +167,134 @@ Users
 Projects
 Edit page
 Report issue
+Pages
+/
+Overview
+Getting started
+Overview
+C3 CLI
+Direct Upload
+Git integration
+Framework guides
+Next.js
+Overview
+Static site
+Analog
+Angular
+Astro
+Blazor
+Brunch
+Docusaurus
+Elder.js
+Eleventy
+Ember
+Gatsby
+Gridsome
+Hexo
+Hono
+Hugo
+Jekyll
+MkDocs
+Nuxt
+Pelican
+Preact
+Qwik
+React
+Remix
+SolidStart
+Sphinx
+Static HTML
+SvelteKit
+VitePress
+Vue
+Zola
+Configuration
+Branch deployment controls
+Build caching
+Build configuration
+Build image
+Build watch paths
+Custom domains
+Debugging Pages
+Deploy Hooks
+Early Hints
+Git integration
+Overview
+GitHub integration
+GitLab integration
+Troubleshooting builds
+Headers
+Monorepos
+Preview deployments
+Redirects
+REST API
+Rollbacks
+Serving Pages
+Functions
+Overview
+Get started
+Routing
+API reference
+Examples
+A/B testing with middleware
+Adding CORS headers
+Middleware
+Configuration
+Local development
+Bindings
+TypeScript
+Advanced mode
+Pages Plugins
+Overview
+Cloudflare Access
+Google Chat
+GraphQL
+hCaptcha
+Honeycomb
+Sentry
+Static Forms
+Stytch
+Turnstile
+Community Plugins
+vercel/og
+Metrics
+Debugging and logging
+Pricing
+Module support
+Smart Placement
+Beta
+Source maps and stack traces
+Tutorials
+Demos and architectures
+How to
+Add a custom domain to a branch
+Add custom HTTP headers
+Deploy a static WordPress site
+Enable Web Analytics
+Enable Zaraz
+Install private packages
+Preview Local Projects with Cloudflare Tunnel
+Redirecting *.pages.dev to a Custom Domain
+Redirecting www to domain apex
+Set build commands per branch
+Use Direct Upload with continuous integration
+Use Pages Functions for A/B testing
+Platform
+Limits
+Choose a data or storage product ↗︎
+Changelog
+Known issues
+Migrate to Workers ↗︎
+Agent resources
+Agent setup ↗︎
+Cloudflare Skills ↗︎
+Code Mode MCP Server ↗︎
+Domain-specific MCP Servers ↗︎
+MCP
+Pages llms.txt ↗︎
+Pages llms-full.txt ↗︎
+Cloudflare Docs llms.txt ↗︎
+Cloudflare Docs llms-full.txt ↗︎
 Getting started
 Plans
 Contact sales

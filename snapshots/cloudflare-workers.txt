@@ -13,508 +13,6 @@ Ctrl
 K
 Log in
 Dashboard
-Workers
-/
-Overview
-Getting started
-CLI
-Dashboard
-Prompting
-Templates
-Examples
-Tutorials
-Best practices
-Workers Best Practices
-Demos and architectures
-Overview
-Build an Interactive ChatGPT App
-Local development
-Overview
-Environment variables and secrets
-Vite Plugin ↗︎
-Choosing between Wrangler & Vite
-Developing with multiple Workers
-Adding local data
-Supported bindings per development mode
-Local Explorer
-Share a local dev server
-Playground
-Configuration
-Overview
-Programmatic configuration ↗︎
-Workers Sites
-Overview
-Start from existing
-Start from scratch
-Start from Worker
-Workers Sites configuration
-Bindings ↗︎
-Cloudflare Access
-Compatibility dates
-Compatibility flags
-Cron Triggers
-Environment variables
-Integrations
-Overview
-APIs
-External Services
-Multipart upload metadata
-Page Rules
-Placement
-Beta
-Routes and domains
-Overview
-Custom Domains
-Routes
-workers.dev
-Secrets
-Previews
-Overview
-Get started
-Configuration
-Resources and isolation
-Custom domains
-Test and debug
-Compare workflows
-Examples
-Roles and permissions
-Overview
-Workers
-Durable Objects
-Versions & deployments
-Overview
-Deployment management
-Version skew
-Gradual deployments
-Overview
-Version affinity
-With Durable Objects
-Version overrides
-Rollbacks
-Version URLs
-CI/CD
-Overview
-Builds
-Overview
-Configuration
-Automatic pull requests
-Git integration
-Overview
-Artifacts integration
-GitHub integration
-GitLab integration
-Cursor Origin integration
-Build image
-Build caching
-Build branches
-Build watch paths
-Deploy Hooks
-Advanced setups
-Event subscriptions
-Troubleshooting builds
-Builds API reference
-Limits & pricing
-External CI/CD
-Overview
-GitHub Actions
-GitLab CI/CD
-Workers Cache
-Overview
-Configuration
-Cache keys
-Purge and invalidate the cache
-Examples
-Debugging
-Limitations
-Runtime APIs
-Overview
-Remote-procedure call (RPC)
-Overview
-Lifecycle
-Reserved Methods
-Visibility and Security Model
-TypeScript
-Error handling
-WebAssembly (Wasm)
-Overview
-Wasm in JavaScript
-Bindings (env)
-Overview
-AI ↗︎
-AI Search ↗︎
-Analytics Engine ↗︎
-Analytics SQL binding
-Assets ↗︎
-Browser Run ↗︎
-D1 ↗︎
-Dispatcher (Workers for Platforms) ↗︎
-Durable Objects ↗︎
-Dynamic Worker Loaders
-Environment Variables ↗︎
-Hyperdrive ↗︎
-Images ↗︎
-KV ↗︎
-Media Transformations ↗︎
-mTLS
-Queues ↗︎
-R2 ↗︎
-Rate Limiting
-Secrets ↗︎
-Secrets Store ↗︎
-Beta
-Service bindings
-Overview
-HTTP
-RPC (WorkerEntrypoint)
-Stream ↗︎
-Vectorize ↗︎
-Version metadata
-Beta
-Workflows ↗︎
-Cache
-Console
-Context (ctx)
-Encoding
-EventSource
-Fetch
-Handlers
-Overview
-Alarm Handler ↗︎
-Connect Handler
-Email Handler ↗︎
-Fetch Handler
-Queue Handler ↗︎
-Scheduled Handler
-Tail Handler
-Headers
-HTMLRewriter
-MessageChannel
-Node.js compatibility
-Overview
-assert
-AsyncLocalStorage
-Buffer
-crypto
-Diagnostics Channel
-dns
-EventEmitter
-fs
-http
-https
-net
-path
-process
-Streams
-StringDecoder
-test
-timers
-tls
-url
-util
-zlib
-Performance and timers
-Request
-Response
-Scheduler
-Streams
-Overview
-ReadableStream
-ReadableStream BYOBReader
-ReadableStream DefaultReader
-TransformStream
-WritableStream
-WritableStream DefaultWriter
-TCP sockets
-Web Crypto
-Web standards
-WebSockets
-Static Assets
-Overview
-Get Started
-Configuration and Bindings
-Routing
-Full-stack application
-Single Page Application (SPA)
-Static Site Generation (SSG) and custom 404 pages
-Worker script
-Advanced
-Deployments and version skew ↗︎
-HTML handling
-Serving a subdirectory
-Headers
-Redirects
-Direct Uploads
-Billing and Limitations
-Migration Guides
-Migrate from Vercel to Cloudflare Workers
-Overview
-Astro
-Next.js
-Nuxt
-Remix and React Router
-SvelteKit
-TanStack Start
-Static site or SPA
-Migrate from Pages to Workers
-Migrate from Netlify to Workers
-Framework guides
-Deploy an existing project
-Web applications
-React + Vite
-Astro
-EmDash
-React Router (formerly Remix)
-Remix 3
-Next.js
-OpenNext adapter
-Vue
-RedwoodSDK
-TanStack Start
-Microfrontends
-SvelteKit
-Vike
-Foldkit
-fate
-More guides...
-Analog
-Angular
-Docusaurus
-Gatsby
-Hono
-Nuxt
-Qwik
-Solid
-Beta
-Waku
-Mobile applications
-Expo
-APIs
-FastAPI ↗︎
-Flask ↗︎
-Hono ↗︎
-AI & agents
-Agents SDK ↗︎
-LangChain ↗︎
-Databases
-Connect to databases
-Analytics Engine ↗︎
-Vectorize (vector database) ↗︎
-Cloudflare D1 ↗︎
-Hyperdrive ↗︎
-3rd Party Integrations
-Overview
-MongoDB
-Neon
-PlanetScale
-Supabase
-Turso
-Upstash
-Xata
-Observability
-Overview
-Metrics and analytics
-Logs
-Overview
-Workers Logs
-Real-time logs
-Tail Workers
-Workers Logpush
-Traces
-Beta
-Overview
-Custom spans
-Beta
-Spans and attributes
-Known limitations
-DevTools
-Overview
-Breakpoints
-Profiling CPU usage
-Profiling Memory
-Query Builder
-Issues
-Beta
-Overview
-Investigate issues
-Set up an automation
-OpenTelemetry export
-Errors and exceptions
-Integrations
-Sentry
-Profiling in production
-Source maps and stack traces
-Testing
-Overview
-Vitest integration
-Overview
-Write your first test
-Recipes and examples
-Configuration
-Mock outbound requests
-Test APIs
-Isolation and concurrency
-Debugging
-Known issues
-Migration guides
-Migrate to Vitest plugin
-Migrate from Vitest 3 to Vitest 4
-Migrate from Miniflare 2 s test environments
-Migrate from unstable_dev
-Integration test harness
-Overview
-Get started
-Configure the test harness
-Prepare test state
-Interact with Workers
-Integrations
-Miniflare
-Overview
-Get Started
-Writing tests
-Core
-Compatibility Dates
-Fetch Events
-Modules
-Multiple Workers
-Queues
-Scheduled Events
-Variables and Secrets
-Web Standards
-WebSockets
-Developing
-Attaching a Debugger
-Live Reload
-Migrations
-Migrating from Version 2
-Storage
-Cache
-D1
-Durable Objects
-KV
-R2
-Wrangler s unstable_startWorker()
-Wrangler
-Overview
-Install/Update Wrangler
-Migrations
-Migrate from Wrangler v3 to v4
-Migrate from Wrangler v2 to v3
-Migrate from Wrangler v1 to v2
-Wrangler v1 (legacy)
-Overview
-Install / Update
-Authentication
-Commands
-Configuration
-Webpack
-1. Migrate webpack projects
-2. Update to Wrangler v2
-API
-Commands
-Overview
-Workers
-General commands
-Artifacts
-Basin Pipelines
-Browser
-Certificates
-Containers
-D1
-Flagship
-Hyperdrive
-KV
-Pages
-Queues
-R2
-Secrets Store
-Tunnel
-Vectorize
-VPC
-Workers for Platforms
-Workflows
-Authentication profiles
-Bundling
-Configuration
-Custom builds
-Deprecations
-Environments
-System environment variables
-Vite plugin
-Overview
-Get started
-Tutorial - React SPA with an API
-v2 beta
-Beta
-Vite+ on Workers
-Reference
-API
-Static Assets
-Debugging
-Migrating from wrangler dev
-Secrets
-Vite Environments
-Cloudflare Environments
-Non-JavaScript modules
-Programmatic configuration
-Languages
-Overview
-JavaScript
-Overview
-Examples ↗︎
-TypeScript
-Overview
-Examples ↗︎
-Python Workers
-Overview
-The Basics
-How Python Workers Work
-Foreign Function Interface (FFI)
-Standard Library
-Examples
-Packages
-Overview
-Django
-FastAPI
-Flask
-Langchain
-Rust
-Beta
-Overview
-Supported crates
-Platform
-Overview
-Pricing
-Changelog
-Overview
-Workers (Historic)
-Wrangler
-Limits
-Choose a data or storage product
-Spending limits
-Betas
-Deploy to Cloudflare buttons
-Claim deployments (temporary accounts)
-Built with Cloudflare button
-Known issues
-Workers for Platforms ↗︎
-Infrastructure as Code (IaC)
-Glossary
-Reference
-How the Cache works
-How Workers works
-Migrate from Service Workers to ES Modules
-Protocols
-Security model
-Agent resources
-Agent setup ↗︎
-Cloudflare Skills ↗︎
-Code Mode MCP Server ↗︎
-Domain-specific MCP Servers ↗︎
-MCP
-Workers llms.txt ↗︎
-Workers llms-full.txt ↗︎
-Cloudflare Docs llms.txt ↗︎
-Cloudflare Docs llms-full.txt ↗︎
 Home
 /
 Workers
@@ -524,7 +22,7 @@ Platform
 Limits
 Limits
 Last updated
-Nov 13, 2026
+Nov 18, 2026
 |
 Copy as Markdown
 |
@@ -601,7 +99,7 @@ Number of
 Cron Triggers
 per account
 5
-250
+1,000
 Number of
 Static Asset
 files per Worker version
@@ -674,8 +172,8 @@ CPU time per HTTP request
 5 min (default: 30 seconds)
 CPU time per Cron Trigger
 10 ms
-30 seconds (< 1 hour interval)
-15 min (>= 1 hour interval)
+5 min (default: 30 seconds) for intervals under 1 hour
+15 min for intervals of 1 hour or more
 Most Workers consume very little CPU time. The average Worker uses approximately 2.2 ms per request. Heavier workloads that handle authentication, server-side rendering, or parse large payloads typically use 10-20 ms.
 Each
 isolate
@@ -1294,6 +792,508 @@ Wall time limits by invocation type
 Related resources
 Edit page
 Report issue
+Workers
+/
+Overview
+Getting started
+CLI
+Dashboard
+Prompting
+Templates
+Examples
+Tutorials
+Best practices
+Workers Best Practices
+Demos and architectures
+Overview
+Build an Interactive ChatGPT App
+Local development
+Overview
+Environment variables and secrets
+Vite Plugin ↗︎
+Choosing between Wrangler & Vite
+Developing with multiple Workers
+Adding local data
+Supported bindings per development mode
+Local Explorer
+Share a local dev server
+Playground
+Configuration
+Overview
+Programmatic configuration ↗︎
+Workers Sites
+Overview
+Start from existing
+Start from scratch
+Start from Worker
+Workers Sites configuration
+Bindings ↗︎
+Cloudflare Access
+Compatibility dates
+Compatibility flags
+Cron Triggers
+Environment variables
+Integrations
+Overview
+APIs
+External Services
+Multipart upload metadata
+Page Rules
+Placement
+Beta
+Routes and domains
+Overview
+Custom Domains
+Routes
+workers.dev
+Secrets
+Previews
+Overview
+Get started
+Configuration
+Resources and isolation
+Custom domains
+Test and debug
+Compare workflows
+Examples
+Roles and permissions
+Overview
+Workers
+Durable Objects
+Versions & deployments
+Overview
+Deployment management
+Version skew
+Gradual deployments
+Overview
+Version affinity
+With Durable Objects
+Version overrides
+Rollbacks
+Version URLs
+CI/CD
+Overview
+Builds
+Overview
+Configuration
+Automatic pull requests
+Git integration
+Overview
+Artifacts integration
+GitHub integration
+GitLab integration
+Cursor Origin integration
+Build image
+Build caching
+Build branches
+Build watch paths
+Deploy Hooks
+Advanced setups
+Event subscriptions
+Troubleshooting builds
+Builds API reference
+Limits & pricing
+External CI/CD
+Overview
+GitHub Actions
+GitLab CI/CD
+Workers Cache
+Overview
+Configuration
+Cache keys
+Purge and invalidate the cache
+Examples
+Debugging
+Limitations
+Runtime APIs
+Overview
+Remote-procedure call (RPC)
+Overview
+Lifecycle
+Reserved Methods
+Visibility and Security Model
+TypeScript
+Error handling
+WebAssembly (Wasm)
+Overview
+Wasm in JavaScript
+Bindings (env)
+Overview
+AI ↗︎
+AI Search ↗︎
+Analytics Engine ↗︎
+Analytics SQL binding
+Assets ↗︎
+Browser Run ↗︎
+D1 ↗︎
+Dispatcher (Workers for Platforms) ↗︎
+Durable Objects ↗︎
+Dynamic Worker Loaders
+Environment Variables ↗︎
+Hyperdrive ↗︎
+Images ↗︎
+KV ↗︎
+Media Transformations ↗︎
+mTLS
+Queues ↗︎
+R2 ↗︎
+Rate Limiting
+Secrets ↗︎
+Secrets Store ↗︎
+Beta
+Service bindings
+Overview
+HTTP
+RPC (WorkerEntrypoint)
+Stream ↗︎
+Vectorize ↗︎
+Version metadata
+Beta
+Workflows ↗︎
+Cache
+Console
+Context (ctx)
+Encoding
+EventSource
+Fetch
+Handlers
+Overview
+Alarm Handler ↗︎
+Connect Handler
+Email Handler ↗︎
+Fetch Handler
+Queue Handler ↗︎
+Scheduled Handler
+Tail Handler
+Headers
+HTMLRewriter
+MessageChannel
+Node.js compatibility
+Overview
+assert
+AsyncLocalStorage
+Buffer
+crypto
+Diagnostics Channel
+dns
+EventEmitter
+fs
+http
+https
+net
+path
+process
+Streams
+StringDecoder
+test
+timers
+tls
+url
+util
+zlib
+Performance and timers
+Request
+Response
+Scheduler
+Streams
+Overview
+ReadableStream
+ReadableStream BYOBReader
+ReadableStream DefaultReader
+TransformStream
+WritableStream
+WritableStream DefaultWriter
+TCP sockets
+Web Crypto
+Web standards
+WebSockets
+Static Assets
+Overview
+Get Started
+Configuration and Bindings
+Routing
+Full-stack application
+Single Page Application (SPA)
+Static Site Generation (SSG) and custom 404 pages
+Worker script
+Advanced
+Deployments and version skew ↗︎
+HTML handling
+Serving a subdirectory
+Headers
+Redirects
+Direct Uploads
+Billing and Limitations
+Migration Guides
+Migrate from Vercel to Cloudflare Workers
+Overview
+Astro
+Next.js
+Nuxt
+Remix and React Router
+SvelteKit
+TanStack Start
+Static site or SPA
+Migrate from Pages to Workers
+Migrate from Netlify to Workers
+Framework guides
+Deploy an existing project
+Web applications
+React + Vite
+Astro
+EmDash
+React Router (formerly Remix)
+Remix 3
+Next.js
+OpenNext adapter
+Vue
+RedwoodSDK
+TanStack Start
+Microfrontends
+SvelteKit
+Vike
+Foldkit
+fate
+More guides...
+Analog
+Angular
+Docusaurus
+Gatsby
+Hono
+Nuxt
+Qwik
+Solid
+Beta
+Waku
+Mobile applications
+Expo
+APIs
+FastAPI ↗︎
+Flask ↗︎
+Hono ↗︎
+AI & agents
+Agents SDK ↗︎
+LangChain ↗︎
+Databases
+Connect to databases
+Analytics Engine ↗︎
+Vectorize (vector database) ↗︎
+Cloudflare D1 ↗︎
+Hyperdrive ↗︎
+3rd Party Integrations
+Overview
+MongoDB
+Neon
+PlanetScale
+Supabase
+Turso
+Upstash
+Xata
+Observability
+Overview
+Metrics and analytics
+Logs
+Overview
+Workers Logs
+Real-time logs
+Tail Workers
+Workers Logpush
+Traces
+Beta
+Overview
+Custom spans
+Beta
+Spans and attributes
+Known limitations
+DevTools
+Overview
+Breakpoints
+Profiling CPU usage
+Profiling Memory
+Query Builder
+Issues
+Beta
+Overview
+Investigate issues
+Set up an automation
+OpenTelemetry export
+Errors and exceptions
+Integrations
+Sentry
+Profiling in production
+Source maps and stack traces
+Testing
+Overview
+Vitest integration
+Overview
+Write your first test
+Recipes and examples
+Configuration
+Mock outbound requests
+Test APIs
+Isolation and concurrency
+Debugging
+Known issues
+Migration guides
+Migrate to Vitest plugin
+Migrate from Vitest 3 to Vitest 4
+Migrate from Miniflare 2 s test environments
+Migrate from unstable_dev
+Integration test harness
+Overview
+Get started
+Configure the test harness
+Prepare test state
+Interact with Workers
+Integrations
+Miniflare
+Overview
+Get Started
+Writing tests
+Core
+Compatibility Dates
+Fetch Events
+Modules
+Multiple Workers
+Queues
+Scheduled Events
+Variables and Secrets
+Web Standards
+WebSockets
+Developing
+Attaching a Debugger
+Live Reload
+Migrations
+Migrating from Version 2
+Storage
+Cache
+D1
+Durable Objects
+KV
+R2
+Wrangler s unstable_startWorker()
+Wrangler
+Overview
+Install/Update Wrangler
+Migrations
+Migrate from Wrangler v3 to v4
+Migrate from Wrangler v2 to v3
+Migrate from Wrangler v1 to v2
+Wrangler v1 (legacy)
+Overview
+Install / Update
+Authentication
+Commands
+Configuration
+Webpack
+1. Migrate webpack projects
+2. Update to Wrangler v2
+API
+Commands
+Overview
+Workers
+General commands
+Artifacts
+Basin Pipelines
+Browser
+Certificates
+Containers
+D1
+Flagship
+Hyperdrive
+KV
+Pages
+Queues
+R2
+Secrets Store
+Tunnel
+Vectorize
+VPC
+Workers for Platforms
+Workflows
+Authentication profiles
+Bundling
+Configuration
+Custom builds
+Deprecations
+Environments
+System environment variables
+Vite plugin
+Overview
+Get started
+Tutorial - React SPA with an API
+v2 beta
+Beta
+Vite+ on Workers
+Reference
+API
+Static Assets
+Debugging
+Migrating from wrangler dev
+Secrets
+Vite Environments
+Cloudflare Environments
+Non-JavaScript modules
+Programmatic configuration
+Languages
+Overview
+JavaScript
+Overview
+Examples ↗︎
+TypeScript
+Overview
+Examples ↗︎
+Python Workers
+Overview
+The Basics
+How Python Workers Work
+Foreign Function Interface (FFI)
+Standard Library
+Examples
+Packages
+Overview
+Django
+FastAPI
+Flask
+Langchain
+Rust
+Beta
+Overview
+Supported crates
+Platform
+Overview
+Pricing
+Changelog
+Overview
+Workers (Historic)
+Wrangler
+Limits
+Choose a data or storage product
+Spending limits
+Betas
+Deploy to Cloudflare buttons
+Claim deployments (temporary accounts)
+Built with Cloudflare button
+Known issues
+Workers for Platforms ↗︎
+Infrastructure as Code (IaC)
+Glossary
+Reference
+How the Cache works
+How Workers works
+Migrate from Service Workers to ES Modules
+Protocols
+Security model
+Agent resources
+Agent setup ↗︎
+Cloudflare Skills ↗︎
+Code Mode MCP Server ↗︎
+Domain-specific MCP Servers ↗︎
+MCP
+Workers llms.txt ↗︎
+Workers llms-full.txt ↗︎
+Cloudflare Docs llms.txt ↗︎
+Cloudflare Docs llms-full.txt ↗︎
 Getting started
 Plans
 Contact sales

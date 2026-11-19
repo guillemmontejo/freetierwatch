@@ -65,6 +65,8 @@ Neon plans
 Copy page
 View as Markdown
 Set up agent
+Last updated on
+Nov 12, 2026
 Neon offers plans to support you at every stage, from your first prototype to production at scale.
 Start for free, then
 pay only for what you use
@@ -975,8 +977,6 @@ Discord Server
 to ask questions or see what others are doing with Neon. For paid plan support options, see
 Support
 .
-Last updated on
-November 12, 2026
 Was this page helpful?
 Yes
 No

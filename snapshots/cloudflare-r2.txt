@@ -13,108 +13,6 @@ Ctrl
 K
 Log in
 Dashboard
-R2
-/
-Overview
-Get started
-Overview
-Workers API
-S3
-CLI
-How R2 works
-Data migration
-Overview
-Super Slurper
-Sippy
-Migration Strategies
-Buckets
-Overview
-Create new buckets
-Public buckets
-Configure CORS
-Data Access Logs
-Local uploads
-Beta
-Delete buckets
-Bucket locks
-Event notifications
-Object lifecycles
-Storage classes
-Objects
-Overview
-Upload objects
-Download objects
-Delete objects
-API
-Overview
-Authentication
-Workers API
-Use R2 from Workers
-Use the R2 multipart API from Workers
-Workers API reference
-S3
-S3 API compatibility
-Conditional operations
-Extensions
-Presigned URLs
-Temporary credentials
-Error codes
-Local development
-Examples
-Overview
-Multi-cloud setup ↗︎
-Authenticate against R2 API using auth tokens
-Authenticate against R2 with temporary credentials
-Rclone
-S3 SDKs
-aws CLI
-aws-sdk-go
-aws-sdk-java
-aws-sdk-js-v3
-aws-sdk-kotlin
-aws-sdk-net
-aws-sdk-php
-aws-sdk-ruby
-aws-sdk-rust
-aws4fetch
-boto3
-Configure custom headers
-s3mini
-Terraform
-Terraform (AWS)
-Use SSE-C
-Use the Cache API
-Tutorials
-Videos ↗︎
-Demos and architectures
-Platform
-Choose a storage product ↗︎
-Event subscriptions
-Audit Logs
-Limits
-Metrics and analytics
-Release notes
-Troubleshooting
-Reference
-Consistency model
-Data location
-Data security
-Durability
-Unicode interoperability
-Wrangler commands
-Pricing
-Basin Catalog ↗︎
-Basin SQL ↗︎
-Agent resources
-Agent setup ↗︎
-Cloudflare Skills ↗︎
-Code Mode MCP Server ↗︎
-Domain-specific MCP Servers ↗︎
-MCP
-R2 llms.txt ↗︎
-R2 llms-full.txt ↗︎
-Cloudflare Docs llms.txt ↗︎
-Cloudflare Docs llms-full.txt ↗︎
 Home
 /
 R2
@@ -469,6 +367,108 @@ Frequently asked questions
 Will I be charged for failed requests to my R2 bucket?
 Edit page
 Report issue
+R2
+/
+Overview
+Get started
+Overview
+Workers API
+S3
+CLI
+How R2 works
+Data migration
+Overview
+Super Slurper
+Sippy
+Migration Strategies
+Buckets
+Overview
+Create new buckets
+Public buckets
+Configure CORS
+Data Access Logs
+Local uploads
+Beta
+Delete buckets
+Bucket locks
+Event notifications
+Object lifecycles
+Storage classes
+Objects
+Overview
+Upload objects
+Download objects
+Delete objects
+API
+Overview
+Authentication
+Workers API
+Use R2 from Workers
+Use the R2 multipart API from Workers
+Workers API reference
+S3
+S3 API compatibility
+Conditional operations
+Extensions
+Presigned URLs
+Temporary credentials
+Error codes
+Local development
+Examples
+Overview
+Multi-cloud setup ↗︎
+Authenticate against R2 API using auth tokens
+Authenticate against R2 with temporary credentials
+Rclone
+S3 SDKs
+aws CLI
+aws-sdk-go
+aws-sdk-java
+aws-sdk-js-v3
+aws-sdk-kotlin
+aws-sdk-net
+aws-sdk-php
+aws-sdk-ruby
+aws-sdk-rust
+aws4fetch
+boto3
+Configure custom headers
+s3mini
+Terraform
+Terraform (AWS)
+Use SSE-C
+Use the Cache API
+Tutorials
+Videos ↗︎
+Demos and architectures
+Platform
+Choose a storage product ↗︎
+Event subscriptions
+Audit Logs
+Limits
+Metrics and analytics
+Release notes
+Troubleshooting
+Reference
+Consistency model
+Data location
+Data security
+Durability
+Unicode interoperability
+Wrangler commands
+Pricing
+Basin Catalog ↗︎
+Basin SQL ↗︎
+Agent resources
+Agent setup ↗︎
+Cloudflare Skills ↗︎
+Code Mode MCP Server ↗︎
+Domain-specific MCP Servers ↗︎
+MCP
+R2 llms.txt ↗︎
+R2 llms-full.txt ↗︎
+Cloudflare Docs llms.txt ↗︎
+Cloudflare Docs llms-full.txt ↗︎
 Getting started
 Plans
 Contact sales

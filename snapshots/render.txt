@@ -159,6 +159,7 @@ Overview
 Command reference
 REST API
 Overview
+API keys
 API reference
 Third-party connections
 OIDC support

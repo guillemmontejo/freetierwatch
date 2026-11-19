@@ -112,6 +112,7 @@ AI SDK
 Chat SDK
 MCP
 Vercel Connect
+Board
 Agent Harnesses
 Agent Resources
 Run agents and backends
