@@ -125,6 +125,7 @@ Queues
 Daemons
 Workflows
 Sandbox
+Drives
 Container Registry
 Ship and scale
 Projects

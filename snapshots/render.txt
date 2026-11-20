@@ -153,13 +153,13 @@ Notifications
 Webhooks
 Email / Slack
 Integrations
+API keys
 MCP Server
 Render CLI
 Overview
 Command reference
 REST API
 Overview
-API keys
 API reference
 Third-party connections
 OIDC support

@@ -295,9 +295,8 @@ replica set tags.
 Do You Want A Sharded Cluster
 You can&#x27;t deploy a Free cluster as a Sharded Cluster.
 Do You Want To Enable Backup
-You can
-enable backups
-on Free clusters.
+Free cluster backups
+are only available as a private preview feature.
 When you enable Free cluster backups,
 Atlas
 takes a daily snapshot and retains up to four snapshots.
@@ -673,7 +672,6 @@ Oplog Access
 Event Types
 Host Metrics
 Resource Tags
-Supported Browsers
 Internal Databases
 Data Usage for AI Cluster Assistant
 Data Usage for Atlas Home Page Assistant
@@ -755,7 +753,6 @@ Oplog Access
 Event Types
 Host Metrics
 Resource Tags
-Supported Browsers
 Internal Databases
 Data Usage for AI Cluster Assistant
 Data Usage for Atlas Home Page Assistant

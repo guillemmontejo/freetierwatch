@@ -327,6 +327,7 @@ Pricing
 API Status
 Terms of Use
 Privacy Policy
+DPA
 Embedded Replicas
 Database Branching
 Backups & Recovery
