@@ -66,7 +66,7 @@ Copy page
 View as Markdown
 Set up agent
 Last updated on
-Nov 12, 2026
+Nov 18, 2026
 Neon offers plans to support you at every stage, from your first prototype to production at scale.
 Start for free, then
 pay only for what you use
@@ -930,7 +930,7 @@ pg_dump
 Billing
 >
 Change plan
-in the Neon Console). If you want to return to Free later, you can downgrade, and the plan change resets the Free plan&#x27;s monthly compute and network transfer allowances. Launch has no minimum monthly fee and invoices under $0.50 are not collected, so the round trip usually costs nothing. If you plan to export your data, do it before you downgrade, because
+in the Neon Console). Launch has no minimum monthly fee and invoices under $0.50 are not collected, so if you only restore access or export your data and then downgrade, the round trip usually costs nothing. When you downgrade back to Free, the plan change resets the Free plan&#x27;s monthly compute and network transfer allowances. If you plan to export your data, do it before you downgrade, because
 pg_dump
 counts toward network transfer. If you ran out of network transfer, check what&#x27;s using it so the project doesn&#x27;t hit the limit again. See
 Reduce network transfer costs
