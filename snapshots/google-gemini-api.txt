@@ -860,6 +860,10 @@ search queries.
 {% /table %}
 {% /tab %}
 {% /tabs %}
+{% sup %}*{% /sup %} A customer-submitted request to Gemini may result in one or
+more queries to Google Search. You will be charged for each individual search
+query performed.
+{% sup %}**{% /sup %} Can be tested in Google AI Studio.
 ## Gemini 3.6 Flash {% id= gemini-3.6-flash %}
 {% two-column-layout %}
 {% left-column %}
@@ -1387,8 +1391,9 @@ Try it in Google AI Studio
 {% /right-column %}
 {% /two-column-layout %}
 {% hr /%}
-Previous generation video generation and editing model. Effective December 3,
-2026, all API requests to `gemini-omni-1.1-flash` automatically route to
+Previous generation video generation and editing model.
+Effective December 3, 2026, all API requests to `gemini-omni-1.1-flash`
+automatically route to
 [`gemini-omni-1.2-flash`](/docs/models/gemini-omni-flash#gemini-omni-1.2-flash)
 and are billed at `gemini-omni-1.2-flash` rates.
 {% tabs %}
