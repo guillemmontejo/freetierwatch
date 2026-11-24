@@ -641,14 +641,24 @@ Once you exceed 50,000 monthly retained users you will be required to upgrade to
 You&#x27;ll be given a one-month grace period so your application can continue to operate correctly.
 Is there a free trial?
 All of our Pro tier features are available to try in the development instance of your application, allowing you to test the full functionality of Clerk without being constrained by a traditional trial period. All features are properly tagged in the Dashboard, so you&#x27;ll know if a specific feature requires an upgrade to use in production.
-What is First Day Free ?
-First Day Free is our way of helping you avoid charges for users that try your app and do not return. Since we don&#x27;t count users as active unless they sign in at least one more time after the first 24 hour period, the first day the user access your application is free of charge.
 Is Clerk pricing based on MAU or something else?
 Clerk pricing is based on Monthly Retained Users (MRU), not traditional MAU. A user only counts as retained if they return to your app at least 24 hours after signing up, so someone who signs up and never comes back does not count toward MRU billing. That means MRU is often lower than raw MAU, especially for apps with lots of one-time signups or trial users, making Clerk&#x27;s effective cost lower than a simple MAU-to-MAU comparison would suggest.
 What is considered a monthly retained user?
-A monthly retained user is a user who visits your app in a given month at least one day after signing up. This free day avoids unwelcome fees from users who don&#x27;t activate.
-What is considered a monthly retained organization?
-A monthly retained organization is an organization with at least 2 members, where at least one of those members is a monthly retained user for that month. Like users, you are only billed for retained organizations.
+A monthly retained user is a user who visits your app in a given month at least one day after signing up. This is our First Day Free policy: a user&#x27;s first day never counts toward MRU billing, so signups who don&#x27;t come back aren&#x27;t billed as MRUs.
+Does every workspace in my app count toward Organization billing?
+No. Only Clerk Organizations count, and only once they qualify as a monthly retained organization (MRO): an organization with at least two members, where at least one of those members is a monthly retained user that month. A workspace that exists only in your own database isn&#x27;t a Clerk Organization, so it&#x27;s never billed as one.
+You can use Clerk Organizations for every workspace, or keep your own workspace model and create Clerk Organizations only for customers that need enterprise SSO. In that setup, only those customers can count toward MROs, and your app keeps handling memberships, invitations, roles, and workspace UI for the rest.
+Can my customers set up SSO themselves, and what do I need to build?
+Yes. Enable self-serve SSO for a customer&#x27;s Clerk Organization, and an admin in that Organization can connect SAML or custom OIDC from the Security tab of Organization Profile. You can embed the Organization Profile component in your app or link to the Clerk-hosted
+Account Portal
+. If you also enable optional
+self-serve Directory Sync
+for the Organization, the admin can set up user provisioning from the same tab.
+That admin needs a role with permission to manage enterprise connections (the default Admin role has it), permission to add a DNS TXT record for their domain, and admin access to their identity provider. Your app still decides how Organizations map to your workspaces and what each user can access.
+Self-serve SSO is free in development. Production use requires the Pro or Business plan, which includes one SSO connection per app. Additional SSO connections are $75/mo each, with volume discounts. These Organizations count toward MRO usage only when they meet the monthly retained organization definition. The first 100 MROs per app are included.
+Directory Sync connections are counted separately from SSO connections. Paid plans include one Directory Sync connection per app. Additional Directory Sync connections are $75/mo each from January 1, 2027, with volume discounts. Directory Sync is optional for SSO. See
+self-serve SSO setup and requirements
+.
 Is Clerk good for B2C apps?
 It depends on the type of B2C app. Clerk can be a strong fit for paid consumer apps, prosumer tools, marketplaces, communities, and subscription products where retained users are valuable and polished auth/user management matters. But if you&#x27;re building a free, ad-supported, or very low-ARPU consumer app, Clerk&#x27;s per-MRU model may feel expensive once you outgrow the free tier. In those cases, alternatives like Supabase Auth, which includes 100K MAU on Pro/Team, or Firebase Auth for basic email/social auth may be cheaper. The simple rule: Clerk is easiest to justify when retention maps to revenue; for massive free audiences, run the unit economics first.
 What happens to my Clerk bill if my app goes viral?

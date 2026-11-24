@@ -6,9 +6,11 @@ Solutions
 Pricing
 Docs
 Blog
-115.4K
+115.3K
 Sign in
 Start your project
+Dashboard
+Open menu
 Main menu
 Product
 Developers
@@ -39,6 +41,9 @@ Queues
 Durable Message Queues with guaranteed delivery
 Features
 Explore everything you can do with Supabase.
+Sign in
+Start your project
+Dashboard
 Predictable pricing,
 designed to scale
 Start building for free, collaborate with your team, then scale to millions of users
@@ -453,6 +458,9 @@ Fine-tune your project
 Go beyond your Plan limits and level up your Supabase experience
 Spend Cap
 On
+$
+$
+$
 Available on Pro Plan
 Cost Control
 The Pro Plan has a spend cap enabled by default to keep costs under control. If you want to scale beyond the plan&#x27;s included quota, simply switch off the spend cap to pay for additional resources.

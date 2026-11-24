@@ -11,6 +11,10 @@ Get started
 Deploy for Free
 Preview the Render platform with free web services and datastores.
 Copy page
+Copy as Markdown
+View as Markdown
+Open in ChatGPT
+Open in Claude
 You can deploy certain Render service types
 free of charge
 :
@@ -259,6 +263,10 @@ are free to deploy on Render. As with web services, they count against your mont
 Render Dashboard
 .
 Copy page
+Copy as Markdown
+View as Markdown
+Open in ChatGPT
+Open in Claude
 Deploy for Free
 Create a Free instance
 Upgrading to a paid instance

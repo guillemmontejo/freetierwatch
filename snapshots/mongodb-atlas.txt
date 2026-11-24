@@ -237,7 +237,7 @@ Sign In
 menu-vertical
 Get Started
 Docs Menu
-Ask MongoDB AI
+MongoDB Assistant
 /
 Docs Home
 /
