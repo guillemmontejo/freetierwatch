@@ -229,6 +229,8 @@ Ship AI Agents
 Architecture Playbooks
 Identity
 Connect
+Assessments
+Customer Identity Score
 FEATURED CONTENT
 EBOOK
 The Identity Layer Behind

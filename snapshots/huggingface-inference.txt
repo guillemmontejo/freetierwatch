@@ -9,6 +9,7 @@ Buckets
 Docs
 Enterprise
 Pricing
+More
 Website
 Tasks
 HuggingChat

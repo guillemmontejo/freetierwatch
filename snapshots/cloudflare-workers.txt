@@ -879,6 +879,7 @@ Roles and permissions
 Overview
 Workers
 Durable Objects
+Workers for Platforms
 Versions & deployments
 Overview
 Deployment management
