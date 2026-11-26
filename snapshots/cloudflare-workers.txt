@@ -22,7 +22,7 @@ Platform
 Limits
 Limits
 Last updated
-Nov 19, 2026
+Nov 25, 2026
 |
 Copy as Markdown
 |

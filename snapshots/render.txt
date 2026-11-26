@@ -343,7 +343,7 @@ Limits & pricing
 How to…
 Create & configure sandboxes
 Execute commands
-Upload and download files
+Upload & download files
 Manage snapshots
 Use with…
 Claude Managed Agents
@@ -363,9 +363,10 @@ Define flows
 New
 Trigger runs
 Develop locally
-SDK reference
+SDK/CLI reference
 TypeScript SDK
 Python SDK
+CLI commands
 Example workflows
 TypeScript examples
 Python examples

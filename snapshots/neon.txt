@@ -1,6 +1,6 @@
 Neon plans - Neon Docs
 Skip to main content
-Neon Object Storage: your files now branch with your database
+Build an MCP server for your app with a few prompts to your agent
 Docs
 Get started
 Concepts

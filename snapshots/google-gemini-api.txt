@@ -3566,7 +3566,7 @@ $10.00 starting January 1, 2027.
 {% /table %}
 {% /tab %}
 {% /tabs %}
-## [Gemma 4](https://ai.google.dev/gemma/docs/core/model_card_4) {% id= gemma-4 %}
+## [Gemma 4](https://gemma.ai/models/gemma-4/model-card/) {% id= gemma-4 %}
 {% hr /%}
 Our lightweight, state-of the art, open model built from the same technology
 that powers our Gemini models.
