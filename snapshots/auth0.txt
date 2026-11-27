@@ -48,6 +48,7 @@ Auth0 Status
 Connect
 Community
 ↗
+Auth0 Heroes Program
 Knowledge Base
 ↗
 Support Center
@@ -55,14 +56,6 @@ Support Center
 Developer Center
 ↗
 Marketplace
-↗
-Events
-↗
-Camp AI for Devs
-↗
-Join us at Vercel Ship
-↗
-Auth0 at MCP Dev Summit
 ↗
 Product
 AI IDENTITY
@@ -162,6 +155,7 @@ Auth0 Status
 Connect
 Community
 ↗
+Auth0 Heroes Program
 Knowledge Base
 ↗
 Support Center
@@ -169,14 +163,6 @@ Support Center
 Developer Center
 ↗
 Marketplace
-↗
-Events
-↗
-Camp AI for Devs
-↗
-Join us at Vercel Ship
-↗
-Auth0 at MCP Dev Summit
 ↗
 Product
 AI IDENTITY
