@@ -22,7 +22,7 @@ Platform
 Limits
 Limits
 Last updated
-Nov 19, 2026
+Nov 28, 2026
 |
 Copy as Markdown
 |
@@ -41,7 +41,7 @@ Preview deployments
 Redirects
 Users
 Projects
-Below are limits observed by the Cloudflare Free plan. For more details on removing these limits, refer to the
+The following limits apply to Cloudflare Pages by plan type. For more details on plans, refer to the
 Cloudflare plans
 ↗︎
 page.
@@ -51,7 +51,7 @@ Limit Increase Request Form
 ↗︎
 . If the limit can be increased, Cloudflare will contact you with next steps.
 Builds
-Each time you push new code to your Git repository, Pages will build and deploy your site. Build limits depend on your plan:
+Each time you push new code to your Git repository, Pages builds and deploys your site. Build limits depend on your plan:
 Free
 Pro
 Business
@@ -63,7 +63,7 @@ Builds per month
 500
 5,000
 20,000
-Builds will timeout after 20 minutes. Concurrent builds are counted per account.
+Builds time out after 20 minutes. Concurrent builds are counted per account. For Enterprise build limits, contact your account team.
 Custom domains
 Based on your Cloudflare plan type, a Pages project is limited to a specific number of custom domains. This limit is on a per-project basis.
 Free
@@ -113,18 +113,18 @@ static.example.com
 , for serving these files.
 Functions
 Requests to
-Pages functions
-count towards your quota for Workers plans, including requests from your Function to KV or Durable Object bindings.
+Pages Functions
+count toward your Workers plan request quota and CPU limits. Subrequests from a Function to bindings such as KV or Durable Objects do not count as additional Workers requests, though each bound service has its own usage quotas and pricing.
 Pages supports the
-Standard usage model
+Workers Standard usage model
 .
 Headers
 A
 _headers
 file can have a maximum of 100 header rules.
-An individual header in a
+Each header line in a
 _headers
-file can have a maximum of 2,000 characters. For managing larger headers, it is recommended to implement
+file can have a maximum of 2,000 characters. For managing larger headers, use
 Pages Functions
 .
 Preview deployments
@@ -134,13 +134,13 @@ Deployments
 Redirects
 A
 _redirects
-file can have a maximum of 2,000 static redirects and 100 dynamic redirects, for a combined total of 2,100 redirects. It is recommended to use
+file can have a maximum of 2,000 static redirects and 100 dynamic redirects, for a combined total of 2,100 redirects, with a 1,000-character limit per rule. Use
 Bulk Redirects
-when you have a need for more than the
+when you need more rules than
 _redirects
-file supports.
+supports.
 Users
-Your Pages site can be managed by an unlimited number of users via the Cloudflare dashboard. Note that this does not correlate with your Git project – you can manage both public and private repositories, open issues, and accept pull requests via without impacting your Pages site.
+Your Pages site can be managed by an unlimited number of users via the Cloudflare dashboard. This does not correlate with your Git project — you can manage both public and private repositories, open issues, and accept pull requests without impacting your Pages site.
 Projects
 Cloudflare Pages has a limit of 100 projects
 2
@@ -204,13 +204,10 @@ Analog
 Angular
 Astro
 Blazor
-Brunch
 Docusaurus
-Elder.js
 Eleventy
 Ember
 Gatsby
-Gridsome
 Hexo
 Hono
 Hugo
@@ -229,6 +226,7 @@ SvelteKit
 VitePress
 Vue
 Zola
+Migrate to Workers ↗︎
 Configuration
 Branch deployment controls
 Build caching
@@ -286,7 +284,6 @@ Smart Placement
 Beta
 Source maps and stack traces
 Tutorials
-Demos and architectures
 How to
 Add a custom domain to a branch
 Add custom HTTP headers
@@ -305,7 +302,6 @@ Limits
 Choose a data or storage product ↗︎
 Changelog
 Known issues
-Migrate to Workers ↗︎
 Agent resources
 Agent setup ↗︎
 Cloudflare Skills ↗︎

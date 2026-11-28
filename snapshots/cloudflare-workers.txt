@@ -819,24 +819,91 @@ CLI
 Dashboard
 Prompting
 Templates
-Examples
-Tutorials
 Best practices
-Workers Best Practices
-Demos and architectures
+Framework guides
+Deploy an existing project
+Web applications
+React + Vite
+Astro
+EmDash
+React Router (formerly Remix)
+Remix 3
+Next.js
+OpenNext adapter
+Vue
+RedwoodSDK
+TanStack Start
+Microfrontends
+SvelteKit
+Vike
+Foldkit
+fate
+More guides...
+Analog
+Angular
+Docusaurus
+Gatsby
+Hono
+Nuxt
+Qwik
+Solid
+Beta
+Waku
+Mobile applications
+Expo
+APIs
+FastAPI ↗︎
+Flask ↗︎
+Hono ↗︎
+Agent Harnesses
+Pi ↗︎
+OpenCode ↗︎
+Claude Code ↗︎
+Codex ↗︎
+Think ↗︎
+Nanocode ↗︎
+Exo ↗︎
+LangChain ↗︎
+Static Assets
 Overview
-Build an Interactive ChatGPT App
+Get Started
+Configuration and Bindings
+Routing
+Full-stack application
+Single Page Application (SPA)
+Static Site Generation (SSG) and custom 404 pages
+Worker script
+Advanced
+Deployments and version skew ↗︎
+HTML handling
+Serving a subdirectory
+Headers
+Redirects
+Direct Uploads
+Billing and Limitations
+Migration Guides
+Migrate from Vercel to Cloudflare Workers
+Overview
+Astro
+Next.js
+Nuxt
+Remix and React Router
+SvelteKit
+TanStack Start
+Static site or SPA
+Migrate from Pages to Workers
+Migrate from Firebase Hosting to Workers
+Migrate from GitHub Pages to Workers
+Migrate from Netlify to Workers
 Local development
 Overview
-Environment variables and secrets
-Vite Plugin ↗︎
 Choosing between Wrangler & Vite
-Developing with multiple Workers
+Environment variables and secrets
 Adding local data
-Supported bindings per development mode
 Local Explorer
+Developing with multiple Workers
 Share a local dev server
-Playground
+Supported bindings
 Configuration
 Overview
 Programmatic configuration ↗︎
@@ -866,65 +933,23 @@ Custom Domains
 Routes
 workers.dev
 Secrets
-Previews
+Databases
+Connect to databases
+Hyperdrive (PostgreSQL, MySQL) ↗︎
+Cloudflare D1 ↗︎
+Basin SQL ↗︎
+Analytics Engine ↗︎
+Vectorize (vector database) ↗︎
+3rd Party Integrations
 Overview
-Get started
-Configuration
-Resources and isolation
-Custom domains
-Test and debug
-Compare workflows
-Examples
-Roles and permissions
-Overview
-Workers
-Durable Objects
-Workers for Platforms
-Versions & deployments
-Overview
-Deployment management
-Version skew
-Gradual deployments
-Overview
-Version affinity
-With Durable Objects
-Version overrides
-Rollbacks
-Version URLs
-CI/CD
-Overview
-Builds
-Overview
-Configuration
-Automatic pull requests
-Git integration
-Overview
-Artifacts integration
-GitHub integration
-GitLab integration
-Cursor Origin integration
-Build image
-Build caching
-Build branches
-Build watch paths
-Deploy Hooks
-Advanced setups
-Event subscriptions
-Troubleshooting builds
-Builds API reference
-Limits & pricing
-External CI/CD
-Overview
-GitHub Actions
-GitLab CI/CD
-Workers Cache
-Overview
-Configuration
-Cache keys
-Purge and invalidate the cache
-Examples
-Debugging
-Limitations
+MongoDB
+Neon
+PlanetScale
+Prisma Postgres
+Supabase
+Turso
+Upstash
+Xata
 Runtime APIs
 Overview
 Remote-procedure call (RPC)
@@ -1027,88 +1052,60 @@ TCP sockets
 Web Crypto
 Web standards
 WebSockets
-Static Assets
+Previews
 Overview
-Get Started
-Configuration and Bindings
-Routing
-Full-stack application
-Single Page Application (SPA)
-Static Site Generation (SSG) and custom 404 pages
-Worker script
-Advanced
-Deployments and version skew ↗︎
-HTML handling
-Serving a subdirectory
-Headers
-Redirects
-Direct Uploads
-Billing and Limitations
-Migration Guides
-Migrate from Vercel to Cloudflare Workers
+Get started
+Configuration
+Resources and isolation
+Custom domains
+Test and debug
+Compare workflows
+Examples
+Versions & deployments
 Overview
-Astro
-Next.js
-Nuxt
-Remix and React Router
-SvelteKit
-TanStack Start
-Static site or SPA
-Migrate from Pages to Workers
-Migrate from Netlify to Workers
-Framework guides
-Deploy an existing project
-Web applications
-React + Vite
-Astro
-EmDash
-React Router (formerly Remix)
-Remix 3
-Next.js
-OpenNext adapter
-Vue
-RedwoodSDK
-TanStack Start
-Microfrontends
-SvelteKit
-Vike
-Foldkit
-fate
-More guides...
-Analog
-Angular
-Docusaurus
-Gatsby
-Hono
-Nuxt
-Qwik
-Solid
-Beta
-Waku
-Mobile applications
-Expo
-APIs
-FastAPI ↗︎
-Flask ↗︎
-Hono ↗︎
-AI & agents
-Agents SDK ↗︎
-LangChain ↗︎
-Databases
-Connect to databases
-Analytics Engine ↗︎
-Vectorize (vector database) ↗︎
-Cloudflare D1 ↗︎
-Hyperdrive ↗︎
-3rd Party Integrations
+Deployment management
+Version skew
+Gradual deployments
 Overview
-MongoDB
-Neon
-PlanetScale
-Supabase
-Turso
-Upstash
-Xata
+Version affinity
+With Durable Objects
+Version overrides
+Rollbacks
+Version URLs
+CI/CD
+Overview
+Builds
+Overview
+Configuration
+Automatic pull requests
+Git integration
+Overview
+Artifacts integration
+GitHub integration
+GitLab integration
+Cursor Origin integration
+Build image
+Build caching
+Build branches
+Build watch paths
+Deploy Hooks
+Advanced setups
+Event subscriptions
+Troubleshooting builds
+Builds API reference
+Limits & pricing
+External CI/CD
+Overview
+GitHub Actions
+GitLab CI/CD
+Workers Cache
+Overview
+Configuration
+Cache keys
+Purge and invalidate the cache
+Examples
+Debugging
+Limitations
 Observability
 Overview
 Metrics and analytics
@@ -1280,6 +1277,11 @@ Rust
 Beta
 Overview
 Supported crates
+Roles and permissions
+Overview
+Workers
+Durable Objects
+Workers for Platforms
 Platform
 Overview
 Pricing
@@ -1297,13 +1299,17 @@ Built with Cloudflare button
 Known issues
 Workers for Platforms ↗︎
 Infrastructure as Code (IaC)
-Glossary
 Reference
 How the Cache works
 How Workers works
 Migrate from Service Workers to ES Modules
 Protocols
 Security model
+Examples
+Tutorials
+Demos and architectures
+Playground
+Glossary
 Agent resources
 Agent setup ↗︎
 Cloudflare Skills ↗︎
